@@ -1,0 +1,534 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-newsreader), "Iowan Old Style", Georgia, "Times New Roman", serif;
+
+  --color-ink: #191919;
+  --color-ink-soft: #3d3b38;
+  --color-muted: #6f6b66;
+  --color-faint: #9a958e;
+  --color-line: #e8e5e0;
+  --color-line-soft: #f0ede8;
+  --color-paper: #ffffff;
+  --color-cream: #faf8f5;
+  --color-sand: #f4f1eb;
+  --color-accent: #5a3fc0;
+  --color-accent-soft: #ede9fb;
+  /* The accent lifted for dark grounds: #5a3fc0 sits at 2.2:1 on the ink
+     sections and is barely legible at small sizes. This reads 7.8:1 on ink
+     while staying recognisably the same purple. */
+  --color-accent-lift: #b3a1f2;
+  --color-positive: #2f7d5b;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    overflow-x: hidden;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+  }
+
+  ::selection {
+    background: #ded5ff;
+    color: #191919;
+  }
+
+}
+
+@layer utilities {
+  .display {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.04;
+  }
+
+  .eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-faint);
+  }
+
+  .shell {
+    width: 100%;
+    max-width: 78rem;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .shell {
+      padding-inline: 2.5rem;
+    }
+  }
+
+  .rule {
+    border-top: 1px solid var(--color-line);
+  }
+
+  .hairline {
+    box-shadow: inset 0 0 0 1px var(--color-line);
+  }
+
+  /* Frosted app-window chrome used by every product mock */
+  .window {
+    border-radius: 14px;
+    background: #fff;
+    box-shadow:
+      0 0 0 1px rgba(25, 25, 25, 0.07),
+      0 1px 2px rgba(25, 25, 25, 0.04),
+      0 24px 60px -24px rgba(25, 25, 25, 0.22),
+      0 60px 120px -60px rgba(90, 63, 192, 0.18);
+    overflow: hidden;
+  }
+
+  /* the dark counterpart of .hairline, for panels inside a .window-dark */
+  .hairline-dark {
+    box-shadow: inset 0 0 0 1px #232830;
+  }
+
+  .grain {
+    background-image: radial-gradient(circle at 1px 1px, rgba(25, 25, 25, 0.055) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+}
+
+/* ---------- integrations: branching diagram ---------- */
+
+/* One 5s loop, five branches, each offset by 1s. A pulse leaves the
+   Sortinghat node, runs down a branch, and the bunch at the end ripples the
+   moment it lands. */
+
+@keyframes sh-branch-pulse {
+  0% {
+    stroke-dashoffset: 100;
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  17% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+  20%,
+  100% {
+    opacity: 0;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sh-branch-glow {
+  0%,
+  2% {
+    stroke-opacity: 0;
+  }
+  11% {
+    stroke-opacity: 0.55;
+  }
+  30%,
+  100% {
+    stroke-opacity: 0;
+  }
+}
+
+@keyframes sh-branch-dot {
+  0%,
+  15% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  19% {
+    opacity: 1;
+    transform: scale(2.1);
+  }
+  34%,
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes sh-root-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.85);
+    opacity: 0;
+  }
+}
+
+.branch-pulse {
+  animation: sh-branch-pulse 5s linear infinite;
+}
+
+.branch-glow {
+  animation: sh-branch-glow 5s ease-out infinite;
+  stroke-opacity: 0;
+}
+
+.branch-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: sh-branch-dot 5s ease-out infinite;
+  opacity: 0;
+}
+
+.branch-token {
+  /* fanned like a hand of cards, and static: the branch pulse is the motion */
+  transform: rotate(var(--rot)) translateY(var(--dy));
+}
+
+.root-ring {
+  animation: sh-root-ring 1s ease-out infinite;
+}
+
+/* ---------- motion ---------- */
+
+@keyframes sh-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes sh-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sh-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes sh-sweep {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(320%);
+  }
+}
+
+@keyframes sh-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes sh-bar {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes sh-caret {
+  0%,
+  49% {
+    opacity: 1;
+  }
+  50%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.reveal {
+  animation: sh-rise 0.9s var(--ease-out-quint) both;
+}
+
+.marquee-track {
+  animation: sh-marquee 42s linear infinite;
+}
+
+/* ---------- hero tab strip ----------
+
+   The active tab is a plain white sheet; an ink bar fills it left to right
+   over one cycle, and a duplicate of the label, clipped to the same edge,
+   turns white as the bar passes under it. Both run on the duration handed
+   down from the component, so the sweep lands as the panel switches. */
+
+@keyframes sh-tab-fill {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes sh-tab-wipe {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.tab-fill {
+  animation: sh-tab-fill 6.4s linear both;
+}
+
+.tab-wipe {
+  animation: sh-tab-wipe 6.4s linear both;
+}
+
+/* ---------- product mocks ----------
+
+   Every mock is a small film on a loop. One-shot draws (rings, bars, donuts)
+   play `both` so they settle; the ambient beats (a card changing stage, a
+   query typing itself, a scan line) loop forever. Nothing runs until the mock
+   is on screen — `.mock-stage` keeps its subtree paused until the observer
+   flips data-play, so the story starts when someone is actually watching. */
+
+@layer utilities {
+  /* An inner highlight so the dark surface has an edge of its own, a crisp ink
+     ring so the screen reads as an object on the paper, and a faint mat around
+     it to keep that ring from looking drawn on. */
+  .window-dark {
+    border-radius: 14px;
+    background: #0b0d10;
+    box-shadow:
+      inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+      0 0 0 1px rgba(25, 25, 25, 0.24),
+      0 0 0 6px rgba(25, 25, 25, 0.045),
+      0 30px 70px -30px rgba(11, 13, 16, 0.55),
+      0 80px 140px -70px rgba(90, 63, 192, 0.4);
+    overflow: hidden;
+  }
+}
+
+.mock-stage *,
+.mock-stage *::before,
+.mock-stage *::after {
+  animation-play-state: paused;
+}
+
+.mock-stage[data-play="true"] *,
+.mock-stage[data-play="true"] *::before,
+.mock-stage[data-play="true"] *::after {
+  animation-play-state: running;
+}
+
+@keyframes sh-ring {
+  from {
+    stroke-dashoffset: var(--circ);
+  }
+  to {
+    stroke-dashoffset: var(--to);
+  }
+}
+
+@keyframes sh-type {
+  0% {
+    width: 0;
+  }
+  55%,
+  100% {
+    width: 100%;
+  }
+}
+
+/* A card lifts out of one column and lands in the next. */
+@keyframes sh-fly {
+  0%,
+  10% {
+    transform: translate3d(0, 0, 0) scale(1);
+    opacity: 0;
+  }
+  13% {
+    opacity: 1;
+  }
+  38% {
+    transform: translate3d(var(--tx), var(--ty), 0) scale(1.03);
+    opacity: 1;
+  }
+  44%,
+  100% {
+    transform: translate3d(var(--tx), var(--ty), 0) scale(1);
+    opacity: 0;
+  }
+}
+
+/* The seat a card leaves: it empties, then the column closes over it. */
+@keyframes sh-depart {
+  0%,
+  10% {
+    opacity: 1;
+    max-height: 90px;
+    transform: none;
+  }
+  16% {
+    opacity: 0;
+    max-height: 90px;
+    transform: scale(0.97);
+  }
+  24%,
+  90% {
+    opacity: 0;
+    max-height: 0;
+  }
+  96%,
+  100% {
+    opacity: 1;
+    max-height: 90px;
+    transform: none;
+  }
+}
+
+/* …and the seat it takes: the column opens up just before it lands. */
+@keyframes sh-land {
+  0%,
+  30% {
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(3px);
+  }
+  36% {
+    opacity: 0;
+    max-height: 90px;
+  }
+  43%,
+  90% {
+    opacity: 1;
+    max-height: 90px;
+    transform: none;
+  }
+  96%,
+  100% {
+    opacity: 0;
+    max-height: 0;
+  }
+}
+
+@keyframes sh-swap-out {
+  0%,
+  38% {
+    opacity: 1;
+  }
+  44%,
+  92% {
+    opacity: 0;
+  }
+  98%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes sh-swap-in {
+  0%,
+  38% {
+    opacity: 0;
+  }
+  44%,
+  92% {
+    opacity: 1;
+  }
+  98%,
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes sh-scan {
+  0% {
+    transform: translateY(-130%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.9;
+  }
+  50% {
+    transform: translateY(560%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(560%);
+    opacity: 0;
+  }
+}
+
+@keyframes sh-toast {
+  0%,
+  56% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  63%,
+  88% {
+    opacity: 1;
+    transform: none;
+  }
+  95%,
+  100% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes sh-drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
