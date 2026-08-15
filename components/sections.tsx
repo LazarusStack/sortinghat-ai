@@ -531,7 +531,8 @@ const FOOTER = [
     h: "Resources",
     items: [
       { l: "Blog", href: "/blog" },
-      { l: "From Apoorv Tamrakar", href: "/blog#from-apoorv-tamrakar" },
+      /* short label here; the section heading itself carries the full title */
+      { l: "From Apoorv", href: "/blog#from-apoorv" },
       { l: "Product Comparison 101", href: "/blog#product-comparison-101" },
       /* Security already sits in the bottom bar, so it isn't repeated here. */
     ],

@@ -55,8 +55,8 @@ export const POSTS: Post[] = (
  */
 export const SECTIONS: Section[] = [
   {
-    id: "from-apoorv-tamrakar",
-    title: "From Apoorv Tamrakar",
+    id: "from-apoorv",
+    title: "From Apoorv (Founder, Sortinghat)",
     dek: "Founder-written pieces on how the platform works in practice, built around real platform data rather than category commentary.",
   },
   {
@@ -89,7 +89,7 @@ export function postBody(slug: string): string {
 }
 
 export const AUTHOR = {
-  name: "Apoorv Tamrakar",
+  name: "Apoorv Tamrkar",
   role: "Founder",
   linkedin: "https://www.linkedin.com/in/apoorvtamrkar/",
   bio: "Founder of Sortinghat, an AI-native ATS and CRM for staffing, search and RPO firms. Writes about recruiter capacity, sourcing economics and what actually changes when AI reaches a delivery desk.",

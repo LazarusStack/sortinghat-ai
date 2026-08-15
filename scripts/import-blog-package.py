@@ -55,6 +55,31 @@ ORDER = [
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
+# The exports spell the founder's surname "Tamrakar". The site uses the
+# spelling he signs with, so it is corrected on the way in — otherwise every
+# re-import quietly undoes it. Note the section name carries the surname too,
+# and lib/blog.ts matches posts to sections on that exact string.
+NAME_FIXES = {"Apoorv Tamrakar": "Apoorv Tamrkar"}
+
+
+# The exports name the section after the founder's full name; the hub uses a
+# different label, and lib/blog.ts matches posts to sections on this exact
+# string, so a stale value here empties the section rather than erroring.
+SECTION_FIXES = {"From Apoorv Tamrkar": "From Apoorv (Founder, Sortinghat)"}
+
+
+def fix_names(value):
+    """Apply NAME_FIXES to every string in a nested structure."""
+    if isinstance(value, str):
+        for wrong, right in NAME_FIXES.items():
+            value = value.replace(wrong, right)
+        return value
+    if isinstance(value, list):
+        return [fix_names(v) for v in value]
+    if isinstance(value, dict):
+        return {k: fix_names(v) for k, v in value.items()}
+    return value
+
 
 def soup_of(path):
     return BeautifulSoup(open(path, encoding="utf-8").read(), "lxml")
@@ -218,6 +243,8 @@ for slug in slugs:
     # decomposes these elements and a decomposed tag returns nothing
     crumb = doc.select_one("nav.bc b")
     tag = crumb.get_text(strip=True) if crumb else ""
+    section = fix_names(meta_of(doc, prop="article:section") or "")
+    section = SECTION_FIXES.get(section, section)
     title = header.find("h1").get_text(strip=True)
     dek = header.select_one(".dek").get_text(strip=True)
     date = time_el.get("datetime") or meta_of(doc, prop="article:published_time")
@@ -255,7 +282,7 @@ for slug in slugs:
             "title": title,
             "metaTitle": doc.title.get_text(strip=True),
             "description": meta_of(doc, name="description"),
-            "section": meta_of(doc, prop="article:section"),
+            "section": section,
             "dek": dek,
             "date": date,
             "dateLabel": date_label,
@@ -269,10 +296,12 @@ for slug in slugs:
             "cta": cta,
         }
     )
-    open(f"{CONTENT}/{slug}.html", "w", encoding="utf-8").write(body + "\n")
+    open(f"{CONTENT}/{slug}.html", "w", encoding="utf-8").write(
+        fix_names(body) + "\n"
+    )
 
 json.dump(
-    {"posts": posts},
+    {"posts": fix_names(posts)},
     open(f"{CONTENT}/posts.json", "w", encoding="utf-8"),
     indent=2,
     ensure_ascii=False,
