@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://sortinghat.ai"),
   title: "Sortinghat | AI Native ATS for staffing firms",
   description:
-    "AI Native ATS built for top 1% staffing firms. We don't just track roles. We 10x your recruiters and bet on your firm's growth.",
+    "AI Native ATS built for top 1% staffing firms. We don't just track roles. We 2X your recruiters and bet on your firm's growth.",
   openGraph: {
     title: "Sortinghat | AI Native ATS for staffing firms",
     description:
-      "AI Native ATS built for top 1% staffing firms. We don't just track roles. We 10x your recruiters and bet on your firm's growth.",
+      "AI Native ATS built for top 1% staffing firms. We don't just track roles. We 2X your recruiters and bet on your firm's growth.",
     url: "https://sortinghat.ai",
     siteName: "Sortinghat",
     type: "website",

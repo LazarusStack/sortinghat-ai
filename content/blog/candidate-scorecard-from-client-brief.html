@@ -1,0 +1,96 @@
+<p class="lede">A Director of Engineering at a 40-person AI startup and a Director of Engineering at a 4,000-person services company are not the same job. Same title, same seniority, often the same salary band. Entirely different bar. Any hiring scorecard that gives one candidate one score across both roles is measuring the title, not the job.</p>
+
+<p>That is the practical failure behind most wasted submissions. Not bad sourcing. A definition of the role that was never specific enough to reject anyone against.</p>
+<p>This post walks through one real role, from the job description to the eight weighted criteria the system generated, to the candidate scored against them.</p>
+
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>A job description is not a scorecard.</strong> One is written for candidates and describes the role. The other is written for your team and defines the decision rule.</li>
+<li><strong>Weights are the actual scorecard.</strong> A list of criteria with no priority reads as eight equal must-haves, which means nothing gets shortlisted.</li>
+<li><strong>Context has to be scoreable.</strong> "Tier one college, and either a listed company or an early-stage startup" is a real hiring rule. It should be a criterion, not a note in someone's head.</li>
+<li><strong>Test the scorecard before you run it.</strong> Score two people you already know, one you would hire and one you rejected. If it cannot separate them, it is not measuring the job.</li>
+</ul></div>
+
+<div class="stats">
+<div class="stat"><div class="n">8</div><div class="l">Weighted criteria generated from one job description</div><div class="s">Worked example below</div></div>
+<div class="stat"><div class="n">2.5x</div><div class="l">Submission to first interview, technical roles</div><div class="s">Sortinghat team, directional</div></div>
+<div class="stat"><div class="n">2x</div><div class="l">Submission to first interview, non-technical roles</div><div class="s">Sortinghat team, directional</div></div>
+</div>
+
+<h2 id="s1">Why a job description is not a hiring scorecard</h2>
+<p>A JD is a sales document. It describes the role attractively enough that someone applies. It is written for the candidate, and it succeeds when people want the job.</p>
+<p>A scorecard is the opposite. It is written for the people making decisions, and its job is to make rejection consistent. Two recruiters reading the same JD will reject different people. Two recruiters working from the same weighted scorecard will not.</p>
+<p>The gap between them is where the cost sits. A vague brief produces a search against nothing in particular, a screening call that asks generic questions, and a submission that gets rejected three weeks later for a requirement nobody wrote down. The same failure shows up in req qualification, where the questions that would have surfaced it were never asked.</p>
+<h2 id="s2">One real role, eight weighted criteria</h2>
+<p>Take a live role: <strong>Director of Engineering, India (Site Lead)</strong>, for an AI company standing up a new India site. Full-time, Bangalore, one position, ₹1.5 to 2 crore.</p>
+<p>The job description covers the usual ground. Build and lead the engineering team. Own delivery and outcomes. Maintain technical standards. Stay hands-on. Collaborate with US-based researchers. Establish and run the site. Shape the culture from the start.</p>
+<figure><img alt="Sortinghat job description review: a parsed Director of Engineering role beside structured fields for client, salary and location" decoding="async" height="698" loading="lazy" src="/blog/candidate-scorecard-from-client-brief/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>The job description and the structured role data come from the same input, so nothing is retyped between the client call and the search.</figcaption></figure>
+<p>From that, the system generated eight evaluation criteria, each with a scoring guideline and a priority weight from 1 to 5. Candidates are rated out of 5 on each one, and the final score is the weighted average using those importance weights.</p>
+<figure><img alt="Sortinghat evaluation criteria: eight generated criteria with editable priority weights from 5 down to 2" decoding="async" height="698" loading="lazy" src="/blog/candidate-scorecard-from-client-brief/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>Eight criteria, generated from the job description, with the weights editable before anyone is scored.</figcaption></figure>
+
+<div class="tw"><table>
+<thead><tr><th>Criterion</th><th>What it tests</th><th>Weight</th></tr></thead>
+<tbody>
+<tr><td>Leadership Experience</td><td>Demonstrated leadership in software engineering, at least 5 years managing teams and other managers</td><td class="w">5</td></tr>
+<tr><td>Team Building</td><td>Proven ability to build or scale engineering teams from initial stages in startups or fast-paced environments</td><td class="w">5</td></tr>
+<tr><td>Technical Depth</td><td>Hands-on full-stack product engineering experience, enough to set and hold a technical bar</td><td class="w">4</td></tr>
+<tr><td>Operational Skills</td><td>Managing hiring, budgeting, site setup and operational processes</td><td class="w">4</td></tr>
+<tr><td>Cross-Cultural Communication</td><td>Communicating across cultures and time zones, particularly with US-based teams</td><td class="w">3</td></tr>
+<tr><td>India Site Leadership</td><td>Establishing or leading an India site for a US or global company</td><td class="w">3</td></tr>
+<tr><td>Reinforcement Learning Knowledge</td><td>Familiarity with reinforcement learning, agent evaluation, reward models or ML infrastructure</td><td class="w">2</td></tr>
+<tr><td>Academic Pedigree</td><td>Educational background from recognised institutions</td><td class="w">2</td></tr>
+</tbody></table></div>
+
+<h2 id="s3">Why criteria weights decide the shortlist</h2>
+<p>Look at what the weighting does to this role.</p>
+<p>Reinforcement Learning Knowledge sits at 2. On a role at an AI company, the instinct is to make that a must-have. But this is a site lead hire. The person has to build a team and stand up an office. A brilliant RL engineer who has never hired anyone fails this role, and the weights say so before anyone wastes a call on it.</p>
+<p>Meanwhile India Site Leadership sits at 3, above the RL knowledge and above academic pedigree. That is the client's actual risk, and a list of unweighted criteria would have buried it among seven other things that all looked equally mandatory.</p>
+<div class="pull">A criteria list with no weights is eight equal must-haves. Nobody passes eight must-haves, so the recruiter quietly ignores the list and goes back to gut feel.</div>
+<p>This is also the part clients are best at correcting. Most hiring managers cannot write a good brief from a blank page. Almost all of them can look at eight criteria with weights and say "swap those two." Send the scorecard, not the questionnaire.</p>
+<h3>How to get client sign-off on the weights</h3>
+<p>Send it before the search starts, not after the first rejection. Three practical rules:</p>
+<ul>
+<li><strong>Send it as a decision, not a draft.</strong> "Here is how we will evaluate. Tell us what to change" gets a response. "What are your requirements?" does not.</li>
+<li><strong>Force a trade-off.</strong> Ask which two criteria they would drop to fill the role a month sooner. The answer reorders the weights faster than any intake call.</li>
+<li><strong>Log the answer against the role.</strong> Feedback recorded on the criteria improves the next scorecard for that client. Feedback recorded in an email thread improves nothing.</li>
+</ul>
+<h2 id="s4">Adding your own criteria in plain English</h2>
+<p>The generated criteria cover what the JD says. They cannot cover what the client believes but did not write down, and that unwritten part is usually where the rejections come from.</p>
+<p>So the criteria are not a fixed list. A recruiter can add their own, in ordinary language, and give it a weight. Something like:</p>
+<div class="query">Candidates from tier one colleges should be from a listed company or an early-stage startup.</div>
+<p>That is a real hiring rule, it is genuinely how experienced recruiters think, and it is the kind of thing that normally lives in one person's head and dies when they leave. Written as a criterion, it becomes something the system reasons about: it works out the size and stage of the companies on a CV and scores accordingly.</p>
+<p>Which produces the effect from the top of this post. <strong>The same candidate, evaluated for the same title at two different companies, gets two different scores</strong>, because the criteria and the weights are different. That is not a quirk. It is the entire point.</p>
+<h3>A second example, from a non-technical desk</h3>
+<p>The same mechanism applies away from engineering, and the weights shift in ways that are worth seeing.</p>
+<div class="tw"><table>
+<thead><tr><th>Criterion, enterprise sales role</th><th>Weight</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Quota attainment history</td><td class="w">5</td><td>The only criterion that predicts the next year with any reliability</td></tr>
+<tr><td>Deal size band</td><td class="w">5</td><td>Someone selling ₹5 lakh deals does not transfer to ₹2 crore deals</td></tr>
+<tr><td>Sales cycle length experience</td><td class="w">4</td><td>Short-cycle sellers churn out of long-cycle roles inside a year</td></tr>
+<tr><td>Domain familiarity</td><td class="w">3</td><td>Helps, learnable, not worth rejecting over</td></tr>
+<tr><td>Tooling and CRM discipline</td><td class="w">2</td><td>Trainable in weeks</td></tr>
+</tbody></table></div>
+<p>Note that the CV-impressive criteria sit at the bottom on both scorecards. That is usually the sign that the weights are honest.</p>
+<h2 id="s5">Testing a scorecard before you run it</h2>
+<p>A scorecard is a hypothesis about who succeeds in the role. Running it across 200 applicants before testing it means finding out you were wrong at 200 times the cost.</p>
+<p>So test it against people whose outcome you already know. Drop in two or three benchmark CVs, one you would definitely hire and one you rejected, and watch how they score. Adjust the criteria descriptions, the weights and the scoring guidelines until the separation matches your judgement.</p>
+<p>If the scorecard cannot tell your best hire from your clearest rejection, it is not measuring the job yet. Better to find that out with three CVs than with three weeks of submissions.</p>
+<figure><img alt="Sortinghat evaluation panel: a candidate scored 96 against the eight criteria, each with its own justification" decoding="async" height="698" loading="lazy" src="/blog/candidate-scorecard-from-client-brief/fig-3.jpg" width="1280"/><figcaption><b>Fig 3</b>The same eight criteria, applied to one candidate. Every percentage opens to show the reasoning behind it.</figcaption></figure>
+<h2 id="s6">What a scorecard changes downstream</h2>
+<p>A scorecard is not documentation. It is the input to everything after it.</p>
+<ul>
+<li>The search runs against the criteria rather than a job title, which is what makes <a href="/blog/natural-language-candidate-search-real-queries">natural language search</a> useful instead of approximate.</li>
+<li>Screening questions come from the criteria, so <a href="/blog/ai-screening-call-how-it-works">the call</a> tests the things that actually decide the hire.</li>
+<li>The submission summary evidences against the criteria, which is why clients read it.</li>
+<li>Client feedback gets logged against the criteria, so the next role for that client starts better defined.</li>
+</ul>
+<p>When our own team works this way, candidates move from submission to first interview at roughly <strong>2.5x</strong> the previous rate on technical roles and <strong>2x</strong> on non-technical ones. Those are our observed figures across our own delivery, not a controlled study, and they vary by client and by how well the role was defined to begin with. Treat them as directional.</p>
+<p>The mechanism behind them is unglamorous. Fewer people get submitted. The ones who do are evidenced against criteria the client agreed to before the search started.</p>
+<h2 id="s7">Frequently asked questions</h2>
+
+<div class="faq"><div class="qa"><h3>What is a hiring scorecard?</h3><p>A structured definition of who qualifies for a role, made up of evaluation criteria, a scoring guideline for each, and a weight reflecting how much each one matters. Candidates are rated against every criterion and the final score is the weighted average, which lets a team evaluate consistently rather than relying on each recruiter's reading of a job description.</p></div><div class="qa"><h3>How is a hiring scorecard different from a job description?</h3><p>A job description is written for candidates and describes the role attractively enough that someone applies. A scorecard is written for the hiring team and defines the decision rule, including what disqualifies someone. One is a sales document, the other is criteria.</p></div><div class="qa"><h3>How do you weight hiring criteria?</h3><p>By asking what the role actually risks failing on, not by what sounds most impressive. On a site-lead hire, team building and operational skills should outweigh specialist technical knowledge, because building the team is the job. Weights of 1 to 5 across six to ten criteria is a workable range.</p></div><div class="qa"><h3>Can the same candidate score differently for the same role at two companies?</h3><p>They should. Same job title does not mean same job. If the criteria and weights reflect what each company actually needs, including company stage and size, the same profile will score differently against each, and that difference is the useful part.</p></div><div class="qa"><h3>How long does it take to build a hiring scorecard?</h3><p>The criteria generate from the job description in one step. The part worth spending time on is adjusting the weights and adding the rules the client believes but did not write down, which is usually a fifteen to thirty minute conversation.</p></div><div class="qa"><h3>How do you test a hiring scorecard before using it?</h3><p>Score two people whose outcome you already know: one you would definitely hire and one you clearly rejected. If the scorecard cannot separate them, it is not measuring the job yet. Adjusting it against three known CVs is far cheaper than discovering the problem after three weeks of submissions.</p></div></div>
+
+<h2 id="s8">How to build your first scorecard</h2>
+<p>Take your last three roles that closed slowly. For each one, find the requirement that only surfaced after a rejection.</p>
+<p>That requirement should have been a weighted criterion before the search began. The fact that it was not is the entire cost of skipping the scorecard, and it is a cost most firms pay on every role without ever putting a number on it.</p>
+<p>Then build one scorecard for a role you are working right now, test it against two candidates you already have an opinion about, and send it to the client before you send a single CV.</p>

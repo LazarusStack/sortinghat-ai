@@ -1,0 +1,431 @@
+{
+  "posts": [
+    {
+      "slug": "talent-pool-software-database-first-sourcing",
+      "title": "Talent Pool Software: How to Rank Your Own Database Before You Pay a Job Portal",
+      "metaTitle": "Talent Pool Software: Rank Your Own Database First",
+      "description": "We audited 3 million candidate records at one staffing firm: 10% duplicates, 10% junk, 80% still relevant. Portal spend fell from $100 a role to $60.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "We audited 3 million candidate records sitting in one firm's Google Drive folders. A tenth were duplicates, a tenth were junk, and 80% were unique profiles nobody had touched in years.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "A 3M record audit"
+        },
+        {
+          "id": "s2",
+          "label": "What makes a record placeable"
+        },
+        {
+          "id": "s3",
+          "label": "Why scoring shows evidence"
+        },
+        {
+          "id": "s4",
+          "label": "Database-first on one role"
+        },
+        {
+          "id": "s5",
+          "label": "What changed on the P&L"
+        },
+        {
+          "id": "s6",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s7",
+          "label": "How to audit your database"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is talent pool software?",
+          "a": "Talent pool software consolidates, refreshes and ranks the candidates a staffing firm has already sourced, so recruiters can search their own database before paying to source externally. It differs from an ATS record store in that the pool is actively kept current and scored against live roles, rather than passively archived."
+        },
+        {
+          "q": "How much of an old staffing database is still usable?",
+          "a": "In our audit of 3 million candidate records at one firm, about 10% were duplicates and about 10% held no usable company information. The remaining 80% were unique, real profiles that were out of date rather than worthless. Your own split will differ, and a sample audit of 500 records is the only reliable way to know it."
+        },
+        {
+          "q": "Does database-first sourcing replace job portals like Naukri?",
+          "a": "No. It reduces how often you need them. Genuinely new skill requirements, new geographies and roles you have never worked still justify a fresh portal pull. The change is that these become the exception rather than the default on every role. In our customer data, job portal spend fell from roughly $100 per role to $60."
+        },
+        {
+          "q": "How is candidate scoring different from keyword matching?",
+          "a": "Keyword matching checks whether terms appear in a CV. Scoring weighs the whole profile against the role's criteria and shows the reasoning behind each part of the result, so a recruiter can verify it rather than trust it blindly."
+        },
+        {
+          "q": "What should you do with duplicate candidate records?",
+          "a": "Merge rather than delete, and only with a tool that preserves notes, call history, attachments and submission history from every source record. A merge that loses the 2023 note explaining why a client rejected someone will cost you that client's trust when you submit them again."
+        },
+        {
+          "q": "How long can a staffing firm keep candidate data?",
+          "a": "Retention has to be defensible rather than indefinite. India's DPDP Act and the GDPR both require a lawful basis for holding personal data and a stated retention position. Records with no reachable contact, no placement history and no recent activity are usually a compliance exposure rather than an asset."
+        }
+      ],
+      "related": [
+        "natural-language-candidate-search-real-queries"
+      ],
+      "cta": {
+        "title": "See your own database scored",
+        "body": "We will consolidate your existing records, show you the duplicate and junk split, and rank what is placeable against a live role."
+      },
+      "tag": "Talent Pool",
+      "dateShort": "15 Aug 2026",
+      "read": "11 min read",
+      "cardTitle": "Talent Pool Software: How to Rank Your Own Database Before You Pay a Job Portal",
+      "cardDek": "We audited 3 million candidate records sitting in one firm's Google Drive folders. A tenth were duplicates, a tenth were junk, and 80% were unique profiles nobody had touched in years.",
+      "cardImageAlt": "Sortinghat Advanced People Search returning 71 ranked candidates for a plain-English query"
+    },
+    {
+      "slug": "candidate-scorecard-from-client-brief",
+      "title": "Hiring Scorecards: How to Turn a Job Description Into Weighted Evaluation Criteria",
+      "metaTitle": "Hiring Scorecards: Turn a JD Into Weighted Criteria",
+      "description": "A real hiring scorecard built from one job description, with the eight criteria and their actual weights, and why one candidate scores differently at two firms.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "A job description tells candidates about the role. A hiring scorecard tells your team who to reject, and why. Here is one built from a real job description, with the actual weights.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why a JD is not a scorecard"
+        },
+        {
+          "id": "s2",
+          "label": "One role, eight criteria"
+        },
+        {
+          "id": "s3",
+          "label": "Why weights decide the shortlist"
+        },
+        {
+          "id": "s4",
+          "label": "Adding criteria in plain English"
+        },
+        {
+          "id": "s5",
+          "label": "Testing before you run it"
+        },
+        {
+          "id": "s6",
+          "label": "What it changes downstream"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "How to build your first one"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a hiring scorecard?",
+          "a": "A structured definition of who qualifies for a role, made up of evaluation criteria, a scoring guideline for each, and a weight reflecting how much each one matters. Candidates are rated against every criterion and the final score is the weighted average, which lets a team evaluate consistently rather than relying on each recruiter's reading of a job description."
+        },
+        {
+          "q": "How is a hiring scorecard different from a job description?",
+          "a": "A job description is written for candidates and describes the role attractively enough that someone applies. A scorecard is written for the hiring team and defines the decision rule, including what disqualifies someone. One is a sales document, the other is criteria."
+        },
+        {
+          "q": "How do you weight hiring criteria?",
+          "a": "By asking what the role actually risks failing on, not by what sounds most impressive. On a site-lead hire, team building and operational skills should outweigh specialist technical knowledge, because building the team is the job. Weights of 1 to 5 across six to ten criteria is a workable range."
+        },
+        {
+          "q": "Can the same candidate score differently for the same role at two companies?",
+          "a": "They should. Same job title does not mean same job. If the criteria and weights reflect what each company actually needs, including company stage and size, the same profile will score differently against each, and that difference is the useful part."
+        },
+        {
+          "q": "How long does it take to build a hiring scorecard?",
+          "a": "The criteria generate from the job description in one step. The part worth spending time on is adjusting the weights and adding the rules the client believes but did not write down, which is usually a fifteen to thirty minute conversation."
+        },
+        {
+          "q": "How do you test a hiring scorecard before using it?",
+          "a": "Score two people whose outcome you already know: one you would definitely hire and one you clearly rejected. If the scorecard cannot separate them, it is not measuring the job yet. Adjusting it against three known CVs is far cheaper than discovering the problem after three weeks of submissions."
+        }
+      ],
+      "related": [
+        "ai-screening-call-how-it-works"
+      ],
+      "cta": {
+        "title": "Build a scorecard from one of your live briefs",
+        "body": "Bring a job description you are working right now. We will generate the criteria, set the weights with you, and score two candidates you already have an opinion about."
+      },
+      "tag": "Workflow",
+      "dateShort": "15 Aug 2026",
+      "read": "12 min read",
+      "cardTitle": "Hiring Scorecards: How to Turn a Job Description Into Weighted Evaluation Criteria",
+      "cardDek": "A job description tells candidates about the role. A hiring scorecard tells your team who to reject, and why. Here is one built from a real job description, with the actual weights.",
+      "cardImageAlt": "Sortinghat evaluation criteria showing eight generated criteria with editable priority weights"
+    },
+    {
+      "slug": "ai-screening-call-how-it-works",
+      "title": "AI Screening Calls: What Gets Asked, Verified and Written to the Record",
+      "metaTitle": "AI Screening Calls: What They Verify and Capture",
+      "description": "70% of candidates complete an AI screening call in 3 to 7 minutes. What it verifies, which CV claims collapse under it, and what reaches the record.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "Roughly 70% of candidates complete an AI screening call, and it takes three to seven minutes. Here is what the call is for, which CV claims collapse under it, and what lands on the record afterwards.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The four things it confirms"
+        },
+        {
+          "id": "s2",
+          "label": "Claims that collapse"
+        },
+        {
+          "id": "s3",
+          "label": "What reaches the record"
+        },
+        {
+          "id": "s4",
+          "label": "Disclosure and consent rules"
+        },
+        {
+          "id": "s5",
+          "label": "What happens to the data"
+        },
+        {
+          "id": "s6",
+          "label": "Where the recruiter takes over"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "How to evaluate a tool"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is an AI screening call?",
+          "a": "A structured, automated phone conversation that qualifies a candidate against a specific role: confirming interest, availability, compensation expectation, and the CV claims that matter most for that role. It typically runs three to seven minutes and writes its findings onto the candidate record as structured data rather than as an audio file."
+        },
+        {
+          "q": "Do candidates complete AI screening calls?",
+          "a": "In our data, around 70% do, with a typical call lasting three to seven minutes. Completion is a real quality metric rather than a vanity one: a call people abandon is selecting for patience, and the candidates most likely to hang up are the ones with the most options."
+        },
+        {
+          "q": "Do candidates have to be told they are speaking to an AI?",
+          "a": "Yes, in a growing number of jurisdictions. The EU AI Act classifies recruitment AI as high-risk with obligations that took effect on 2 August 2026, and several US states including Illinois have their own disclosure rules for automated hiring tools. Beyond compliance, undisclosed automated calls damage candidate trust for very little gain."
+        },
+        {
+          "q": "Can an AI screening call reject a candidate?",
+          "a": "It should not. Under the EU AI Act, human oversight of automated decisions is required for high-risk systems, which includes recruitment. Good practice and current regulation point the same way: the AI ranks and flags, a person decides."
+        },
+        {
+          "q": "Is candidate data from AI screening calls used to train models?",
+          "a": "Not in our case. Call data is stored encrypted, belongs to the client whose candidate it is, and is neither used for model training nor shared with third parties. There is no pooled dataset across customers. Ask any vendor this question directly and expect a one-sentence answer."
+        },
+        {
+          "q": "Which CV claims most often fail verification on a screening call?",
+          "a": "Quantified impact claims. Percentage improvements, and revenue or GMV figures presented as moving from one number to another. When the call asks a second question about the baseline, the time period or the individual contribution, candidates who did the work answer immediately and those who did not become vague."
+        }
+      ],
+      "related": [
+        "candidate-scorecard-from-client-brief"
+      ],
+      "cta": {
+        "title": "Hear a screening call built from your own brief",
+        "body": "Bring a role you are working now. We will generate the script from it, run the call, and show you what lands on the record afterwards."
+      },
+      "tag": "Workflow",
+      "dateShort": "15 Aug 2026",
+      "read": "11 min read",
+      "cardTitle": "AI Screening Calls: What Gets Asked, Verified and Written to the Record",
+      "cardDek": "Roughly 70% of candidates complete an AI screening call, and it takes three to seven minutes. Here is what the call is for, and which CV claims collapse under it.",
+      "cardImageAlt": "Sortinghat activity timeline showing an automatically logged call written to the candidate record"
+    },
+    {
+      "slug": "natural-language-candidate-search-real-queries",
+      "title": "Natural Language Candidate Search: Five Real Queries, and Why Vague Ones Fail",
+      "metaTitle": "Natural Language Candidate Search: 5 Real Queries",
+      "description": "Five real natural language searches run on a live staffing database, what they returned, and the one reason most candidate search queries disappoint.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "Real searches run against a live staffing database, the results they returned, and the single reason most natural language queries disappoint the person typing them.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Five real queries"
+        },
+        {
+          "id": "s2",
+          "label": "The query that disappoints"
+        },
+        {
+          "id": "s3",
+          "label": "Four elements a query needs"
+        },
+        {
+          "id": "s4",
+          "label": "Where it does not help"
+        },
+        {
+          "id": "s5",
+          "label": "Your own database, not the web"
+        },
+        {
+          "id": "s6",
+          "label": "What changes for the sourcer"
+        },
+        {
+          "id": "s6b",
+          "label": "Semantic versus Boolean"
+        },
+        {
+          "id": "s6c",
+          "label": "Common query mistakes"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "How to test on your own data"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is natural language candidate search?",
+          "a": "Search that takes a plain-language description of the person you want and returns ranked matches, without Boolean operators or manually built filters. It interprets meaning rather than matching keywords, which lets it handle conditions like company stage or institution tier that never appear as literal terms on a CV."
+        },
+        {
+          "q": "Is natural language search better than Boolean search for recruiting?",
+          "a": "For compound queries and conditions that are judgements rather than keywords, yes. For exact-match requirements such as a specific certification number or a named employer, a filter remains more precise. Most real recruiting searches are the first kind."
+        },
+        {
+          "q": "Why is my natural language candidate search returning poor results?",
+          "a": "Almost always because the query describes a category rather than a person. A query like 'backend engineer in Bangalore with four years of experience' has three conditions and thousands of matches. Add the specific stack, the institution tier and the domain context, and the result set changes completely."
+        },
+        {
+          "q": "Does natural language search cover LinkedIn and job boards?",
+          "a": "In our case it searches your own database only. External sourcing is a separate motion with a separate licence cost, and the sensible order is to exhaust what you already own before paying to search elsewhere."
+        },
+        {
+          "q": "Do recruiters still need to learn Boolean search?",
+          "a": "It remains useful on platforms that only support it, so it has not disappeared. It is no longer a sensible criterion for hiring a sourcer, because describing a profile precisely is now the scarce skill and it is far quicker to teach."
+        },
+        {
+          "q": "How do you write a good candidate search query?",
+          "a": "Include four elements every time: the capability in detail, the level as a range, the hard constraints such as location and institution, and the context you would actually reject someone over, such as industry or company stage. Queries missing two of these are the ones that disappoint."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing"
+      ],
+      "cta": {
+        "title": "Run five of your own queries",
+        "body": "Bring five roles you are working now. We will run them as sentences against your own database and show you what comes back."
+      },
+      "tag": "Talent Pool",
+      "dateShort": "15 Aug 2026",
+      "read": "10 min read",
+      "cardTitle": "Natural Language Candidate Search: Five Real Queries, and Why Vague Ones Fail",
+      "cardDek": "Real searches run against a live staffing database, the results they returned, and the single reason most natural language queries disappoint the person typing them.",
+      "cardImageAlt": "Sortinghat search returning 75 candidates with the Move to Job panel open"
+    },
+    {
+      "slug": "linkedin-sourcing-chrome-extension",
+      "title": "LinkedIn Sourcing: What Our Chrome Extension Collects, and What It Does Not",
+      "metaTitle": "LinkedIn Sourcing Extension: What It Collects",
+      "description": "How our LinkedIn sourcing extension works, what it collects, where the data goes, how long it is kept, and five questions to ask any sourcing vendor.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "A plain account of how the extension works, what it collects, where that data goes, how long it is kept, and the questions your client's legal team will ask you about it.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "How the extension works"
+        },
+        {
+          "id": "s2",
+          "label": "What it collects"
+        },
+        {
+          "id": "s3",
+          "label": "Where the data goes"
+        },
+        {
+          "id": "s4",
+          "label": "Candidate notice under GDPR"
+        },
+        {
+          "id": "s5",
+          "label": "What it does not do"
+        },
+        {
+          "id": "s6",
+          "label": "Pool beats a licence"
+        },
+        {
+          "id": "s6b",
+          "label": "Active job-seeker signals"
+        },
+        {
+          "id": "s6c",
+          "label": "Avoiding duplicates"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Questions to ask any vendor"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does a LinkedIn sourcing Chrome extension work?",
+          "a": "It runs inside your browser on profiles you open yourself, reads the publicly visible sections of the page you are already viewing, and lets you save that person into your own database against a job or a company. It works at the pace you browse, because it is reading your session rather than running its own automated collection."
+        },
+        {
+          "q": "What candidate data does a LinkedIn sourcing extension collect?",
+          "a": "Publicly visible profile information: work experience, education, skills and the About section. It does not collect private fields, connection graphs, message content, or anything behind a paid tier you do not hold."
+        },
+        {
+          "q": "Do candidates need to be told their profile is in a recruiter's database?",
+          "a": "Under the GDPR, the UK regime and India's DPDP Act, notice obligations apply to personal data you hold, including data gathered without direct contact. Our platform can run notice campaigns over email, WhatsApp or call, but they are not enabled by default. Firms placing into the EU or UK should enable them and take their own legal advice on wording and timing."
+        },
+        {
+          "q": "How long is sourced candidate data retained?",
+          "a": "For as long as the client remains on the platform, after which it is removed. Data is isolated per client, is not pooled across customers, is not used for model training, and is not shared with third parties."
+        },
+        {
+          "q": "Is sourced candidate data used to train AI models?",
+          "a": "No. There is no cross-customer training set and no secondary use of client data. This is a question worth asking every vendor you evaluate, and worth being suspicious of any answer that takes more than a sentence."
+        },
+        {
+          "q": "Is scraping LinkedIn profiles legal for recruiters?",
+          "a": "The position depends on jurisdiction, on the platform's own terms, and on how the data is collected, stored and used. What matters legally is the basis on which you process personal data rather than the label attached to the method. Ask any vendor to state, in writing, what they collect, where the collection happens, and on what basis."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing"
+      ],
+      "cta": {
+        "title": "See sourcing feed straight into your own pool",
+        "body": "We will show you the extension working on live profiles, where the data lands, and exactly what your team can and cannot do with it."
+      },
+      "tag": "Talent Pool",
+      "dateShort": "15 Aug 2026",
+      "read": "10 min read",
+      "cardTitle": "LinkedIn Sourcing: What Our Chrome Extension Collects, and What It Does Not",
+      "cardDek": "A plain account of how the extension works, what it collects, where that data goes, how long it is kept, and the questions your client's legal team will ask you about it.",
+      "cardImageAlt": "Sortinghat candidate profile built from a LinkedIn-sourced record"
+    }
+  ]
+}

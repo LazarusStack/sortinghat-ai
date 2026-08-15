@@ -119,7 +119,7 @@ export function Hero() {
             className="reveal mx-auto mt-6 max-w-3xl text-[17px] leading-relaxed text-balance text-muted"
             style={{ animationDelay: "0.22s" }}
           >
-            We don&rsquo;t just track roles. We 10x your recruiters
+            We don&rsquo;t just track roles. We 2X your recruiters
             and bet on your firm&rsquo;s growth.
           </p>
           <div
@@ -527,13 +527,23 @@ const FOOTER = [
       { l: "Executive search", href: "/#talent-pool" },
     ],
   },
+  {
+    h: "Resources",
+    items: [
+      { l: "Blog", href: "/blog" },
+      { l: "From Apoorv Tamrakar", href: "/blog#from-apoorv-tamrakar" },
+      { l: "Product Comparison 101", href: "/blog#product-comparison-101" },
+      /* Security already sits in the bottom bar, so it isn't repeated here. */
+    ],
+  },
 ];
 
 export function Footer() {
   return (
     <footer className="border-t border-line bg-white">
       <div className="shell py-16">
-        <div className="grid gap-12 lg:grid-cols-[1.2fr_2fr]">
+        {/* four link columns now, so the brand block gives up a little width */}
+        <div className="grid gap-12 lg:grid-cols-[1fr_2.4fr]">
           <div>
             <Wordmark className="text-[30px]" />
             <p className="mt-4 max-w-xs text-[14px] leading-relaxed text-muted">
@@ -568,7 +578,7 @@ export function Footer() {
               </a>
             </div>
           </div>
-          <div className="grid gap-10 sm:grid-cols-3">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
             {FOOTER.map((col) => (
               <div key={col.h}>
                 <h4 className="eyebrow">{col.h}</h4>

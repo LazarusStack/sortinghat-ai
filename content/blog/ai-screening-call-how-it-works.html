@@ -1,0 +1,77 @@
+<p class="lede">An AI screening call is not an interview and not a recorded phone menu. It is a structured qualifying conversation, three to seven minutes long, that confirms four things: whether the person is genuinely interested, when they can start, what they expect to be paid, and whether the two or three most load-bearing claims on their CV hold up under a second question.</p>
+
+<p>That last one is where it earns its place, and it is the part most screening automation skips entirely.</p>
+
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>The script has to come from the role, not a question bank.</strong> Generic questions produce generic signal, which is why most screening automation saves nobody any time.</li>
+<li><strong>Inflated metrics are the claim that fails most often.</strong> Percentage improvements and revenue figures that a candidate cannot explain when asked a second question.</li>
+<li><strong>A transcript is not an output.</strong> If a recruiter still has to read the call to know what happened, the work moved rather than disappeared.</li>
+<li><strong>Disclosure is now a legal requirement, not a courtesy.</strong> The <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" rel="noopener" target="_blank">EU AI Act</a>'s high-risk obligations for recruitment took effect on 2 August 2026.</li>
+</ul></div>
+
+<div class="stats">
+<div class="stat"><div class="n">70%</div><div class="l">Of candidates complete the screening call</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n">3–7</div><div class="l">Minutes, typical call length</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n sm">Zero</div><div class="l">Candidate data used for model training or shared with third parties</div><div class="s">Platform policy</div></div>
+</div>
+
+<h2 id="s1">The four things an AI screening call confirms</h2>
+<p>Every question in a screening call should map to one of these four. Anything that does not is padding, and padding is what pushes completion rates down.</p>
+<div class="tw"><table>
+<thead><tr><th>What it confirms</th><th>The weak version</th><th>The version that produces signal</th></tr></thead>
+<tbody>
+<tr><td>Interest</td><td>"Are you looking for a change?"</td><td class="w">Interest in this role, at this company, at this level, against what they are doing now</td></tr>
+<tr><td>Availability</td><td>"What is your notice period?"</td><td class="w">Stated notice, whether it is negotiable, whether a buyout is realistic and who pays</td></tr>
+<tr><td>Compensation</td><td>"What are your expectations?"</td><td class="w">Current and expected, plus whether the expectation is a considered number or an opening position</td></tr>
+<tr><td>The claims</td><td>Skipped entirely</td><td class="w">The two or three CV claims that decide this submission, probed to the second question</td></tr>
+</tbody></table></div>
+<p>The right-hand column is the entire difference between a screening call and a survey. A survey collects answers. A screen tests them.</p>
+<h2 id="s2">The CV claims that collapse under a second question</h2>
+<p>This is the most interesting thing we see in the call data, and as far as we know nobody has published it.</p>
+<p>The claims that fail verification are almost never about skills or tools. They are about <strong>numbers</strong>.</p>
+<p>Candidates add quantified impact to their CVs because every piece of career advice tells them to. So the CV says they improved something by a specific percentage, or grew GMV or revenue from one figure to another. The number is precise, the sentence reads well, and it is very hard to challenge in a thirty-second skim.</p>
+<p>Then the call asks a second question. What was the baseline. Over what period. What were you responsible for, as distinct from what the team did. How was it measured, and by whom.</p>
+<p>A candidate who did the work answers immediately, usually with more detail than was asked for. A candidate who inherited the number, or estimated it, or absorbed a team result into a personal claim, does not. The answer becomes vague in a way that is unmistakable once you have heard it a few times.</p>
+<div class="pull">The lie is rarely "I know Kubernetes." It is almost always a number with nothing behind it.</div>
+<p>This matters commercially because those are exactly the claims a client will probe in the first interview. Finding out at screening costs you four minutes. Finding out at the client's interview costs you the slot, some of your credibility, and occasionally the account.</p>
+<p>It is also why the screening questions have to be generated from the role rather than pulled from a bank. Which two claims matter depends entirely on what the role is hiring for, which is why <a href="/blog/candidate-scorecard-from-client-brief">the scorecard has to exist before the call does</a>.</p>
+<h2 id="s3">What reaches the candidate record after the call</h2>
+<p>This is where most screening automation quietly fails. A call that produces an audio file and a transcript has relocated the work, not removed it. Somebody still has to listen, read and type.</p>
+<p>What should be on the record when the call ends:</p>
+<ul>
+<li>Structured fields populated: notice period, current and expected compensation, location preference, availability</li>
+<li>A summary a recruiter can read in fifteen seconds</li>
+<li>The specific answers to the role-specific questions, quoted rather than paraphrased</li>
+<li>Flags where an answer contradicts the CV</li>
+<li>Next actions, with an owner and a date</li>
+</ul>
+<figure><img alt="Sortinghat activity timeline: an automatically logged call written to the candidate record with the stage move attached" decoding="async" height="698" loading="lazy" src="/blog/ai-screening-call-how-it-works/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>The write-up nobody had to type. Call and meeting logs land on the record as structured notes with the stage move attached.</figcaption></figure>
+<p>The test is simple. A recruiter who has never spoken to this candidate should be able to read the record and know exactly where things stand. If they have to open the transcript, the extraction is not good enough, and that is a system problem rather than a discipline problem.</p>
+<p>The same principle applies to every other channel. Calls, meetings, emails and WhatsApp threads all belong on one timeline against the person, not scattered across four tools and somebody's phone.</p>
+<figure><img alt="Sortinghat candidate profile: experience, location, dated career timeline, education and a generated summary" decoding="async" height="698" loading="lazy" src="/blog/ai-screening-call-how-it-works/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>One record, one timeline. Everything the screen confirms is written against the person, not stored in a separate call log.</figcaption></figure>
+<h2 id="s4">AI screening call disclosure and consent rules in 2026</h2>
+<p>The regulatory position changed materially this year, and any firm running AI calls should know where it stands.</p>
+<p>The <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" rel="noopener" target="_blank">EU AI Act</a> classifies AI systems used in recruitment and candidate selection as high-risk, with obligations that took effect on <strong>2 August 2026</strong>. Those obligations include transparency to the people subject to the system and human oversight of automated decisions. In the US, New York City's <a href="https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page" rel="noopener" target="_blank">Local Law 144</a> requires bias auditing and candidate notice for automated employment decision tools, <a href="https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=4015" rel="noopener" target="_blank">Illinois</a> regulates AI-analysed video interviews specifically, and <a href="https://leg.colorado.gov/bills/sb24-205" rel="noopener" target="_blank">Colorado</a> has its own AI Act.</p>
+<p>Three things follow for anyone running AI screening calls at scale.</p>
+<h3>Tell the candidate at the start</h3>
+<p>Before any questions are asked, the call should state that it is an automated screening call, on whose behalf it is being made, and that it is being recorded. One sentence, before the first question, not buried in a follow-up email. This is the single cheapest compliance step available and the one most often skipped.</p>
+<h3>Check recording consent per geography</h3>
+<p>Recording rules differ across India, individual US states and the EU. If your desks place across borders, the requirement is set by the candidate's location, not by where your office is.</p>
+<h3>Offer a human path</h3>
+<p>A candidate who does not want to speak to an AI should have somewhere to go, and that route should be visible rather than technically available. A screening process with no opt-out creates a candidate experience problem and a compliance problem at the same time.</p>
+<h2 id="s5">What happens to candidate data from the calls</h2>
+<p>Worth stating plainly, because it is the first question any enterprise client's security review asks.</p>
+<p>Candidate data from screening calls is <strong>not used to train models and is not shared with third parties</strong>. It is stored encrypted, and it belongs to the client whose candidate it is. There is no pooled dataset across customers, and no secondary use.</p>
+<p>If a vendor cannot answer this in a sentence, that is itself the answer.</p>
+<h2 id="s6">Where the recruiter takes over</h2>
+<p>The AI screen does not reject anybody.</p>
+<p>It qualifies, captures, flags and ranks. A recruiter reviews before any candidate is dropped and before anything reaches a client. That is partly a quality decision and partly a legal one: human oversight of automated decisions is an explicit obligation under the EU AI Act's high-risk classification.</p>
+<p>The division most firms settle on is straightforward. The AI handles first contact and qualification at volume. The recruiter handles judgement, the sell, the client conversation and the close. The screening call was never the valuable part of a recruiter's day, and moving it does not remove the recruiter from hiring. It moves them to the part where their judgement changes the outcome.</p>
+<h2 id="s7">Frequently asked questions</h2>
+
+<div class="faq"><div class="qa"><h3>What is an AI screening call?</h3><p>A structured, automated phone conversation that qualifies a candidate against a specific role: confirming interest, availability, compensation expectation, and the CV claims that matter most for that role. It typically runs three to seven minutes and writes its findings onto the candidate record as structured data rather than as an audio file.</p></div><div class="qa"><h3>Do candidates complete AI screening calls?</h3><p>In our data, around 70% do, with a typical call lasting three to seven minutes. Completion is a real quality metric rather than a vanity one: a call people abandon is selecting for patience, and the candidates most likely to hang up are the ones with the most options.</p></div><div class="qa"><h3>Do candidates have to be told they are speaking to an AI?</h3><p>Yes, in a growing number of jurisdictions. The EU AI Act classifies recruitment AI as high-risk with obligations that took effect on 2 August 2026, and several US states including Illinois have their own disclosure rules for automated hiring tools. Beyond compliance, undisclosed automated calls damage candidate trust for very little gain.</p></div><div class="qa"><h3>Can an AI screening call reject a candidate?</h3><p>It should not. Under the EU AI Act, human oversight of automated decisions is required for high-risk systems, which includes recruitment. Good practice and current regulation point the same way: the AI ranks and flags, a person decides.</p></div><div class="qa"><h3>Is candidate data from AI screening calls used to train models?</h3><p>Not in our case. Call data is stored encrypted, belongs to the client whose candidate it is, and is neither used for model training nor shared with third parties. There is no pooled dataset across customers. Ask any vendor this question directly and expect a one-sentence answer.</p></div><div class="qa"><h3>Which CV claims most often fail verification on a screening call?</h3><p>Quantified impact claims. Percentage improvements, and revenue or GMV figures presented as moving from one number to another. When the call asks a second question about the baseline, the time period or the individual contribution, candidates who did the work answer immediately and those who did not become vague.</p></div></div>
+
+<h2 id="s8">How to evaluate an AI screening tool</h2>
+<p>Before evaluating any vendor, take one of your own recent screening calls and write down what you learned from it that was not already on the CV. If the honest answer is three facts, then three facts is what the automation has to capture reliably.</p>
+<p>Then ask four questions. What generates the script. What lands on the record, shown live rather than described. What the disclosure says and when it is said. And whether candidate data is used for training.</p>
+<p>Most of these tools get evaluated on how natural the voice sounds. They should be evaluated on what ends up on the record.</p>
