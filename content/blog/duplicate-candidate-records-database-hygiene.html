@@ -1,0 +1,89 @@
+<p class="lede">Duplicate candidate records are not a sign of a careless team. They are what a working desk produces. In our audit of 3 million records at one staffing firm, roughly 10% were duplicates and another 10% held no usable company information. The cost is not storage. It is that the history of one person sits split across three records, and no single one of them tells you what happened.</p>
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>Duplicates are a history problem, not a storage problem.</strong> Three records for one person means three fragments of the truth and no complete picture.</li>
+<li><strong>Prevention beats cleanup.</strong> Matching at the point of entry stops far more duplicates than any periodic clean-up removes.</li>
+<li><strong>Every identifier has a gap.</strong> Email is the cleanest single key and it misses the person who applies from work, then from a personal address two years later.</li>
+<li><strong>A merge must preserve everything.</strong> Notes, calls, attachments and submission history from every source record, or the merge itself becomes the data loss.</li>
+</ul></div>
+<div class="stats">
+<div class="stat"><div class="n">3M</div><div class="l">Candidate records audited across one firm's drives</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n">~10%</div><div class="l">Duplicates found in that database</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n">~80%</div><div class="l">Unique, still-relevant profiles behind stale records</div><div class="s">Sortinghat, 2026</div></div>
+</div>
+<h2 id="s1">How duplicate candidate records actually enter</h2>
+<p>Four routes, and none of them is anybody doing anything wrong.</p>
+<h3>Repeat applications</h3>
+<p>The same person applies to three of your roles over two years, through different channels, sometimes with a different email each time. Each application looks new because, to the system, it is.</p>
+<h3>Manual uploads</h3>
+<p>A recruiter pulls a CV from a job portal and uploads it without checking whether the person already exists. Checking takes forty seconds and there are two hundred CVs, so nobody checks.</p>
+<h3>Referrals and forwards</h3>
+<p>A CV arrives by email with a different name spelling, a personal address instead of a work one, or as an attachment somebody renamed.</p>
+<h3>Bulk imports</h3>
+<p>A migration or a purchased list lands without matching against what is already there. This is the one that creates duplicates in the tens of thousands rather than the tens.</p>
+<p>The pattern is that all four are normal throughput. Which is why deduplication has to be continuous rather than an annual project that somebody eventually stops doing.</p>
+<figure><img alt="Candidate record showing experience, current company, location, full career timeline and education on a single consolidated profile" decoding="async" height="698" loading="lazy" src="/blog/duplicate-candidate-records-database-hygiene/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>One person, one record. The value of dedup is that this timeline is complete rather than split across three entries.</figcaption></figure>
+<h2 id="s2">What identifier to match on, and where each one fails</h2>
+<p>Every dedup strategy is a bet on one identifier being stable. None of them is.</p>
+<div class="tw"><table>
+<thead><tr><th>Identifier</th><th>Catches</th><th>Misses</th></tr></thead>
+<tbody>
+<tr><td>Email address</td><td class="w">The common repeat-application case, cleanly</td><td>Someone applying from a work address, then a personal one later</td></tr>
+<tr><td>Phone number</td><td class="w">People who change email but keep a number</td><td>Shared family numbers, and formatting differences</td></tr>
+<tr><td>Name</td><td class="w">Nothing reliably</td><td>Extremely common names, spelling variants, transliteration</td></tr>
+<tr><td>LinkedIn or profile URL</td><td class="w">A durable identity where present</td><td>Not captured on most historical records</td></tr>
+</tbody></table></div>
+<p><strong>Our approach is to use the email address as the unique key</strong>, with the most recent CV retained on the record. That handles the common case cleanly and predictably, which matters more than it sounds: an unpredictable matching rule creates a different problem, where recruiters stop trusting that a record is complete.</p>
+<p>The gap is worth naming plainly. A candidate who applied from a work address in 2023 and applies from a personal address in 2026 will create a second record. If your database is older than a few years, that pattern is a meaningful share of your duplicates, and it is the reason a periodic manual review still earns its place.</p>
+<h2 id="s2b">Why prevention beats cleanup</h2>
+<p>Every firm that has run a database clean-up has run it twice, because the first one did not hold.</p>
+<p>A clean-up is a snapshot. The day after it finishes, applications, uploads and referrals resume at the same rate they always did, and the duplicate count starts climbing from zero again. Twelve months later somebody proposes a clean-up.</p>
+<p>Matching at entry is the only intervention that compounds. It costs nobody any time, it applies to every record forever, and its effect is invisible, which is why it rarely gets prioritised over a project with a visible finish line.</p>
+<p>The practical implication for anyone evaluating systems: ask what happens at the moment a record is created, not what the bulk merge tool looks like. The merge tool is a repair. The matching is the fix.</p>
+<h2 id="s3">What a merge has to preserve</h2>
+<p>This is where the real damage happens, and it is permanent when it goes wrong.</p>
+<p>A merge should retain, from every source record: all notes, all call recordings and transcripts, all email and message threads, all attachments and CV versions, all submission and placement history, every stage change with its timestamp, and every custom field value.</p>
+<p>The reason is specific rather than abstract. Somewhere in your database is a note from 2023 explaining that a particular client rejected a particular candidate and why. Lose that note in a merge and you will submit them to that client again, and you will find out about it in front of the client.</p>
+<p>The same logic applies to CV versions. Retaining the latest CV is the right default, because it is the current one. Keeping the earlier versions alongside it is better, because the 2022 CV sometimes contains a project the 2026 one dropped, and that project is occasionally the reason someone is a fit.</p>
+<h2 id="s4">The other 10 percent: junk records</h2>
+<p>Separate problem, separate answer.</p>
+<p>Junk is a record with no usable company or role information. Not enough to identify what the person does, let alone place them. In the audit, that was roughly 10% of the database.</p>
+<p>These should be deleted rather than archived, and deliberately. A junk record is noise in every search result you will ever run, and it is a compliance exposure. Under India's <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener" target="_blank">DPDP Act</a> and the <a href="https://gdpr-info.eu/" rel="noopener" target="_blank">GDPR</a>, holding personal data with no lawful basis and no defensible retention position is a liability rather than an asset. Junk records fail both tests: you cannot justify keeping them and you cannot use them.</p>
+<h2 id="s5">Data decay, and why stale is not the same as useless</h2>
+<p>The other 80% of that database were unique, real profiles that were simply out of date.</p>
+<p>Three fields decay at three different rates. <strong>Job title and employer</strong> go first, because people move. <strong>Work email addresses</strong> die with the job. <strong>Phone numbers</strong> are the most durable, particularly in India where personal numbers travel between employers.</p>
+<p>The important distinction: a backend engineer whose record says they were at a fintech in 2022 has almost certainly moved. They are still a backend engineer. What is stale is the record, not the person, and the fix is enrichment rather than deletion. We covered the economics of that in the <a href="/blog/talent-pool-software-database-first-sourcing">talent pool audit</a>.</p>
+<figure><img alt="Advanced people search returning ranked candidates with career timelines visible, showing current and previous roles with dates" decoding="async" height="698" loading="lazy" src="/blog/duplicate-candidate-records-database-hygiene/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>A stale record is still a real person. Refreshing what they do now is cheaper than sourcing them again.</figcaption></figure>
+<h2 id="s5b">What duplicates actually cost you</h2>
+<p>The cost is rarely storage. It shows up in four places, and three of them are invisible in any report.</p>
+<h3>Search results you cannot trust</h3>
+<p>A search returning the same person three times looks like three candidates. Recruiters learn to distrust counts, and a database recruiters distrust is one they stop searching, which returns you to paying a job portal for people you already own.</p>
+<h3>History that contradicts itself</h3>
+<p>One record says the candidate was rejected by a client. Another says they were never submitted. Both are true of their own fragment, and neither is true of the person.</p>
+<h3>Duplicate outreach</h3>
+<p>The same candidate receives the same campaign twice, sometimes from two recruiters on the same day. This is the one candidates notice and mention, and it costs more brand damage than anything else on this list.</p>
+<h3>Wrong benchmarks</h3>
+<p>Conversion rates calculated across a database with 10% duplicates are wrong by roughly that margin, which quietly corrupts every capacity and cost calculation built on top of them.</p>
+<h2 id="s6">A dedup and hygiene routine that survives contact with a real desk</h2>
+<p>Most data hygiene plans fail because they require someone to do something that is never urgent. Three rules that do not.</p>
+<p><strong>Match at entry, not at cleanup.</strong> Every new record checks against the existing database before it is created. This is the only step that scales, because it costs nobody any time.</p>
+<p><strong>Refresh on use, not on a schedule.</strong> When a record surfaces in a search, check whether its contact data is older than your threshold and refresh it then. Effort concentrates on the records actually being worked.</p>
+<p><strong>Re-verify on every conversation.</strong> Current title, notice period and expectation should be captured automatically from the call rather than being a task for the recruiter, which we cover in <a href="/blog/recruiter-admin-time-automatic-capture">automatic capture</a>.</p>
+<h2 id="s6b">Cleaning up before a migration</h2>
+<p>The worst time to discover your duplicate rate is during a system move, and it is when most firms discover it.</p>
+<p>Do not try to clean everything first. That is the most common reason migrations slip by months, and it is unnecessary. Segment instead.</p>
+<ol>
+<li><strong>Active and recent records</strong> move clean. These are the ones being worked, and they justify the effort.</li>
+<li><strong>Historical records with placement history</strong> move as they are and get refreshed on use. They have value and they are not urgent.</li>
+<li><strong>Junk</strong> is deleted before the move, not carried across. Migrating unusable data means paying to move it and then still having it.</li>
+</ol>
+<p>Run the audit before the migration rather than after, because the numbers change what you migrate. A firm that discovers 20% of its database is duplicates or junk usually decides to move 80% of it, and the move gets faster as a result.</p>
+<h2 id="s7">Frequently asked questions</h2>
+<div class="faq"><div class="qa"><h3>Why do duplicate candidate records happen?</h3><p>Four routes, all of them normal operations rather than mistakes: the same person applies to several roles over time, a recruiter uploads a CV without checking, a referral arrives with a different spelling or address, and bulk imports land without matching. Duplicates are a by-product of a working desk, not evidence of a careless one.</p></div><div class="qa"><h3>How do you deduplicate a candidate database?</h3><p>By matching on an identifier at the point of entry rather than cleaning up later. We use email address as the unique key. That catches the common case cleanly, and it will not catch someone who applies from a work address and later a personal one, which is the main gap to plan around.</p></div><div class="qa"><h3>What percentage of a staffing database is duplicated?</h3><p>In our audit of 3 million records at one firm, roughly 10% were duplicates and another 10% held no usable company information. Your own split will differ by firm age and hygiene, and a sample of 500 records is the only reliable way to establish it.</p></div><div class="qa"><h3>How fast does candidate contact data go stale?</h3><p>Job titles and employers decay fastest, followed by work email addresses, then phone numbers. A candidate placed two years ago is very unlikely to hold the role your record states, which makes the record wrong rather than the person irrelevant.</p></div><div class="qa"><h3>Should you delete old candidate records?</h3><p>Records with no reachable contact, no placement history and no recent activity cost more in search noise than they provide in value. Data protection law in most jurisdictions also requires a defensible retention position rather than indefinite storage, so deletion is a compliance step as well as a hygiene one.</p></div><div class="qa"><h3>What should a merge preserve?</h3><p>Everything attached to every source record: notes, call and message history, attachments, submission and placement history, and stage changes with their timestamps. A merge that loses the note explaining why a client rejected someone will cost you that client's trust the day you submit them again.</p></div></div>
+<h2 id="s7b">Three signs your database has a duplicate problem</h2>
+<p>Before running a formal audit, three symptoms that usually mean the answer is yes.</p>
+<p><strong>Recruiters open a job portal by default.</strong> The clearest signal. Nobody bypasses a database they trust. If the first move on every new role is a fresh portal pull, the team has already concluded the internal search is not worth running.</p>
+<p><strong>Candidates mention being contacted twice.</strong> If this has come up more than once in a quarter, it is not an anomaly. It is a matching failure that happens to have become visible.</p>
+<p><strong>Two recruiters claim the same placement.</strong> Ownership disputes are often a duplicate problem wearing a commission costume. Two records, two owners, one person.</p>
+<h2 id="s8">How to audit your own database this week</h2>
+<p>Take 500 records at random. Check three things: does the phone number work, is the job title still current, and does the person appear more than once.</p>
+<p>The three percentages you get back are the real condition of your database. They are almost always worse than the record count suggests, and they are the only figures that will settle an internal argument about whether this is worth fixing.</p>

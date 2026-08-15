@@ -47,6 +47,10 @@ ORDER = [
     "candidate-response-rates-by-channel",
     "high-volume-recruiting-screening-day",
     "recruitment-crm-beyond-storing-leads",
+    "ai-interview-questions-scoring",
+    "duplicate-candidate-records-database-hygiene",
+    "candidate-ownership-rules-multi-desk",
+    "ats-integrations-one-way-two-way",
 ]
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
