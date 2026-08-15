@@ -24,14 +24,12 @@ export type Post = {
   dateShort: string;
   tag: string;
   read: string;
-  cardTitle: string;
-  cardDek: string;
   cardImageAlt: string;
   toc: { id: string; label: string }[];
   faq: { q: string; a: string }[];
   related: string[];
   /** the post's own closing pitch, rebuilt as a panel at the foot of the page */
-  cta: { title: string; body: string };
+  cta: { title: string; body: string } | null;
 };
 
 export type Section = {

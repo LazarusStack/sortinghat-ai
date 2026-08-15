@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
-"""Port the standalone blog package into the Next.js site.
+"""Port exported blog posts into the Next.js site.
 
-Reads the exported HTML files, pulls each post apart into (metadata, body HTML,
-image files), and writes them where the app can read them at build time.
+Reads a folder of exported .html files, pulls each post apart into (metadata,
+body HTML, image files), and writes them where the app can read them at build
+time: content/blog/posts.json, content/blog/<slug>.html, public/blog/<slug>/.
 
 The parts the app rebuilds in React — top bar, breadcrumb, post header, CTA,
 author box, related grid, page footer, and the "show structure" annotations —
 are dropped here so there is exactly one implementation of each.
+
+Every run rebuilds the whole set from the folder it is given, so re-exported
+posts overwrite cleanly. Card thumbnails are the exception: the first import
+took distinct crops from the package's index.html, and those are kept if they
+are already on disk rather than replaced with the post's lead figure.
 
 Usage:
 
@@ -28,19 +34,22 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONTENT = f"{ROOT}/content/blog"
 IMG = f"{ROOT}/public/blog"
 
-# Order is the order they appear on the hub.
-SLUGS = [
+# Hub order. Slugs found in SRC but missing here are appended alphabetically,
+# so a new export lands on the page without needing this edited first.
+ORDER = [
     "talent-pool-software-database-first-sourcing",
     "candidate-scorecard-from-client-brief",
     "ai-screening-call-how-it-works",
     "natural-language-candidate-search-real-queries",
     "linkedin-sourcing-chrome-extension",
+    "staffing-kpis-four-numbers-daily",
+    "recruiter-admin-time-automatic-capture",
+    "candidate-response-rates-by-channel",
+    "high-volume-recruiting-screening-day",
+    "recruitment-crm-beyond-storing-leads",
 ]
 
-os.makedirs(CONTENT, exist_ok=True)
-if os.path.isdir(IMG):
-    shutil.rmtree(IMG)
-os.makedirs(IMG, exist_ok=True)
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 
 
 def soup_of(path):
@@ -50,10 +59,10 @@ def soup_of(path):
 def save_data_img(src, out_path):
     m = re.match(r"data:image/(\w+);base64,(.+)", src, re.S)
     if not m:
-        return None
+        return False
     with open(out_path, "wb") as f:
         f.write(base64.b64decode(m.group(2)))
-    return out_path
+    return True
 
 
 def rewrite_href(href, published):
@@ -133,8 +142,7 @@ def clean_body(main, slug, published):
             a["target"] = "_blank"
 
     html = main.decode_contents()
-    html = re.sub(r"\n{3,}", "\n\n", html).strip()
-    return html
+    return re.sub(r"\n{3,}", "\n\n", html).strip()
 
 
 def toc_of(doc):
@@ -163,77 +171,114 @@ def faq_of(doc):
     return []
 
 
-published = set(SLUGS)
+def short_date(iso):
+    y, m, d = iso.split("-")
+    return f"{int(d)} {MONTHS[int(m) - 1]} {y}"
 
-# ---------------------------------------------------------------- hub cards
-hub = soup_of(f"{SRC}/index.html")
-cards = {}
-os.makedirs(f"{IMG}/cards", exist_ok=True)
-for card in hub.select("a.card"):
-    slug = re.sub(r"^/|\.html$", "", card["href"])
-    thumb = card.find("img")
-    save_data_img(thumb["src"], f"{IMG}/cards/{slug}.jpg")
-    spans = card.select(".meta span")
-    cards[slug] = {
-        "tag": spans[0].get_text(strip=True),
-        "dateShort": spans[1].get_text(strip=True),
-        "read": spans[2].get_text(strip=True),
-        "cardTitle": card.find("h3").get_text(strip=True),
-        "cardDek": card.find("p").get_text(strip=True),
-        "cardImageAlt": thumb.get("alt", ""),
-    }
 
-# ------------------------------------------------------------------- posts
+# ------------------------------------------------------------------ collect
+found = sorted(
+    os.path.splitext(f)[0]
+    for f in os.listdir(SRC)
+    if f.endswith(".html") and f != "index.html"
+)
+slugs = [s for s in ORDER if s in found] + [s for s in found if s not in ORDER]
+published = set(slugs)
+
+# Card thumbnails already on disk are distinct crops worth keeping, so they are
+# held over the rebuild rather than regenerated from the post's lead figure.
+kept_cards = {}
+if os.path.isdir(f"{IMG}/cards"):
+    for name in os.listdir(f"{IMG}/cards"):
+        slug = os.path.splitext(name)[0]
+        if slug in published:
+            kept_cards[slug] = open(f"{IMG}/cards/{name}", "rb").read()
+
+if os.path.isdir(IMG):
+    shutil.rmtree(IMG)
+os.makedirs(f"{IMG}/cards")
+os.makedirs(CONTENT, exist_ok=True)
+for f in os.listdir(CONTENT):
+    os.remove(f"{CONTENT}/{f}")
+
+# -------------------------------------------------------------------- posts
 posts = []
-for slug in SLUGS:
+for slug in slugs:
     doc = soup_of(f"{SRC}/{slug}.html")
     header = doc.select_one("header.post")
-    h1 = header.find("h1").get_text(strip=True)
-    dek = header.select_one(".dek").get_text(strip=True)
     time_el = header.find("time")
-    # read these out before clean_body decomposes the header
-    date, date_label = time_el["datetime"], time_el.get_text(strip=True)
+    byline = header.select_one(".byline").get_text(" ", strip=True)
+    read = re.search(r"\d+ min read", byline)
 
-    # likewise: the related grid is inside main, and clean_body removes it
-    related = []
-    for r in doc.select("a.rcard"):
-        rslug = re.sub(r"^/|\.html$", "", r["href"])
-        if rslug in published and rslug != slug:
-            related.append(rslug)
+    # every value below is pulled out as a string here, because clean_body
+    # decomposes these elements and a decomposed tag returns nothing
+    crumb = doc.select_one("nav.bc b")
+    tag = crumb.get_text(strip=True) if crumb else ""
+    title = header.find("h1").get_text(strip=True)
+    dek = header.select_one(".dek").get_text(strip=True)
+    date = time_el.get("datetime") or meta_of(doc, prop="article:published_time")
+    date_label = time_el.get_text(strip=True)
 
-    # each post closes on its own CTA copy; the panel is rebuilt in React but
-    # the words are worth keeping
+    lead = doc.select_one("figure img")
+    card_alt = (lead.get("alt") if lead else "") or title
+
     cta_el = doc.select_one(".cta")
     cta = {
         "title": cta_el.find("h3").get_text(strip=True),
         "body": cta_el.find("p").get_text(strip=True),
-    }
+    } if cta_el else None
+
+    # exports vary between /slug.html and /blog/slug for the same post
+    related = []
+    for r in doc.select("a.rcard"):
+        m = re.match(r"^/(?:blog/)?([a-z0-9-]+?)(?:\.html)?/?$", r.get("href", ""))
+        rslug = m.group(1) if m else None
+        if rslug in published and rslug != slug and rslug not in related:
+            related.append(rslug)
 
     body = clean_body(doc.select_one("main.col"), slug, published)
+
+    # the hub card leads on the post's first screenshot unless an earlier
+    # import already saved a purpose-made crop
+    if slug in kept_cards:
+        open(f"{IMG}/cards/{slug}.jpg", "wb").write(kept_cards[slug])
+    elif os.path.exists(f"{IMG}/{slug}/fig-1.jpg"):
+        shutil.copyfile(f"{IMG}/{slug}/fig-1.jpg", f"{IMG}/cards/{slug}.jpg")
 
     posts.append(
         {
             "slug": slug,
-            "title": h1,
+            "title": title,
             "metaTitle": doc.title.get_text(strip=True),
             "description": meta_of(doc, name="description"),
             "section": meta_of(doc, prop="article:section"),
             "dek": dek,
             "date": date,
             "dateLabel": date_label,
+            "dateShort": short_date(date),
+            "tag": tag,
+            "read": read.group(0) if read else "",
+            "cardImageAlt": card_alt,
             "toc": toc_of(doc),
             "faq": faq_of(doc),
             "related": related,
             "cta": cta,
-            **cards[slug],
         }
     )
     open(f"{CONTENT}/{slug}.html", "w", encoding="utf-8").write(body + "\n")
 
-json.dump({"posts": posts}, open(f"{CONTENT}/posts.json", "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+json.dump(
+    {"posts": posts},
+    open(f"{CONTENT}/posts.json", "w", encoding="utf-8"),
+    indent=2,
+    ensure_ascii=False,
+)
 
 print(f"{len(posts)} posts")
 for p in posts:
-    n = len(os.listdir(f"{IMG}/{p['slug']}")) if os.path.isdir(f"{IMG}/{p['slug']}") else 0
-    print(f"  {p['slug']}: {len(open(f'{CONTENT}/{p['slug']}.html').read())//1024}KB body, "
-          f"{n} figures, toc {len(p['toc'])}, faq {len(p['faq'])}, related {p['related']}")
+    figs = len(os.listdir(f"{IMG}/{p['slug']}")) if os.path.isdir(f"{IMG}/{p['slug']}") else 0
+    card = "kept" if p["slug"] in kept_cards else "from fig-1"
+    print(
+        f"  {p['slug']:48s} {p['tag']:16s} {figs} figs  card {card:9s} "
+        f"toc {len(p['toc']):2d}  faq {len(p['faq'])}  related {len(p['related'])}"
+    )

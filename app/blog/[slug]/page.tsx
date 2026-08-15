@@ -198,7 +198,9 @@ export default async function PostPage({
                 dangerouslySetInnerHTML={{ __html: body }}
               />
 
-              <BlogCta title={post.cta.title} body={post.cta.body} />
+              {post.cta ? (
+                <BlogCta title={post.cta.title} body={post.cta.body} />
+              ) : null}
               <AuthorBox />
 
               {related.length ? (

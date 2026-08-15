@@ -9,6 +9,10 @@
       "dek": "We audited 3 million candidate records sitting in one firm's Google Drive folders. A tenth were duplicates, a tenth were junk, and 80% were unique profiles nobody had touched in years.",
       "date": "2026-08-15",
       "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Talent Pool",
+      "read": "11 min read",
+      "cardImageAlt": "Sortinghat evaluation panel: a candidate scored 96, split into weighted criteria with a percentage and written justification for each",
       "toc": [
         {
           "id": "s1",
@@ -29,6 +33,10 @@
         {
           "id": "s5",
           "label": "What changed on the P&L"
+        },
+        {
+          "id": "s6b",
+          "label": "What it does not solve"
         },
         {
           "id": "s6",
@@ -71,13 +79,7 @@
       "cta": {
         "title": "See your own database scored",
         "body": "We will consolidate your existing records, show you the duplicate and junk split, and rank what is placeable against a live role."
-      },
-      "tag": "Talent Pool",
-      "dateShort": "15 Aug 2026",
-      "read": "11 min read",
-      "cardTitle": "Talent Pool Software: How to Rank Your Own Database Before You Pay a Job Portal",
-      "cardDek": "We audited 3 million candidate records sitting in one firm's Google Drive folders. A tenth were duplicates, a tenth were junk, and 80% were unique profiles nobody had touched in years.",
-      "cardImageAlt": "Sortinghat Advanced People Search returning 71 ranked candidates for a plain-English query"
+      }
     },
     {
       "slug": "candidate-scorecard-from-client-brief",
@@ -88,6 +90,10 @@
       "dek": "A job description tells candidates about the role. A hiring scorecard tells your team who to reject, and why. Here is one built from a real job description, with the actual weights.",
       "date": "2026-08-15",
       "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Workflow",
+      "read": "12 min read",
+      "cardImageAlt": "Sortinghat job description review: a parsed Director of Engineering role beside structured fields for client, salary and location",
       "toc": [
         {
           "id": "s1",
@@ -154,13 +160,7 @@
       "cta": {
         "title": "Build a scorecard from one of your live briefs",
         "body": "Bring a job description you are working right now. We will generate the criteria, set the weights with you, and score two candidates you already have an opinion about."
-      },
-      "tag": "Workflow",
-      "dateShort": "15 Aug 2026",
-      "read": "12 min read",
-      "cardTitle": "Hiring Scorecards: How to Turn a Job Description Into Weighted Evaluation Criteria",
-      "cardDek": "A job description tells candidates about the role. A hiring scorecard tells your team who to reject, and why. Here is one built from a real job description, with the actual weights.",
-      "cardImageAlt": "Sortinghat evaluation criteria showing eight generated criteria with editable priority weights"
+      }
     },
     {
       "slug": "ai-screening-call-how-it-works",
@@ -171,6 +171,10 @@
       "dek": "Roughly 70% of candidates complete an AI screening call, and it takes three to seven minutes. Here is what the call is for, which CV claims collapse under it, and what lands on the record afterwards.",
       "date": "2026-08-15",
       "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Workflow",
+      "read": "11 min read",
+      "cardImageAlt": "Sortinghat activity timeline: an automatically logged call written to the candidate record with the stage move attached",
       "toc": [
         {
           "id": "s1",
@@ -189,12 +193,20 @@
           "label": "Disclosure and consent rules"
         },
         {
+          "id": "s4b",
+          "label": "What the script contains"
+        },
+        {
           "id": "s5",
           "label": "What happens to the data"
         },
         {
           "id": "s6",
           "label": "Where the recruiter takes over"
+        },
+        {
+          "id": "s7b",
+          "label": "Where it does not belong"
         },
         {
           "id": "s7",
@@ -237,13 +249,7 @@
       "cta": {
         "title": "Hear a screening call built from your own brief",
         "body": "Bring a role you are working now. We will generate the script from it, run the call, and show you what lands on the record afterwards."
-      },
-      "tag": "Workflow",
-      "dateShort": "15 Aug 2026",
-      "read": "11 min read",
-      "cardTitle": "AI Screening Calls: What Gets Asked, Verified and Written to the Record",
-      "cardDek": "Roughly 70% of candidates complete an AI screening call, and it takes three to seven minutes. Here is what the call is for, and which CV claims collapse under it.",
-      "cardImageAlt": "Sortinghat activity timeline showing an automatically logged call written to the candidate record"
+      }
     },
     {
       "slug": "natural-language-candidate-search-real-queries",
@@ -254,6 +260,10 @@
       "dek": "Real searches run against a live staffing database, the results they returned, and the single reason most natural language queries disappoint the person typing them.",
       "date": "2026-08-15",
       "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Talent Pool",
+      "read": "10 min read",
+      "cardImageAlt": "Sortinghat search: a natural language query for engineers in Bangalore returning 71 ranked candidates",
       "toc": [
         {
           "id": "s1",
@@ -328,13 +338,7 @@
       "cta": {
         "title": "Run five of your own queries",
         "body": "Bring five roles you are working now. We will run them as sentences against your own database and show you what comes back."
-      },
-      "tag": "Talent Pool",
-      "dateShort": "15 Aug 2026",
-      "read": "10 min read",
-      "cardTitle": "Natural Language Candidate Search: Five Real Queries, and Why Vague Ones Fail",
-      "cardDek": "Real searches run against a live staffing database, the results they returned, and the single reason most natural language queries disappoint the person typing them.",
-      "cardImageAlt": "Sortinghat search returning 75 candidates with the Move to Job panel open"
+      }
     },
     {
       "slug": "linkedin-sourcing-chrome-extension",
@@ -345,6 +349,10 @@
       "dek": "A plain account of how the extension works, what it collects, where that data goes, how long it is kept, and the questions your client's legal team will ask you about it.",
       "date": "2026-08-15",
       "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Talent Pool",
+      "read": "10 min read",
+      "cardImageAlt": "Sortinghat profile from a LinkedIn-sourced record: experience, career timeline, education and summary",
       "toc": [
         {
           "id": "s1",
@@ -419,13 +427,494 @@
       "cta": {
         "title": "See sourcing feed straight into your own pool",
         "body": "We will show you the extension working on live profiles, where the data lands, and exactly what your team can and cannot do with it."
-      },
-      "tag": "Talent Pool",
+      }
+    },
+    {
+      "slug": "staffing-kpis-four-numbers-daily",
+      "title": "Staffing KPIs: The Four Numbers a Firm Owner Should Check Every Day",
+      "metaTitle": "Staffing KPIs: The 4 Numbers to Check Every Day",
+      "description": "Fill rate and time-to-fill are lagging indicators. The 4 staffing KPIs that move first, how to read each one when it falls, and the 10-minute daily routine.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "Fill rate and time-to-fill are outcomes. By the time they move, the decision that caused them is six weeks old. Four numbers move earlier, and together they predict next month's revenue closely enough to act on.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
       "dateShort": "15 Aug 2026",
+      "tag": "Analytics",
+      "read": "9 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The four KPIs defined"
+        },
+        {
+          "id": "s2",
+          "label": "Why fill rate is the wrong daily number"
+        },
+        {
+          "id": "s3",
+          "label": "How to read each one"
+        },
+        {
+          "id": "s4",
+          "label": "The ten-minute routine"
+        },
+        {
+          "id": "s5",
+          "label": "What to do when one moves"
+        },
+        {
+          "id": "s6",
+          "label": "Where four numbers is not enough"
+        },
+        {
+          "id": "s6c",
+          "label": "Two numbers that look leading"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "How to start"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What KPIs should a staffing agency track daily?",
+          "a": "Live submissions, interviews scheduled, offers in play, and receivables past 60 days. These are leading indicators that can still be influenced. Fill rate, time-to-fill and gross margin are lagging and belong in weekly or monthly reviews rather than a daily check."
+        },
+        {
+          "q": "What is the difference between leading and lagging recruitment metrics?",
+          "a": "Leading metrics predict future outcomes and can still be changed by acting today. Lagging metrics report results that are already determined. Most recruitment dashboards are built almost entirely from lagging metrics, which is why they feel informative but rarely change anyone's behaviour."
+        },
+        {
+          "q": "Why is time-to-fill a poor daily metric?",
+          "a": "It is measured from a start point you often do not control to an end point the client controls. A slow client can double it while your team does everything right. Checked daily it produces anxiety rather than decisions, and it moves on noise."
+        },
+        {
+          "q": "How do you forecast staffing revenue from pipeline?",
+          "a": "Take offers in play, apply your own historical offer-to-join rate, and add stage-weighted values from earlier pipeline. Accuracy depends entirely on using your own conversion rates rather than industry averages, because conversion varies more by firm than by market."
+        },
+        {
+          "q": "What does a falling submission-to-interview ratio mean?",
+          "a": "That the team is busy and the work is not landing. Pull the last ten rejections and read the reasons. If they cluster around one requirement, the brief was wrong. If they scatter, the screening was. It is the most expensive failure mode in staffing because it burns capacity without producing anything."
+        },
+        {
+          "q": "Why should recruiters see receivables?",
+          "a": "Because the recruiter holds the relationship that unblocks the payment. Most overdue invoices in staffing are stuck on a query that one conversation resolves, and finance does not have the relationship to make that call."
+        }
+      ],
+      "related": [
+        "recruiter-admin-time-automatic-capture",
+        "candidate-scorecard-from-client-brief",
+        "talent-pool-software-database-first-sourcing"
+      ],
+      "cta": {
+        "title": "See these four numbers on your own desks",
+        "body": "We will show you the daily view built from your live pipeline, including the receivables ageing your recruiters currently cannot see."
+      }
+    },
+    {
+      "slug": "recruiter-admin-time-automatic-capture",
+      "title": "Recruiter Admin Time: Where the Hours Actually Go, and What Automatic Capture Removes",
+      "metaTitle": "Recruiter Admin Time: Where the Hours Actually Go",
+      "description": "A candidate's history lives across 5 channels and the record holds one. What recruiter admin costs, and what automatic capture must produce to remove it.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "A candidate's history lives across five channels. The record holds whichever one the recruiter remembered to log. Here is what that costs and what automatic capture has to produce to fix it.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Workflow",
       "read": "10 min read",
-      "cardTitle": "LinkedIn Sourcing: What Our Chrome Extension Collects, and What It Does Not",
-      "cardDek": "A plain account of how the extension works, what it collects, where that data goes, how long it is kept, and the questions your client's legal team will ask you about it.",
-      "cardImageAlt": "Sortinghat candidate profile built from a LinkedIn-sourced record"
+      "cardImageAlt": "Candidate record showing experience, location, full career timeline and channel actions for call, WhatsApp, LinkedIn and email",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Where admin time goes"
+        },
+        {
+          "id": "s2",
+          "label": "Why the record is never current"
+        },
+        {
+          "id": "s3",
+          "label": "What capture must produce"
+        },
+        {
+          "id": "s3b",
+          "label": "The cost of one candidate"
+        },
+        {
+          "id": "s3c",
+          "label": "Evaluating capture tooling"
+        },
+        {
+          "id": "s4",
+          "label": "What changes for a manager"
+        },
+        {
+          "id": "s5",
+          "label": "Consent and recording rules"
+        },
+        {
+          "id": "s6",
+          "label": "Where it does not help"
+        },
+        {
+          "id": "s6b",
+          "label": "What good looks like"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "How to measure your admin load"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much time do recruiters spend on admin?",
+          "a": "Industry reporting consistently puts non-recruiting work at the majority of a recruiter's week, covering data entry, logging calls, updating stages and rebuilding context. The only number that matters for your firm is the one you measure on your own team, which takes one unannounced day of time tracking across three recruiters."
+        },
+        {
+          "q": "What is automated call logging in a recruitment CRM?",
+          "a": "It captures conversations across phone, email, WhatsApp and LinkedIn and writes them onto the candidate record without anyone typing. The useful version extracts structured fields such as notice period and compensation, rather than only storing a transcript that somebody still has to read."
+        },
+        {
+          "q": "What is the difference between a transcript and structured capture?",
+          "a": "A transcript is the words that were said. Structured capture pulls the facts out of those words into fields that can be searched, filtered and reported on. Only the second one saves time, because a transcript on a record still requires a human to read it before the record is usable."
+        },
+        {
+          "q": "Does automated call logging require candidate consent?",
+          "a": "Recording consent rules vary by jurisdiction. India, several US states and the EU all impose requirements, and some require disclosure before recording begins. If your desks place across borders, the requirement is set by the candidate's location rather than your office's."
+        },
+        {
+          "q": "Why is WhatsApp integration important for recruitment in India?",
+          "a": "In India, WhatsApp is often the primary channel candidates actually reply on. A system that does not thread WhatsApp into the candidate record will always hold an incomplete history, because the most current part of the conversation sits on an individual recruiter's phone."
+        },
+        {
+          "q": "What should a delivery manager be able to see without asking anyone?",
+          "a": "The true state of every desk: which candidates were contacted, what they said, which submissions are live and where each one is stuck. If that requires a status meeting to establish, the logging is not working and the meeting is compensating for it."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "ai-screening-call-how-it-works",
+        "candidate-scorecard-from-client-brief"
+      ],
+      "cta": {
+        "title": "See one candidate record built entirely from automatic capture",
+        "body": "Bring a live candidate and a week of history. We will show you what lands on the record when nobody types anything."
+      }
+    },
+    {
+      "slug": "candidate-response-rates-by-channel",
+      "title": "Candidate Response Rates by Channel: Call, WhatsApp and Email Compared",
+      "metaTitle": "Candidate Response Rates: Call vs WhatsApp vs Email",
+      "description": "Out of 100 candidates contacted for a strong role, about 40 respond to a call, 25 on WhatsApp and 12 to 15 by email. What that means for your sequence.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "Out of 100 candidates contacted for a strong role: about 40 respond to a call, 25 on WhatsApp, and 12 to 15 by email. Here is what that means for how you sequence outreach.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Benchmarks",
+      "read": "9 min read",
+      "cardImageAlt": "Candidate record header showing direct call, WhatsApp, LinkedIn and email actions alongside experience and location",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The numbers, in order"
+        },
+        {
+          "id": "s2",
+          "label": "Why the phone still wins"
+        },
+        {
+          "id": "s2b",
+          "label": "What the numbers do not tell you"
+        },
+        {
+          "id": "s2c",
+          "label": "Timing, and its limits"
+        },
+        {
+          "id": "s3",
+          "label": "How to sequence channels"
+        },
+        {
+          "id": "s4",
+          "label": "Segment before you write"
+        },
+        {
+          "id": "s5",
+          "label": "What a message must do"
+        },
+        {
+          "id": "s5b",
+          "label": "Four sequences that fail"
+        },
+        {
+          "id": "s6",
+          "label": "Measuring and stopping"
+        },
+        {
+          "id": "s6b",
+          "label": "Why response rates decay"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s7b",
+          "label": "The channel firms ignore"
+        },
+        {
+          "id": "s8",
+          "label": "Setting your baseline"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good candidate response rate?",
+          "a": "In our own outreach on well-paid, credible roles, roughly 40 out of 100 people respond to a phone call, 25 respond on WhatsApp and 12 to 15 respond by email. Weaker roles perform materially worse on every channel, so treat these as a ceiling rather than an average."
+        },
+        {
+          "q": "Which channel gets the highest response from candidates?",
+          "a": "The phone, by a clear margin, followed by WhatsApp and then email. This surprises teams who assume messaging has replaced calling. A call is harder to ignore and easier to answer in thirty seconds, and it carries an implicit signal that the role is worth a person's time."
+        },
+        {
+          "q": "How many times should you follow up with a candidate?",
+          "a": "Four touches across roughly ten days, changing the channel each time. Beyond that, additional messages damage your brand more than they generate replies, and the person who was going to respond has already done so."
+        },
+        {
+          "q": "Is WhatsApp appropriate for recruitment outreach?",
+          "a": "In India it is a normal and well-received channel when the message is relevant and clearly identifies you. In other markets it can read as intrusive. Match the channel to the market rather than to your own preference."
+        },
+        {
+          "q": "Should you include salary in the first message?",
+          "a": "Including a band consistently improves reply quality, because it filters out mismatches before they cost anyone a call. Our channel response rates are measured on roles with strong compensation, and that is not a coincidence."
+        },
+        {
+          "q": "Why is my recruitment outreach getting no replies?",
+          "a": "Usually the segment, not the copy. A precise segment with average wording outperforms brilliant wording sent to a broad list. If the positive reply rate is low while the raw reply rate is fine, the segment was wrong."
+        }
+      ],
+      "related": [
+        "high-volume-recruiting-screening-day",
+        "talent-pool-software-database-first-sourcing",
+        "recruiter-admin-time-automatic-capture"
+      ],
+      "cta": {
+        "title": "See channel response rates on your own pool",
+        "body": "We will run one segmented campaign across call, WhatsApp and email against your own database and show you where the replies come from."
+      }
+    },
+    {
+      "slug": "high-volume-recruiting-screening-day",
+      "title": "High Volume Recruiting: What One Screening Day Actually Produces",
+      "metaTitle": "High Volume Recruiting: What One Day Produces",
+      "description": "A recruiter makes 40 calls a day and submits 3 or 4. What changes when 1,200 profiles are filtered to 300 contacts, and where the approach stops working.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "A recruiter makes about 40 calls a day and finds 3 or 4 people worth submitting. Here is what changes when the pool is filtered first, and where the approach stops working.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Workflow",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The 40-call ceiling"
+        },
+        {
+          "id": "s2",
+          "label": "Filtering before dialling"
+        },
+        {
+          "id": "s2b",
+          "label": "Where the 1,200 comes from"
+        },
+        {
+          "id": "s2c",
+          "label": "Contacting in parallel"
+        },
+        {
+          "id": "s3",
+          "label": "Why numbers move by role"
+        },
+        {
+          "id": "s4",
+          "label": "What the recruiter does"
+        },
+        {
+          "id": "s5",
+          "label": "What reaches the client"
+        },
+        {
+          "id": "s5b",
+          "label": "Metrics that mislead"
+        },
+        {
+          "id": "s6",
+          "label": "When it is the wrong approach"
+        },
+        {
+          "id": "s6b",
+          "label": "Candidate experience at scale"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Running your first filtered day"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many calls can a recruiter make in a day?",
+          "a": "Around 40 on a full calling day, which on a good day converts to 3 or 4 candidates worth submitting. The ceiling is not dialling speed. It is that most of those 40 were never viable, and the recruiter finds that out one conversation at a time."
+        },
+        {
+          "q": "How many candidates can be screened in a day with AI calling?",
+          "a": "In our own delivery, a filtered shortlist of roughly 300 people is contacted by call, email and WhatsApp in parallel, producing around 10 submission-ready profiles within a few hours. On a high-volume QA role we submitted 120 profiles in a single day, because the pool was deep and the criteria were wide."
+        },
+        {
+          "q": "What roles suit high volume recruiting?",
+          "a": "Roles with clear, checkable eligibility criteria and a deep candidate pool. Volume QA, support, sales development and entry to mid engineering all work. Senior, confidential and executive searches do not, because the first conversation is a sell rather than a qualification."
+        },
+        {
+          "q": "Does volume screening hurt candidate experience?",
+          "a": "It depends entirely on relevance and disclosure. A well-targeted call that respects someone's time performs better than a recruiter leaving 300 voicemails. A poorly targeted one at scale is worse than doing nothing, because you have annoyed 300 people instead of 40."
+        },
+        {
+          "q": "How many profiles should you submit per role?",
+          "a": "Fewer than you can. Volume screening should produce a small evidenced shortlist, not a large list of everyone who passed. The exception is genuine high-volume hiring, where the client is filling many seats and wants breadth."
+        },
+        {
+          "q": "What happens to candidates who do not make the shortlist?",
+          "a": "They return to the pool with a logged reason and freshly confirmed availability. That segment is the warmest list you own for the next similar role, which is the compounding argument for working your own database first."
+        }
+      ],
+      "related": [
+        "ai-screening-call-how-it-works",
+        "candidate-response-rates-by-channel",
+        "talent-pool-software-database-first-sourcing"
+      ],
+      "cta": {
+        "title": "See a filtered screening day on your own pool",
+        "body": "Bring one role you are working now. We will run the search, show you the depth of your own pool, and build the shortlist against your criteria."
+      }
+    },
+    {
+      "slug": "recruitment-crm-beyond-storing-leads",
+      "title": "Recruitment CRM: What It Should Do Beyond Storing Names",
+      "metaTitle": "Recruitment CRM: What It Should Do Beyond Leads",
+      "description": "A staffing CRM has 3 jobs: win the client, deliver the role, collect the money. Most do one. What the other two require, from LinkedIn capture to the brief.",
+      "section": "From Apoorv Tamrakar",
+      "dek": "A staffing CRM has three jobs: win the client, deliver the role, collect the money. Most tools do the middle one and treat the other two as somebody else's problem.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Revenue & Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Contact record showing experience and company, with direct call, WhatsApp, LinkedIn and email actions",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Building the prospect list"
+        },
+        {
+          "id": "s2",
+          "label": "Knowing what to say"
+        },
+        {
+          "id": "s3",
+          "label": "Running the outreach"
+        },
+        {
+          "id": "s4",
+          "label": "Capturing the brief"
+        },
+        {
+          "id": "s4b",
+          "label": "Client updates that write themselves"
+        },
+        {
+          "id": "s4c",
+          "label": "Collecting what you are owed"
+        },
+        {
+          "id": "s5",
+          "label": "Why req-centric systems lose"
+        },
+        {
+          "id": "s5b",
+          "label": "What to ask a vendor"
+        },
+        {
+          "id": "s5c",
+          "label": "Versus a general sales CRM"
+        },
+        {
+          "id": "s6",
+          "label": "What a CRM will not fix"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s7b",
+          "label": "Where CRMs actually fail"
+        },
+        {
+          "id": "s8",
+          "label": "The diagnostic to run"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a recruitment CRM?",
+          "a": "A system that manages the client and prospect relationships that generate roles, as distinct from an ATS which manages candidates through a hiring process. Staffing firms need both, and running them as separate systems means the client brief gets retyped and the relationship history gets split."
+        },
+        {
+          "q": "What is the difference between an ATS and a recruitment CRM?",
+          "a": "An ATS is organised around the requisition and closes the record when the role closes. A CRM is organised around the relationship, which outlives any individual role. The hiring manager who moves companies and the client who goes quiet for a year are both CRM problems that an ATS cannot hold."
+        },
+        {
+          "q": "Can a recruitment CRM add leads from LinkedIn?",
+          "a": "Ours does, in one click from the profile, including fetching contact details and filing the person against the right company. The alternative is a recruiter copying a name into a spreadsheet, which is where most staffing business development quietly dies."
+        },
+        {
+          "q": "Do staffing firms need a separate sales tool?",
+          "a": "Most do not, and the separation causes more problems than it solves. A generic sales CRM does not understand requisitions, submissions or placements, so the two systems end up being reconciled by hand every month."
+        },
+        {
+          "q": "How does a CRM help with business development?",
+          "a": "By replacing a static prospect list with live signals. Researching which roles a company is currently hiring for turns a generic pitch into a specific one, and specificity is most of what separates a reply from a deletion."
+        },
+        {
+          "q": "What is a staffing-specific notetaker?",
+          "a": "A meeting assistant that understands recruitment context, so a client call produces a structured brief with requirements, constraints and timelines rather than a generic transcript. The value is that the delivery team receives what the client actually said, not what the salesperson remembered."
+        }
+      ],
+      "related": [
+        "candidate-scorecard-from-client-brief",
+        "candidate-response-rates-by-channel",
+        "recruiter-admin-time-automatic-capture"
+      ],
+      "cta": {
+        "title": "See a client call turned into a working brief",
+        "body": "Bring a recorded client call or run a live one. We will show you the structured brief that comes out of it and the scorecard built from that."
+      }
     }
   ]
 }
