@@ -1,0 +1,102 @@
+<p class="lede">LinkedIn sourcing with our extension works like this: it runs in your browser, on profiles you open yourself, at the speed a person browses. When you are looking at a profile, it reads the publicly visible parts of it and lets you add that person to your database as a candidate or a lead, against a specific job or company.</p>
+
+<p>That is the whole mechanism. Most of what follows is about the boundaries, because that is what actually gets asked in a vendor review and almost nobody in this category writes it down.</p>
+
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>It works on profiles you visit, not on a background crawl.</strong> The extension operates inside your browsing session at human speed rather than running automated bulk collection.</li>
+<li><strong>It reads what is publicly visible.</strong> Experience, education, skills and the About section. Not private fields, not connections, not anything behind a paywall you have not paid for.</li>
+<li><strong>Candidate notice is available but not automatic.</strong> You can run notice campaigns over email, WhatsApp or call. They are off unless you switch them on, and firms placing into the EU or UK should switch them on.</li>
+<li><strong>Data is isolated per client and deleted when they leave.</strong> No pooled dataset, no model training, no third-party sharing.</li>
+</ul></div>
+
+<h2 id="s1">How the LinkedIn sourcing extension works</h2>
+<p>It is a Chrome extension, not a server-side scraper. The distinction matters more than it sounds.</p>
+<p>You browse LinkedIn as you normally would. When you open a profile you are interested in, the extension reads the page you are already looking at and offers to add that person to your database. You choose whether they go in as a candidate against a specific job, or as a lead against a company.</p>
+<p>Two consequences follow from the architecture. It operates at the pace of a person clicking through profiles, because it is a person clicking through profiles. And it only ever sees what you see, because it is reading your session rather than running its own.</p>
+<p>We are not going to promise you that no automated tool carries any account risk, because no vendor can honestly promise that about a third party's platform. What we can tell you is the mechanism, which is above, and our published position, which is in the guidelines linked in the site footer.</p>
+<figure><img alt="Sortinghat profile from a LinkedIn-sourced record: experience, career timeline, education and summary" decoding="async" height="698" loading="lazy" src="/blog/linkedin-sourcing-chrome-extension/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>A sourced profile once it lands in the database: experience, education and the About section, structured against the person.</figcaption></figure>
+<h2 id="s2">What the extension collects, and what it does not</h2>
+<p>The publicly visible parts of a profile you have opened:</p>
+<div class="tw"><table>
+<thead><tr><th>Collected</th><th>Not collected</th></tr></thead>
+<tbody>
+<tr><td>Work experience and roles</td><td class="w">Private or connection-only fields</td></tr>
+<tr><td>Education</td><td class="w">Your connection graph</td></tr>
+<tr><td>Skills</td><td class="w">Private messages or InMail content</td></tr>
+<tr><td>The About section</td><td class="w">Anything behind a paid tier you do not hold</td></tr>
+</tbody></table></div>
+<p>What that gives you is enough to evaluate someone and enough to enrich a record you may already hold. It is not a contact database, and it does not pretend to be one.</p>
+<p>The enrichment case is the more valuable of the two and the one people overlook. If your database already holds someone from a role in 2023, the useful thing is not adding them again. It is updating what they are doing now, which is the problem covered in the <a href="/blog/talent-pool-software-database-first-sourcing">talent pool audit</a>.</p>
+<figure><img alt="Sortinghat Move to Job panel: adding a sourced candidate to one of six open roles with client names shown" decoding="async" height="698" loading="lazy" src="/blog/linkedin-sourcing-chrome-extension/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>Adding a sourced person to a live role. It is a deliberate action by a recruiter, not something the extension does on its own.</figcaption></figure>
+<h2 id="s3">Where sourced candidate data goes, and for how long</h2>
+<p>Three separate commitments, worth keeping distinct because they often get muddled in vendor answers.</p>
+<h3>Isolation</h3>
+<p>Data collected for a client is stored for that client alone. We do not access it, do not pool it across customers, do not use it for model training, and do not share it with third parties. There is no cross-customer dataset that your competitor benefits from because you did the sourcing.</p>
+<h3>Retention</h3>
+<p>Data is retained for as long as the client is on the platform, and removed when they leave.</p>
+<h3>Commercial terms are a separate thing</h3>
+<p>Our subscription carries a minimum eleven-month commitment with two months' notice to exit, so that migration off the platform can be planned properly rather than done in a panic. That is a contractual arrangement. It is not a data retention position, and the two should never be presented as one, by us or by anyone else you are evaluating.</p>
+<h2 id="s4">Candidate notice under GDPR and DPDP: the honest answer</h2>
+<p>This is the question a serious buyer will ask, so here is the position without hedging.</p>
+<p><strong>Notice to candidates is not sent automatically.</strong> The platform can run notice campaigns over email, WhatsApp or AI call, with wording and timing you control, but they are off by default and you decide whether to switch them on.</p>
+<p>What that means practically depends on where your candidates are. Under the <a href="https://gdpr-info.eu/" rel="noopener" target="_blank">GDPR</a>, obligations attach to personal data you hold about someone even when you obtained it indirectly, and <a href="https://gdpr-info.eu/art-14-gdpr/" rel="noopener" target="_blank">Article 14</a> sets out both the information you owe them and the timing. The <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/" rel="noopener" target="_blank">UK regime</a> mirrors it. India's <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener" target="_blank">DPDP Act</a> sets out its own notice and consent expectations.</p>
+<div class="pull">If your desks touch EU or UK candidates, treat the notice campaign as required rather than optional, and take your own advice on the wording.</div>
+<p>We would rather write that down than have you discover it during a client's vendor review. Any vendor who tells you sourcing carries no notice obligations at all is either not thinking about it or hoping you are not.</p>
+<h2 id="s5">What the extension does not do</h2>
+<p>Stating the limits is more useful than another feature list.</p>
+<ul>
+<li>It does not run a background crawl. If your browser is closed, nothing is happening.</li>
+<li>It does not collect private fields, connections or message content.</li>
+<li>It does not produce personal contact details that are not visible to you.</li>
+<li>It does not send candidates anything on its own. Outreach is a separate, deliberate action, covered in our guide to building an outbound campaign.</li>
+<li>It does not decide anything. Adding someone to a job is a person clicking a button.</li>
+</ul>
+<h2 id="s6">Why a talent pool beats a sourcing licence</h2>
+<p>A sourcing licence is rented access. You pay per seat per year, and when the licence lapses you keep nothing you found with it.</p>
+<p>A pool compounds. The profile you add in March is in your database in September, by which point it has been enriched, worked once and possibly spoken to. The next role in that vertical starts from a warm list instead of a blank search box.</p>
+<div class="tw"><table>
+<thead><tr><th>Dimension</th><th>Rented licence</th><th>Owned pool</th></tr></thead>
+<tbody>
+<tr><td>Cost model</td><td>Per seat, per year</td><td class="w">One-off collection, no per-search cost</td></tr>
+<tr><td>What you keep on exit</td><td>Nothing</td><td class="w">Everything</td></tr>
+<tr><td>Second role in the same vertical</td><td>Starts cold</td><td class="w">Starts from a worked list</td></tr>
+<tr><td>Enrichment over time</td><td>None</td><td class="w">Compounds with every search</td></tr>
+<tr><td>Where it still wins</td><td class="w">Reach into people you have never touched</td><td>Limited to what you have collected</td></tr>
+</tbody></table></div>
+<p>That difference is the entire argument for putting sourced profiles into a database you own rather than working out of someone else's interface. It is also why the boundary questions above matter: a pool you own is only an asset if you can defend how it was built.</p>
+<h2 id="s6b">Which signals actually indicate an active job seeker</h2>
+<p>Most sourcing effort goes to people who are not looking. The subset who are leaves signals, and no single one is reliable on its own.</p>
+<h3>Explicit signals</h3>
+<p>The open-to-work flag, a recent application to you or anyone, a reply to earlier outreach, and a profile updated in the last month. These are the strongest and the rarest. Only a minority of people looking will set the flag, because most of them are looking while employed.</p>
+<h3>Tenure signals</h3>
+<p>Time in current role approaching the typical tenure for that level and function. A senior engineer at three years in the same role is statistically more available than one at eight months, and the profile tells you both.</p>
+<h3>Context signals</h3>
+<p>Public layoffs, a funding round that did not happen, an acquisition, a leadership change, or a contract with a visible end date. These are the ones a recruiter reads in the market rather than on a profile.</p>
+<h3>Your own history</h3>
+<p>The cheapest signal and the most ignored. People who looked eighteen months ago and did not move very often look again. Your database knows this about them and no external platform does, which is the practical argument for keeping the record rather than renting the reach.</p>
+<p>Used together, these are a ranking input rather than a filter. Treating any one of them as a yes-or-no test will exclude most of the people worth contacting.</p>
+<h2 id="s6c">Adding sourced profiles without creating duplicates</h2>
+<p>Sourcing into a database with no matching is how firms end up with three records for one person, each holding a third of the history.</p>
+<p>Four routes create duplicates, and all of them are normal operations rather than mistakes:</p>
+<ul>
+<li>The same person applies to several of your roles across a few years</li>
+<li>A recruiter uploads a CV without checking whether the person already exists</li>
+<li>A referral arrives with a different name spelling or a personal address</li>
+<li>A bulk import lands without matching against what is already there</li>
+</ul>
+<p>The fix is matching at the point of entry rather than a cleanup later. When a sourced profile arrives, it should be checked against existing records on more than one identifier, because names collide and email addresses change. Where a match is found, the right behaviour is to update the record, not create a second one.</p>
+<p>Where a merge is genuinely needed, it has to preserve everything: notes, call history, attachments, submission and placement history, and stage changes with their timestamps. A merge that loses the 2023 note explaining why a client rejected someone will cost you that client's trust the day you submit them again.</p>
+<h2 id="s7">Frequently asked questions</h2>
+
+<div class="faq"><div class="qa"><h3>How does a LinkedIn sourcing Chrome extension work?</h3><p>It runs inside your browser on profiles you open yourself, reads the publicly visible sections of the page you are already viewing, and lets you save that person into your own database against a job or a company. It works at the pace you browse, because it is reading your session rather than running its own automated collection.</p></div><div class="qa"><h3>What candidate data does a LinkedIn sourcing extension collect?</h3><p>Publicly visible profile information: work experience, education, skills and the About section. It does not collect private fields, connection graphs, message content, or anything behind a paid tier you do not hold.</p></div><div class="qa"><h3>Do candidates need to be told their profile is in a recruiter's database?</h3><p>Under the GDPR, the UK regime and India's DPDP Act, notice obligations apply to personal data you hold, including data gathered without direct contact. Our platform can run notice campaigns over email, WhatsApp or call, but they are not enabled by default. Firms placing into the EU or UK should enable them and take their own legal advice on wording and timing.</p></div><div class="qa"><h3>How long is sourced candidate data retained?</h3><p>For as long as the client remains on the platform, after which it is removed. Data is isolated per client, is not pooled across customers, is not used for model training, and is not shared with third parties.</p></div><div class="qa"><h3>Is sourced candidate data used to train AI models?</h3><p>No. There is no cross-customer training set and no secondary use of client data. This is a question worth asking every vendor you evaluate, and worth being suspicious of any answer that takes more than a sentence.</p></div><div class="qa"><h3>Is scraping LinkedIn profiles legal for recruiters?</h3><p>The position depends on jurisdiction, on the platform's own terms, and on how the data is collected, stored and used. What matters legally is the basis on which you process personal data rather than the label attached to the method. Ask any vendor to state, in writing, what they collect, where the collection happens, and on what basis.</p></div></div>
+
+<h2 id="s8">Five questions to ask any sourcing vendor</h2>
+<p>Whether or not you buy from us, these five separate a serious vendor from a risky one.</p>
+<ol>
+<li>What exactly do you collect, and from where?</li>
+<li>Does collection happen in my browser or on your servers?</li>
+<li>Is my data pooled with other customers, or used for training?</li>
+<li>How long do you keep it, and what happens when I leave?</li>
+<li>What do you do about candidate notice, and is it on by default?</li>
+</ol>
+<p>A vendor who answers all five in plain language is telling you they have thought about it. A vendor who redirects to a feature list has answered question three by accident.</p>

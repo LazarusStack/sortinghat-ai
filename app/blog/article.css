@@ -1,0 +1,304 @@
+/* ---------------------------------------------------------- article prose
+ *
+ * The post bodies arrive as plain HTML with the class names the writing tool
+ * emits (.lede, .takeaways, .stats, .query, .pull, .faq, figure, table). This
+ * file is the whole styling contract for that markup, scoped to .article so
+ * nothing leaks into the rest of the site.
+ *
+ * The source package shipped its own palette and its own fonts. Both are
+ * dropped here in favour of the site tokens: headings on Newsreader through
+ * the same .display treatment the landing page uses, body on Inter. The one
+ * survivor is a monospace face, and only where the content is literally a
+ * string you would type — a search query, a number in a comparison column.
+ * Small caps labels use the site's .eyebrow scale instead of mono, so the
+ * blog reads as the same publication as the marketing pages.
+ */
+
+.article {
+  font-size: 17.5px;
+  line-height: 1.72;
+  color: var(--color-ink-soft);
+}
+
+.article > *:first-child {
+  margin-top: 0;
+}
+
+/* ---------------------------------------------------------------- blocks */
+
+.article p {
+  margin: 0 0 20px;
+}
+
+.article .lede {
+  font-size: 19.5px;
+  line-height: 1.62;
+  margin: 0 0 22px;
+  color: var(--color-ink-soft);
+}
+
+.article h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(1.55rem, 3.2vw, 2.05rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+  margin: 54px 0 16px;
+  scroll-margin-top: 6rem;
+}
+
+.article h3 {
+  font-size: 17.5px;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin: 30px 0 8px;
+  letter-spacing: -0.005em;
+}
+
+.article strong {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.article a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--color-accent) 28%, transparent);
+  transition: border-color 0.2s;
+}
+
+.article a:hover {
+  border-bottom-color: var(--color-accent);
+}
+
+.article ul,
+.article ol {
+  margin: 0 0 22px;
+  padding-left: 22px;
+}
+
+.article li {
+  margin-bottom: 9px;
+}
+
+/* --------------------------------------------------------- key takeaways */
+
+.article .takeaways {
+  background: var(--color-cream);
+  border: 1px solid var(--color-line);
+  padding: 26px 28px;
+  margin: 36px 0;
+}
+
+.article .lbl {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+  margin: 0 0 16px;
+}
+
+.article .takeaways ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article .takeaways li {
+  position: relative;
+  margin-bottom: 14px;
+  padding-left: 20px;
+  font-size: 16.5px;
+  line-height: 1.6;
+}
+
+.article .takeaways li:last-child {
+  margin-bottom: 0;
+}
+
+/* the dash that stands in for a bullet */
+.article .takeaways li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 7px;
+  height: 1.5px;
+  background: var(--color-accent);
+}
+
+/* ------------------------------------------------------------ stat strip */
+
+.article .stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-line);
+  border: 1px solid var(--color-line);
+  margin: 36px 0;
+}
+
+.article .stat {
+  background: var(--color-paper);
+  padding: 24px 20px;
+}
+
+.article .stat .n {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+}
+
+.article .stat .n.sm {
+  font-size: 26px;
+}
+
+.article .stat .l {
+  font-size: 13.5px;
+  line-height: 1.4;
+  color: var(--color-ink-soft);
+  margin-top: 9px;
+}
+
+/* the source line under each number — small, quiet, and always present */
+.article .stat .s {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+  margin-top: 9px;
+}
+
+@media (max-width: 620px) {
+  .article .stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --------------------------------------------------------------- figures */
+
+.article figure {
+  margin: 34px 0;
+}
+
+.article figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--color-line);
+  background: #0c0c0c;
+}
+
+.article figcaption {
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--color-muted);
+  margin-top: 10px;
+}
+
+.article figcaption b {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* ---------------------------------------------------------------- tables */
+
+/* .tw is the scroll container: a wide comparison table scrolls inside its own
+   gutter rather than pushing the page sideways. */
+.article .tw {
+  overflow-x: auto;
+  margin: 30px 0;
+}
+
+.article table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15.5px;
+}
+
+.article th,
+.article td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--color-line);
+  vertical-align: top;
+}
+
+.article th {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-ink);
+  white-space: nowrap;
+}
+
+.article td:first-child {
+  color: var(--color-ink);
+  font-weight: 500;
+}
+
+.article td.w {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 14px;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------- queries and pull quotes */
+
+/* a literal search string, shown as the recruiter would type it */
+.article .query {
+  background: var(--color-accent-soft);
+  border-left: 2px solid var(--color-accent);
+  padding: 14px 18px;
+  margin: 18px 0;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--color-ink);
+}
+
+.article .pull {
+  border-left: 2px solid var(--color-ink);
+  padding: 4px 0 4px 22px;
+  margin: 32px 0;
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.35;
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+}
+
+/* ------------------------------------------------------------------- faq */
+
+.article .faq {
+  border-top: 1px solid var(--color-line);
+  margin-top: 14px;
+}
+
+.article .qa {
+  border-bottom: 1px solid var(--color-line);
+  padding: 22px 0;
+}
+
+.article .qa h3 {
+  margin: 0 0 8px;
+  font-size: 17px;
+}
+
+.article .qa p {
+  margin: 0;
+  font-size: 16.5px;
+}

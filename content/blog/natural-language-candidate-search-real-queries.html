@@ -1,0 +1,110 @@
+<p class="lede">Natural language candidate search means describing the person you want in a sentence and getting a ranked result, with no operators and no filter builder. It works. It also fails in one specific and predictable way, and the failure is entirely the fault of the person typing.</p>
+
+<p>Below are five real queries our customers run, the results two of them returned, and the query that disappoints people most often, shown alongside the version that works.</p>
+
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>Compound constraints are where it earns its keep.</strong> Skill, seniority, location, institution and domain in one sentence is trivial to say and painful to write as a Boolean string.</li>
+<li><strong>Vague queries return vague results, in any system.</strong> "Backend engineer in Bangalore with four years" is not a specification. It is a category.</li>
+<li><strong>The search runs on your own database, not the open web.</strong> That is a deliberate limit, and it changes what the tool is for.</li>
+<li><strong>The sourcer skill shifts from syntax to specification.</strong> Describing a good profile precisely is now the scarce skill, and it is far easier to teach than Boolean.</li>
+</ul></div>
+
+<div class="stats">
+<div class="stat"><div class="n">71</div><div class="l">Candidates returned for "engineering with two to four years of experience in Bangalore"</div><div class="s">Live search</div></div>
+<div class="stat"><div class="n">75</div><div class="l">Candidates returned for "software engineer with 2 to 4 years of experience in Bangalore"</div><div class="s">Live search</div></div>
+<div class="stat"><div class="n sm">Own DB</div><div class="l">Search scope. Your records only, not external sources</div><div class="s">By design</div></div>
+</div>
+
+<h2 id="s1">Five natural language candidate search queries recruiters run</h2>
+<p>These are typed as sentences. No operators, no nesting, no field selection.</p>
+<div class="query">engineer in Bangalore with three to five years of experience and from a tier one college</div>
+<div class="query">business development executive with five years of experience, based in Mumbai, must have inside sales and B2B SaaS sales experience</div>
+<div class="query">recruiter who has worked in the fintech space and has good experience hiring for fintech</div>
+<div class="query">criminal lawyer who has worked with top law firms in Mumbai, minimum 15 years experience, strong litigation background, NLU graduate</div>
+<div class="query">researchers with experience in voice AI and good experience working around ASR, TTS and LLM models, graduated from IITs only</div>
+<p>Look at the fourth and fifth. Each contains five separate conditions, two of which are not keywords at all. "Top law firms in Mumbai" requires knowing which firms those are. "Good experience of litigation" is a judgement about depth, not a term that appears in a document.</p>
+<p>Writing that as a Boolean string means enumerating the firms by hand, guessing at the phrasing lawyers use to describe litigation work, and accepting that anyone who phrased it differently is invisible to you. The fifth query has the same problem with "voice AI", which is a field rather than a keyword, and which people on the ground describe as speech, ASR, TTS, or by naming the specific models they worked on.</p>
+<figure><img alt="Sortinghat search: a natural language query for engineers in Bangalore returning 71 ranked candidates" decoding="async" height="698" loading="lazy" src="/blog/natural-language-candidate-search-real-queries/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>One sentence in the search bar, 71 ranked candidates out. The filter panel on the left fills itself in from the query.</figcaption></figure>
+<h3>What each query is actually asking for</h3>
+<div class="tw"><table>
+<thead><tr><th>Query</th><th>The hard part</th><th>Why Boolean struggles</th></tr></thead>
+<tbody>
+<tr><td>Engineer, tier one college</td><td class="w">"Tier one"</td><td>Requires a list of institutions that nobody maintains and everyone disagrees on</td></tr>
+<tr><td>BD executive, B2B SaaS</td><td class="w">Two sales motions at once</td><td>Inside sales and B2B SaaS rarely both appear as stated terms</td></tr>
+<tr><td>Recruiter, fintech</td><td class="w">Hiring <em>for</em> fintech</td><td>The domain is in who they placed, not in their own job title</td></tr>
+<tr><td>Criminal lawyer, Mumbai</td><td class="w">"Top law firms"</td><td>An entity judgement, not a string match</td></tr>
+<tr><td>Voice AI researcher</td><td class="w">ASR, TTS, LLM together</td><td>The field has four vocabularies and candidates use different ones</td></tr>
+</tbody></table></div>
+<h2 id="s2">The candidate search query that disappoints people</h2>
+<p>Here is the one that comes up constantly.</p>
+<div class="query">backend engineer in Bangalore with four years of experience</div>
+<p>Three conditions, all reasonable, and the results are underwhelming. Not because the search failed, but because the query described a category rather than a person. There are a great many backend engineers in Bangalore with four years of experience, and nothing in that sentence says which of them you want.</p>
+<p>Now the same intent, specified properly:</p>
+<div class="query">backend engineer in Bangalore with four to five years of experience in a MEAN stack and solid AI stack work, should know databases and AWS, from NITs, IITs or IIITs, with fintech company experience</div>
+<p>Same role. Completely different result set, because now the system has something to rank against. The second query has seven conditions and three of them are the ones you would actually reject someone for.</p>
+<div class="pull">The search did not get better. The question did.</div>
+<p>This is the single most useful thing to teach a new sourcer, and it takes one session rather than a quarter. It is also the reason <a href="/blog/candidate-scorecard-from-client-brief">the scorecard matters</a>: a recruiter who has already defined the criteria has, in effect, already written the query.</p>
+<h2 id="s3">Four elements every candidate search query needs</h2>
+<p>Every query that works contains these. Every query that disappoints is missing at least two.</p>
+<div class="tw"><table>
+<thead><tr><th>Element</th><th>Weak version</th><th>Version that works</th></tr></thead>
+<tbody>
+<tr><td>Capability</td><td>backend engineer</td><td class="w">MEAN stack, AI stack, AWS, databases</td></tr>
+<tr><td>Level</td><td>four years</td><td class="w">four to five years</td></tr>
+<tr><td>Constraint</td><td>in Bangalore</td><td class="w">Bangalore, from NITs, IITs or IIITs</td></tr>
+<tr><td>Context</td><td>—</td><td class="w">fintech company experience</td></tr>
+</tbody></table></div>
+<p>The fourth row is the one people leave out, and it is usually the one that decides the shortlist. A backend engineer from a fintech and one from a services company are different hires for most roles, and the query has to say so.</p>
+<p>Level is worth a note too. A range beats a number. "Four years" excludes the person with three years and eleven months who is exactly right, and includes nobody you were not already going to see.</p>
+<h2 id="s4">Where natural language search does not help</h2>
+<p>Stating this plainly is what makes the rest of the post credible.</p>
+<ul>
+<li><strong>Exact-match requirements.</strong> A specific certification number or a named employer is a filter, not a description. Use the filter.</li>
+<li><strong>Hard numeric cutoffs.</strong> "Exactly 5 to 7 years" is a range filter. "Experienced" is a description. Do not use the second when you mean the first.</li>
+<li><strong>Negation.</strong> "Not from a services background" is interpreted inconsistently. State the positive instead.</li>
+<li><strong>Very long queries.</strong> Past a certain length, extra clauses dilute rather than sharpen. Two precise sentences beat one paragraph.</li>
+</ul>
+<figure><img alt="Sortinghat search returning 75 candidates, with the Move to Job panel open listing six open roles" decoding="async" height="698" loading="lazy" src="/blog/natural-language-candidate-search-real-queries/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>A near-identical query returning 75 rather than 71. Selected candidates move straight onto an open role from the result set.</figcaption></figure>
+<h2 id="s5">Searching your own database, not the open web</h2>
+<p>Worth being explicit, because it sets expectations correctly.</p>
+<p>This search runs across <strong>your own records</strong>. Candidates you have sourced, screened, submitted, placed or rejected over the years. It does not search the open web and it is not a substitute for a sourcing licence when you genuinely need someone your firm has never encountered.</p>
+<p>That constraint is a feature more often than it is a limitation. Searching your own database costs nothing per search, the people in it have usually dealt with you before, and every search makes the pool more current. External sourcing carries a per-seat licence cost and starts cold every time.</p>
+<p>The right sequence is to exhaust the first before paying for the second. In one firm's data, that shift took job portal spend from roughly $100 per role to $60, which we cover in the <a href="/blog/talent-pool-software-database-first-sourcing">talent pool audit</a>.</p>
+<h2 id="s6">What changes for the sourcer</h2>
+<p>The scarce skill moves.</p>
+<p>A sourcer who could write a five-level nested Boolean string had something genuinely rare. A sourcer who can describe exactly what a good profile looks like, including the things that never appear on a CV, now has the rare skill. The second is more useful, transfers across tools, and can be taught to a new joiner in a session rather than a quarter.</p>
+<p>The practical training is one sentence: name the capability, the level, the constraint and the context, every time. Everything else is refinement.</p>
+<h2 id="s6b">Semantic search versus Boolean, side by side</h2>
+<p>Worth understanding the difference in mechanism, because it explains both the strengths and the failure cases above.</p>
+<p>Boolean search matches strings. You give it terms and logic, it returns documents containing those terms in that arrangement. It is exact, it is predictable, and it is blind to anything phrased differently from how you phrased it.</p>
+<p>Semantic search matches meaning. It represents both the query and each profile as positions in a space where related concepts sit near each other, then ranks by proximity. "Voice AI" lands near "speech recognition" and "ASR" without anyone maintaining a synonym list, which is why the fifth query above works at all.</p>
+<div class="tw"><table>
+<thead><tr><th>Dimension</th><th>Boolean</th><th>Semantic</th></tr></thead>
+<tbody>
+<tr><td>Matches on</td><td>Exact strings and logic</td><td class="w">Meaning and proximity</td></tr>
+<tr><td>Synonyms</td><td>You maintain the list</td><td class="w">Handled without a list</td></tr>
+<tr><td>Judgement conditions</td><td>Cannot express them</td><td class="w">"Tier one", "top firms", "early-stage"</td></tr>
+<tr><td>Predictability</td><td class="w">Total. Same string, same result</td><td>Ranked, so the cut-off is a judgement</td></tr>
+<tr><td>Exact requirements</td><td class="w">Precise</td><td>Use a filter instead</td></tr>
+<tr><td>Learning curve</td><td>Weeks to months</td><td class="w">One session</td></tr>
+</tbody></table></div>
+<p>The practical answer for most desks is both, used for different jobs. Describe the person in a sentence, then apply hard filters for the things that are genuinely binary: notice period, location, work authorisation, rate band.</p>
+<h2 id="s6c">Common natural language search mistakes</h2>
+<p>Five patterns that account for most of the disappointment we see.</p>
+<h3>Writing the job title instead of the person</h3>
+<p>"Senior software engineer" is what the requisition says. It is not what you are looking for, and it is the single most common weak query.</p>
+<h3>Stacking too many clauses</h3>
+<p>Past roughly twenty-five words, additional conditions dilute the ranking rather than sharpening it. If the requirement genuinely has ten conditions, split it into two searches and compare the overlap.</p>
+<h3>Using a number where a range belongs</h3>
+<p>"Six years" excludes the person with five years and ten months. Ranges are almost always what you actually mean.</p>
+<h3>Describing the company instead of the candidate</h3>
+<p>"Someone for a Series B fintech" tells the search nothing about the person. Convert it: what does someone who succeeds at a Series B fintech look like on paper?</p>
+<h3>Forgetting availability entirely</h3>
+<p>A perfect profile on a six-month notice is not a candidate for a role closing in four weeks. Availability belongs in the query, not in the disappointment afterwards.</p>
+<h2 id="s7">Frequently asked questions</h2>
+
+<div class="faq"><div class="qa"><h3>What is natural language candidate search?</h3><p>Search that takes a plain-language description of the person you want and returns ranked matches, without Boolean operators or manually built filters. It interprets meaning rather than matching keywords, which lets it handle conditions like company stage or institution tier that never appear as literal terms on a CV.</p></div><div class="qa"><h3>Is natural language search better than Boolean search for recruiting?</h3><p>For compound queries and conditions that are judgements rather than keywords, yes. For exact-match requirements such as a specific certification number or a named employer, a filter remains more precise. Most real recruiting searches are the first kind.</p></div><div class="qa"><h3>Why is my natural language candidate search returning poor results?</h3><p>Almost always because the query describes a category rather than a person. A query like 'backend engineer in Bangalore with four years of experience' has three conditions and thousands of matches. Add the specific stack, the institution tier and the domain context, and the result set changes completely.</p></div><div class="qa"><h3>Does natural language search cover LinkedIn and job boards?</h3><p>In our case it searches your own database only. External sourcing is a separate motion with a separate licence cost, and the sensible order is to exhaust what you already own before paying to search elsewhere.</p></div><div class="qa"><h3>Do recruiters still need to learn Boolean search?</h3><p>It remains useful on platforms that only support it, so it has not disappeared. It is no longer a sensible criterion for hiring a sourcer, because describing a profile precisely is now the scarce skill and it is far quicker to teach.</p></div><div class="qa"><h3>How do you write a good candidate search query?</h3><p>Include four elements every time: the capability in detail, the level as a range, the hard constraints such as location and institution, and the context you would actually reject someone over, such as industry or company stage. Queries missing two of these are the ones that disappoint.</p></div></div>
+
+<h2 id="s8">How to test this on your own data</h2>
+<p>Take your last ten filled roles. For each, write one sentence describing the person you actually placed, using all four elements. Run it.</p>
+<p>Then check whether the person you placed appears near the top. It is the only benchmark worth anything, because you already know the right answer, and it takes an afternoon rather than a pilot.</p>

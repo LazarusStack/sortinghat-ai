@@ -1,0 +1,83 @@
+<p class="lede">One staffing firm we work with had 3 million candidate records. Not in an ATS. In Google Drive folders belonging to individual recruiters, most of which nobody else could open. They had no talent pool software, so every time a new role came in the team went to Naukri and paid to source candidates the firm already owned, several times over.</p>
+
+<p>This is not unusual. It is the normal state of a staffing firm that has been operating for more than a few years. The database exists, it is large, and it is functionally invisible.</p>
+<p>So we audited it. Here is what 3 million records actually contained, what we did with them, and what happened to their sourcing costs once the pool became searchable.</p>
+
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>Only 20% of a large candidate database is genuinely dead.</strong> In our audit, 10% were duplicates and 10% held no usable company information. The other 80% were real, unique profiles.</li>
+<li><strong>Out of date is not the same as irrelevant.</strong> Most of that 80% had changed jobs since the record was created. That makes the record stale, not the person.</li>
+<li><strong>The barrier is access, not volume.</strong> Records scattered across individual recruiters' drives are not a talent pool. They are storage with a headcount problem attached.</li>
+<li><strong>The saving shows up per role.</strong> That firm's job portal spend fell from roughly $100 a role to $60, and it is still falling as the pool gets worked.</li>
+</ul></div>
+
+<div class="stats">
+<div class="stat"><div class="n">3M</div><div class="l">Candidate records audited across one firm's drives</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n">80%</div><div class="l">Unique, still-relevant profiles after dedup and junk removal</div><div class="s">Sortinghat, 2026</div></div>
+<div class="stat"><div class="n sm">$100 → $60</div><div class="l">Job portal spend per role, before and after</div><div class="s">Same firm, same period</div></div>
+</div>
+
+<h2 id="s1">What a 3 million record candidate database audit found</h2>
+<p>The records were spread across Google Drive folders owned by individual recruiters. Some of those recruiters had left the business. Nobody had a complete view, and no single search could touch more than a fraction of it.</p>
+<p>When we consolidated and audited the lot, it broke into three groups.</p>
+<div class="tw"><table>
+<thead><tr><th>Segment</th><th>Share</th><th>What it was</th></tr></thead>
+<tbody>
+<tr><td>Duplicates</td><td class="w">~10%</td><td>The same person entered more than once, from different sources at different times, with the history split across the copies</td></tr>
+<tr><td>Junk</td><td class="w">~10%</td><td>No usable company or role information. Not enough to identify what the person does, let alone place them</td></tr>
+<tr><td>Unique and viable</td><td class="w">~80%</td><td>Real, distinct profiles. Mostly out of date, because these people had changed roles since the record was created</td></tr>
+</tbody></table></div>
+<p>The 80% is the finding that matters, and it is the opposite of what most firm owners assume. Ask a staffing founder how much of their old database is worth anything and the answer is usually a shrug and a low number.</p>
+<p><strong>Out of date is not the same as irrelevant.</strong> A backend engineer whose record says they were at a fintech in 2022 has almost certainly moved. They are still a backend engineer. What is stale is the record, not the person, and the fix is enrichment rather than deletion.</p>
+<h3>What to do with the 10% that is genuinely junk</h3>
+<p>Delete it, and do so deliberately rather than letting it sit.</p>
+<p>A record with no company, no role and no reachable contact is not a lead you have not got round to. It is noise in every search result you will ever run, and it is a compliance exposure. Under India's <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener" target="_blank">DPDP Act</a> and the <a href="https://gdpr-info.eu/" rel="noopener" target="_blank">GDPR</a>, holding personal data with no lawful basis and no defensible retention position is a liability, not an asset. Junk records fail that test twice over: you cannot justify keeping them and you cannot use them.</p>
+<h2 id="s2">What makes a record placeable in your talent pool</h2>
+<p>Three tests. All three have to pass.</p>
+<h3>Reachable</h3>
+<p>At least one channel that works right now. In India that usually means a live WhatsApp number before it means an email address. A work address from a job the person left in 2023 is not a channel, and a personal email captured at the time of first contact is worth more than either.</p>
+<h3>Relevant</h3>
+<p>Their current skills and level map onto the open role, not onto the role they held when the record was created. This is where the 80% sits: relevant people behind stale records. It is also the test most databases fail silently, because the record still looks complete.</p>
+<h3>Receptive</h3>
+<p>Some signal that they are open to a move. A recent application, a reply to earlier outreach, a stated notice period, a contract nearing its end. This is the hardest of the three to maintain and the one that decays fastest.</p>
+<p>A record passing all three is a candidate. Passing two, it is a lead. Passing one, it is storage. What we did with those 3 million records was move as many as possible from the third category into the first, by refreshing what each person is doing now and how active they currently are.</p>
+<h2 id="s3">Why candidate scoring has to show its evidence</h2>
+<p>Scoring in most systems is a black box, which is why recruiters ignore it. A score that says 96 and nothing else is an opinion. Recruiters do not act on opinions from software they did not write.</p>
+<p>So the score has to be answerable. Open a candidate on a role and you should see which criteria they met, at what level, and the reasoning behind each one, in plain language.</p>
+<figure><img alt="Sortinghat evaluation panel: a candidate scored 96, split into weighted criteria with a percentage and written justification for each" decoding="async" height="698" loading="lazy" src="/blog/talent-pool-software-database-first-sourcing/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>Every score opens. The candidate scored 96 overall, with the reasoning behind each criterion readable underneath it.</figcaption></figure>
+<p>That is the difference between a ranking a recruiter uses and one they scroll past on the way to opening a job portal. A recruiter who can see <em>why</em> one candidate outranked another will work the list. One who cannot will fall back on gut feel and a fresh portal search.</p>
+<figure><img alt="Sortinghat pipeline for a Director of Engineering role, with candidates in stage columns showing match scores of 96, 93 and 92" decoding="async" height="698" loading="lazy" src="/blog/talent-pool-software-database-first-sourcing/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>Scores carry through the pipeline, so a recruiter triaging a column is reading ranked candidates rather than a list.</figcaption></figure>
+<h2 id="s4">Database-first sourcing on one real role</h2>
+<p>The sequence matters more than the tooling.</p>
+<ol>
+<li>Search the existing pool in plain language before doing anything else.</li>
+<li>Apply availability, location and rate as conditions in the query rather than filtering afterwards.</li>
+<li>Refresh the top matches whose information is older than your threshold, so you know what these people are doing now.</li>
+<li>Run outreach across WhatsApp, email and call in parallel, not one after the other.</li>
+<li>Only then decide whether the role genuinely needs a fresh portal pull.</li>
+</ol>
+<p>Most roles do not get past step four. That is the entire mechanism behind the cost reduction. Nothing was cancelled. The reason to reach for the portal was removed on most roles.</p>
+<figure><img alt="Sortinghat Advanced People Search returning 71 ranked candidates for a plain-English query about engineers in Bangalore" decoding="async" height="698" loading="lazy" src="/blog/talent-pool-software-database-first-sourcing/fig-3.jpg" width="1280"/><figcaption><b>Fig 3</b>Searching the pool in plain language. 71 candidates, ranked, with the career timeline visible before anyone opens a profile.</figcaption></figure>
+
+<div class="tw"><table>
+<thead><tr><th>Dimension</th><th>Portal-first</th><th>Database-first</th></tr></thead>
+<tbody>
+<tr><td>First candidate contacted</td><td>After the posting goes live</td><td class="w">Within the hour</td></tr>
+<tr><td>Marginal cost per role</td><td>A fresh portal pull</td><td class="w">Near zero</td></tr>
+<tr><td>Candidate familiarity</td><td>Cold</td><td class="w">Has dealt with you before</td></tr>
+<tr><td>Effect on the database</td><td>None</td><td class="w">Every search refreshes the pool</td></tr>
+<tr><td>Where it still wins</td><td class="w">New skills, new geographies, roles you have never worked</td><td>Nothing in your history to draw on</td></tr>
+</tbody></table></div>
+
+<h2 id="s5">What database-first sourcing changed on the P&amp;L</h2>
+<p>That firm was spending roughly <strong>$100 a role</strong> on job portals. It is now around <strong>$60</strong>, and the number is still moving, because the pool improves every time a recruiter works it.</p>
+<p>Portal spend is usually the second or third largest controllable cost in a staffing firm after salaries, and it is the one nobody audits, because it arrives as an annual subscription rather than a per-role charge. Nothing on that invoice tells you how many of last month's roles could have been filled without it.</p>
+<p>The second effect is capacity. Recruiters who start inside the pool instead of a portal carry roughly <strong>2x the roles</strong> they carried before, because the slowest part of the process was never the screening. It was starting from zero on every requisition. If you want to model this for your own desks, our recruiter capacity guide walks through the arithmetic.</p>
+<p>There is a third effect that takes longer to show up. A pool that gets worked gets better. Every search refreshes records, every conversation confirms a notice period, every rejection logs a reason. A portal pull compounds nothing, because next month you start again.</p>
+<h2 id="s6">Frequently asked questions</h2>
+
+<div class="faq"><div class="qa"><h3>What is talent pool software?</h3><p>Talent pool software consolidates, refreshes and ranks the candidates a staffing firm has already sourced, so recruiters can search their own database before paying to source externally. It differs from an ATS record store in that the pool is actively kept current and scored against live roles, rather than passively archived.</p></div><div class="qa"><h3>How much of an old staffing database is still usable?</h3><p>In our audit of 3 million candidate records at one firm, about 10% were duplicates and about 10% held no usable company information. The remaining 80% were unique, real profiles that were out of date rather than worthless. Your own split will differ, and a sample audit of 500 records is the only reliable way to know it.</p></div><div class="qa"><h3>Does database-first sourcing replace job portals like Naukri?</h3><p>No. It reduces how often you need them. Genuinely new skill requirements, new geographies and roles you have never worked still justify a fresh portal pull. The change is that these become the exception rather than the default on every role. In our customer data, job portal spend fell from roughly $100 per role to $60.</p></div><div class="qa"><h3>How is candidate scoring different from keyword matching?</h3><p>Keyword matching checks whether terms appear in a CV. Scoring weighs the whole profile against the role's criteria and shows the reasoning behind each part of the result, so a recruiter can verify it rather than trust it blindly.</p></div><div class="qa"><h3>What should you do with duplicate candidate records?</h3><p>Merge rather than delete, and only with a tool that preserves notes, call history, attachments and submission history from every source record. A merge that loses the 2023 note explaining why a client rejected someone will cost you that client's trust when you submit them again.</p></div><div class="qa"><h3>How long can a staffing firm keep candidate data?</h3><p>Retention has to be defensible rather than indefinite. India's DPDP Act and the GDPR both require a lawful basis for holding personal data and a stated retention position. Records with no reachable contact, no placement history and no recent activity are usually a compliance exposure rather than an asset.</p></div></div>
+
+<h2 id="s7">How to audit your own candidate database</h2>
+<p>Before you buy anything, find out where your database actually lives. If the honest answer includes individual recruiters' drives, folders and inboxes, you do not have a data quality problem yet. You have an access problem, and it is the cheaper of the two to fix.</p>
+<p>Then take 500 records at random and check two things: does the contact information work, and is the stated role still current. That percentage is the real size of your talent pool, and it is the only number that will settle the internal argument.</p>
+<p>If you are moving off an existing system, do the audit before the migration rather than after. Our guide on what actually breaks in an ATS migration covers the order of operations, and the <a href="/#migration">migration page</a> sets out how we handle it.</p>
