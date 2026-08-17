@@ -1,0 +1,99 @@
+<p class="lede">Most ATS integrations pages show you logos. What actually determines whether your team works in one system or four is the direction of each connection. Job portals, assessments, interview tools and calendars generally flow one way into the ATS. Messaging, email and collaboration tools flow both ways. That single distinction predicts more about your daily experience than any feature list.</p>
+<div class="takeaways"><p class="lbl">Key takeaways</p><ul>
+<li><strong>Direction matters more than presence.</strong> A one-way sync into your ATS still leaves your team working in two systems for anything that involves writing.</li>
+<li><strong>One-way is often correct.</strong> Job portals, assessments and interview platforms are the system of record for their own data, so pulling in is the right design.</li>
+<li><strong>Frequency determines trust.</strong> A nightly sync means the record is wrong for most of the working day, and a record that is sometimes wrong gets treated as always unreliable.</li>
+<li><strong>The long tail needs an API.</strong> No vendor will have built the integration you need most, because it will be to something specific to your desks.</li>
+</ul></div>
+<h2 id="s1">The five categories of ATS integration</h2>
+<p><strong>Job portals.</strong> Naukri, LinkedIn, Indeed, Handshake. Where candidates enter, and therefore where duplicates enter with them.</p>
+<p><strong>Messaging and email.</strong> WhatsApp, Gmail, Outlook, and voice providers. Where the conversation actually happens.</p>
+<p><strong>Scheduling.</strong> Google Calendar, Meet, Zoom, Teams. Where interviews get booked and where the coordination cost sits.</p>
+<p><strong>Assessment and interviewing.</strong> Skills platforms and interview tools that feed evidence back onto the candidate record.</p>
+<p><strong>Collaboration and productivity.</strong> Slack, Notion, Sheets, and meeting intelligence tools. Where the team coordinates around the work.</p>
+<h2 id="s2">Which ATS integrations are one-way and which are two-way</h2>
+<p>The pattern is consistent and it follows from where the system of record sits.</p>
+<div class="tw"><table>
+<thead><tr><th>Category</th><th>Direction</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Job portals</td><td class="w">One way, in</td><td>The portal owns its listings and applications. You are consuming, not publishing back.</td></tr>
+<tr><td>Interview tools</td><td class="w">One way, in</td><td>The recording and outcome are generated there and land on your record.</td></tr>
+<tr><td>Assessments</td><td class="w">One way, in</td><td>Results flow to the candidate record. Nothing needs to flow back.</td></tr>
+<tr><td>Calendar</td><td class="w">One way, in</td><td>Availability and bookings read into the ATS.</td></tr>
+<tr><td>Email and messaging</td><td class="w">Two way</td><td>Recruiters send and receive from both sides, so both must stay current.</td></tr>
+<tr><td>Collaboration tools</td><td class="w">Two way</td><td>Updates and actions move in both directions during a working day.</td></tr>
+</tbody></table></div>
+<p>One-way is not a limitation in these cases. It is the correct architecture. The mistake buyers make is assuming two-way is universally better and treating a one-way portal integration as a shortfall, when the alternative would mean writing candidate data back into a job board you do not control.</p>
+<p>Where one-way <em>is</em> a genuine problem is messaging. If your email or WhatsApp integration only reads in, then every reply a recruiter sends from their own inbox is invisible to the record, and the history is incomplete by design.</p>
+<figure><img alt="Panel listing six live roles with client names and requisition IDs, used when moving candidates between jobs and workspaces" decoding="async" height="698" loading="lazy" src="/blog/ats-integrations-one-way-two-way/fig-1.jpg" width="1280"/><figcaption><b>Fig 1</b>Candidates arriving from portals land against real roles and clients rather than in an unassigned inbox.</figcaption></figure>
+<div class="insert"><b>Insert required</b>
+The specific sync frequency for each integration, stated per connection rather than per category. Real time, hourly or nightly. Understating is safer than overstating, because a buyer will test the first one that matters to them and any exaggeration is discovered on day one.</div>
+<h2 id="s2b">What to check on a job portal integration specifically</h2>
+<p>This is the connection that carries the most operational weight in India, and the one most likely to be described vaguely.</p>
+<h3>Does it bring the full profile or just the application?</h3>
+<p>An integration that delivers a name, an email and a CV attachment is not the same as one that brings the structured profile. The first leaves your team retyping fields, which is exactly the admin cost you were trying to remove.</p>
+<h3>What happens when the person already exists?</h3>
+<p>The single most important question, and it is almost never asked in a demo. A portal integration with no matching at the point of entry is a duplicate generator running on a schedule.</p>
+<h3>Does it pull historical applications or only new ones?</h3>
+<p>Some connections start from the day you switch them on. If you have two years of applications sitting in a portal account, find out whether they come across before you assume they will.</p>
+<h3>What is the rate limit?</h3>
+<p>Portals throttle. On a high-volume day this determines whether applications appear in minutes or in hours, and hours means recruiters go back to checking the portal directly.</p>
+<h2 id="s2c">Integration count is a vanity metric</h2>
+<p>Vendors compete on the number of logos, and the number tells you almost nothing.</p>
+<p>What matters is whether the five tools your team opens every day are connected properly, and whether the connections are deep rather than nominal. A platform with 20 well-built integrations covering your actual stack beats one with 200 shallow ones covering everybody's.</p>
+<p>The practical test: pick the tool your team uses most after email. Ask to see it working live, with a real record, moving real data in the direction they claim. One demonstration is worth the entire logo wall.</p>
+<h2 id="s3">The three integrations most firms switch on first</h2>
+<h3>Email</h3>
+<p>Without it, the candidate record has no history, and every other integration is decoration on top of an incomplete record. This is the one that makes the rest worth having.</p>
+<h3>WhatsApp</h3>
+<p>In India this is the primary candidate channel, and it is where the majority of replies arrive. A system that does not thread WhatsApp holds a partial conversation on every single candidate, and the missing part is usually the most recent.</p>
+<h3>Your main job portal</h3>
+<p>Usually Naukri. This is where new candidates enter, which means it is also where <a href="/blog/duplicate-candidate-records-database-hygiene">duplicates enter</a>. Connecting it properly is a data quality decision as much as a sourcing one, and the question to ask is what happens at the moment a record arrives, not how many fields map.</p>
+<p>Calendar is the natural fourth. Everything else can wait until those are being used daily, because an integration nobody uses is a support surface with no return.</p>
+<h2 id="s4">Why sync frequency decides whether anyone trusts the data</h2>
+<p>This gets less attention than direction and causes more day-to-day friction.</p>
+<p>A recruiter looks at a candidate record before a client call. If the last two messages have not synced yet, the recruiter says something slightly wrong to the client, and learns that the record cannot be relied on. From that point they check the source system anyway, which means the integration has added a step rather than removed one.</p>
+<p>The rule that holds: anything a recruiter acts on during the day must be real time. Reporting and analytics feeds can be batched, because a few hours of lag changes no decision.</p>
+<p>Ask what happens when a sync fails, too. Silent failure is common and worse than no integration, because nobody knows the record is stale.</p>
+<figure><img alt="Candidate activity timeline showing automatically logged calls and meetings threaded onto the record with author and stage move" decoding="async" height="698" loading="lazy" src="/blog/ats-integrations-one-way-two-way/fig-2.jpg" width="1280"/><figcaption><b>Fig 2</b>Two-way messaging integrations are what make this timeline complete. One-way sync leaves half the conversation off the record.</figcaption></figure>
+<h2 id="s5">The six questions to ask any vendor</h2>
+<ol>
+<li>Is this integration one-way or two-way, specifically?</li>
+<li>What is the sync frequency, and what happens when it fails?</li>
+<li>Which fields map, and which do not?</li>
+<li>Does the integration cost extra, now or at renewal?</li>
+<li>Who maintains it when the other vendor changes their API?</li>
+<li>Is there an open API, and does it write as well as read?</li>
+</ol>
+<p>Question four catches the most unpleasant surprises. Integrations displayed on a marketing page are frequently priced as add-ons, and the discovery usually happens at renewal rather than at purchase.</p>
+<p>Question six matters more than it looks. An API that reads but cannot write is half an API, and it will not support the integration you actually need.</p>
+<h2 id="s6">When to build instead of buy</h2>
+<p>No vendor will have built the integration you need most, because it will be to something specific to your desks: a client's VMS, a background check provider, a payroll system, or an internal tool nobody else uses.</p>
+<p>That is what an open API is for. The question is not whether one exists but what it covers, how it is authenticated, whether it is rate limited in a way that breaks your use case, and whether it is documented well enough that a contractor can work from it without a support ticket per endpoint.</p>
+<p>Before building anything, check the cost of the alternative honestly. A weekly CSV export that takes someone twenty minutes is often cheaper than a custom integration that needs maintaining forever.</p>
+<h2 id="s6b">Consolidation versus best of breed</h2>
+<p>Every integration you rely on is a decision to keep two systems instead of one. Worth making deliberately.</p>
+<div class="tw"><table>
+<thead><tr><th></th><th>Best of breed, integrated</th><th>Consolidated in one platform</th></tr></thead>
+<tbody>
+<tr><td>Feature depth</td><td class="w">Deeper in each specialism</td><td>Good enough in most</td></tr>
+<tr><td>Data consistency</td><td>Depends on sync direction and frequency</td><td class="w">Single source, no reconciliation</td></tr>
+<tr><td>Cost</td><td>Multiple subscriptions and seats</td><td class="w">One line item</td></tr>
+<tr><td>Failure mode</td><td>A vendor changes an API and something breaks</td><td class="w">Contained, but you own the whole risk</td></tr>
+<tr><td>Switching later</td><td class="w">Replace one component</td><td>Replace everything at once</td></tr>
+</tbody></table></div>
+<p>The last row is the honest concession. Consolidation is genuinely better day to day and genuinely worse to reverse. A firm that consolidates and later regrets it faces a full migration rather than swapping a component, which is a real cost to weigh at the point of purchase rather than discover later.</p>
+<p>The rule of thumb that holds: consolidate anything that touches the candidate record, and integrate anything that does not.</p>
+<h2 id="s7">Where integrations create risk</h2>
+<p>Two things worth checking that rarely appear in a demo.</p>
+<p><strong>Data flowing out.</strong> Every connection is a place candidate data leaves your system. Under the <a href="https://gdpr-info.eu/" rel="noopener" target="_blank">GDPR</a> and India's <a href="https://www.meity.gov.in/data-protection-framework" rel="noopener" target="_blank">DPDP Act</a>, you remain responsible for it. Know which integrations transmit personal data and on what basis.</p>
+<p><strong>Dependency on someone else's roadmap.</strong> When a platform changes its API or its terms, an integration you depend on can degrade without warning. Ask who monitors that and how quickly it gets fixed, because the honest answer determines how much of your workflow you should build on it.</p>
+<h2 id="s8">Frequently asked questions</h2>
+<div class="faq"><div class="qa"><h3>What is a two-way ATS integration?</h3><p>One where data flows in both directions, so a change made in either system appears in the other. A one-way integration only pulls data in, which means your team still has to work in the source system for anything that involves writing back.</p></div><div class="qa"><h3>Which ATS integrations are usually one-way?</h3><p>Job portals, assessment platforms, interview tools and calendars typically flow in one direction, because they are the system of record for their own data. Messaging, email and collaboration tools are where two-way sync matters and where you should expect it.</p></div><div class="qa"><h3>Does an ATS integrate with Naukri?</h3><p>Some do and the depth varies considerably. Ask specifically whether applications, full profiles and CVs come across, whether it is one-way or two-way, and critically how duplicates against your existing database are handled at the point of entry.</p></div><div class="qa"><h3>Why does WhatsApp integration matter for recruitment in India?</h3><p>Because it is the channel most candidates actually respond on. Without it threaded into the candidate record, the majority of the conversation history sits on individual recruiters' phones and leaves the firm when they do.</p></div><div class="qa"><h3>How often should an ATS sync with connected tools?</h3><p>Real time for anything a recruiter acts on during the day, such as messages, email and calendar. Batch or scheduled sync is acceptable for reporting feeds and analytics, where a few hours of lag changes nothing.</p></div><div class="qa"><h3>What should you ask a vendor about integrations before signing?</h3><p>Six things: is it one-way or two-way, what is the sync frequency, which specific fields map, does it cost extra now or at renewal, who maintains it when the other vendor changes their API, and what does the open API cover for everything not on the list.</p></div></div>
+<h2 id="s8b">A note on integrations and adoption</h2>
+<p>The integration nobody switches on is the most common failure, and it is not a technical one.</p>
+<p>Teams adopt the connections that remove a step they consciously resent. Email and WhatsApp qualify immediately, because everyone knows they are retyping. A Notion or Sheets connection often does not, because the pain it removes is diffuse.</p>
+<p>The practical approach is to switch on three integrations at go-live and nothing else. Let the team feel the benefit of those, then add the fourth when someone asks for it. A platform that arrives with twenty active connections teaches people that most of them do not matter.</p>
+<h2 id="s9">How to evaluate this properly</h2>
+<p>List the five tools your team opens most often in a day. For each one, ask the vendor for direction and frequency in writing before you sign.</p>
+<p>The gap between a logo on a page and a working two-way sync is where most post-purchase disappointment in this category comes from, and it is entirely avoidable with one email.</p>

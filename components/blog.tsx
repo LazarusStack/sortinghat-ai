@@ -38,10 +38,10 @@ export function PostCard({ post }: { post: Post }) {
       <div className="flex flex-1 flex-col p-6">
         <CardMeta post={post} />
         <h3 className="display mt-3 text-[19px] leading-[1.25] text-ink">
-          {post.cardTitle}
+          {post.title}
         </h3>
-        <p className="mt-3 text-[13.5px] leading-relaxed text-muted">
-          {post.cardDek}
+        <p className="mt-3 line-clamp-4 text-[13.5px] leading-relaxed text-muted">
+          {post.dek}
         </p>
         <span className="mt-5 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink transition-colors group-hover:text-accent">
           Read
@@ -78,7 +78,7 @@ export function RelatedCard({ post }: { post: Post }) {
         {post.tag}
       </span>
       <p className="mt-2.5 text-[15px] leading-snug text-ink transition-colors group-hover:text-accent">
-        {post.cardTitle}
+        {post.title}
       </p>
     </Link>
   );
