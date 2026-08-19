@@ -10,6 +10,7 @@ import {
 } from "@/components/sections";
 import Integrations from "@/components/integrations";
 import { Section } from "@/components/ui";
+import { homeSchema } from "@/lib/schema";
 import {
   AnalyticsMock,
   MatchingMock,
@@ -19,6 +20,14 @@ import {
 
 export default function Home() {
   return (
+    <>
+      {/* The entity definition for the whole site. Blog posts already carried
+          Organization schema; the homepage carried none, so the page that
+          should say what Sortinghat is said nothing machine-readable. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema()) }}
+      />
     <>
       <Nav />
       <main>
@@ -166,5 +175,6 @@ export default function Home() {
       </main>
       <Footer />
     </>
+      </>
   );
 }
