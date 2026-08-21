@@ -30,7 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      // Dated like the rest: an entry with no lastModified gives a crawler
+      // nothing to decide a recrawl on, and it was the one URL here missing it.
       url: `${SITE}/security`,
+      lastModified: new Date(newest),
       changeFrequency: "monthly",
       priority: 0.5,
     },
