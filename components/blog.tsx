@@ -94,17 +94,20 @@ export function AuthorBox() {
         A
       </span>
       <div>
-        <p className="text-[15.5px] font-medium text-ink">{AUTHOR.name}</p>
+        <p className="text-[15.5px] font-medium text-ink">
+          <Link
+            href={AUTHOR.page}
+            rel="author"
+            className="underline decoration-line underline-offset-2 transition-colors hover:text-accent"
+          >
+            {AUTHOR.name}
+          </Link>
+        </p>
         <p className="mt-1.5 text-[14px] leading-relaxed text-muted">
           {AUTHOR.bio}{" "}
-          <a
-            href={AUTHOR.linkedin}
-            target="_blank"
-            rel="noopener noreferrer me"
-            className="text-accent underline underline-offset-2"
-          >
-            LinkedIn
-          </a>
+          <Link href={AUTHOR.page} className="text-accent underline underline-offset-2">
+            More about the author
+          </Link>
         </p>
       </div>
     </div>

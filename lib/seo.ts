@@ -14,3 +14,21 @@ export const PRODUCT_ID = `${SITE}/#product`;
 
 export const ORG_NAME = "Sortinghat";
 export const ORG_SAME_AS = ["https://www.linkedin.com/company/sortinghatai/"];
+
+/**
+ * The author is an entity, not a byline string.
+ *
+ * Every post carried Person schema whose @id resolved to `/blog#author` — a
+ * fragment on a listing page, with a single sameAs and no url. Nothing an
+ * answer engine could follow to decide whether the person writing 125 posts
+ * about staffing software knows the subject. The Person now has a page of its
+ * own, and the profiles below are what tie the same human together across
+ * sites, which is the whole job of sameAs.
+ */
+export const AUTHOR_PATH = "/authors/apoorv-tamrkar";
+export const AUTHOR_ID = `${SITE}${AUTHOR_PATH}#person`;
+export const AUTHOR_SAME_AS = [
+  "https://www.linkedin.com/in/apoorvtamrkar/",
+  "https://www.instagram.com/apoorvtamrkar/",
+  "https://x.com/apoorv_tamrkar",
+];

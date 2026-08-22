@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { POSTS } from "@/lib/blog";
+import { PAGES } from "@/lib/pages";
+import { AUTHOR_PATH } from "@/lib/seo";
 import { SITE } from "@/lib/seo";
 
 /**
@@ -37,6 +39,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(newest),
       changeFrequency: "monthly",
       priority: 0.5,
+    },
+    // The pages split out of the homepage. They rank for what a buyer types
+    // and were unreachable as fragments, so they sit above the posts.
+    ...PAGES.map((page) => ({
+      url: `${SITE}${page.path}`,
+      lastModified: new Date(newest),
+      changeFrequency: "monthly" as const,
+      priority: 0.9,
+    })),
+    {
+      url: `${SITE}${AUTHOR_PATH}`,
+      lastModified: new Date(newest),
+      changeFrequency: "monthly",
+      priority: 0.6,
     },
     ...POSTS.map((post) => ({
       url: `${SITE}/blog/${post.slug}`,

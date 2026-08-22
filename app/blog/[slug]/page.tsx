@@ -6,6 +6,8 @@ import { Footer } from "@/components/sections";
 import { AuthorBox, BlogCta, RelatedCard } from "@/components/blog";
 import BlogToc from "@/components/BlogToc";
 import { AUTHOR, POSTS, getPost, postBody, relatedPosts } from "@/lib/blog";
+import { personNode } from "@/lib/schema";
+import { AUTHOR_ID } from "@/lib/seo";
 import "../article.css";
 
 const SITE = "https://sortinghat.ai";
@@ -30,7 +32,7 @@ export async function generateMetadata({
   return {
     title: `${post.metaTitle} | Sortinghat`,
     description: post.description,
-    authors: [{ name: AUTHOR.name, url: AUTHOR.linkedin }],
+    authors: [{ name: AUTHOR.name, url: `${SITE}${AUTHOR.page}` }],
     alternates: { canonical: url },
     openGraph: {
       type: "article",
@@ -67,14 +69,7 @@ function schema(post: NonNullable<ReturnType<typeof getPost>>) {
         url: SITE,
         sameAs: ["https://www.linkedin.com/company/sortinghatai/"],
       },
-      {
-        "@type": "Person",
-        "@id": `${SITE}/blog#author`,
-        name: AUTHOR.name,
-        jobTitle: AUTHOR.role,
-        worksFor: { "@id": `${SITE}/#org` },
-        sameAs: [AUTHOR.linkedin],
-      },
+      personNode(AUTHOR.name, AUTHOR.role, AUTHOR.bio),
       {
         "@type": "Article",
         "@id": `${url}#article`,
@@ -84,7 +79,7 @@ function schema(post: NonNullable<ReturnType<typeof getPost>>) {
         datePublished: post.date,
         dateModified: post.date,
         inLanguage: "en",
-        author: { "@id": `${SITE}/blog#author` },
+        author: { "@id": AUTHOR_ID },
         publisher: { "@id": `${SITE}/#org` },
         image: [`${SITE}/blog/${post.slug}/fig-1.jpg`],
         articleSection: post.section,
@@ -173,14 +168,13 @@ export default async function PostPage({
               <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-line pb-7 text-[13.5px] text-muted">
                 <span>
                   By{" "}
-                  <a
-                    href={AUTHOR.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <Link
+                    href={AUTHOR.page}
+                    rel="author"
                     className="font-medium text-ink-soft underline decoration-line underline-offset-2 transition-colors hover:text-ink"
                   >
                     {AUTHOR.name}
-                  </a>
+                  </Link>
                   , {AUTHOR.role}
                 </span>
                 <span aria-hidden className="h-3 w-px bg-line" />

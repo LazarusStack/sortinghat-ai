@@ -1,14 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import AppWindow from "./mocks/AppWindow";
-import {
-  BookDemo,
-  Check,
-  DEMO_URL,
-  MockScroller,
-  Section,
-  Wordmark,
-} from "./ui";
+import { BookDemo, Check, DEMO_URL, GhostLink, MockScroller, Section, Wordmark } from "./ui";
 
 /* ------------------------------------------------------------ Customers */
 
@@ -237,6 +230,7 @@ export function FeatureRow({
   flip = false,
   tone = "paper",
   id,
+  href,
 }: {
   eyebrow: string;
   title: string;
@@ -246,6 +240,9 @@ export function FeatureRow({
   flip?: boolean;
   tone?: "paper" | "cream";
   id?: string;
+  /** the page that treats this section properly; the id stays for the 125
+      blog posts that link to the fragment, which cannot be redirected */
+  href?: string;
 }) {
   return (
     <section
@@ -277,6 +274,11 @@ export function FeatureRow({
                 </li>
               ))}
             </ul>
+            {href ? (
+              <div className="mt-8">
+                <GhostLink href={href}>Read the full page</GhostLink>
+              </div>
+            ) : null}
           </div>
           <div className={flip ? "lg:order-1" : ""}>
             <MockScroller>{mock}</MockScroller>
@@ -500,41 +502,39 @@ const FOOTER = [
   {
     h: "Platform",
     items: [
-      { l: "Talent Pool", href: "/#talent-pool" },
-      { l: "Workflow", href: "/#workflow" },
-      { l: "Revenue & Growth", href: "/#revenue" },
-      { l: "Analytics", href: "/#analytics" },
+      { l: "Overview", href: "/platform" },
+      { l: "Talent Pool", href: "/platform/talent-pool" },
+      { l: "Workflow", href: "/platform/workflow" },
+      { l: "CRM", href: "/platform/crm" },
+      { l: "Analytics", href: "/platform/analytics" },
     ],
   },
   {
-    h: "Capabilities",
+    h: "Product",
     items: [
-      { l: "Natural language search", href: "/#talent-pool" },
-      { l: "Scoring & signals", href: "/#talent-pool" },
-      { l: "AI interviews", href: "/#workflow" },
-      { l: "Automations", href: "/#workflow" },
-      { l: "AI-native CRM", href: "/#revenue" },
-      { l: "Custom reports", href: "/#analytics" },
-      { l: "Integrations", href: "/#integrations" },
+      { l: "Integrations", href: "/integrations" },
+      { l: "Migration", href: "/migration" },
+      { l: "Pricing", href: "/pricing" },
+      { l: "Security", href: "/security" },
     ],
   },
   {
     h: "Built for",
     items: [
-      { l: "Staffing agencies", href: "/#platform" },
-      { l: "Contract & interim", href: "/#talent-pool" },
-      { l: "Permanent placement", href: "/#talent-pool" },
-      { l: "Executive search", href: "/#talent-pool" },
+      { l: "Staffing agencies", href: "/platform" },
+      { l: "Contract & interim", href: "/blog/perm-vs-contract-desk" },
+      { l: "Permanent placement", href: "/blog/what-clients-pay-agencies-for-now" },
+      { l: "Executive search", href: "/blog/cxo-leadership-search-process" },
+      { l: "RPO firms", href: "/blog/best-ats-crm-rpo-firms" },
     ],
   },
   {
-    h: "Resources",
+    h: "Company",
     items: [
+      { l: "About", href: "/about" },
       { l: "Blog", href: "/blog" },
-      /* short label here; the section heading itself carries the full title */
-      { l: "From Apoorv", href: "/blog#from-apoorv" },
+      { l: "Apoorv Tamrkar", href: "/authors/apoorv-tamrkar" },
       { l: "Product Comparison 101", href: "/blog#product-comparison-101" },
-      /* Security already sits in the bottom bar, so it isn't repeated here. */
     ],
   },
 ];

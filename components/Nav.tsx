@@ -4,14 +4,14 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { BookDemo, Wordmark } from "./ui";
 
-/* Root-relative fragments: the same header sits on /security, where these
-   sections don't exist to scroll to. On the home page the browser still treats
-   them as a same-document jump. */
+/* Real pages, not homepage fragments. Each of these used to be an anchor on
+   one long page, which meant the header offered five links to a single URL. */
 const LINKS = [
-  { label: "Platform", href: "/#platform" },
-  { label: "Features", href: "/#features" },
-  { label: "Integrations", href: "/#integrations" },
-  { label: "Migration", href: "/#migration" },
+  { label: "Platform", href: "/platform" },
+  { label: "Integrations", href: "/integrations" },
+  { label: "Migration", href: "/migration" },
+  { label: "Pricing", href: "/pricing" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export default function Nav() {

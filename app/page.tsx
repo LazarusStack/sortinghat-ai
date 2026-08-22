@@ -42,6 +42,7 @@ export default function Home() {
 
         <FeatureRow
           id="talent-pool"
+          href="/platform/talent-pool"
           eyebrow="01 · Talent Pool"
           title="Every placeable person, one search away."
           body="Your own database, the job boards and LinkedIn in a single pool. Scored, enriched, and searchable in plain English."
@@ -72,6 +73,7 @@ export default function Home() {
 
         <FeatureRow
           id="workflow"
+          href="/platform/workflow"
           eyebrow="02 · Workflow"
           title="The admin between stages, gone."
           body="Kanban or list, automated chasing, AI interviews, and call notes that write themselves onto the record."
@@ -108,6 +110,7 @@ export default function Home() {
 
         <FeatureRow
           id="revenue"
+          href="/platform/crm"
           eyebrow="03 · Revenue & Growth"
           title="Win the client, then keep them."
           body="An AI-native CRM that understands the brief, works your prospect list, and chases what you are owed."
@@ -138,6 +141,7 @@ export default function Home() {
 
         <FeatureRow
           id="analytics"
+          href="/platform/analytics"
           eyebrow="04 · Analytics"
           title="Run the firm on numbers."
           body="Every recruiter's activity, every desk's margin, and a forecast you can plan headcount against."

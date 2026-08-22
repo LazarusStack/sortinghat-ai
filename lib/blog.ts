@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { AUTHOR_PATH, AUTHOR_SAME_AS } from "@/lib/seo";
 import path from "node:path";
 
 /**
@@ -128,10 +129,19 @@ export function postBody(slug: string): string {
   return fs.readFileSync(path.join(DIR, `${slug}.html`), "utf8");
 }
 
+/**
+ * "Tamrkar", not "Tamrakar". The exports spell it with the extra a; the
+ * handles on all three profiles below are apoorvtamrkar, which settles it.
+ * scripts/import-blog-package.py corrects the spelling on the way in.
+ */
 export const AUTHOR = {
   name: "Apoorv Tamrkar",
   role: "Founder",
+  page: AUTHOR_PATH,
   linkedin: "https://www.linkedin.com/in/apoorvtamrkar/",
+  instagram: "https://www.instagram.com/apoorvtamrkar/",
+  x: "https://x.com/apoorv_tamrkar",
+  sameAs: AUTHOR_SAME_AS,
   bio: "Founder of Sortinghat, an AI-native ATS and CRM for staffing, search and RPO firms. Writes about recruiter capacity, sourcing economics and what actually changes when AI reaches a delivery desk.",
 };
 
