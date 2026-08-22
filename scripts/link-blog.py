@@ -52,7 +52,7 @@ SKIP_ANCESTORS = ("takeaways", "faq", "toc", "verdict", "insert", "stats")
 
 # Per-post ceilings. Generous, because the ceiling is not what keeps this
 # honest — one-link-per-target and first-mention-only are.
-MAX_INTERNAL = 16
+MAX_INTERNAL = 18
 MAX_EXTERNAL = 6
 
 # --------------------------------------------------------------- internal ---
@@ -127,6 +127,25 @@ INTERNAL = [
     (r"AI adoption|adoption",                       "ai-adoption-plan-staffing-firm"),
     (r"valuations?|acquired",                       "staffing-agency-valuation-ma-2026"),
     (r"bench",                                      "it-services-outcome-based-bench-hiring"),
+
+    # segments, opinion and benchmarks. Measured the same way, and the ten
+    # subjects nothing in the corpus names (BFSI, diversity, tech hiring,
+    # business roles, generalist agencies among them) are simply absent here
+    # rather than given an anchor that only shares a word with them.
+    (r"notice periods?",                            "notice-period-reality-india"),
+    (r"demo database",                              "why-your-ats-demo-lied"),
+    (r"niche roles?|scarce skills|genuinely scarce", "niche-engineering-roles-scarce-skills"),
+    (r"leadership search|executive search|CXO",     "cxo-leadership-search-process"),
+    (r"AI[- ]powered|AI washing|AI[- ]native",      "ai-washing-in-recruiting-software"),
+    (r"volume hiring|ramp[- ]ups?",                 "volume-hiring-1000-seats"),
+    (r"commissions?",                               "truth-about-recruiter-commissions"),
+    (r"job boards?",                                "job-boards-are-dying"),
+    (r"retained search|retainer",                   "retained-search-survives-ai"),
+    (r"credentialing|healthcare staffing",          "healthcare-staffing-what-differs"),
+    (r"perm desk|contract desk|perm and contract",  "perm-vs-contract-desk"),
+    (r"blue[- ]collar",                             "blue-collar-hiring-india-breaks-ats"),
+    (r"recruiter productivity|activity metrics",    "recruiter-productivity-myth"),
+    (r"resume screen\w*|CV screen\w*",             "nobody-needs-another-resume-screener"),
 ]
 
 # Competitors resolve two ways: to the page that compares them where the reader
@@ -202,7 +221,10 @@ def place(root, soup, pattern, href, rel=None, sources_line=True):
     """
     if root.find("a", href=href):
         return False
-    rx = re.compile(r"\b(" + pattern + r")\b")
+    # Not \b: a hyphen is a word boundary, so \bvolume\b matches inside
+    # "high-volume" and the link would start mid-compound, rendering as
+    # high-[volume hiring]. The boundary has to exclude hyphens too.
+    rx = re.compile(r"(?<![\w-])(" + pattern + r")(?![\w-])")
     for p in prose_paragraphs(root, sources_line):
         for node in strings_outside_anchors(p):
             m = rx.search(node)

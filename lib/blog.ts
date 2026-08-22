@@ -84,6 +84,21 @@ export const SECTIONS: Section[] = [
     title: "AI Impact by Segment",
     dek: "Where automation genuinely changes a desk and where it does not, taken one segment at a time: sourcing, outbound, RPO, temp, back office and the contingency model.",
   },
+  {
+    id: "talent-search-by-segment",
+    title: "Talent Search by Segment",
+    dek: "How the work actually differs by the kind of role being filled: blue collar, leadership, tech, business, healthcare, BFSI, volume ramps and the genuinely scarce.",
+  },
+  {
+    id: "contrarian-opinion",
+    title: "Contrarian / Opinion",
+    dek: "Arguments the industry mostly avoids making out loud, each one committed to a position rather than surveying both sides and stopping.",
+  },
+  {
+    id: "benchmarks",
+    title: "Benchmarks",
+    dek: "Numbers worth planning against, published with the methodology attached and without a single headline figure where the spread makes one dishonest.",
+  },
 ];
 
 export function postsInSection(section: Section): Post[] {
