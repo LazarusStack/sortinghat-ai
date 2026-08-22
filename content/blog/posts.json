@@ -8500,6 +8500,1273 @@
         "title": "See a blue collar pool with availability confirmed",
         "body": "Bring your records and one live requirement. We will show you what is reachable and available today."
       }
+    },
+    {
+      "slug": "grow-staffing-revenue-without-headcount",
+      "title": "How to Grow Staffing Revenue Without Adding Recruiters",
+      "metaTitle": "Growing Staffing Revenue Without Adding Recruiters",
+      "description": "Four levers that raise revenue without headcount: capacity per recruiter, fill rate, fee per placement and revenue per client. Which to pull first.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Hiring is the default growth answer because it is the only one most firms have measured. Three of the other four levers are cheaper.",
+      "date": "2026-08-22",
+      "dateLabel": "22 August 2026",
+      "dateShort": "22 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The four levers, written as arithmetic"
+        },
+        {
+          "id": "s2",
+          "label": "Lever one: capacity per recruiter"
+        },
+        {
+          "id": "s3",
+          "label": "Lever two: fill rate"
+        },
+        {
+          "id": "s4",
+          "label": "Lever three: fee per placement"
+        },
+        {
+          "id": "s5",
+          "label": "Lever four: revenue per client"
+        },
+        {
+          "id": "s6",
+          "label": "Which to pull first, and in what order"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The four numbers to put on one pag"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How can a staffing firm grow without hiring?",
+          "a": "By improving capacity per recruiter, fill rate, fee per placement or revenue per existing client. Headcount is one of four multipliers and the only one carrying a fixed cost from day one against production from month six."
+        },
+        {
+          "q": "What limits how many roles a recruiter can carry?",
+          "a": "Qualification rather than effort. A recruiter running manual sourcing and screening manages around 40 calls a day and finds three or four people worth submitting, which caps how many roles can be worked properly."
+        },
+        {
+          "q": "How do you improve fill rate?",
+          "a": "Largely through role selection rather than effort. An agency working every requirement offered has a fill rate reflecting the mix rather than the capability, so declining unwinnable roles raises the ratio immediately."
+        },
+        {
+          "q": "How do you increase average fee without a price rise?",
+          "a": "By changing the mix towards harder roles that support higher fees, or by changing the pricing structure from percentage-of-salary to something that tracks difficulty. Straight rate increases on existing clients are the least available route."
+        },
+        {
+          "q": "Why is revenue per existing client the most overlooked lever?",
+          "a": "Because business development gets defined as winning new logos. An existing client costs nothing to win, already trusts you and knows how you work, which makes expansion the highest-margin revenue available."
+        },
+        {
+          "q": "When should a staffing firm hire more recruiters?",
+          "a": "After capacity and fill rate have been addressed. Adding recruiters to a desk that has not fixed either scales the inefficiency rather than the revenue, which produces more people and the same profit."
+        }
+      ],
+      "related": [
+        "high-volume-recruiting-screening-day",
+        "recruiter-productivity-myth",
+        "how-to-upsell-staffing-clients"
+      ],
+      "cta": {
+        "title": "See what capacity looks like filtered",
+        "body": "Bring a live role and we will show you what a screening day produces when qualification happens before dialling."
+      }
+    },
+    {
+      "slug": "staffing-add-on-services",
+      "title": "Add-On Services That Actually Sell: Payroll, EOR, Verification and Training",
+      "metaTitle": "Add-On Services That Actually Sell for Staffing Firms",
+      "description": "Payroll, EOR, background verification and training compared on margin, delivery burden and whether they strengthen or quietly dilute the core business.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Every agency considers adding services. Most pick the one with the best margin rather than the one that fits how they already operate.",
+      "date": "2026-08-21",
+      "dateLabel": "21 August 2026",
+      "dateShort": "21 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The test to apply before choosing"
+        },
+        {
+          "id": "s2",
+          "label": "Payroll and pay-and-bill"
+        },
+        {
+          "id": "s3",
+          "label": "Employer of record"
+        },
+        {
+          "id": "s4",
+          "label": "Background verification"
+        },
+        {
+          "id": "s5",
+          "label": "Training and academies"
+        },
+        {
+          "id": "s6",
+          "label": "How to sequence and how to price"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The test before you add anything"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What add-on services can staffing firms offer?",
+          "a": "Payroll and pay-and-bill, employer of record, background verification, and training or academy programmes. The right choice depends on whether the service uses capability you already have and sells to a buyer you already reach."
+        },
+        {
+          "q": "Which add-on service is most natural for a contract staffing firm?",
+          "a": "Payroll and pay-and-bill, since the capability is largely the same one you already run for your own contractors and the buyer is frequently the same procurement or finance contact."
+        },
+        {
+          "q": "Is background verification worth offering?",
+          "a": "Mostly as a defensive measure rather than a revenue line. Margin is thin, but a verification failure discovered by the client months after joining is attributed to you, so owning the step protects the placement business."
+        },
+        {
+          "q": "Should a staffing firm build or partner for EOR?",
+          "a": "Most partner, because the entity and compliance infrastructure is substantial and jurisdiction-specific. That reduces margin to a referral share, which still beats losing a cross-border placement you otherwise could not make."
+        },
+        {
+          "q": "When does a training academy make sense?",
+          "a": "When scarcity rather than throughput is the binding constraint. In segments where the skill does not exist at volume, training becomes a candidate pipeline. It is capital intensive and a poor fit otherwise."
+        },
+        {
+          "q": "Should add-on services be bundled into the placement fee?",
+          "a": "No. Bundling makes both invisible and makes the placement fee look higher. Separate lines let the client see what they are buying and let you withdraw a service that is not working."
+        }
+      ],
+      "related": [
+        "ai-staffing-back-office",
+        "perm-vs-contract-desk",
+        "moonlighting-dual-employment-india"
+      ],
+      "cta": {
+        "title": "See pay-and-bill on the same platform",
+        "body": "Bring a contract engagement and we will show you timesheets, invoicing and margin on one record."
+      }
+    },
+    {
+      "slug": "cross-sell-perm-into-contract",
+      "title": "How to Cross-Sell Perm Into a Contract Account, and the Reverse",
+      "metaTitle": "Cross-Selling Perm Into Contract, and the Reverse",
+      "description": "One client, two desks. Why cross-selling between perm and contract fails structurally in most agencies, and exactly what has to change before it works.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Every agency running both desks says it cross-sells. Very few actually do, and the reason is structural rather than motivational.",
+      "date": "2026-08-20",
+      "dateLabel": "20 August 2026",
+      "dateShort": "20 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why the two desks do not talk"
+        },
+        {
+          "id": "s2",
+          "label": "You are selling to different people"
+        },
+        {
+          "id": "s3",
+          "label": "Contract into perm: the easier direction"
+        },
+        {
+          "id": "s4",
+          "label": "Perm into contract: the harder direction"
+        },
+        {
+          "id": "s5",
+          "label": "What has to be true for this to work"
+        },
+        {
+          "id": "s6",
+          "label": "When not to cross-sell"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The trigger to set up rather than"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do staffing firms fail to cross-sell between perm and contract?",
+          "a": "Structure rather than motivation. A recruiter passing a lead to the other desk gives away time and receives nothing unless the commission plan defines an internal split, so encouragement alone fails within a quarter."
+        },
+        {
+          "q": "Is it easier to cross-sell contract into perm or the other way?",
+          "a": "Contract into perm, because a contractor performing well inside the client is demonstrated evidence of your judgement. The natural trigger is a contract extension, which signals the need is not temporary."
+        },
+        {
+          "q": "Why does a good client relationship not always open the second desk?",
+          "a": "Because contract and permanent hiring are frequently bought by different people. Contract often goes through procurement or a vendor programme; perm often goes through the hiring manager directly."
+        },
+        {
+          "q": "What is the best route from perm into contract?",
+          "a": "A specific unmet need rather than a general offer. A permanent role open for four months is a delivery problem now that an interim solution addresses. Project ramp-ups also create contingent demand the hiring manager owns."
+        },
+        {
+          "q": "What needs to be in place for cross-selling to work?",
+          "a": "A defined internal commercial split agreed before the first referral, shared account visibility across both desks, one accountable account owner rather than two, and event-based triggers rather than calendar reminders."
+        },
+        {
+          "q": "When should you not cross-sell a second service?",
+          "a": "When you cannot deliver it well, since a weak second desk damages a relationship that was working, and when the client has deliberately split perm and contract across suppliers as policy."
+        }
+      ],
+      "related": [
+        "perm-vs-contract-desk",
+        "candidate-ownership-rules-multi-desk",
+        "designing-recruiter-incentive-plans"
+      ],
+      "cta": {
+        "title": "See both desks on one client record",
+        "body": "Bring an account you serve on one side only and we will show you what shared visibility looks like without ownership disputes."
+      }
+    },
+    {
+      "slug": "how-to-upsell-staffing-clients",
+      "title": "How to Upsell Existing Staffing Clients",
+      "metaTitle": "How to Upsell Existing Clients as a Staffing Firm",
+      "description": "The cheapest revenue in a staffing firm sits inside accounts you already have. Where the expansion routes are and why most agencies never work them.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Most agencies work one function inside a client that has eleven. The revenue is already inside the building.",
+      "date": "2026-08-19",
+      "dateLabel": "19 August 2026",
+      "dateShort": "19 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Map the client before you sell anything"
+        },
+        {
+          "id": "s2",
+          "label": "The four expansion routes"
+        },
+        {
+          "id": "s3",
+          "label": "Timing, and the window most firms miss"
+        },
+        {
+          "id": "s4",
+          "label": "Ask for the introduction, not the requirement"
+        },
+        {
+          "id": "s5",
+          "label": "What blocks expansion inside an account"
+        },
+        {
+          "id": "s6",
+          "label": "A simple operating rhythm"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The ratio worth calculating this w"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is upselling existing clients cheaper than winning new ones?",
+          "a": "Because the client costs nothing to acquire, already trusts you and understands how you work. The credibility that takes months to build with a new logo already exists, which makes expansion the highest-margin revenue available."
+        },
+        {
+          "q": "How do you find expansion opportunities inside a client?",
+          "a": "By mapping the organisation first: how many people it employs, which functions hire regularly, who runs each and what the headcount plan is. Without that map, expansion is opportunistic and depends on someone mentioning a role."
+        },
+        {
+          "q": "When is the best time to ask a client for more work?",
+          "a": "Around four weeks after a placement starts well, when credibility is highest and the hiring manager is most willing to make an introduction. Two months later the placement is normal and the ask becomes larger."
+        },
+        {
+          "q": "Should you ask a client for more roles or for an introduction?",
+          "a": "An introduction. Asking whether they have other roles usually ends the conversation, since they often do not. Asking to be introduced to a peer who is hiring is a smaller favour they can grant immediately."
+        },
+        {
+          "q": "What stops staffing firms from expanding inside accounts?",
+          "a": "Usually three internal obstacles: the account owner is a delivery person who was never asked to sell, nobody is accountable for account growth with a target, and the commission plan does not pay for work that produces revenue later."
+        },
+        {
+          "q": "What should you measure to track expansion headroom?",
+          "a": "Functions served versus functions available inside each client. That single ratio shows how much of an account is unworked, and almost no staffing firm tracks it."
+        }
+      ],
+      "related": [
+        "recruitment-crm-beyond-storing-leads",
+        "relationships-drive-staffing-revenue",
+        "staffing-add-on-services"
+      ],
+      "cta": {
+        "title": "See client hiring research on the record",
+        "body": "Bring an account and we will show you what a CRM holds when it tracks the organisation rather than the contact."
+      }
+    },
+    {
+      "slug": "relationships-drive-staffing-revenue",
+      "title": "How Relationships Actually Drive Staffing Revenue, and What That Means Operationally",
+      "metaTitle": "How Relationships Actually Drive Staffing Revenue",
+      "description": "Everyone says relationships matter and few firms operationalise it. What a relationship actually consists of, and how to build one at firm level.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Relationships are the most cited and least operationalised asset in staffing. What they actually consist of is specific and buildable.",
+      "date": "2026-08-18",
+      "dateLabel": "18 August 2026",
+      "dateShort": "18 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What a relationship actually changes"
+        },
+        {
+          "id": "s2",
+          "label": "Early information is the whole game"
+        },
+        {
+          "id": "s3",
+          "label": "Being useful when there is no role"
+        },
+        {
+          "id": "s4",
+          "label": "Why individual relationships are a liability"
+        },
+        {
+          "id": "s5",
+          "label": "What this looks like operationally"
+        },
+        {
+          "id": "s6",
+          "label": "Where the relationship argument is overstated"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The two questions per account"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What makes a client relationship commercially valuable?",
+          "a": "It changes three specific decisions: who gets called first on a role, what gets shared before it becomes a formal requisition, and whether a mistake is survivable. If it changes none of those, it is an acquaintance rather than an asset."
+        },
+        {
+          "q": "Why is early information about a role so valuable?",
+          "a": "Because a role arriving as a requisition on a panel has already been commoditised and every supplier competes on speed. Hearing about it weeks earlier lets you map the market and arrive with a shortlist on the day it is approved."
+        },
+        {
+          "q": "How do you build a client relationship without a live role?",
+          "a": "By being useful when you are not asking for anything, usually with market information: what comparable roles are paying, how long similar searches take, which competitors are hiring, what supply actually looks like."
+        },
+        {
+          "q": "Why are individual recruiter relationships a risk?",
+          "a": "Because they leave with the person. The client history goes too, the replacement starts cold, and the client draws an accurate conclusion about how the firm operates from being asked questions they already answered."
+        },
+        {
+          "q": "How do you build relationships at firm level rather than individual level?",
+          "a": "Two genuine contacts minimum per account rather than two names on file, conversation history captured on the record automatically, and a named account owner measured partly on the relationship rather than only on billings."
+        },
+        {
+          "q": "When do relationships stop protecting an account?",
+          "a": "When delivery repeatedly disappoints, since a relationship buys forgiveness once or twice rather than indefinitely, and when the client moves to a formal supplier panel, which is designed specifically to structure relationships out of the decision."
+        }
+      ],
+      "related": [
+        "why-clients-leave-staffing-agencies",
+        "recruiter-admin-time-automatic-capture",
+        "how-to-upsell-staffing-clients"
+      ],
+      "cta": {
+        "title": "See a client record that survives a resignation",
+        "body": "Bring one account and we will show you what automatic capture puts on the record without anyone typing."
+      }
+    },
+    {
+      "slug": "designing-recruiter-incentive-plans",
+      "title": "How to Design a Recruiter Incentive Plan That Changes Behaviour",
+      "metaTitle": "Designing a Recruiter Incentive Plan That Works",
+      "description": "A practical guide to building a commission plan: what to pay on, over what period, and how to avoid the four failures that show up in every scheme.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "Most plans are designed to be affordable and then described as motivating. This is the version that starts from what you want people to do.",
+      "date": "2026-08-17",
+      "dateLabel": "17 August 2026",
+      "dateShort": "17 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Start by writing down the behaviour"
+        },
+        {
+          "id": "s2",
+          "label": "What to pay on"
+        },
+        {
+          "id": "s3",
+          "label": "Over what period"
+        },
+        {
+          "id": "s4",
+          "label": "The four failures every plan has to handle"
+        },
+        {
+          "id": "s5",
+          "label": "Paying for work that pays later"
+        },
+        {
+          "id": "s6",
+          "label": "A design sequence"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The exercise that takes an afterno"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should a recruiter commission plan pay on?",
+          "a": "Margin where it can be measured, since a flat percentage of billings makes a recruiter indifferent between a high-margin difficult placement and two easy low-margin ones. Activity counts should be avoided because every count can be raised by lowering the standard."
+        },
+        {
+          "q": "Should commission be paid monthly or on a rolling period?",
+          "a": "A twelve-week rolling window removes most deal timing games, where placements are pulled forward or pushed back depending on where a recruiter sits against a monthly target. It costs some simplicity and removes month-end behaviour."
+        },
+        {
+          "q": "How do you pay recruiters for account development?",
+          "a": "With a small explicit component separate from placement commission, a retrospective bonus when an account crosses a revenue threshold, or protected time. Expecting it as professionalism does not work, because it costs billing time and earns nothing."
+        },
+        {
+          "q": "What edge cases must a commission plan address?",
+          "a": "Ownership disputes over candidates sourced years earlier, split placements where one person owns the client and another the candidate, what is paid on placements in flight when somebody resigns, and clawbacks when a placement fails inside the guarantee period."
+        },
+        {
+          "q": "Why do commission plans fail to motivate?",
+          "a": "Frequently because they are designed to be affordable and then described as motivating. A high threshold with a modest rate is cost control, and recruiters read that accurately within a quarter."
+        },
+        {
+          "q": "Should you test a commission plan before launching it?",
+          "a": "Yes. Show it to two recruiters before it goes live. They will identify the gaming route within ten minutes, which is considerably cheaper than discovering it after a quarter of results."
+        }
+      ],
+      "related": [
+        "truth-about-recruiter-commissions",
+        "candidate-ownership-rules-multi-desk",
+        "recruiter-productivity-myth"
+      ],
+      "cta": {
+        "title": "See margin by desk and by recruiter",
+        "body": "Bring your placement data and we will show you the margin picture a commission plan needs to sit on."
+      }
+    },
+    {
+      "slug": "return-to-office-vs-remote-hiring",
+      "title": "Return to Office Versus Remote: What It Does to Your Candidate Pool",
+      "metaTitle": "Return to Office vs Remote: The Hiring Consequences",
+      "description": "Office mandates shrink the candidate pool geographically and change who applies. What agencies should tell clients before the requisition is written.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "An office mandate is a sourcing constraint before it is a culture decision, and most clients set it without seeing the arithmetic.",
+      "date": "2026-08-16",
+      "dateLabel": "16 August 2026",
+      "dateShort": "16 Aug 2026",
+      "tag": "Workplace",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The arithmetic clients do not see"
+        },
+        {
+          "id": "s2",
+          "label": "Composition, not just volume"
+        },
+        {
+          "id": "s3",
+          "label": "Why hybrid means nothing without a number"
+        },
+        {
+          "id": "s4",
+          "label": "What candidates actually trade"
+        },
+        {
+          "id": "s5",
+          "label": "How to have the conversation with a client"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The ten-minute exercise before the"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How does a return to office mandate affect hiring?",
+          "a": "It applies a geographic filter before any skills filter, reducing the pool to people within commuting distance plus the few willing to relocate. On specialist requirements that can turn a workable search into a genuinely scarce one."
+        },
+        {
+          "q": "Does an office mandate change who applies or just how many?",
+          "a": "Both. The pool filters disproportionately on caregivers, people with long commutes, people managing health conditions and those who relocated during the remote period, which shifts composition as well as volume."
+        },
+        {
+          "q": "Why is hybrid a problematic term in job postings?",
+          "a": "Because it covers arrangements from four days in office to two days a month. Candidates discount the word entirely, so a posting that does not specify days produces both wasted applications and lost candidates."
+        },
+        {
+          "q": "What do candidates trade against office attendance?",
+          "a": "Commute time more than salary. A one-hour each-way commute is roughly two working days a month, which most people price above a modest compensation difference. Predictability of days also matters more than the number of them."
+        },
+        {
+          "q": "How should an agency raise workplace policy with a client?",
+          "a": "With two search results rather than an opinion: the pool with the location constraint and without it. Then name the composition effect factually and ask what the mandate is actually for, since some purposes have alternatives."
+        },
+        {
+          "q": "Can workplace policy conflict with diversity objectives?",
+          "a": "It frequently does without anyone connecting the two, since an office mandate filters disproportionately on groups a diversity objective is trying to reach. Raising it as a factual observation about supply is more useful than framing it as a policy argument."
+        }
+      ],
+      "related": [
+        "niche-engineering-roles-scarce-skills",
+        "diversity-hiring-what-works",
+        "tier-2-city-hiring-india"
+      ],
+      "cta": {
+        "title": "Run the search both ways",
+        "body": "Bring a role with a location constraint and we will show you the pool with it and without it."
+      }
+    },
+    {
+      "slug": "moonlighting-dual-employment-india",
+      "title": "Moonlighting and Dual Employment: Where Staffing Firms Carry the Risk",
+      "metaTitle": "Moonlighting and Dual Employment: Where Agencies Sit",
+      "description": "Dual employment is detectable through statutory records and clients increasingly check. What it means for staffing firms and where liability actually lands.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "Clients discover dual employment through statutory records months after joining, and the conversation that follows is with you rather than with the candidate.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "How dual employment is actually detected"
+        },
+        {
+          "id": "s2",
+          "label": "Why this becomes a staffing firm's problem"
+        },
+        {
+          "id": "s3",
+          "label": "What employer policies actually say"
+        },
+        {
+          "id": "s4",
+          "label": "Asking, and why it works better than checking"
+        },
+        {
+          "id": "s5",
+          "label": "What to build into your process"
+        },
+        {
+          "id": "s6",
+          "label": "Where the risk is overstated"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question to add to your intake"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is dual employment detected in India?",
+          "a": "Usually through statutory records rather than investigation. Provident fund contributions link to a universal account number that follows an individual, so contributions from two employers in the same period are visible in the record."
+        },
+        {
+          "q": "Is moonlighting illegal in India?",
+          "a": "There is no blanket prohibition on holding more than one job. The position is contractual: some employment contracts prohibit it outright, some permit it with prior written disclosure, and some are silent on the matter."
+        },
+        {
+          "q": "Why is dual employment a staffing firm's problem?",
+          "a": "Because it usually surfaces after the candidate has joined, when the client has already paid the fee and invested in onboarding. The conversation that follows is about your screening standard rather than the candidate's judgement."
+        },
+        {
+          "q": "Should recruiters ask candidates about other engagements?",
+          "a": "Yes, at screening rather than at offer, framed factually rather than as an integrity test. Most candidates answer honestly when asked plainly, and a disclosure at screening can be managed with the client rather than becoming a problem later."
+        },
+        {
+          "q": "Does a notice period overlap count as dual employment?",
+          "a": "Not necessarily. A candidate serving notice while a new employer begins contributions can produce a technical overlap that is entirely legitimate, and treating it as a red flag creates unnecessary escalation."
+        },
+        {
+          "q": "What should a staffing firm record about dual employment?",
+          "a": "Current engagements as a structured field captured at screening, the client's own policy captured at intake, and evidence that the question was asked. That record is the difference between a delivery failure and a disclosed risk the client accepted."
+        }
+      ],
+      "related": [
+        "ai-screening-call-how-it-works",
+        "why-clients-leave-staffing-agencies",
+        "notice-period-reality-india"
+      ],
+      "cta": {
+        "title": "See what a screening call captures",
+        "body": "Bring a role and we will show you which facts reach the record automatically rather than depending on a recruiter typing them."
+      }
+    },
+    {
+      "slug": "pay-transparency-laws-agencies",
+      "title": "Pay Transparency Laws and What They Change for Staffing Agencies",
+      "metaTitle": "Pay Transparency Laws: What Changes for Agencies",
+      "description": "Salary ranges on job postings are now required in several markets. What that does to negotiation, candidate expectations and how agencies should adapt.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "When the range is public, the negotiation moves. Agencies that treated compensation as private information lose an advantage they never examined.",
+      "date": "2026-08-14",
+      "dateLabel": "14 August 2026",
+      "dateShort": "14 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What agencies quietly lost"
+        },
+        {
+          "id": "s2",
+          "label": "Why published ranges get wider rather than truer"
+        },
+        {
+          "id": "s3",
+          "label": "What changes in the candidate conversation"
+        },
+        {
+          "id": "s4",
+          "label": "The client-side consequence agencies should anticipate"
+        },
+        {
+          "id": "s5",
+          "label": "How to adapt operationally"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The two fields worth adding at int"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What do pay transparency laws require?",
+          "a": "Broadly, that salary ranges are disclosed on job postings or provided on request, with the detail varying by jurisdiction. Several US states, EU member states implementing the pay transparency directive, and other markets have introduced requirements."
+        },
+        {
+          "q": "How do pay transparency laws affect staffing agencies?",
+          "a": "They remove an information asymmetry that was part of the intermediary's value. The agency knew what the client would pay and what the candidate would accept; when the range is public, value has to come from market knowledge instead."
+        },
+        {
+          "q": "Why do published salary ranges get so wide?",
+          "a": "Because a broad band technically complies while preserving employer flexibility. The consequence is that candidates anchor to the top, employers intend the middle, and the gap surfaces at offer stage after weeks of process."
+        },
+        {
+          "q": "Should recruiters still ask candidates about salary expectations?",
+          "a": "It works less well once the range is public, since the candidate already knows it and the question reads as an attempt to anchor low. The more useful conversation moves to fit, which is what money was previously doing work to obscure."
+        },
+        {
+          "q": "Why do clients post conservative salary ranges?",
+          "a": "Because their existing employees can see the posting. A band above what current staff earn creates an internal equity problem, so employers post conservatively, which can constrain what they offer externally below market rate."
+        },
+        {
+          "q": "What should agencies capture at intake now?",
+          "a": "Both the published range and the client's actual expectation for the profile described, as separate fields. They differ more often than not, and the difference determines which candidates are worth approaching."
+        }
+      ],
+      "related": [
+        "what-clients-pay-agencies-for-now",
+        "ai-outbound-recruiting-what-changed",
+        "candidate-scorecard-from-client-brief"
+      ],
+      "cta": {
+        "title": "See intake captured as structured fields",
+        "body": "Bring a live brief and we will show you what gets recorded at intake and how it drives the search."
+      }
+    },
+    {
+      "slug": "us-state-ai-hiring-laws",
+      "title": "US State AI Hiring Laws: What Applies Where",
+      "metaTitle": "US State AI Hiring Laws: NYC, Illinois, Colorado",
+      "description": "Bias audits, candidate notice and video interview consent all vary by state. What applies where, and what an agency serving US clients has to do.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "There is no federal rule. There are several state and city rules that contradict each other in detail, and they follow the role's location.",
+      "date": "2026-08-13",
+      "dateLabel": "13 August 2026",
+      "dateShort": "13 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "New York City Local Law 144"
+        },
+        {
+          "id": "s2",
+          "label": "Illinois and video interviews"
+        },
+        {
+          "id": "s3",
+          "label": "Colorado and the broader direction"
+        },
+        {
+          "id": "s4",
+          "label": "How to handle this per requisition"
+        },
+        {
+          "id": "s5",
+          "label": "What to ask your vendor"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The two fields to add to your requ"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there a federal AI hiring law in the United States?",
+          "a": "No. Regulation comes from states and cities, including New York City's Local Law 144, Illinois' video interview statute and the Colorado AI Act. They differ in detail and obligations follow where the role is located."
+        },
+        {
+          "q": "What does NYC Local Law 144 require?",
+          "a": "A bias audit of automated employment decision tools conducted by an independent auditor with a published summary, and advance notice to candidates that an automated tool is being used along with information about what it assesses."
+        },
+        {
+          "q": "What does Illinois require for AI video interviews?",
+          "a": "Telling candidates AI will analyse the interview, explaining how it works and what it evaluates, obtaining consent before proceeding, and honouring deletion requests within the defined period."
+        },
+        {
+          "q": "Which US AI hiring law is strictest?",
+          "a": "Colorado's AI Act takes the broadest approach, covering consequential employment decisions with duties around avoiding algorithmic discrimination. Building a process to the strictest applicable standard generally covers the narrower ones."
+        },
+        {
+          "q": "Do these laws apply to an agency based outside the US?",
+          "a": "Obligations follow the role's location rather than the agency's. An offshore delivery team screening candidates for a New York City role is working within the scope of the rules that apply to that role."
+        },
+        {
+          "q": "What should you ask an AI screening vendor?",
+          "a": "Whether the tool has been independently bias audited and how recently, whether the audit summary is available to customers, whether the system's assessment can be explained in plain language, what is retained and for how long, and where the human checkpoint sits."
+        }
+      ],
+      "related": [
+        "eu-ai-act-staffing-firms",
+        "ai-interview-questions-scoring",
+        "candidate-experience-cost-ai-screening"
+      ],
+      "cta": {
+        "title": "See what gets recorded on a screening call",
+        "body": "Bring a US role and we will show you exactly what is captured, what is retained, and where a person reviews."
+      }
+    },
+    {
+      "slug": "eu-ai-act-staffing-firms",
+      "title": "The EU AI Act for Staffing Firms Placing Into Europe",
+      "metaTitle": "The EU AI Act for Staffing Firms: What It Requires",
+      "description": "Recruitment AI is classified as high-risk under the EU AI Act. What that means for agencies placing into Europe, and which obligations fall on you.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "Recruitment is named as a high-risk use case. If you place candidates into the EU, the obligations follow the candidate rather than your office.",
+      "date": "2026-08-12",
+      "dateLabel": "12 August 2026",
+      "dateShort": "12 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What the Act actually covers in hiring"
+        },
+        {
+          "id": "s2",
+          "label": "Why an Indian agency is in scope"
+        },
+        {
+          "id": "s3",
+          "label": "The four obligations that matter operationally"
+        },
+        {
+          "id": "s4",
+          "label": "Provider versus deployer, and which you are"
+        },
+        {
+          "id": "s5",
+          "label": "What to do this quarter"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The one-page document worth writin"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the EU AI Act apply to recruitment?",
+          "a": "Yes. AI used for recruitment, candidate selection and evaluation is classified as high-risk, which brings transparency, human oversight, record-keeping and bias management obligations rather than an outright prohibition."
+        },
+        {
+          "q": "Does the EU AI Act apply to a staffing firm outside the EU?",
+          "a": "It applies where the output of the AI system is used within the EU. An agency placing candidates into EU-based roles or for EU employers should plan as though it is in scope, regardless of where its recruiters sit."
+        },
+        {
+          "q": "Can AI reject candidates automatically under the EU AI Act?",
+          "a": "Human oversight of automated decisions is required, which means a person must be able to review, override and take responsibility. A workflow where a system rejects without human review is the specific arrangement the rules target."
+        },
+        {
+          "q": "What is the difference between a provider and a deployer?",
+          "a": "A provider builds the AI system and carries the heavier obligations around conformity, documentation and testing. A deployer uses it and is typically responsible for intended use, human oversight, candidate disclosure and records of use."
+        },
+        {
+          "q": "Do candidates have to be told AI is being used?",
+          "a": "Transparency obligations mean people should know when AI is used in a process assessing them, stated before the assessment rather than afterwards. This is also good practice, since disclosure tends to improve completion rather than reduce it."
+        },
+        {
+          "q": "What should a staffing firm ask its ATS vendor about the AI Act?",
+          "a": "For documentation on bias auditing, how scores are produced and can be explained, what data is retained and for how long, and whether the vendor considers itself a provider under the Act. A vendor who cannot answer is a risk you carry."
+        }
+      ],
+      "related": [
+        "ai-interview-questions-scoring",
+        "us-state-ai-hiring-laws",
+        "india-dpdp-candidate-data"
+      ],
+      "cta": {
+        "title": "See where the human checkpoint sits",
+        "body": "Bring a live role and we will show you exactly which decisions are automated and which stay with your recruiter."
+      }
+    },
+    {
+      "slug": "india-dpdp-candidate-data",
+      "title": "India's DPDP Act and Candidate Data: What Agencies Must Change",
+      "metaTitle": "India's DPDP Act and Candidate Data: What Changes",
+      "description": "Candidate CVs are personal data. What consent, purpose limitation and retention now mean for a staffing firm holding millions of records in India.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "Every staffing firm in India holds a large database of personal data collected over years, mostly without a documented basis.",
+      "date": "2026-08-11",
+      "dateLabel": "11 August 2026",
+      "dateShort": "11 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why a candidate database is the exposure"
+        },
+        {
+          "id": "s2",
+          "label": "Purpose limitation, and why it bites agencies hardest"
+        },
+        {
+          "id": "s3",
+          "label": "Retention, and the case for deleting junk"
+        },
+        {
+          "id": "s4",
+          "label": "Deletion requests and why duplicates make them dangerous"
+        },
+        {
+          "id": "s5",
+          "label": "Where the data lives, and who else has it"
+        },
+        {
+          "id": "s6",
+          "label": "A practical sequence"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question to answer before a cl"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the DPDP Act apply to recruitment databases?",
+          "a": "A candidate database is personal data at scale, so the framework's requirements around purpose, lawful basis and retention apply to it. Staffing firms are more exposed than internal talent teams because reuse across clients and years is the business model."
+        },
+        {
+          "q": "How long can a staffing firm keep candidate data?",
+          "a": "There is no single number, but indefinite retention of everything is the weakest position. A stated retention period with a rationale is defensible; holding records with no reachable contact and no placement history is difficult to justify."
+        },
+        {
+          "q": "What happens when a candidate asks for deletion?",
+          "a": "You must find and remove every record of that person. Duplicates make this dangerous, because deleting one record while two remain means you have failed to comply and reported that you did."
+        },
+        {
+          "q": "Should staffing firms delete old candidate records?",
+          "a": "Records with no reachable contact, no placement history and no recent activity cost more in search noise than they provide in value, and they carry exposure with no offsetting benefit. Deleting them improves search and reduces risk simultaneously."
+        },
+        {
+          "q": "Where should candidate data be hosted?",
+          "a": "Enterprise and GCC clients typically ask this before they ask about delivery capability. Hosting in the client's own country is a straightforward answer; anything else requires explanation during procurement."
+        },
+        {
+          "q": "Do integrations create data protection risk?",
+          "a": "Every integration is a point where candidate data leaves your system, and you remain responsible for it. Knowing which third parties hold candidate data, and on what basis, is part of the position you need to be able to state."
+        }
+      ],
+      "related": [
+        "duplicate-candidate-records-database-hygiene",
+        "ats-integrations-one-way-two-way",
+        "eu-ai-act-staffing-firms"
+      ],
+      "cta": {
+        "title": "See your duplicate and junk split",
+        "body": "We will audit your existing records and show you what is duplicated, what is unusable, and what is placeable today."
+      }
+    },
+    {
+      "slug": "contract-labour-compliance-india",
+      "title": "Contract Labour Compliance in India: What Staffing Firms Get Wrong",
+      "metaTitle": "Contract Labour Compliance in India: What Agencies Miss",
+      "description": "Registration, licensing and principal employer liability are where staffing firms get caught. What the obligations are and where the risk actually sits.",
+      "section": "Policy, Salary & Workplace",
+      "dek": "The liability does not stop at your invoice. Principal employer obligations mean your client's exposure becomes your commercial problem.",
+      "date": "2026-08-10",
+      "dateLabel": "10 August 2026",
+      "dateShort": "10 Aug 2026",
+      "tag": "Policy",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Who owes what"
+        },
+        {
+          "id": "s2",
+          "label": "Why principal employer liability changes the commercial dynamic"
+        },
+        {
+          "id": "s3",
+          "label": "Where failures actually happen"
+        },
+        {
+          "id": "s4",
+          "label": "Why the back office is a compliance function"
+        },
+        {
+          "id": "s5",
+          "label": "What to have ready before a client asks"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The folder that should already exi"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who is responsible for contract labour compliance in India?",
+          "a": "Obligations split between the contractor supplying workers, who typically requires a licence and carries wage and statutory contribution duties, and the principal employer engaging them, who requires registration and is responsible for ensuring the contractor complies."
+        },
+        {
+          "q": "What is principal employer liability?",
+          "a": "If a contractor fails to make required statutory payments, the principal employer can be required to make good the shortfall and recover it from the contractor. This gives your client direct financial exposure to your compliance."
+        },
+        {
+          "q": "Why do enterprise clients audit staffing suppliers?",
+          "a": "Because they carry liability for supplier failures. Vendor onboarding asking for licence copies, contribution records and register extracts is the client protecting itself rather than administrative caution."
+        },
+        {
+          "q": "Where do staffing firms most often fail on compliance?",
+          "a": "Statutory contributions filed late during cash flow pressure, licence thresholds crossed as the firm grows without the position being reviewed, registers not kept current, and worker classification that does not match the actual arrangement."
+        },
+        {
+          "q": "What documents should a staffing agency keep current?",
+          "a": "Current licence with the threshold position documented, principal employer registration status, statutory contribution records with evidence of remittance, wage registers, attendance and hours records, and worker-level identity and certification documentation."
+        },
+        {
+          "q": "Is back office a compliance function in contract staffing?",
+          "a": "Effectively yes. Hours worked, wages paid and contributions remitted with their dates are the evidence base a compliance audit examines, which is why data scattered across spreadsheets and providers becomes a liability under audit."
+        }
+      ],
+      "related": [
+        "ai-staffing-back-office",
+        "perm-vs-contract-desk",
+        "blue-collar-hiring-india-breaks-ats"
+      ],
+      "cta": {
+        "title": "See timesheets and compliance on one record",
+        "body": "Bring a contract engagement and we will show you what the audit trail looks like when it assembles itself."
+      }
     }
   ]
 }

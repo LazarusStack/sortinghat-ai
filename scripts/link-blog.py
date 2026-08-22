@@ -146,6 +146,19 @@ INTERNAL = [
     (r"blue[- ]collar",                             "blue-collar-hiring-india-breaks-ats"),
     (r"recruiter productivity|activity metrics",    "recruiter-productivity-myth"),
     (r"resume screen\w*|CV screen\w*",             "nobody-needs-another-resume-screener"),
+
+    # policy and growth. Seven of these thirteen subjects, pay transparency,
+    # moonlighting, return to office and cross-selling among them, are named
+    # nowhere else in the corpus and get no anchor rather than a loose one.
+    # "upsell" appears once and means a software upsell, which is not what the
+    # post is about, so it is left alone.
+    (r"EU AI Act",                                  "eu-ai-act-staffing-firms"),
+    (r"DPDP|Digital Personal Data Protection",      "india-dpdp-candidate-data"),
+    (r"Local Law 144|Colorado AI Act",              "us-state-ai-hiring-laws"),
+    (r"contract labour|CLRA",                       "contract-labour-compliance-india"),
+    (r"worker classification|right to work",        "contract-labour-compliance-india"),
+    (r"relationship holder",                        "relationships-drive-staffing-revenue"),
+    (r"without adding headcount|revenue per recruiter", "grow-staffing-revenue-without-headcount"),
 ]
 
 # Competitors resolve two ways: to the page that compares them where the reader

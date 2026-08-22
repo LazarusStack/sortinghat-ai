@@ -99,6 +99,16 @@ export const SECTIONS: Section[] = [
     title: "Benchmarks",
     dek: "Numbers worth planning against, published with the methodology attached and without a single headline figure where the spread makes one dishonest.",
   },
+  {
+    id: "policy-salary-workplace",
+    title: "Policy, Salary & Workplace",
+    dek: "The rules a staffing firm operates inside: AI hiring law in the EU, the US states and India, candidate data under DPDP, contract labour, pay transparency, moonlighting and where people work.",
+  },
+  {
+    id: "agency-growth-revenue",
+    title: "Agency Growth & Revenue",
+    dek: "Growing the top line without adding heads: what an existing client is already willing to buy, and which services are worth attaching to a desk that already delivers.",
+  },
 ];
 
 export function postsInSection(section: Section): Post[] {

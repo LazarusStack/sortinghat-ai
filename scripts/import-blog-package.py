@@ -132,6 +132,20 @@ ORDER = [
     "cxo-leadership-search-process",
     "blue-collar-sourcing-channels-verification",
     "blue-collar-hiring-india-breaks-ats",
+    # Policy, Salary & Workplace, then Agency Growth & Revenue, newest first
+    "grow-staffing-revenue-without-headcount",
+    "staffing-add-on-services",
+    "cross-sell-perm-into-contract",
+    "how-to-upsell-staffing-clients",
+    "relationships-drive-staffing-revenue",
+    "designing-recruiter-incentive-plans",
+    "return-to-office-vs-remote-hiring",
+    "moonlighting-dual-employment-india",
+    "pay-transparency-laws-agencies",
+    "us-state-ai-hiring-laws",
+    "eu-ai-act-staffing-firms",
+    "india-dpdp-candidate-data",
+    "contract-labour-compliance-india",
 ]
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
