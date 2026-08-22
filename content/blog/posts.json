@@ -9767,6 +9767,2283 @@
         "title": "See timesheets and compliance on one record",
         "body": "Bring a contract engagement and we will show you what the audit trail looks like when it assembles itself."
       }
+    },
+    {
+      "slug": "offshore-recruitment-delivery-models",
+      "title": "Offshore Recruitment Delivery: Time Zones, Handoffs and What Travels",
+      "metaTitle": "Offshore Recruitment Delivery: Models and Handoffs",
+      "description": "Time zones, handoffs and SLAs decide whether offshore delivery works. Three models compared, what travels well, and where handoffs actually break.",
+      "section": "Global Selling & Pricing",
+      "dek": "Offshore delivery fails at the handoff, not at the sourcing. The model you choose determines how many handoffs there are.",
+      "date": "2026-08-22",
+      "dateLabel": "22 August 2026",
+      "dateShort": "22 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The three models"
+        },
+        {
+          "id": "s2",
+          "label": "Why handoffs are the failure point"
+        },
+        {
+          "id": "s3",
+          "label": "Why overlap beats headcount"
+        },
+        {
+          "id": "s4",
+          "label": "What travels well and what does not"
+        },
+        {
+          "id": "s5",
+          "label": "SLAs that actually mean something"
+        },
+        {
+          "id": "s6",
+          "label": "How automation changes the model"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The design decision to make first"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the main risk in offshore recruitment delivery?",
+          "a": "Handoffs rather than sourcing quality. The information that decides most rejections is never written down, so it is lost between the person who took the brief and the person doing the work."
+        },
+        {
+          "q": "What offshore delivery models exist?",
+          "a": "Follow the sun with an overnight cycle, overlapping hours allowing real-time contact during part of the client's day, and fully embedded where the offshore team works the client's hours entirely."
+        },
+        {
+          "q": "Is overlap or headcount more important in offshore delivery?",
+          "a": "Overlap. Two hours of genuine overlap solves more than two additional recruiters, because a single conversation clarifying a brief removes an entire cycle of wrong-direction work that extra capacity cannot recover."
+        },
+        {
+          "q": "What recruitment work travels well offshore?",
+          "a": "Sourcing, database work, screening against defined criteria, scheduling, submission preparation and reporting. Persuading reluctant senior candidates, reading unstated hiring manager concerns and managing counter-offers travel considerably less well."
+        },
+        {
+          "q": "What SLAs should offshore recruitment commit to?",
+          "a": "Time from brief to first submission, submission-to-interview ratio, response time within stated hours, and time to escalate when something is stuck. Committing to profiles sourced per day is a commitment to look busy."
+        },
+        {
+          "q": "How does automation change offshore delivery models?",
+          "a": "When a filtered screening day produces submission-ready profiles in hours rather than days, the offshore team can complete a cycle inside an overlap window, making overlapping hours viable where follow-the-sun was previously necessary."
+        }
+      ],
+      "related": [
+        "candidate-scorecard-from-client-brief",
+        "sell-staffing-services-australia",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See a cycle completed inside a window",
+        "body": "Bring an offshore-delivered role and we will show you what a shortlist looks like produced within overlap hours."
+      }
+    },
+    {
+      "slug": "cross-cultural-client-management",
+      "title": "Cross-Cultural Client Management Across Markets",
+      "metaTitle": "Cross-Cultural Client Management for Staffing Firms",
+      "description": "How client expectations differ across the US, UK, Europe, the Gulf and Australia, and which behaviours read as competent in one market and evasive in another.",
+      "section": "Global Selling & Pricing",
+      "dek": "The same behaviour reads as thorough in one market and as stalling in another. Most international account problems start here.",
+      "date": "2026-08-22",
+      "dateLabel": "22 August 2026",
+      "dateShort": "22 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Delivering bad news"
+        },
+        {
+          "id": "s2",
+          "label": "Directness and hedging"
+        },
+        {
+          "id": "s3",
+          "label": "Timelines and what a commitment means"
+        },
+        {
+          "id": "s4",
+          "label": "Hierarchy and who is in the room"
+        },
+        {
+          "id": "s5",
+          "label": "Silence, and how to read it"
+        },
+        {
+          "id": "s6",
+          "label": "The caveat that matters most"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The practice worth adopting"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do client expectations differ across markets?",
+          "a": "Most sharply in how bad news should be delivered, in whether directness reads as competence or rudeness, in whether a stated timeline is a firm commitment or an intention, and in what silence signals."
+        },
+        {
+          "q": "How should you deliver bad news to an international client?",
+          "a": "Early in every market, since delay is the universal failure. What varies is the framing: some markets expect plain statements without cushioning, others expect context first, and delaying while deciding how to phrase it fails everywhere."
+        },
+        {
+          "q": "Is directness always good in client communication?",
+          "a": "No. It reads as competence and honesty in some markets and as disrespectful in others. The common failure for firms serving Western markets is under-committing, where hedged answers read as uncertainty rather than caution."
+        },
+        {
+          "q": "How do you avoid timeline misunderstandings across markets?",
+          "a": "With specificity. A named date and time travels across every market, whereas a vague commitment such as coming back shortly is interpreted locally and the interpretations differ substantially."
+        },
+        {
+          "q": "What does client silence mean?",
+          "a": "It varies. In some contexts it is consideration and chasing reads as pressure; in others it is disengagement and not chasing reads as indifference. A brief update that does not demand a response works under both readings."
+        },
+        {
+          "q": "Are cultural generalisations reliable in client management?",
+          "a": "Only as a starting hypothesis. Individual variation exceeds market variation, so adjusting to a person based on a national generalisation is a way of getting that specific person wrong with confidence."
+        }
+      ],
+      "related": [
+        "client-retention-playbook",
+        "first-overseas-staffing-client",
+        "offshore-recruitment-delivery-models"
+      ],
+      "cta": {
+        "title": "See client preferences on the record",
+        "body": "Bring an international account and we will show you what gets captured about how a client actually works."
+      }
+    },
+    {
+      "slug": "cross-border-staffing-compliance",
+      "title": "Cross-Border Staffing: Legal Entity, EOR and Who Actually Employs the Worker",
+      "metaTitle": "Cross-Border Staffing: Entity, EOR and Who Employs",
+      "description": "Placing workers across borders raises one question first: who is the legal employer. The four structures, what each costs, and where the risk lands.",
+      "section": "Global Selling & Pricing",
+      "dek": "Every international staffing arrangement turns on one question, and firms that answer it after winning the work create liability rather than revenue.",
+      "date": "2026-08-21",
+      "dateLabel": "21 August 2026",
+      "dateShort": "21 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why permanent placement is straightforward and contract is not"
+        },
+        {
+          "id": "s2",
+          "label": "The four structures"
+        },
+        {
+          "id": "s3",
+          "label": "Misclassification, and why clients ask about it"
+        },
+        {
+          "id": "s4",
+          "label": "Data protection across borders"
+        },
+        {
+          "id": "s5",
+          "label": "How to choose a structure"
+        },
+        {
+          "id": "s6",
+          "label": "What to have before you contract"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question to answer before the"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who is the legal employer in cross-border staffing?",
+          "a": "It depends on the structure: your own local entity, an employer of record, a local partner agency, or nobody if the worker is a genuine independent contractor. That choice determines tax, contributions, employment liability and legality."
+        },
+        {
+          "q": "What is an employer of record?",
+          "a": "A third party that legally employs the worker and handles payroll, statutory contributions and compliance for a fee. It removes the need for your own entity and the fee comes out of your contract spread."
+        },
+        {
+          "q": "Is permanent placement across borders simpler than contract?",
+          "a": "Considerably. On a permanent placement the client employs the candidate directly, so the employment question is theirs. Contract requires somebody to employ or engage the worker for the duration, with all the obligations that carries."
+        },
+        {
+          "q": "What is misclassification risk?",
+          "a": "Treating somebody as an independent contractor when the working arrangement resembles employment. Tests look at control, integration, exclusivity and who provides direction, and the exposure typically lands on both the engaging party and the client."
+        },
+        {
+          "q": "When should a staffing firm set up a local entity?",
+          "a": "Once volume justifies the ongoing compliance, accounting and payroll cost, and once you are committed to the market. For one or two workers testing a market, an employer of record is the sensible alternative."
+        },
+        {
+          "q": "What data protection issues arise in cross-border staffing?",
+          "a": "Lawful basis for processing, the transfer mechanism for moving candidate data between jurisdictions, and retention. Both the receiving jurisdiction's rules and your own country's framework apply simultaneously."
+        }
+      ],
+      "related": [
+        "contract-markup-by-market",
+        "india-dpdp-candidate-data",
+        "partnering-with-complementary-firms"
+      ],
+      "cta": {
+        "title": "See cost per assignment after structure",
+        "body": "Bring a cross-border engagement and we will show you margin after employment costs rather than headline spread."
+      }
+    },
+    {
+      "slug": "how-to-get-on-a-vms",
+      "title": "How to Get Onto a VMS as a Supplier",
+      "metaTitle": "How to Get Onto a VMS as a Staffing Firm Supplier",
+      "description": "Vendor management onboarding, tier position and what a programme actually gives you. How suppliers get listed, and why many of them should not bother.",
+      "section": "Global Selling & Pricing",
+      "dek": "Getting onto a vendor programme is an onboarding process. Getting requisitions from it is a separate problem that nobody explains beforehand.",
+      "date": "2026-08-20",
+      "dateLabel": "20 August 2026",
+      "dateShort": "20 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What a VMS actually is, from the supplier side"
+        },
+        {
+          "id": "s2",
+          "label": "The onboarding process"
+        },
+        {
+          "id": "s3",
+          "label": "Tier position, and why it decides everything"
+        },
+        {
+          "id": "s4",
+          "label": "How to actually receive work"
+        },
+        {
+          "id": "s5",
+          "label": "When not to join a programme"
+        },
+        {
+          "id": "s6",
+          "label": "What a programme gives you that is worth having"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The arithmetic before you sign"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a VMS from a supplier's point of view?",
+          "a": "Software the client uses to manage contingent labour and its supplier base. Requisitions are released through it, candidates submitted through it, and rate cards enforced automatically. Frequently an MSP runs the programme and becomes your actual relationship."
+        },
+        {
+          "q": "How do you get onto a vendor management programme?",
+          "a": "Through a procurement onboarding process requiring insurance certificates, financial statements, compliance documentation, data protection position, references and agreement to the rate card. Most suppliers fail on documentation rather than capability."
+        },
+        {
+          "q": "Why do suppliers get listed but receive no requisitions?",
+          "a": "Because requisitions are released in tiers and a lower-tier supplier sees them only after the top tier has had a window, meaning they work roles the top tier could not fill at the same rate card."
+        },
+        {
+          "q": "How do you move up a supplier tier?",
+          "a": "By reliably filling the requisitions the programme struggles with, and by speed within the release window, which is the only differentiator the structure actually exposes."
+        },
+        {
+          "q": "When should a staffing firm decline a VMS programme?",
+          "a": "When entering at the bottom tier of a large panel where the release window means you only see unfillable roles, and when the rate card sits below your cost of delivering properly."
+        },
+        {
+          "q": "What benefits does a VMS programme genuinely offer?",
+          "a": "Consistent requisition volume that direct business development does not produce, enterprise credibility as an approved supplier, and administrative simplification through one contract and one invoicing route."
+        }
+      ],
+      "related": [
+        "vms-msp-consolidation-agency-margins",
+        "how-to-win-a-psl",
+        "contract-labour-compliance-india"
+      ],
+      "cta": {
+        "title": "See fill rate by requisition category",
+        "body": "Bring your programme data and we will show you which categories earn and which consume capacity."
+      }
+    },
+    {
+      "slug": "rpo-pricing-models",
+      "title": "RPO Pricing Models and When Each One Works",
+      "metaTitle": "RPO Pricing Models: Per Hire, FTE and Managed",
+      "description": "Three RPO pricing structures compared on risk, scalability and what each one rewards. How to choose between them, and where each model breaks in delivery.",
+      "section": "Global Selling & Pricing",
+      "dek": "RPO pricing determines whether volume changes help you or hurt you, and most providers discover which after signing.",
+      "date": "2026-08-19",
+      "dateLabel": "19 August 2026",
+      "dateShort": "19 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Per hire"
+        },
+        {
+          "id": "s2",
+          "label": "Per FTE or dedicated resource"
+        },
+        {
+          "id": "s3",
+          "label": "Managed service and outcome pricing"
+        },
+        {
+          "id": "s4",
+          "label": "Scope creep, the failure mode in all three"
+        },
+        {
+          "id": "s5",
+          "label": "How automation changes the model choice"
+        },
+        {
+          "id": "s6",
+          "label": "What to model before quoting"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The scenario to run before signing"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What are the main RPO pricing models?",
+          "a": "Per hire, where the client pays a fixed fee per placement; per FTE or dedicated resource, where they pay monthly for recruiter capacity; and managed service or outcome pricing, where a fee covers a defined recruiting outcome."
+        },
+        {
+          "q": "Which RPO pricing model transfers the most risk to the provider?",
+          "a": "Per hire, since the team is sized for a hiring plan and the revenue depends entirely on placements actually happening. It works well when volume rises and severely when it stops."
+        },
+        {
+          "q": "When does per FTE pricing make sense?",
+          "a": "When volume is uncertain, when scope includes work beyond placements such as process design or employer branding, or when the client wants control over how the dedicated resource is deployed."
+        },
+        {
+          "q": "Why does managed service pricing fail?",
+          "a": "Usually because scope is vague at the start of a relationship, and an outcome contract with an undefined scope transfers unlimited risk to the provider. It suits mature programmes where both sides know what normal looks like."
+        },
+        {
+          "q": "How does automation affect RPO pricing choice?",
+          "a": "It determines who captures the efficiency benefit. Per-hire and managed models let the provider capture it; FTE pricing transfers it to the client, since you are paid for time regardless of what that time produces."
+        },
+        {
+          "q": "What should an RPO provider model before quoting?",
+          "a": "The downside volume case if hiring halves, role mix drift towards harder requirements at a flat fee, the ramp cost of standing up the programme, and how much scope elasticity the fee needs to absorb."
+        }
+      ],
+      "related": [
+        "ai-in-rpo-delivery",
+        "best-ats-crm-rpo-firms",
+        "how-to-price-staffing-services"
+      ],
+      "cta": {
+        "title": "See delivery cost per role",
+        "body": "Bring an RPO account and we will show you the cost per role delivered with sourcing and screening automated."
+      }
+    },
+    {
+      "slug": "contract-markup-by-market",
+      "title": "Contract Markup by Market: Where the Spread Actually Goes",
+      "metaTitle": "Contract Markup: Where the Spread Actually Goes",
+      "description": "Bill rate minus pay rate is not your margin. What comes out of the spread by market, and why headline markup comparisons mislead badly across borders.",
+      "section": "Global Selling & Pricing",
+      "dek": "Two agencies quoting the same markup in two countries can be earning completely different margins, and firms entering new markets learn this expensively.",
+      "date": "2026-08-18",
+      "dateLabel": "18 August 2026",
+      "dateShort": "18 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Markup versus margin, which are not the same"
+        },
+        {
+          "id": "s2",
+          "label": "What comes out of the spread"
+        },
+        {
+          "id": "s3",
+          "label": "Why worker classification changes everything"
+        },
+        {
+          "id": "s4",
+          "label": "Payment terms, the part nobody compares"
+        },
+        {
+          "id": "s5",
+          "label": "How to price contract in an unfamiliar market"
+        },
+        {
+          "id": "s6",
+          "label": "Why margin varies within a market as much as between"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The calculation before you quote a"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between markup and margin in contract staffing?",
+          "a": "Markup is typically calculated against the pay rate and margin against the bill rate, so the same arrangement produces two different percentages. Different markets default to different conventions, which causes real confusion when comparing."
+        },
+        {
+          "q": "What comes out of the contract staffing spread?",
+          "a": "Statutory contributions such as social security and insurance, accrued leave entitlement, employment risk including notice and termination protection, and insurance and compliance overhead including vendor programme administration."
+        },
+        {
+          "q": "Why do contract margins differ so much between countries?",
+          "a": "Because what the agency absorbs from the spread varies enormously by jurisdiction. Two markets with identical headline markup can produce very different net margins once statutory and employment costs are applied."
+        },
+        {
+          "q": "How does worker classification affect contract margin?",
+          "a": "It determines what the agency absorbs. An employed contractor brings full employment costs, an independent contractor brings fewer but adds classification risk, and an employer of record arrangement moves the relationship to a third party for a fee."
+        },
+        {
+          "q": "Do payment terms affect contract staffing economics?",
+          "a": "Substantially. You pay the worker weekly or monthly while the client pays on their terms, and you fund the gap. On a thin spread that funding cost is a meaningful share of the margin and belongs in the quote."
+        },
+        {
+          "q": "Why do margins vary within a single market?",
+          "a": "Because segment matters more than geography. Vendor programme work sits at rate card, direct enterprise contracts sit higher, and scarce specialist skills sit higher still because supply constrains the client's alternatives."
+        }
+      ],
+      "related": [
+        "perm-vs-contract-desk",
+        "cross-border-staffing-compliance",
+        "global-recruitment-fee-benchmarks"
+      ],
+      "cta": {
+        "title": "See realised margin per assignment",
+        "body": "Bring your contract book and we will show you margin after costs rather than headline spread."
+      }
+    },
+    {
+      "slug": "global-recruitment-fee-benchmarks",
+      "title": "Global Recruitment Fee Structures: How Agencies Charge by Market",
+      "metaTitle": "Global Recruitment Fee Structures: How Agencies Charge",
+      "description": "How agency fees are structured across the US, UK, Europe, Australia, the Middle East and India, and which local factors actually drive the differences.",
+      "section": "Global Selling & Pricing",
+      "dek": "Fee levels vary by market for structural reasons. Understanding the reasons matters more than memorising the numbers, which move.",
+      "date": "2026-08-17",
+      "dateLabel": "17 August 2026",
+      "dateShort": "17 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The four factors that explain most variation"
+        },
+        {
+          "id": "s2",
+          "label": "Permanent placement: percentage of salary"
+        },
+        {
+          "id": "s3",
+          "label": "Contract: spread rather than percentage"
+        },
+        {
+          "id": "s4",
+          "label": "Where fees are under most pressure"
+        },
+        {
+          "id": "s5",
+          "label": "How to price a market you have not worked"
+        },
+        {
+          "id": "s6",
+          "label": "Why the numbers are deliberately absent here"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The reference worth building yours"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What drives recruitment fee differences between markets?",
+          "a": "Four structural factors: how many agencies compete for the same roles, how far vendor management programmes have penetrated, how employment law allocates risk, and what scope of work an agency is expected to perform."
+        },
+        {
+          "q": "How are permanent placement fees structured internationally?",
+          "a": "Almost universally as a percentage of first-year compensation. The variables to check are whether the percentage applies to base or total compensation, the guarantee period and whether it is a refund or replacement, and whether retained work is normal at senior levels."
+        },
+        {
+          "q": "How do contract staffing fees work?",
+          "a": "As a spread rather than a percentage. The client pays a bill rate, the worker receives a pay rate, and the agency keeps the difference less employment costs. What comes out of that spread varies enormously by jurisdiction."
+        },
+        {
+          "q": "Why are contract margins lower than permanent fees?",
+          "a": "Largely because vendor management programmes dominate contingent hiring in many markets, setting margins by rate card rather than negotiation, and because significant employment costs come out of the spread."
+        },
+        {
+          "q": "How do you price into a market you have not worked?",
+          "a": "Ask a local partner directly, check the local industry body's guidance, and ask the client what they currently pay framed as wanting to be competitive. Pricing from another market is the most common error and it fails in both directions."
+        },
+        {
+          "q": "Why not publish a table of fees by country?",
+          "a": "Because fee levels vary by sector, seniority, supplier density and segment within every market, and they move. A single figure would be wrong for most readers and would be cited as authoritative regardless."
+        }
+      ],
+      "related": [
+        "how-to-price-staffing-services",
+        "contract-markup-by-market",
+        "vms-msp-consolidation-agency-margins"
+      ],
+      "cta": {
+        "title": "Track fees and margin by market",
+        "body": "Bring your placement data and we will show you realised margin by market, sector and desk."
+      }
+    },
+    {
+      "slug": "how-to-price-staffing-services",
+      "title": "How to Price Staffing Services: Six Fee Models Compared",
+      "metaTitle": "How to Price Staffing Services: Six Fee Models",
+      "description": "Contingency, retained, container, subscription and RPO pricing compared on risk, cash flow and what each model actually rewards. How to match model to mandate.",
+      "section": "Global Selling & Pricing",
+      "dek": "Most agencies use one pricing model for everything, which means they are mispricing most of what they do.",
+      "date": "2026-08-16",
+      "dateLabel": "16 August 2026",
+      "dateShort": "16 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The six models"
+        },
+        {
+          "id": "s2",
+          "label": "Why percentage-of-salary is the weakest default"
+        },
+        {
+          "id": "s3",
+          "label": "Matching model to mandate"
+        },
+        {
+          "id": "s4",
+          "label": "What each model does to your cash flow"
+        },
+        {
+          "id": "s5",
+          "label": "How to introduce a different model to an existing client"
+        },
+        {
+          "id": "s6",
+          "label": "Verify before you quote"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The exercise for your current mand"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What fee models can staffing agencies use?",
+          "a": "Contingency at a percentage of salary, contingency at a fixed fee, retained with staged payments, container with partial upfront, subscription or embedded capacity, and RPO or managed service pricing."
+        },
+        {
+          "q": "What is wrong with percentage-of-salary pricing?",
+          "a": "It tracks the candidate's pay rather than search difficulty. A well-paid role with abundant supply pays well and is easy; a modestly paid scarce role is extremely hard and pays badly, so the model rewards the wrong mandates."
+        },
+        {
+          "q": "When should a role be retained rather than contingent?",
+          "a": "When supply is genuinely scarce, when the search is confidential and narrow by design, or when the brief keeps changing and the discovery work needs funding. Months of effort against a probability of payment does not function."
+        },
+        {
+          "q": "What is a container fee?",
+          "a": "Partial payment upfront with the balance on placement. It sits between contingency and full retainer, funds part of the work, and is genuinely useful for difficult mandates where a client resists a full retainer."
+        },
+        {
+          "q": "How does pricing model affect cash flow?",
+          "a": "Contingency defers everything to placement, so the firm funds all work and carries all risk. Retained and container bring money forward and reduce the working capital constraint. Subscription is most predictable and hardest to sell."
+        },
+        {
+          "q": "How do you move an existing client to a different fee model?",
+          "a": "By framing it as a response to a specific problem rather than a price change. A market map showing the requirement exists in a small national population is a reason; preferring a retainer is not."
+        }
+      ],
+      "related": [
+        "retained-search-survives-ai",
+        "niche-engineering-roles-scarce-skills",
+        "global-recruitment-fee-benchmarks"
+      ],
+      "cta": {
+        "title": "See difficulty before you price",
+        "body": "Bring a role and we will map the population so the pricing conversation has evidence behind it."
+      }
+    },
+    {
+      "slug": "first-overseas-staffing-client",
+      "title": "How to Land Your First Overseas Staffing Client",
+      "metaTitle": "How to Land Your First Overseas Staffing Client",
+      "description": "Winning internationally before you have a reference in that market. The credibility problem, the four routes around it, and what to charge on the first one.",
+      "section": "Global Selling & Pricing",
+      "dek": "The first international client is a credibility problem rather than a sales problem, and the two require different approaches.",
+      "date": "2026-08-15",
+      "dateLabel": "15 August 2026",
+      "dateShort": "15 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why discounting does not solve it"
+        },
+        {
+          "id": "s2",
+          "label": "The four routes to borrowed credibility"
+        },
+        {
+          "id": "s3",
+          "label": "What to charge on the first one"
+        },
+        {
+          "id": "s4",
+          "label": "Deliver the first one personally"
+        },
+        {
+          "id": "s5",
+          "label": "What to fix before you start"
+        },
+        {
+          "id": "s6",
+          "label": "Turning one client into a market"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The list worth writing this week"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the biggest obstacle to winning an overseas staffing client?",
+          "a": "Credibility rather than capability or price. A buyer with no evidence about you is managing risk, and a lower fee makes that risk cheaper rather than smaller."
+        },
+        {
+          "q": "How do you win a first international client with no track record?",
+          "a": "By borrowing credibility: through an existing client's overseas operation, a partner who fronts the relationship, a niche the local market does not serve, or a diaspora and network introduction."
+        },
+        {
+          "q": "Should you discount your first overseas placement?",
+          "a": "Price it for the reference and say so openly. An honest framing sets up a rate conversation later, whereas a low fee presented as your standard rate becomes permanent and gets shared with the next client."
+        },
+        {
+          "q": "Who should deliver your first international mandate?",
+          "a": "The founder or the most senior person available. The margin is irrelevant compared to the reference, failure is materially less likely, and the market knowledge gained in six weeks exceeds any research."
+        },
+        {
+          "q": "What needs to be ready before selling overseas?",
+          "a": "Reachability during the client's working hours with hours you actually hold, compliance answers on data residency and screening rules in that jurisdiction, and a written delivery model covering response times and escalation."
+        },
+        {
+          "q": "How do you turn one overseas client into a market?",
+          "a": "By asking explicitly for the reference around four weeks after a successful placement. A written reference, a recommendation and permission to name them are three separate asks and all are worth making."
+        }
+      ],
+      "related": [
+        "partnering-with-complementary-firms",
+        "how-to-upsell-staffing-clients",
+        "cross-border-staffing-compliance"
+      ],
+      "cta": {
+        "title": "See delivery that runs on a client's clock",
+        "body": "Bring an overseas requirement and we will show you what a shortlist looks like inside one working cycle."
+      }
+    },
+    {
+      "slug": "sell-staffing-services-middle-east",
+      "title": "How to Sell Recruitment Services Into the Middle East",
+      "metaTitle": "How to Sell Recruitment Services Into the Middle East",
+      "description": "Localisation quotas, visa sponsorship and relationship-led buying define Gulf hiring. What an offshore staffing firm needs to understand before entering.",
+      "section": "Global Selling & Pricing",
+      "dek": "Gulf hiring runs on structures that do not exist elsewhere: nationalisation quotas, sponsorship, and relationships that precede any commercial conversation.",
+      "date": "2026-08-14",
+      "dateLabel": "14 August 2026",
+      "dateShort": "14 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "How localisation policy changes what clients need"
+        },
+        {
+          "id": "s2",
+          "label": "Sponsorship, and why it is a screening criterion"
+        },
+        {
+          "id": "s3",
+          "label": "Why relationships come first"
+        },
+        {
+          "id": "s4",
+          "label": "Why Indian firms have a structural advantage"
+        },
+        {
+          "id": "s5",
+          "label": "Compliance and candidate protection"
+        },
+        {
+          "id": "s6",
+          "label": "How to enter"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The corridor you may already have"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What makes Middle East hiring different from other markets?",
+          "a": "Localisation policies creating national hiring obligations for employers, work authorisation tied to employer sponsorship which determines candidate eligibility, and a business culture where commercial conversations follow relationships rather than preceding them."
+        },
+        {
+          "q": "How do localisation quotas affect staffing firms?",
+          "a": "They create a distinct and constrained demand for national candidates alongside continued expatriate hiring. An agency able to serve the quota requirement has something scarce; one supplying only expatriates serves the segment policy is shrinking."
+        },
+        {
+          "q": "Why does visa status matter at screening?",
+          "a": "Because work authorisation is tied to a sponsor, so a candidate already in-country on a transferable visa can move materially faster than one requiring new sponsorship. Status is a screening fact rather than later paperwork."
+        },
+        {
+          "q": "Why do Indian staffing firms have an advantage in the Gulf?",
+          "a": "A large share of the expatriate workforce comes from the Indian subcontinent, proximity and time zone make delivery straightforward, and established recruitment corridors mean process and candidate expectations are understood."
+        },
+        {
+          "q": "What compliance issues apply to Gulf recruitment?",
+          "a": "Candidates should never be charged placement fees, which is prohibited in many jurisdictions, and documentation and contract terms should be transparent before travel. Enterprise clients increasingly audit these practices."
+        },
+        {
+          "q": "How long is the sales cycle in the Middle East?",
+          "a": "Longer at the start, because relationship building precedes commercial discussion, and considerably more durable afterwards. Established Gulf client relationships tend to be more loyal than equivalent Western accounts."
+        }
+      ],
+      "related": [
+        "blue-collar-hiring-india-breaks-ats",
+        "notice-period-reality-india",
+        "first-overseas-staffing-client"
+      ],
+      "cta": {
+        "title": "See eligibility captured at screening",
+        "body": "Bring a Gulf requirement and we will show you what gets recorded before anyone reaches offer stage."
+      }
+    },
+    {
+      "slug": "sell-staffing-services-australia",
+      "title": "How to Sell Recruitment Services Into Australia",
+      "metaTitle": "How to Sell Recruitment Services Into Australia",
+      "description": "A concentrated market with a strong local industry body, high relationship dependence and specific contractor rules. What an offshore firm should know first.",
+      "section": "Global Selling & Pricing",
+      "dek": "A smaller market than the US or UK, more relationship-driven, and one where an unknown supplier gets less benefit of the doubt.",
+      "date": "2026-08-13",
+      "dateLabel": "13 August 2026",
+      "dateShort": "13 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What a smaller market changes"
+        },
+        {
+          "id": "s2",
+          "label": "Why partnership entry works better here"
+        },
+        {
+          "id": "s3",
+          "label": "The time zone advantage, and how it differs from the US model"
+        },
+        {
+          "id": "s4",
+          "label": "Contractor engagement and why it needs local advice"
+        },
+        {
+          "id": "s5",
+          "label": "What Australian clients expect"
+        },
+        {
+          "id": "s6",
+          "label": "How to sequence entry"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The check worth running first"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Australia a good market for offshore recruitment delivery?",
+          "a": "The time zone overlap is a genuine advantage, allowing real-time collaboration rather than the overnight handoff that characterises US delivery from India. The market is smaller and more relationship-driven, which makes partnership entry more effective than cold outreach."
+        },
+        {
+          "q": "How does the Australian time zone help Indian staffing firms?",
+          "a": "Working days overlap substantially, so a recruiter in India can join a client call, discuss a brief and adjust a search within the same working day. That removes the reachability objection that offshore delivery usually faces."
+        },
+        {
+          "q": "Why is partnership entry better in Australia?",
+          "a": "Because a smaller, relationship-driven market gives less benefit of the doubt to unknown suppliers, and cold outreach performs worse where relationships rather than procurement mediate the decision."
+        },
+        {
+          "q": "What should offshore firms know about Australian contractor rules?",
+          "a": "That worker classification, casual employment and contractor arrangements are governed by a local framework differing materially from other markets, and that getting it wrong is a liability question with exposure attaching to both agency and client."
+        },
+        {
+          "q": "What do Australian clients expect from a staffing partner?",
+          "a": "Directness, since overselling and hedged answers both land badly, genuine sector knowledge because the market does not reward generalists, and availability during their working hours."
+        },
+        {
+          "q": "How should an overseas firm sequence entry into Australia?",
+          "a": "Check existing clients for Australian operations first, then delivery partnerships with local agencies, then direct permanent placement in a defined niche once a reference exists, and contract work only with local structures or a partner."
+        }
+      ],
+      "related": [
+        "first-overseas-staffing-client",
+        "partnering-with-complementary-firms",
+        "contract-markup-by-market"
+      ],
+      "cta": {
+        "title": "See real-time delivery on an overlapping clock",
+        "body": "Bring an Australian requirement and we will show you what same-day collaboration produces."
+      }
+    },
+    {
+      "slug": "sell-staffing-services-europe",
+      "title": "How to Sell Recruitment Services Into Europe",
+      "metaTitle": "How to Sell Recruitment Services Into Europe Properly",
+      "description": "Europe is not one market. Language, works councils, employment protection and the AI Act shape what an offshore staffing firm can realistically deliver.",
+      "section": "Global Selling & Pricing",
+      "dek": "Treating Europe as a single market is the error that defines most failed entries. It is a set of markets with different rules and different languages.",
+      "date": "2026-08-12",
+      "dateLabel": "12 August 2026",
+      "dateShort": "12 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why a single European strategy fails"
+        },
+        {
+          "id": "s2",
+          "label": "Language, and what it actually rules out"
+        },
+        {
+          "id": "s3",
+          "label": "Works councils and longer timelines"
+        },
+        {
+          "id": "s4",
+          "label": "The AI Act, which applies to you"
+        },
+        {
+          "id": "s5",
+          "label": "Data protection expectations"
+        },
+        {
+          "id": "s6",
+          "label": "How to enter"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The preparation that decides the f"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can you treat Europe as a single staffing market?",
+          "a": "No. Employment protection, notice periods, contractor rules and hiring norms differ substantially between countries, and a model built for one frequently does not transfer. Entry should be country by country rather than continental."
+        },
+        {
+          "q": "What language constraints apply to offshore recruitment delivery in Europe?",
+          "a": "Candidate conversations in the local language are required for a large share of roles, which rules out most domestic positions for an English-only team. The accessible segment is international companies, capability centres and multinational functions."
+        },
+        {
+          "q": "What are works councils and how do they affect hiring?",
+          "a": "Employee representative bodies with formal consultation rights in several European countries. They lengthen timelines and change who effectively decides, which means a hiring manager's enthusiasm does not translate into a fast process."
+        },
+        {
+          "q": "Does the EU AI Act apply to an offshore staffing firm?",
+          "a": "It applies where the output of the AI system is used in the EU. Screening candidates for EU-based roles brings you within scope regardless of where your recruiters sit, and clients assume this before regulators do."
+        },
+        {
+          "q": "What data protection questions will European clients ask?",
+          "a": "Where candidate data is hosted, lawful basis for processing, retention periods, transfer arrangements outside the EU and what happens on a deletion request. A coherent answer is treated as a baseline rather than a differentiator."
+        },
+        {
+          "q": "How should an offshore firm enter the European market?",
+          "a": "Pick one country based on connection or niche rather than size, target the English-language segment explicitly, partner locally for anything needing language or employment structures, and prepare compliance answers before the first meeting."
+        }
+      ],
+      "related": [
+        "eu-ai-act-staffing-firms",
+        "india-dpdp-candidate-data",
+        "partnering-with-complementary-firms"
+      ],
+      "cta": {
+        "title": "See where the human checkpoint sits",
+        "body": "Bring a European role and we will show you exactly what is automated and where a person reviews."
+      }
+    },
+    {
+      "slug": "sell-staffing-services-uk",
+      "title": "How to Sell Recruitment Services Into the UK",
+      "metaTitle": "How to Sell Recruitment Services Into the UK Market",
+      "description": "IR35, umbrella structures and agency regulation shape the UK market more than anything else. What an overseas firm needs to understand before selling in.",
+      "section": "Global Selling & Pricing",
+      "dek": "The UK is the most regulated staffing market an offshore firm is likely to enter, and the regulation shapes how work is bought.",
+      "date": "2026-08-11",
+      "dateLabel": "11 August 2026",
+      "dateShort": "11 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why contractor status dominates the contract market"
+        },
+        {
+          "id": "s2",
+          "label": "Umbrella companies and what they change"
+        },
+        {
+          "id": "s3",
+          "label": "How UK clients buy"
+        },
+        {
+          "id": "s4",
+          "label": "What works for an offshore firm"
+        },
+        {
+          "id": "s5",
+          "label": "Compliance and data"
+        },
+        {
+          "id": "s6",
+          "label": "How to position on the first conversation"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The decision before you start"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What makes the UK staffing market difficult to enter?",
+          "a": "High supplier density, standard PSL structures at enterprise level, an expectation of specialism rather than generalist positioning, and a regulatory framework around contractor engagement that has restructured the contract market."
+        },
+        {
+          "q": "What is IR35 and why does it matter to agencies?",
+          "a": "It concerns whether a contractor is genuinely self-employed or effectively an employee for tax purposes. Determination responsibility and liability attach to specific parties, which changes engagement models, cost base and in some cases whether an assignment can be serviced."
+        },
+        {
+          "q": "What is an umbrella company?",
+          "a": "A third party that employs the contract worker and handles payroll while the agency supplies and manages the assignment. It absorbs employment obligations, narrows the agency's spread, and introduces a partner whose compliance failures can reflect on you."
+        },
+        {
+          "q": "Should an offshore firm sell permanent or contract into the UK?",
+          "a": "Permanent is considerably more accessible, since it avoids the contract regulatory structures entirely. UK contract staffing from offshore without local structures or advice is not advisable."
+        },
+        {
+          "q": "What compliance questions will UK clients ask?",
+          "a": "Where candidate data is hosted and your retention position under UK data protection rules, and your position under agency conduct regulation covering charging and information provided to workers."
+        },
+        {
+          "q": "How should an overseas firm position in the UK?",
+          "a": "On a specific capability incumbents lack, whether a vertical, geography, scarce skill or genuine throughput, followed by a concrete delivery model. Positioning on cost reads as arbitrage and undermines trust."
+        }
+      ],
+      "related": [
+        "cross-border-staffing-compliance",
+        "how-to-win-a-psl",
+        "first-overseas-staffing-client"
+      ],
+      "cta": {
+        "title": "See delivery on a UK clock",
+        "body": "Bring a UK requirement and we will show you what a shortlist looks like inside one working cycle."
+      }
+    },
+    {
+      "slug": "sell-staffing-services-us-from-india",
+      "title": "How to Sell Staffing Services Into the US From India",
+      "metaTitle": "How to Sell Staffing Services Into the US From India",
+      "description": "What travels offshore and what does not, who you actually compete with, and the three entry routes into the US staffing market ranked by difficulty.",
+      "section": "Global Selling & Pricing",
+      "dek": "The US is the largest staffing market in the world and the hardest one to sell into cold. Three routes work and two of them are indirect.",
+      "date": "2026-08-10",
+      "dateLabel": "10 August 2026",
+      "dateShort": "10 Aug 2026",
+      "tag": "Global",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The three entry routes"
+        },
+        {
+          "id": "s2",
+          "label": "What actually travels offshore"
+        },
+        {
+          "id": "s3",
+          "label": "Who you are actually competing against"
+        },
+        {
+          "id": "s4",
+          "label": "Where to enter: contract before perm"
+        },
+        {
+          "id": "s5",
+          "label": "Making the time zone work for you"
+        },
+        {
+          "id": "s6",
+          "label": "What to have before you start"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The route to start with"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do Indian staffing firms enter the US market?",
+          "a": "Usually through one of three routes: as a sub-vendor to a US staffing firm, as a partner with a US-based agency fronting the relationship, or directly. Most successful firms run them in sequence rather than choosing one."
+        },
+        {
+          "q": "What recruitment work can be delivered from India?",
+          "a": "Sourcing, database work, screening against defined criteria, scheduling, submission preparation and reporting. Selling a role to a reluctant senior candidate and reading a hiring manager's unstated concerns travel considerably less well."
+        },
+        {
+          "q": "Who do Indian staffing firms compete with in the US?",
+          "a": "The client's internal talent team, which is the default option and the benchmark for your timeline, and US agencies with local relationships. Competing on rate against either misreads how the decision is made."
+        },
+        {
+          "q": "Should you start with contract or permanent staffing in the US?",
+          "a": "Contract is generally more accessible, being specification-driven and more tolerant of an offshore sourcing layer, and it renews. The caveat is that contract work frequently runs through vendor management programmes where margins are lower."
+        },
+        {
+          "q": "How do you make the time zone difference work?",
+          "a": "By running a full overnight cycle: the client briefs at the end of their day and a shortlist is waiting when they arrive. That requires producing a shortlist in one cycle rather than three days, so it depends on throughput."
+        },
+        {
+          "q": "What do you need before selling into the US?",
+          "a": "A named vertical rather than general IT staffing, at least one US reference, a stated delivery model covering hours and response times, and clear answers on data residency and which state AI hiring rules apply."
+        }
+      ],
+      "related": [
+        "us-staffing-market-2026-india-firms",
+        "how-to-get-on-a-vms",
+        "partnering-with-complementary-firms"
+      ],
+      "cta": {
+        "title": "See a full overnight cycle",
+        "body": "Bring a US requirement and we will show you what a shortlist looks like produced in one working cycle."
+      }
+    },
+    {
+      "slug": "building-staffing-back-office",
+      "title": "Building a Back Office That Does Not Eat Your Margin",
+      "metaTitle": "Building a Back Office That Does Not Eat Your Margin",
+      "description": "When to build a back office in-house, when to outsource, and the four functions that decide whether a contract desk is profitable or merely busy.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Back office is treated as overhead until a contract desk grows, at which point it quietly becomes the constraint on everything.",
+      "date": "2026-08-09",
+      "dateLabel": "9 August 2026",
+      "dateShort": "9 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why it becomes the constraint"
+        },
+        {
+          "id": "s2",
+          "label": "The four functions"
+        },
+        {
+          "id": "s3",
+          "label": "Build or outsource"
+        },
+        {
+          "id": "s4",
+          "label": "Why the data should sit with the front office"
+        },
+        {
+          "id": "s5",
+          "label": "Collections, and why recruiters should see it"
+        },
+        {
+          "id": "s6",
+          "label": "What to build first"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The two reports to run this week"
+        }
+      ],
+      "faq": [
+        {
+          "q": "When does a staffing firm need a proper back office?",
+          "a": "When contract volume grows to the point that timesheets, invoicing and collections become weekly transactions at scale. Fifty contractors is roughly two hundred monthly transactions, each of which can be wrong and none of which anyone is checking."
+        },
+        {
+          "q": "Should staffing firms outsource payroll?",
+          "a": "Outsource when volume is low, compliance is standard and building would mean one person as a single point of failure. Build when volume justifies a team, invoicing requirements are client-specific, or the operational data matters for margin reporting."
+        },
+        {
+          "q": "Why does contract staffing consume working capital?",
+          "a": "Because workers are paid on a shorter cycle than clients pay you. A contract desk growing quickly consumes cash even while profitable, which is a funding problem rather than a margin problem."
+        },
+        {
+          "q": "Where do staffing firms lose margin in the back office?",
+          "a": "Rate errors applied for months before anyone notices, unbilled time from late timesheets, invoice queries that age without being chased, and assignments extended informally with no clean basis to bill."
+        },
+        {
+          "q": "Should recruiters see invoice ageing?",
+          "a": "Yes. The recruiter holds the relationship that unblocks payment, and most overdue staffing invoices are stuck on administrative queries one call would resolve. Finance owns the invoice and has no relationship to use."
+        },
+        {
+          "q": "What should a staffing firm automate first in back office?",
+          "a": "Timesheet reminders and escalation, since every delayed invoice sits behind a missing timesheet. Then rate validation at entry, then making ageing visible to the relationship owner, then margin by desk."
+        }
+      ],
+      "related": [
+        "ai-staffing-back-office",
+        "perm-vs-contract-desk",
+        "contract-labour-compliance-india"
+      ],
+      "cta": {
+        "title": "See margin by desk without reconciliation",
+        "body": "Bring your placement and billing data and we will show you the number rather than the report."
+      }
+    },
+    {
+      "slug": "scaling-5-to-50-recruiters",
+      "title": "From 5 Recruiters to 50: What Breaks, and in What Order",
+      "metaTitle": "From 5 to 50 Recruiters: What Breaks and in What Order",
+      "description": "Scaling a staffing firm breaks in a predictable sequence. What fails at each stage, why it fails then specifically, and what to build before it does.",
+      "section": "Agency Growth & Revenue",
+      "dek": "The failures are predictable enough to plan against, and almost every firm discovers each one at the point it becomes expensive.",
+      "date": "2026-08-08",
+      "dateLabel": "8 August 2026",
+      "dateShort": "8 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Around five to ten: the founder stops seeing everything"
+        },
+        {
+          "id": "s2",
+          "label": "Around ten to twenty: informal process fails"
+        },
+        {
+          "id": "s3",
+          "label": "Around twenty to thirty: the data stops being trustworthy"
+        },
+        {
+          "id": "s4",
+          "label": "Around thirty to fifty: commission and management both break"
+        },
+        {
+          "id": "s5",
+          "label": "What does not break, and why that matters"
+        },
+        {
+          "id": "s6",
+          "label": "The sequence, as a checklist"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "Where you are in the sequence"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What breaks first when a staffing firm grows?",
+          "a": "Founder visibility, at around ten people. Quality was being maintained by proximity rather than process, and attention does not scale. The symptom is hearing about problems late rather than a dramatic failure."
+        },
+        {
+          "q": "Why does informal process fail around twenty people?",
+          "a": "Because tribal knowledge becomes inconsistency. Recruiters qualify briefs differently, submit different quality and report differently, and nobody can diagnose why outcomes vary. Process documents rarely fix it; making the right path easiest does."
+        },
+        {
+          "q": "When does staffing firm data become unreliable?",
+          "a": "Around twenty to thirty people, when manually maintained records diverge and duplicates accumulate. It is the most damaging break because it stays invisible until a decision depends on numbers that turn out to be wrong."
+        },
+        {
+          "q": "What happens to commission plans as a firm scales?",
+          "a": "A plan designed for eight people produces gaming at forty: ownership disputes, deal timing games and role hoarding. What was manageable informally requires written rules covering ownership, splits, departures and clawbacks."
+        },
+        {
+          "q": "Should your best biller become a manager?",
+          "a": "Not automatically. Promoting the top biller removes revenue and frequently produces a poor manager, because billing and managing are unrelated skills. It should be a deliberate decision rather than a default reward."
+        },
+        {
+          "q": "What does not break as a staffing firm scales?",
+          "a": "A deep, well-maintained database, which compounds with scale rather than degrading, and a genuine niche, since market knowledge and reputation in a specific area are not diluted by adding recruiters."
+        }
+      ],
+      "related": [
+        "staffing-kpis-four-numbers-daily",
+        "duplicate-candidate-records-database-hygiene",
+        "designing-recruiter-incentive-plans"
+      ],
+      "cta": {
+        "title": "See reporting that comes from the system",
+        "body": "Bring your desk structure and we will show you margin, capacity and pipeline without a spreadsheet in between."
+      }
+    },
+    {
+      "slug": "when-to-hire-your-next-recruiter",
+      "title": "When to Hire Your Next Recruiter, and How to Know",
+      "metaTitle": "When to Hire Your Next Recruiter: The Numbers",
+      "description": "Hiring too early burns cash, too late burns clients. The four numbers that show a desk is genuinely at capacity rather than simply badly organised.",
+      "section": "Agency Growth & Revenue",
+      "dek": "The instinct to hire arrives when people feel busy. Busy and at capacity are different states with different remedies.",
+      "date": "2026-08-07",
+      "dateLabel": "7 August 2026",
+      "dateShort": "7 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Busy is not the same as at capacity"
+        },
+        {
+          "id": "s2",
+          "label": "The four numbers"
+        },
+        {
+          "id": "s3",
+          "label": "What to fix before hiring"
+        },
+        {
+          "id": "s4",
+          "label": "Modelling the actual cost"
+        },
+        {
+          "id": "s5",
+          "label": "When the answer genuinely is hire"
+        },
+        {
+          "id": "s6",
+          "label": "Who to hire, given the job has changed"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The check before the job advertise"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do you know when to hire another recruiter?",
+          "a": "Look at four numbers: roles carried and whether they are actually being worked, time from brief to first submission and whether it is lengthening, decline rate, and fill rate trend against steady activity."
+        },
+        {
+          "q": "What is the difference between busy and at capacity?",
+          "a": "Busy can mean a recruiter is spending most of the day on work the platform should be doing. At capacity means the qualification ceiling is genuinely reached. Hiring fixes the second and doubles the cost of the first."
+        },
+        {
+          "q": "How long before a new recruiter is productive?",
+          "a": "Typically four to six months, during which they cost full salary and consume senior time for training. That ramp, plus the probability they do not work out, is the real investment rather than the salary alone."
+        },
+        {
+          "q": "What should you fix before hiring a recruiter?",
+          "a": "Whether roles start on a job portal rather than your own database, how much of the day goes to qualification that could be filtered earlier, and whether the team is working unwinnable roles that should be declined."
+        },
+        {
+          "q": "When is hiring genuinely the right answer?",
+          "a": "When capacity is already efficient and demand exceeds it, when entering a new vertical or geography where the constraint is knowledge, when client relationship concentration is a structural risk, or when you lack a specific capability."
+        },
+        {
+          "q": "Should you hire experienced recruiters?",
+          "a": "Not necessarily. If sourcing and screening are automated, the job is judgement, specification and selling, which widens the pool to people from sales, account management and domain backgrounds who lack only teachable process knowledge."
+        }
+      ],
+      "related": [
+        "high-volume-recruiting-screening-day",
+        "hiring-recruiters-in-the-ai-era",
+        "recruiter-productivity-myth"
+      ],
+      "cta": {
+        "title": "See how many roles are genuinely being worked",
+        "body": "Bring your pipeline and we will show you assigned versus actively worked, which are rarely the same number."
+      }
+    },
+    {
+      "slug": "why-generalist-agencies-struggle",
+      "title": "Why Generalist Agencies Struggle and How to Pick a Niche",
+      "metaTitle": "Why Generalist Agencies Struggle and How to Pick a Niche",
+      "description": "Specialisation is advised constantly and rarely executed. What a niche actually requires, how to choose one, and why declining work is the mechanism.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Everyone advises specialisation. Almost nobody explains that the mechanism is declining work you could have done.",
+      "date": "2026-08-06",
+      "dateLabel": "6 August 2026",
+      "dateShort": "6 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What actually happens to a generalist"
+        },
+        {
+          "id": "s2",
+          "label": "What a niche actually consists of"
+        },
+        {
+          "id": "s3",
+          "label": "How to choose one"
+        },
+        {
+          "id": "s4",
+          "label": "Declining work, and why it is the whole mechanism"
+        },
+        {
+          "id": "s5",
+          "label": "Niche does not mean small"
+        },
+        {
+          "id": "s6",
+          "label": "How to transition without a revenue gap"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The analysis to run on your last h"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do generalist staffing agencies struggle?",
+          "a": "Because they are indistinguishable rather than worse. A client comparing three agencies all claiming speed, service and quality has no basis to choose except price, which compresses fees and pushes firms to work more roles with less attention each."
+        },
+        {
+          "q": "What does a genuine recruitment niche require?",
+          "a": "Database depth in the area, market knowledge covering pay, hiring activity and attrition patterns, a nameable track record of actual roles, and the ability to qualify a brief better than the client wrote it."
+        },
+        {
+          "q": "How do you choose a niche?",
+          "a": "From the overlap of where you have already placed, where your database is genuinely deep when you run the searches, and where demand is growing. Most firms have an accidental specialism they have never named."
+        },
+        {
+          "q": "Why is declining work central to specialisation?",
+          "a": "Because a firm accepting every requirement is a generalist whatever its website says. Declining concentrates capacity on fillable roles, signals confidence commercially, and forces market knowledge to deepen through repetition."
+        },
+        {
+          "q": "Does specialising limit your market?",
+          "a": "Your addressable market is the share you can credibly win rather than the size of the sector. Ten percent of a defensible niche beats one percent of everything, which is what most generalists actually hold."
+        },
+        {
+          "q": "How do you transition to a niche without a revenue gap?",
+          "a": "Name and position the niche first while still serving existing accounts, stop accepting new work outside it rather than dropping current clients, deepen the database deliberately, and publish something that demonstrates the knowledge."
+        }
+      ],
+      "related": [
+        "most-staffing-firms-wont-survive",
+        "what-clients-pay-agencies-for-now",
+        "talent-pool-software-database-first-sourcing"
+      ],
+      "cta": {
+        "title": "Test how deep your niche really is",
+        "body": "Bring your chosen area and we will search your own database to show you what depth you actually have."
+      }
+    },
+    {
+      "slug": "client-retention-playbook",
+      "title": "The Client Retention Playbook for Staffing Firms",
+      "metaTitle": "The Client Retention Playbook for Staffing Firms",
+      "description": "A practical operating rhythm for keeping accounts: what to do weekly, at risk signals to watch, and how to recover a relationship before it ends.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Knowing why clients leave is diagnosis. This is the operating rhythm that prevents it, which is a different document.",
+      "date": "2026-08-05",
+      "dateLabel": "5 August 2026",
+      "dateShort": "5 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The weekly rhythm"
+        },
+        {
+          "id": "s2",
+          "label": "The warning signs, in order of how early they appear"
+        },
+        {
+          "id": "s3",
+          "label": "The quarterly conversation"
+        },
+        {
+          "id": "s4",
+          "label": "Recovering an account that is drifting"
+        },
+        {
+          "id": "s5",
+          "label": "Structural protections"
+        },
+        {
+          "id": "s6",
+          "label": "What to do when a client leaves"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The one number to add to your week"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How do you prevent staffing client churn?",
+          "a": "With an operating rhythm rather than goodwill: a weekly progress report the client did not request, one proactive non-role contact, a review of stalling roles, and a check on submission conversion for that specific client."
+        },
+        {
+          "q": "What are the earliest signs a client is leaving?",
+          "a": "A falling submission-to-interview ratio on that client specifically, brief volume dropping without explanation, response times lengthening, and eventually roles arriving that have clearly been open for weeks."
+        },
+        {
+          "q": "What should a quarterly client review cover?",
+          "a": "What worked, what did not, and what they would want done differently. The third question is the one that produces something useful, and silence at this meeting is a worse signal than criticism."
+        },
+        {
+          "q": "Can you recover a staffing account that is drifting?",
+          "a": "Early, yes. A direct conversation acknowledging the drift is frequently enough, since changing supplier is administratively annoying. Late, after the decision is made, asking to be retained for one specific strength preserves a relationship worth rebuilding."
+        },
+        {
+          "q": "Does discounting save a client relationship?",
+          "a": "No. A client leaving over service does not want the same service at a lower price, and the offer signals that you have misunderstood the problem."
+        },
+        {
+          "q": "What should you do after losing a client?",
+          "a": "Establish the real reason from your own data rather than the exit conversation, and stay in contact anyway. Supplier decisions get revisited and your contact will move to another company."
+        }
+      ],
+      "related": [
+        "ai-client-retention-staffing",
+        "why-clients-leave-staffing-agencies",
+        "recruiter-admin-time-automatic-capture"
+      ],
+      "cta": {
+        "title": "See conversion by client",
+        "body": "Bring your submission history and we will show you where your shortlists convert and where they are quietly failing."
+      }
+    },
+    {
+      "slug": "how-to-win-a-psl",
+      "title": "How to Get Onto a Preferred Supplier List",
+      "metaTitle": "How to Win a Preferred Supplier Listing, and the Cost",
+      "description": "Getting onto a PSL is a procurement process with a delivery test attached. How the decision is actually made, and what the listing genuinely costs you.",
+      "section": "Agency Growth & Revenue",
+      "dek": "A PSL is a procurement outcome, not a sales one, and winning it changes your economics in ways firms rarely model beforehand.",
+      "date": "2026-08-04",
+      "dateLabel": "4 August 2026",
+      "dateShort": "4 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Who actually decides"
+        },
+        {
+          "id": "s2",
+          "label": "Getting the timing right"
+        },
+        {
+          "id": "s3",
+          "label": "What to have ready before you apply"
+        },
+        {
+          "id": "s4",
+          "label": "Getting used after getting listed"
+        },
+        {
+          "id": "s5",
+          "label": "What a PSL actually costs you"
+        },
+        {
+          "id": "s6",
+          "label": "When to decline a PSL"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The model to build before you appl"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Who decides preferred supplier listings?",
+          "a": "Usually procurement as gatekeeper, with input from legal and compliance on risk documentation and from talent acquisition on delivery. Hiring managers frequently are not consulted, which is why a strong hiring manager relationship does not guarantee a listing."
+        },
+        {
+          "q": "When should you approach a client about a PSL?",
+          "a": "Ahead of their review cycle, which is often annual or biennial and which procurement will usually disclose if asked. The exception is a capability gap, where a panel failing on a vertical or geography creates an out-of-cycle opening."
+        },
+        {
+          "q": "What documentation do you need for a PSL application?",
+          "a": "Insurance certificates, your data protection position including hosting and retention, statutory compliance documentation, financial statements, references in a comparable vertical, and delivery metrics you can evidence from a system."
+        },
+        {
+          "q": "Why do agencies get listed but receive no roles?",
+          "a": "Because requisitions are released by tier and a lower-tier supplier sees them after the top tier has had a window. That produces harder roles at the same rate card, which is a worse mix at the same price."
+        },
+        {
+          "q": "How do you move up a supplier tier?",
+          "a": "By reliably filling the roles the panel struggles with, and by speed within the release window, since submitting first is the only differentiator the programme structure actually exposes."
+        },
+        {
+          "q": "When should a staffing firm decline a PSL?",
+          "a": "When the rate card sits below the cost of delivering properly, and when you would enter at the bottom tier of a large panel where the release window means you only see roles nobody else could fill."
+        }
+      ],
+      "related": [
+        "vms-msp-consolidation-agency-margins",
+        "contract-labour-compliance-india",
+        "how-to-get-on-a-vms"
+      ],
+      "cta": {
+        "title": "See fill rate by requisition type",
+        "body": "Bring your programme data and we will show you which categories earn and which consume capacity."
+      }
+    },
+    {
+      "slug": "account-management-vs-bd-structure",
+      "title": "Account Management Versus Business Development: How to Structure the Team",
+      "metaTitle": "360 or Split Desk: How to Structure a Staffing Team",
+      "description": "Full desk versus split BD and delivery. What each structure optimises for, at what firm size the answer changes, and the hybrid that usually works.",
+      "section": "Agency Growth & Revenue",
+      "dek": "The 360 versus split desk argument is usually had as a philosophy. It is a question about firm size and role complexity.",
+      "date": "2026-08-03",
+      "dateLabel": "3 August 2026",
+      "dateShort": "3 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What each structure optimises for"
+        },
+        {
+          "id": "s2",
+          "label": "When 360 stops working"
+        },
+        {
+          "id": "s3",
+          "label": "How split desks fail"
+        },
+        {
+          "id": "s4",
+          "label": "What automation changes about the choice"
+        },
+        {
+          "id": "s5",
+          "label": "The hybrid that usually works"
+        },
+        {
+          "id": "s6",
+          "label": "How to make the transition without breaking things"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The pattern to look for in your ow"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a 360 recruiter?",
+          "a": "One person who both wins the client and fills the role, holding business development and delivery together. It preserves context and ownership, and it becomes a constraint once selling and delivering start competing for the same hours."
+        },
+        {
+          "q": "When should a staffing firm move to split desks?",
+          "a": "When revenue starts oscillating because recruiters stop prospecting while delivering and then have no pipeline the following month. That cycle is the signal, and it usually appears before firms act on it."
+        },
+        {
+          "q": "What do split desks lose?",
+          "a": "Context. The person who heard the client describe the role is not the person searching for it, and the information that decides most rejections is frequently never written down unless briefing capture is deliberate."
+        },
+        {
+          "q": "Does automation change the 360 versus split decision?",
+          "a": "It moves the threshold. When sourcing and first-pass screening consume fewer hours, a 360 recruiter can carry more without the prospecting oscillation, which means some firms split earlier than they now need to."
+        },
+        {
+          "q": "What structure works best for mid-sized agencies?",
+          "a": "Usually a hybrid: 360 on new business where holding context matters most, split delivery on scaled accounts where volume justifies specialisation, and one named account owner accountable for the client overall."
+        },
+        {
+          "q": "How do you transition from 360 to split desks?",
+          "a": "One account at a time starting with the largest, with the commission split defined before the first handover, delivery kept in some client contact, and an expectation that your strongest 360 recruiter will reasonably object."
+        }
+      ],
+      "related": [
+        "candidate-scorecard-from-client-brief",
+        "designing-recruiter-incentive-plans",
+        "when-to-hire-your-next-recruiter"
+      ],
+      "cta": {
+        "title": "See capacity per recruiter",
+        "body": "Bring your placement data and we will show you how many roles each person is genuinely working."
+      }
+    },
+    {
+      "slug": "partnering-with-complementary-firms",
+      "title": "Partnering With Complementary Talent Firms to Grow Together",
+      "metaTitle": "Partnering With Complementary Talent Firms to Grow",
+      "description": "Split placements, referral partnerships and white label arrangements. What works between agencies, what fails, and how to structure it so it survives.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Every agency has roles it cannot fill and capability nobody else knows about. Partnerships fix both and almost all of them collapse within a year.",
+      "date": "2026-08-02",
+      "dateLabel": "2 August 2026",
+      "dateShort": "2 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The four partnership types"
+        },
+        {
+          "id": "s2",
+          "label": "Choosing a partner"
+        },
+        {
+          "id": "s3",
+          "label": "What has to be written down"
+        },
+        {
+          "id": "s4",
+          "label": "The quality risk nobody prices"
+        },
+        {
+          "id": "s5",
+          "label": "Why reciprocity decays and how to keep it"
+        },
+        {
+          "id": "s6",
+          "label": "When not to partner"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The spreadsheet that keeps a partn"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What kinds of partnerships work between staffing firms?",
+          "a": "Referral partnerships, split placements, white label delivery and reciprocal geographic arrangements. They differ in revenue retention and in how much quality risk transfers to your client relationship."
+        },
+        {
+          "q": "How do you choose a staffing partner?",
+          "a": "Look for complementary rather than similar capability, since overlapping firms eventually compete for the same account. Check whether their delivery quality would survive being attributed to you, and whether their clients overlap with your targets."
+        },
+        {
+          "q": "What should a staffing partnership agreement cover?",
+          "a": "The commercial split by scenario rather than a single percentage, who owns the client and for how long, who owns the candidate, what happens on a fall-through, and how either party exits including accounts in flight."
+        },
+        {
+          "q": "What is the biggest risk in referring a client to a partner?",
+          "a": "Your relationship underwrites their delivery. If they perform poorly the client does not distinguish, they simply remember you sent them somewhere that went badly, which costs more than the referral fee."
+        },
+        {
+          "q": "Why do agency partnerships fail?",
+          "a": "Most often one-directional flow that nobody was counting, so the imbalance is discovered eighteen months later as resentment rather than in month six as a manageable conversation."
+        },
+        {
+          "q": "When should a staffing firm not partner?",
+          "a": "When the real issue is a capability gap you should be closing yourself, when the role is core business and referring it trains your team not to deliver, and when you have never seen the partner's work."
+        }
+      ],
+      "related": [
+        "candidate-ownership-rules-multi-desk",
+        "first-overseas-staffing-client",
+        "staffing-add-on-services"
+      ],
+      "cta": {
+        "title": "See partner-sourced candidates on the record",
+        "body": "Bring a partnership arrangement and we will show you how attribution and ownership stay clean across firms."
+      }
+    },
+    {
+      "slug": "building-a-referral-engine",
+      "title": "Building a Referral Engine Inside a Staffing Firm",
+      "metaTitle": "Building a Referral Engine Inside a Staffing Firm",
+      "description": "Referrals are the cheapest recruitment channel and the least systematised. Why most schemes underperform, and the four changes that make them work.",
+      "section": "Agency Growth & Revenue",
+      "dek": "Almost every agency has a referral scheme. Almost none of them produce what they should, and the reasons are administrative rather than clever.",
+      "date": "2026-08-01",
+      "dateLabel": "1 August 2026",
+      "dateShort": "1 Aug 2026",
+      "tag": "Growth",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why referral yield is structurally better"
+        },
+        {
+          "id": "s2",
+          "label": "The four reasons schemes underperform"
+        },
+        {
+          "id": "s3",
+          "label": "Client-side referrals, which nobody runs"
+        },
+        {
+          "id": "s4",
+          "label": "What the incentive should actually be"
+        },
+        {
+          "id": "s5",
+          "label": "Making it a trigger rather than a campaign"
+        },
+        {
+          "id": "s6",
+          "label": "What to measure"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The four triggers to switch on"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why are referrals the best recruitment channel?",
+          "a": "Three advantages compound: no sourcing cost, partial verification because somebody who worked with the person is vouching, and higher show-up and retention because the candidate has a social connection to the placement."
+        },
+        {
+          "q": "Why do referral schemes underperform?",
+          "a": "Usually four administrative failures rather than a small incentive: payment comes too late, the referrer is never told what happened, nobody asks a second time, and the ask is generic rather than specific about the role."
+        },
+        {
+          "q": "When is the best time to ask for a referral?",
+          "a": "Immediately after somebody completes a successful assignment or a placement passes its guarantee period. These are events already in your system and can prompt an ask automatically rather than waiting for volunteers."
+        },
+        {
+          "q": "How should a referral incentive be structured?",
+          "a": "Split the payment, with part on start and part later. The early portion establishes that you actually pay, which is what makes a second referral happen. Size matters less than the credibility of prompt payment."
+        },
+        {
+          "q": "Should staffing firms ask clients for referrals?",
+          "a": "Yes, and almost none do. A hiring manager who has had a good experience knows peers who are hiring, and an introduction is a small favour they can grant immediately, unlike finding you another role themselves."
+        },
+        {
+          "q": "What should you measure on a referral programme?",
+          "a": "Referral share of placements, referrals received per ask, time from referral to payment, and client introductions received. The last is almost always zero, which reveals an entirely unworked channel."
+        }
+      ],
+      "related": [
+        "blue-collar-sourcing-channels-verification",
+        "how-to-upsell-staffing-clients",
+        "relationships-drive-staffing-revenue"
+      ],
+      "cta": {
+        "title": "See events trigger the ask",
+        "body": "Bring your placement data and we will show you which moments are passing unused."
+      }
     }
   ]
 }

@@ -159,6 +159,26 @@ INTERNAL = [
     (r"worker classification|right to work",        "contract-labour-compliance-india"),
     (r"relationship holder",                        "relationships-drive-staffing-revenue"),
     (r"without adding headcount|revenue per recruiter", "grow-staffing-revenue-without-headcount"),
+
+    # agency growth and global selling. Ten of these twenty-three subjects are
+    # named nowhere else and get no anchor. Two words that do appear were left
+    # to their existing targets rather than split: "referrals" in this corpus
+    # means candidate referrals, not a referral engine, and bare "offshore"
+    # almost always means a capability centre.
+    (r"preferred supplier(?: lists?| listings?| structure)?|PSL", "how-to-win-a-psl"),
+    (r"account management|business development",    "account-management-vs-bd-structure"),
+    (r"generalist agenc(?:y|ies)|generalist",       "why-generalist-agencies-struggle"),
+    (r"partner firms?|complementary firms?",        "partnering-with-complementary-firms"),
+    (r"referral engine|referral programme",         "building-a-referral-engine"),
+    (r"scaling through headcount|scaling",          "scaling-5-to-50-recruiters"),
+    (r"markups?",                                   "contract-markup-by-market"),
+    (r"fee percentages?|fee benchmarks?",           "global-recruitment-fee-benchmarks"),
+    (r"VMS panel|approved supplier",                "how-to-get-on-a-vms"),
+    (r"cross[- ]border",                            "cross-border-staffing-compliance"),
+    (r"offshore delivery|offshore recruitment|offshore team", "offshore-recruitment-delivery-models"),
+    (r"cross[- ]cultural|time zones?",              "cross-cultural-client-management"),
+    (r"European clients|Europe",                    "sell-staffing-services-europe"),
+    (r"Australia|ANZ",                              "sell-staffing-services-australia"),
 ]
 
 # Competitors resolve two ways: to the page that compares them where the reader

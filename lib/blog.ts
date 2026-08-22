@@ -109,6 +109,11 @@ export const SECTIONS: Section[] = [
     title: "Agency Growth & Revenue",
     dek: "Growing the top line without adding heads: what an existing client is already willing to buy, and which services are worth attaching to a desk that already delivers.",
   },
+  {
+    id: "global-selling-pricing",
+    title: "Global Selling & Pricing",
+    dek: "Selling a desk across borders: what each market expects on fees, markup and contracting, how the first overseas client is actually won, and what compliance the arrangement carries.",
+  },
 ];
 
 export function postsInSection(section: Section): Post[] {
