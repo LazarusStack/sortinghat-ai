@@ -74,6 +74,16 @@ export const SECTIONS: Section[] = [
       ],
     },
   },
+  {
+    id: "market-updates-data",
+    title: "Market Updates & Data",
+    dek: "What the GCC, BPO, IT services and US staffing numbers actually say, read against what they change on a delivery desk rather than repeated as headlines.",
+  },
+  {
+    id: "ai-impact-by-segment",
+    title: "AI Impact by Segment",
+    dek: "Where automation genuinely changes a desk and where it does not, taken one segment at a time: sourcing, outbound, RPO, temp, back office and the contingency model.",
+  },
 ];
 
 export function postsInSection(section: Section): Post[] {

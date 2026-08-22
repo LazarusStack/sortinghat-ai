@@ -3702,6 +3702,2401 @@
         "title": "See it running on your own data",
         "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
       }
+    },
+    {
+      "slug": "ai-contingency-recruitment-model",
+      "title": "AI and the Contingency Model: Does the Bet Still Work?",
+      "metaTitle": "AI and the Contingency Model: Does It Still Work?",
+      "description": "Contingency recruiting is a bet that you fill before the competition. What changes when every agency has the same tooling, and where the model breaks.",
+      "section": "AI Impact by Segment",
+      "dek": "Contingency is a wager on being first. When every agency can be fast, the wager changes but it does not disappear.",
+      "date": "2026-07-31",
+      "dateLabel": "31 July 2026",
+      "dateShort": "31 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why speed was the whole model"
+        },
+        {
+          "id": "s2",
+          "label": "What changes when everyone is fast"
+        },
+        {
+          "id": "s3",
+          "label": "Accuracy as the new bet"
+        },
+        {
+          "id": "s4",
+          "label": "Why exclusivity gets easier to argue for"
+        },
+        {
+          "id": "s5",
+          "label": "Where the contingency model genuinely breaks"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The ratio worth tracking by client"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is the contingency recruitment model still viable?",
+          "a": "Yes, but the differentiator has moved. Speed was the historic edge and it is commoditising as filtering and screening become broadly available. Accuracy at speed is what now separates a profitable contingency desk from an unprofitable one."
+        },
+        {
+          "q": "Why does submitting first matter in contingency recruiting?",
+          "a": "Because a client with three usable CVs on Monday rarely waits for a fourth later in the week. Win rate is the entire business in a model where effort is spent before payment is certain, and being first has historically driven win rate."
+        },
+        {
+          "q": "What replaces speed as a contingency differentiator?",
+          "a": "Accuracy. Client attention rather than client time is now the scarce resource. Submitting three candidates who all warrant an interview builds a reputation that submitting eight with two viable does not, and it compounds across roles."
+        },
+        {
+          "q": "How do you win exclusivity on a role?",
+          "a": "With evidence rather than commitment. If your shortlists produce interviews at a materially higher rate than a client's other suppliers, exclusivity is a rational request. That requires tracking submission to interview ratio by client, which most firms do not."
+        },
+        {
+          "q": "When should you decline a contingency role?",
+          "a": "When competition is high and the fee is low, when the skill is genuinely scarce enough to warrant retained terms, and when the client's approval chain is slow enough that your effort will sit unpaid indefinitely."
+        },
+        {
+          "q": "Does AI make contingency recruiting more competitive?",
+          "a": "Initially yes, because more agencies can submit quickly. Over time it shifts the competition from speed to accuracy, which favours firms that verify properly rather than firms that simply move fast."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See submission accuracy by client",
+        "body": "Bring your submission history and we will show you where your shortlists convert and where they do not."
+      }
+    },
+    {
+      "slug": "ai-adoption-plan-staffing-firm",
+      "title": "A 90-Day AI Adoption Plan for a Staffing Firm",
+      "metaTitle": "A 90-Day AI Adoption Plan for a Staffing Firm",
+      "description": "Most AI rollouts fail on adoption, not capability. A week-by-week plan, the five leading indicators to watch, and what to do when a recruiter opts out.",
+      "section": "AI Impact by Segment",
+      "dek": "Buying the software is the easy part and everyone knows it. Almost nobody writes down what the first ninety days should actually look like.",
+      "date": "2026-07-30",
+      "dateLabel": "30 July 2026",
+      "dateShort": "30 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Weeks 1 to 2: migration and one workflow"
+        },
+        {
+          "id": "s2",
+          "label": "Weeks 3 to 4: the top biller"
+        },
+        {
+          "id": "s3",
+          "label": "Weeks 5 to 8: add the second workflow and start measuring"
+        },
+        {
+          "id": "s4",
+          "label": "Weeks 9 to 12: make the system the source of truth"
+        },
+        {
+          "id": "s5",
+          "label": "What to do when somebody opts out"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The decision to make before day on"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do AI rollouts fail in staffing firms?",
+          "a": "Almost always on adoption rather than capability. Industry reporting shows a wide gap between firms claiming AI usage and firms with it genuinely embedded, and the cause is that teams were asked to change everything at once rather than one habit at a time."
+        },
+        {
+          "q": "What should you enforce first in an AI rollout?",
+          "a": "One workflow, usually search. Every new role starts with a search of your own database before anybody opens a job portal. It is measurable, enforceable and produces a visible result within days, which is what buys the credibility for the next change."
+        },
+        {
+          "q": "How do you get a top biller to adopt new software?",
+          "a": "Give them the first win rather than the first training session, by running their hardest live role through the platform with help. Then ask what would have to be true for it to be worth their time. Mandating it and hoping does not work."
+        },
+        {
+          "q": "What should you measure during a software rollout?",
+          "a": "Five leading indicators before ROI appears: percentage of roles starting with a database search, active users per week rather than licences issued, records touched per user, time from brief to first submission, and job portal spend per role."
+        },
+        {
+          "q": "How long does AI adoption take in a recruitment team?",
+          "a": "Around ninety days to a genuine change in behaviour, with one workflow enforced in the first month and a second added around week five. The final month is about making the system the source of truth for reporting."
+        },
+        {
+          "q": "What do you do if a recruiter refuses to use the new system?",
+          "a": "Find the specific objection first, since it is often one fixable thing. Make the cost of staying outside visible rather than punitive. And accept partial adoption if the alternative is losing a strong biller, because adoption is a direction rather than a binary."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See the first ninety days planned out",
+        "body": "Bring your team size and desk structure and we will map the rollout, including which workflow to enforce first."
+      }
+    },
+    {
+      "slug": "what-ai-cannot-do-in-recruitment",
+      "title": "Twelve Things AI Still Cannot Do in Recruitment",
+      "metaTitle": "Twelve Things AI Still Cannot Do in Recruitment",
+      "description": "An honest list of what automation does not solve in hiring, from badly written briefs to the offers that fall apart between acceptance and joining.",
+      "section": "AI Impact by Segment",
+      "dek": "A vendor listing what its product does not do is unusual. It is also the fastest way to work out whether the rest is true.",
+      "date": "2026-07-29",
+      "dateLabel": "29 July 2026",
+      "dateShort": "29 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What it cannot do about the brief"
+        },
+        {
+          "id": "s2",
+          "label": "What it cannot do about candidates"
+        },
+        {
+          "id": "s3",
+          "label": "What it cannot do about your firm"
+        },
+        {
+          "id": "s4",
+          "label": "What it cannot do about accountability"
+        },
+        {
+          "id": "s5",
+          "label": "Which of these will change"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The useful way to read this list"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What can AI not do in recruitment?",
+          "a": "Extract requirements a client never articulated, recognise a requisition that was never real, persuade a reluctant senior candidate, manage the offer-to-joining gap, drive its own adoption inside your team, or take accountability for a decision."
+        },
+        {
+          "q": "Does AI fix a badly written job brief?",
+          "a": "No, it makes the consequence arrive faster. Screening candidates against the wrong criteria produces a confident, quick and wrong shortlist. Getting the real requirement out of a hiring manager remains a human conversation."
+        },
+        {
+          "q": "Why do placements still fall apart at the offer stage?",
+          "a": "Counter-offers, family opinions and cold feet are relationship problems rather than workflow problems. A candidate going quiet between acceptance and joining needs a person, and this is where most placements are lost."
+        },
+        {
+          "q": "Can AI make a recruitment team more productive on its own?",
+          "a": "Only if the team uses it. Industry data consistently shows a large gap between firms claiming AI usage and firms with it genuinely embedded in the workflow. Adoption is a management problem that software does not solve."
+        },
+        {
+          "q": "Will these limitations change over time?",
+          "a": "Some will. Reading hesitation from conversation patterns and flagging unrealistic briefs against market data are pattern problems with enough signal to improve. Accountability and relationship value are not technical limits and will not."
+        },
+        {
+          "q": "Should a candidate score be trusted without explanation?",
+          "a": "No, and recruiters are right to ignore scores that cannot show their reasoning. A score is a judgement expressed as a number, and it is only usable if the evidence behind it can be opened and read."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See where the automation stops",
+        "body": "Bring a live role and we will show you exactly which parts the platform handles and which stay with your recruiter."
+      }
+    },
+    {
+      "slug": "candidate-experience-cost-ai-screening",
+      "title": "The Candidate Experience Cost of AI Screening, Measured Honestly",
+      "metaTitle": "The Candidate Experience Cost of AI Screening",
+      "description": "An AI screen candidates abandon is filtering for patience, not capability. What completion rate really measures and the three things that move it.",
+      "section": "AI Impact by Segment",
+      "dek": "The people most likely to abandon an automated screen are the people with the most options, which is exactly who you were trying to reach.",
+      "date": "2026-07-28",
+      "dateLabel": "28 July 2026",
+      "dateShort": "28 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What completion rate actually measures"
+        },
+        {
+          "id": "s2",
+          "label": "The three things that move it"
+        },
+        {
+          "id": "s3",
+          "label": "Why disclosure helps rather than hurts"
+        },
+        {
+          "id": "s4",
+          "label": "The trade you are actually making"
+        },
+        {
+          "id": "s5",
+          "label": "What to measure instead of completion alone"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The number to segment before you d"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good completion rate for an AI screening call?",
+          "a": "There is no reliable cross-industry benchmark. We see around 70 percent on calls of three to seven minutes. What matters more is measuring your own by seniority, since a rate that falls sharply at senior levels indicates a design problem rather than a candidate quality one."
+        },
+        {
+          "q": "Do candidates dislike AI screening calls?",
+          "a": "It depends on relevance and disclosure. A well-targeted call to someone who genuinely fits the role is respectful of their time. A poorly targeted one at scale is worse than doing nothing, because the volume amplifies the annoyance."
+        },
+        {
+          "q": "Should you tell candidates a screening call is automated?",
+          "a": "Yes, before any questions are asked. It improves completion rather than harming it, because the alternative is a candidate realising mid-call and feeling misled. It is also a legal requirement in a growing number of jurisdictions."
+        },
+        {
+          "q": "Why do strong candidates abandon automated screens?",
+          "a": "Because they have alternatives. Someone with three live processes will not spend twelve minutes on a speculative one, which means a poorly designed screen systematically filters out the strongest part of the market."
+        },
+        {
+          "q": "What makes candidates complete an AI screening call?",
+          "a": "Keeping it short enough that every question traces to a real criterion, telling them at the start whether a person will see the results and when they will hear back, and making a human alternative visible even though few people use it."
+        },
+        {
+          "q": "What should you measure besides completion rate?",
+          "a": "Completion by seniority, opt-out rate as volume changes, post-screen conversion, and any unprompted candidate feedback. High completion with low conversion means the screen is easy rather than useful."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "Hear a screening call built from your brief",
+        "body": "Bring a role and listen to what a three to seven minute structured screen actually asks."
+      }
+    },
+    {
+      "slug": "agentic-ai-vs-automation-rules-recruitment",
+      "title": "Agentic AI Versus Automation Rules in Recruitment: What Actually Differs",
+      "metaTitle": "Agentic AI vs Automation Rules in Recruitment",
+      "description": "Rules, workflows and agents are three different things sold under one label. What each actually does on a recruiting desk, and where agents genuinely fail.",
+      "section": "AI Impact by Segment",
+      "dek": "Three different technologies are being sold under one word, and the difference decides whether the tool does work or just moves it.",
+      "date": "2026-07-27",
+      "dateLabel": "27 July 2026",
+      "dateShort": "27 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The three, with recruiting examples"
+        },
+        {
+          "id": "s2",
+          "label": "Why the distinction matters commercially"
+        },
+        {
+          "id": "s3",
+          "label": "Three things an agent does that a rule cannot"
+        },
+        {
+          "id": "s4",
+          "label": "Where agents fail"
+        },
+        {
+          "id": "s5",
+          "label": "How to evaluate what you are actually being sold"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The demo question that settles it"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is agentic AI in recruitment?",
+          "a": "A system given a goal rather than a path, which decides its own next action from context. This differs from a rule, which executes a decision somebody already made, and from a workflow, which chains rules along a route designed in advance."
+        },
+        {
+          "q": "What is the difference between automation and AI in recruiting?",
+          "a": "Automation executes predetermined steps. A rule fires on a condition and a workflow chains rules in a designed sequence. An agent chooses what to do given an objective, which is why it can handle situations nobody configured."
+        },
+        {
+          "q": "Is agentic AI better than workflow automation?",
+          "a": "For handling cases outside the configured path, yes. For predictability and auditability, workflows are stronger. Recruiting produces unanticipated cases constantly, which is where workflow automation quietly turns exception handling into the recruiter's main job."
+        },
+        {
+          "q": "Where does agentic AI fail in recruitment?",
+          "a": "It is less predictable than a rule, which matters in compliance contexts. It needs a clear goal, so a badly briefed role produces confident action in the wrong direction. And it still requires human oversight of decisions."
+        },
+        {
+          "q": "How do you tell whether a vendor has agents or workflows?",
+          "a": "Ask them to demonstrate the system handling a case nobody configured, and ask who decided the path. A workflow escalates to a human when something unexpected happens; an agent acts on it."
+        },
+        {
+          "q": "Do AI agents need human oversight in hiring?",
+          "a": "Yes. Under the EU AI Act's high-risk classification for recruitment systems, human oversight of automated decisions is a legal obligation rather than a matter of good practice."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what happens on an unexpected reply",
+        "body": "Bring a live role and we will show you how the system handles the cases nobody configured for."
+      }
+    },
+    {
+      "slug": "ai-staffing-back-office",
+      "title": "AI in Staffing Back Office: Timesheets, Invoicing and Collections",
+      "metaTitle": "AI in Staffing Back Office: Where Margin Leaks",
+      "description": "Timesheets, invoicing and collections are where staffing margin quietly disappears. What automation fixes in the unglamorous half of the business.",
+      "section": "AI Impact by Segment",
+      "dek": "Everyone writes about the front office. The margin usually leaks at the other end, where nobody is looking.",
+      "date": "2026-07-24",
+      "dateLabel": "24 July 2026",
+      "dateShort": "24 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Where the margin actually leaks"
+        },
+        {
+          "id": "s2",
+          "label": "The timesheet problem"
+        },
+        {
+          "id": "s3",
+          "label": "Why collections belongs with the recruiter"
+        },
+        {
+          "id": "s4",
+          "label": "What one system removes"
+        },
+        {
+          "id": "s5",
+          "label": "What automation will not fix"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The report worth running this week"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Where do staffing firms lose margin in the back office?",
+          "a": "Rate errors applied for months before anyone notices, unbilled time from late timesheets, invoice queries that age without being chased, and assignments extended informally with no clean basis to bill."
+        },
+        {
+          "q": "Why should recruiters see invoice ageing?",
+          "a": "Because the recruiter holds the relationship that unblocks the payment. Most overdue staffing invoices are stuck on an administrative query that one conversation resolves, and finance does not have the relationship to make that call."
+        },
+        {
+          "q": "How much does timesheet chasing actually cost?",
+          "a": "More than the hour spent chasing. Every invoice behind a missing timesheet is delayed, which pushes cash out and raises the chance of a query when it eventually arrives outside its billing period."
+        },
+        {
+          "q": "Should front and back office be in the same system?",
+          "a": "Running them separately guarantees monthly reconciliation between two systems that usually disagree. On one data model a placement carries its contract, rate, timesheets and invoice status, and desk margin becomes readable rather than assembled."
+        },
+        {
+          "q": "Can automation improve staffing collections?",
+          "a": "It fixes the visibility problem by putting invoice status where the relationship holder can see it, and automates reminders. It does not fix a client who genuinely cannot pay, though most overdue invoices are administrative rather than solvency issues."
+        },
+        {
+          "q": "What back office work still needs a person?",
+          "a": "Compliance judgement, including worker classification, right to work and contract labour obligations. These carry legal consequences and need somebody accountable rather than a workflow."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See desk margin as a readable number",
+        "body": "Bring your placement and billing data and we will show you margin by desk without a reconciliation exercise."
+      }
+    },
+    {
+      "slug": "ai-temp-light-industrial-staffing",
+      "title": "AI in Temp and Light Industrial Staffing: What Actually Helps",
+      "metaTitle": "AI in Temp and Light Industrial Staffing 2026",
+      "description": "Temp desks fail on speed to fill and redeployment, not on sourcing. Where automation genuinely helps on high-volume hourly hiring, and where it does not.",
+      "section": "AI Impact by Segment",
+      "dek": "High-volume hourly hiring has different failure points from professional recruitment, and most AI tooling was designed for the wrong one.",
+      "date": "2026-07-23",
+      "dateLabel": "23 July 2026",
+      "dateShort": "23 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why the failure points are different"
+        },
+        {
+          "id": "s2",
+          "label": "Redeployment, and why it gets missed"
+        },
+        {
+          "id": "s3",
+          "label": "Availability decay"
+        },
+        {
+          "id": "s4",
+          "label": "The duplicate contact problem"
+        },
+        {
+          "id": "s5",
+          "label": "Where automation does not help on a temp desk"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The trigger worth setting up this"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is temp staffing different from professional recruitment?",
+          "a": "Speed to fill matters more than quality of fill, because an unfilled shift is unrecoverable revenue rather than a delay. Quality is a threshold to clear rather than a scale to optimise, which inverts how most recruiting tools are designed."
+        },
+        {
+          "q": "What is redeployment and why does it matter?",
+          "a": "Placing a worker into a new assignment as their current one ends. It is the cheapest placement available since the worker is known, compliant and needs no sourcing, and it is usually missed because nobody acts on end dates until they arrive."
+        },
+        {
+          "q": "Why do temp candidates get contacted multiple times?",
+          "a": "Usually because the same person exists more than once in the database, so several recruiters legitimately work separate records. Matching at the point of entry fixes it; periodic cleanup does not."
+        },
+        {
+          "q": "How fast does temp worker availability change?",
+          "a": "Within days rather than weeks. Someone available on Monday may have taken a shift by Wednesday, which makes automated re-confirmation across a pool the highest-value automation available on this desk type."
+        },
+        {
+          "q": "Can AI fill shifts automatically?",
+          "a": "It can confirm availability across a large pool, rank who is reachable and contact them in parallel, which is most of the work. Compliance checks and no-show management remain human responsibilities with real consequences."
+        },
+        {
+          "q": "What should a temp desk measure?",
+          "a": "Fill rate against shifts released, redeployment rate on assignments ending, and time from shift release to confirmed worker. Sourcing volume tells you very little on this desk type."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See a redeployment campaign run",
+        "body": "Bring your assignment end dates and we will show you the pool that is about to become available."
+      }
+    },
+    {
+      "slug": "what-clients-pay-agencies-for-now",
+      "title": "What Clients Actually Pay Agencies For Now That AI Does the Sourcing",
+      "metaTitle": "What Clients Actually Pay Staffing Agencies For Now",
+      "description": "If sourcing is commoditised, the agency fee has to be justified elsewhere. What clients are actually buying in 2026, and how to price against it.",
+      "section": "AI Impact by Segment",
+      "dek": "The honest question every staffing founder should be able to answer in one sentence, and most cannot.",
+      "date": "2026-07-22",
+      "dateLabel": "22 July 2026",
+      "dateShort": "22 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Access, and why it stopped working"
+        },
+        {
+          "id": "s2",
+          "label": "Verification"
+        },
+        {
+          "id": "s3",
+          "label": "Speed, when it is real"
+        },
+        {
+          "id": "s4",
+          "label": "Market knowledge and risk transfer"
+        },
+        {
+          "id": "s5",
+          "label": "What this means for how you price"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The sentence worth writing down"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why are clients pushing back on agency fees?",
+          "a": "Because the original proposition was access to people and information they could not reach, and that has largely eroded. Clients now have tooling, data and search, so a fee justified by having found somebody is harder to defend."
+        },
+        {
+          "q": "What can a staffing agency do that a client's internal team cannot?",
+          "a": "Four things: verify capability at a standard the client cannot cheaply replicate, submit faster in a structural rather than effortful way, bring market knowledge the client does not have, and carry replacement risk that an internal team cannot offer itself."
+        },
+        {
+          "q": "How should staffing agencies price now?",
+          "a": "On difficulty rather than salary where the value is verification, contractually where the value is speed, and by selling the market diagnosis before the shortlist where the value is knowledge. Percentage-of-salary captures none of these differences."
+        },
+        {
+          "q": "Is speed still a valid agency differentiator?",
+          "a": "Only when it is structural. Every agency claims speed and clients measure it. Filtering before contacting produces roughly ten submission-ready profiles in hours, which is defensible; working harder at manual screening is not."
+        },
+        {
+          "q": "What is the most underused agency value lever?",
+          "a": "Risk transfer. An internal talent team cannot offer itself a replacement guarantee, and most agencies treat guarantees as a commercial concession rather than as a core part of what they are selling."
+        },
+        {
+          "q": "How do you justify a fee to a client with good internal recruiting?",
+          "a": "By naming what you verify that they cannot, and showing the standard. A client with a capable internal team usually has a capacity problem rather than a capability one, which is a different and easier conversation."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See the screening standard behind a submission",
+        "body": "Bring a role and we will show you what gets verified before a candidate reaches a client."
+      }
+    },
+    {
+      "slug": "staffing-industry-2030",
+      "title": "What Staffing Looks Like in 2030",
+      "metaTitle": "What the Staffing Industry Looks Like in 2030",
+      "description": "Five structural predictions for the staffing industry, what each one would mean for an agency P&L, and the two things that will not change at all.",
+      "section": "AI Impact by Segment",
+      "dek": "Most predictions about this industry are either extinction or business as usual. The interesting answer is that the work survives and the pricing does not.",
+      "date": "2026-07-21",
+      "dateLabel": "21 July 2026",
+      "dateShort": "21 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Sourcing stops being worth money"
+        },
+        {
+          "id": "s2",
+          "label": "Verification becomes the product"
+        },
+        {
+          "id": "s3",
+          "label": "The middle compresses"
+        },
+        {
+          "id": "s4",
+          "label": "Firm size stops predicting capability"
+        },
+        {
+          "id": "s5",
+          "label": "What will not change"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "What to do with a forecast"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will AI replace recruitment agencies?",
+          "a": "Not the function, but it is removing the activities agencies historically charged for. Sourcing, coordination and first-pass screening are becoming things software does. What survives as billable is judgement, verification and accountability."
+        },
+        {
+          "q": "What will staffing agencies charge for in 2030?",
+          "a": "Verification and judgement rather than access. Establishing which of fifty plausible candidates can actually do the work is the part clients cannot do cheaply, and it is getting harder as candidates gain the same tools employers have."
+        },
+        {
+          "q": "Which staffing firms are most at risk?",
+          "a": "Generalist mid-market firms competing on speed and relationships across several verticals. Speed is commoditising and relationships alone do not survive a procurement process, which leaves no defensible position between specialists and large-scale operators."
+        },
+        {
+          "q": "Does firm size still matter in staffing?",
+          "a": "Less for delivery capacity. If a filtered screening day produces ten submission-ready profiles, a small team delivers volume that once required a floor of recruiters. Scale still buys geography, back office and balance sheet."
+        },
+        {
+          "q": "What parts of recruiting will not be automated?",
+          "a": "Extracting a real requirement from a badly written brief, catching a candidate whose numbers do not hold up under a second question, and managing the gap between offer and joining where placements actually die."
+        },
+        {
+          "q": "Should a staffing firm specialise?",
+          "a": "Increasingly yes. Specialisation is one of the two positions that looks durable, because it produces knowledge a client cannot easily replicate and a database deep enough to be a genuine advantage."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what verification looks like on a submission",
+        "body": "Bring a role and we will show you a shortlist where every claim carries evidence behind it."
+      }
+    },
+    {
+      "slug": "it-services-outcome-based-bench-hiring",
+      "title": "Why IT Services Firms Are Shifting to Outcome-Based Models, and What It Does to Hiring",
+      "metaTitle": "Outcome-Based IT Services and What It Does to Hiring",
+      "description": "As IT services move from time and materials to outcome pricing, bench economics change and so does what a staffing partner is actually being asked for.",
+      "section": "AI Impact by Segment",
+      "dek": "When a client stops paying for hours and starts paying for results, the vendor stops needing bodies and starts needing capability.",
+      "date": "2026-07-20",
+      "dateLabel": "20 July 2026",
+      "dateShort": "20 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What changes commercially"
+        },
+        {
+          "id": "s2",
+          "label": "What happens to the bench"
+        },
+        {
+          "id": "s3",
+          "label": "Why quality per hire now beats speed"
+        },
+        {
+          "id": "s4",
+          "label": "What a staffing partner should do differently"
+        },
+        {
+          "id": "s5",
+          "label": "Where this does not apply"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question to add to your intake"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is outcome-based pricing in IT services?",
+          "a": "A contract where the client pays for a defined result rather than for time and materials. The vendor decides how many people it takes and absorbs the delivery risk, which reverses the incentive to maximise billable headcount."
+        },
+        {
+          "q": "How does outcome pricing affect bench hiring?",
+          "a": "A bench stops being recoverable inventory and becomes overhead. Firms carry smaller benches, hire closer to the requirement with less notice, and use contract labour for the variable portion to convert fixed cost into variable."
+        },
+        {
+          "q": "Why does quality per hire matter more under outcome contracts?",
+          "a": "Because the cost of a weak hire lands on the vendor rather than the client. Someone needing six weeks of supervision consumes a senior engineer's time and the project margin, which is visible immediately rather than absorbed in billable hours."
+        },
+        {
+          "q": "What should staffing firms change for outcome-driven clients?",
+          "a": "Verify capability rather than availability, expect tighter specifications with fewer seats, price on difficulty rather than volume, and sell to the person who owns the delivery outcome rather than to procurement."
+        },
+        {
+          "q": "Does outcome pricing reduce demand for contract staff?",
+          "a": "Generally the opposite. Firms avoiding permanent commitments use contract labour for the variable portion of delivery, which increases contingent demand even as speculative bench hiring falls."
+        },
+        {
+          "q": "Has all of IT services moved to outcome pricing?",
+          "a": "No. Time and materials remains a large share of the market, and firms running both models behave differently depending on which contract a role sits under. It is worth asking which applies before assuming the brief."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what verification adds to a submission",
+        "body": "Bring a role where a previous hire underperformed and we will show you what a structured screen would have surfaced."
+      }
+    },
+    {
+      "slug": "ai-gcc-hiring-different-sport",
+      "title": "Why GCC Hiring Is a Different Sport, and What AI Changes About It",
+      "metaTitle": "Why GCC Hiring Is a Different Sport, and What AI Does",
+      "description": "GCC mandates combine high volume with narrow requirements, which breaks most recruiting processes. What automation changes and where it still does not help.",
+      "section": "AI Impact by Segment",
+      "dek": "Volume and specificity at the same time is the combination most recruiting processes handle badly. GCC mandates are built entirely from it.",
+      "date": "2026-07-18",
+      "dateLabel": "18 July 2026",
+      "dateShort": "18 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why standard processes break on GCC mandates"
+        },
+        {
+          "id": "s2",
+          "label": "Why criteria must be generated per role"
+        },
+        {
+          "id": "s3",
+          "label": "The reporting standard is set elsewhere"
+        },
+        {
+          "id": "s4",
+          "label": "Your competition is the internal team"
+        },
+        {
+          "id": "s5",
+          "label": "Where automation does not help"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question to ask your GCC clien"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is GCC hiring different from IT staffing?",
+          "a": "It combines high volume with narrow requirements simultaneously. Volume processes loosen criteria to hit throughput and search processes work too few roles to hit deadlines, so most delivery models fail at one end or the other."
+        },
+        {
+          "q": "Why do GCC clients reject shortlists that look fine?",
+          "a": "Usually because the criteria were reused rather than generated for that specific role. Two GCCs hiring the same title are frequently hiring for different jobs, one building a function from nothing and one adding to a mature team."
+        },
+        {
+          "q": "What reporting do GCC clients expect?",
+          "a": "SLA performance per role, pipeline health and time to submit, in a consistent format on a schedule they do not have to request. The standard is set by a parent function comparing your performance against the same roles in other countries."
+        },
+        {
+          "q": "Who does a staffing firm compete with on GCC work?",
+          "a": "The client's own internal talent team, which is usually capable and well-tooled. Your submission timeline is benchmarked against theirs rather than against other agencies, which makes throughput the commercial argument."
+        },
+        {
+          "q": "Can AI fill niche GCC roles faster?",
+          "a": "Not if the supply genuinely does not exist. If forty people in the country can do the job, a faster process reaches the same forty. That is search work and should be priced accordingly rather than delivered as volume."
+        },
+        {
+          "q": "How many candidates can be screened for a GCC mandate?",
+          "a": "On a volume role, a pool search surfaces around 1,200 relevant profiles, narrows to a ranked 300 contacted in parallel, and produces roughly 10 submission-ready profiles in hours. On a high-volume QA requirement we submitted 120 in a single day."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See criteria generated per role",
+        "body": "Bring two GCC job descriptions for the same title and we will show you why the same candidate should score differently against each."
+      }
+    },
+    {
+      "slug": "ai-in-rpo-delivery",
+      "title": "AI in RPO Delivery: What Changes When You Are Embedded in the Client",
+      "metaTitle": "AI in RPO Delivery: What Embedded Work Changes",
+      "description": "RPO margin depends on delivering more per recruiter, not billing more. What automation changes when you work inside the client's process and brand.",
+      "section": "AI Impact by Segment",
+      "dek": "An RPO cannot grow revenue by adding headcount without destroying its own margin. That single constraint makes automation a commercial requirement rather than a preference.",
+      "date": "2026-07-17",
+      "dateLabel": "17 July 2026",
+      "dateShort": "17 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why the economics are different"
+        },
+        {
+          "id": "s2",
+          "label": "Working inside the client's process"
+        },
+        {
+          "id": "s3",
+          "label": "Separation, and why it is a contractual issue"
+        },
+        {
+          "id": "s4",
+          "label": "Where automation genuinely moves the number"
+        },
+        {
+          "id": "s5",
+          "label": "What automation does not fix in RPO"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The calculation worth doing on you"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How is RPO delivery different from agency recruiting?",
+          "a": "The fee is fixed by contract for an agreed scope, so growth comes from delivering more with the same team rather than from placing more at the same rate. That makes throughput a margin question and automation a commercial requirement."
+        },
+        {
+          "q": "What does an RPO need from recruitment software?",
+          "a": "Per-account workflow configuration, strict client separation enforced at account level rather than desk level, client-facing SLA reporting generated from pipeline data, and enough throughput that the account runs with fewer recruiters."
+        },
+        {
+          "q": "Why does client data separation matter more in RPO?",
+          "a": "Because it is frequently a contractual obligation rather than an internal preference, and it is checked in client audits. A permission model that separates only by desk rather than by account will not satisfy it."
+        },
+        {
+          "q": "How should an RPO evaluate software cost?",
+          "a": "On cost per account delivered rather than licence cost per user. A platform that costs more per seat but lets you run the same scope with fewer seats is cheaper against an RPO P&L, which is the opposite of how agencies evaluate."
+        },
+        {
+          "q": "Can automation improve RPO time to hire?",
+          "a": "Only the portion you control. If the client's approval chain takes three weeks, submitting in four hours does not shorten the overall timeline, though it does remove any argument that the delay originated with you."
+        },
+        {
+          "q": "What is the biggest cost in RPO delivery?",
+          "a": "Recruiter hours, since the fee is fixed. Anything that reduces hours per role delivered goes directly to margin, which is why manual sourcing and screening are more expensive in RPO than anywhere else."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what an RPO account looks like automated",
+        "body": "Bring one account and we will show you the delivery model with sourcing and screening removed from the recruiter's day."
+      }
+    },
+    {
+      "slug": "hiring-recruiters-in-the-ai-era",
+      "title": "How to Hire Recruiters Now That AI Does the Sourcing",
+      "metaTitle": "How to Hire Recruiters Now That AI Does Sourcing",
+      "description": "If AI handles sourcing and first-pass screening, the hiring profile for a recruiter changes completely. What to test for, and what stopped mattering.",
+      "section": "AI Impact by Segment",
+      "dek": "Most staffing firms are still hiring recruiters against a job description written for a job that no longer exists.",
+      "date": "2026-07-16",
+      "dateLabel": "16 July 2026",
+      "dateShort": "16 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What actually stopped mattering"
+        },
+        {
+          "id": "s2",
+          "label": "What matters more than it did"
+        },
+        {
+          "id": "s3",
+          "label": "How to test for it in an interview"
+        },
+        {
+          "id": "s4",
+          "label": "What this does to your hiring pool"
+        },
+        {
+          "id": "s5",
+          "label": "What does not change"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "Rewrite one job description this w"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What skills should a recruiter have in 2026?",
+          "a": "Specification, triage judgement, selling and client conversation. If sourcing and first-pass screening are automated, the remaining job is deciding what to do with results and persuading people, both of which are judgement rather than process."
+        },
+        {
+          "q": "Is Boolean search still a useful hiring criterion?",
+          "a": "No. On platforms where a query is a sentence, Boolean fluency has no application, and testing for it screens out capable candidates for no reason. Describing a profile precisely is the scarce skill and it takes a session to teach."
+        },
+        {
+          "q": "How do you test a recruiter in an interview?",
+          "a": "Hand them a real brief and ask what they would reject on, give them five candidate summaries with sixty seconds each to triage, role-play a candidate with a competing offer, and ask them to explain a market they claim to know."
+        },
+        {
+          "q": "Can you hire recruiters from outside recruitment?",
+          "a": "Increasingly, yes. If the job is judgement, specification and selling rather than syntax and stamina, then sales, account management and domain specialists bring what matters and lack only process knowledge, which is teachable."
+        },
+        {
+          "q": "What has not changed about recruiting as a job?",
+          "a": "Resilience and follow-through. Recruitment involves being told no repeatedly by both sides, and the gap between offer and joining is entirely human work where a candidate going quiet needs a person rather than a workflow."
+        },
+        {
+          "q": "Should experienced recruiters be worried about AI?",
+          "a": "The parts of the role that were process are being automated, and the parts that were judgement are becoming more valuable. Recruiters whose value was throughput should be concerned. Recruiters whose value was judgement have more leverage than before."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what the recruiter's day looks like",
+        "body": "Bring a live role and watch what a filtered screening day actually asks of a recruiter."
+      }
+    },
+    {
+      "slug": "ai-client-retention-staffing",
+      "title": "AI and Client Retention: What Actually Keeps a Staffing Account",
+      "metaTitle": "AI and Client Retention: What Keeps an Account",
+      "description": "Staffing firms rarely lose clients over delivery quality. What actually causes account churn, and which parts of the problem automation genuinely fixes.",
+      "section": "AI Impact by Segment",
+      "dek": "Everyone writes about AI in delivery. Almost nobody writes about AI in keeping the client, which is where the money actually sits.",
+      "date": "2026-07-15",
+      "dateLabel": "15 July 2026",
+      "dateShort": "15 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why clients actually leave"
+        },
+        {
+          "id": "s2",
+          "label": "The update problem, and why it is structural"
+        },
+        {
+          "id": "s3",
+          "label": "Speed as a retention mechanism"
+        },
+        {
+          "id": "s4",
+          "label": "Making the relationship belong to the firm"
+        },
+        {
+          "id": "s5",
+          "label": "What automation will not fix"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The audit worth doing on your top"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why do staffing clients leave?",
+          "a": "Rarely over candidate quality. The common causes are silence when progress was not reported, being consistently slower than a competitor across several roles, the departure of the person who held the relationship, and one unrepaired bad experience nobody escalated."
+        },
+        {
+          "q": "How often should you update a staffing client?",
+          "a": "Weekly, on a schedule, without being asked. The practical requirement is that the update assembles itself from pipeline data rather than being written manually, because manually written updates are the task recruiters most reliably skip."
+        },
+        {
+          "q": "Does speed affect client retention or just win rate?",
+          "a": "Both, and retention more than most firms realise. A client briefing several agencies notices which comes back first every time, and that impression accumulates across roles independently of who wins any single one."
+        },
+        {
+          "q": "What happens to a client relationship when a recruiter leaves?",
+          "a": "In a firm that logs manually, the history leaves with them. The replacement starts cold and asks questions the client has already answered. Automatic capture of calls, meetings and messages onto the client record keeps that history with the firm."
+        },
+        {
+          "q": "Can automation fix client churn?",
+          "a": "It fixes the reporting gap and the speed gap, which together account for a large share of churn. It cannot fix a client you should not have taken, a relationship nobody invests in, or genuine delivery failure upstream in briefing and screening."
+        },
+        {
+          "q": "What is the most expensive retention failure?",
+          "a": "A resignation at a firm where relationship history was never captured. The client is effectively starting over with a supplier they have already paid, and most clients will not do that twice."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See a client record that survives a resignation",
+        "body": "Bring one account and we will show you what automatic capture puts on the record without anyone typing."
+      }
+    },
+    {
+      "slug": "ai-outbound-recruiting-what-changed",
+      "title": "What AI Actually Changed About Outbound Recruiting",
+      "metaTitle": "What AI Actually Changed About Outbound Recruiting",
+      "description": "Out of 100 contacted for a strong role, roughly 40 respond to a call, 25 on WhatsApp and 12 to 15 by email. What that means for sequencing outbound.",
+      "section": "AI Impact by Segment",
+      "dek": "Personalisation at scale became free, which means it stopped working. What still gets replies is the part AI cannot generate.",
+      "date": "2026-07-14",
+      "dateLabel": "14 July 2026",
+      "dateShort": "14 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why the phone still beats messaging"
+        },
+        {
+          "id": "s2",
+          "label": "What generative tools actually changed"
+        },
+        {
+          "id": "s3",
+          "label": "How to sequence when the best channel scales worst"
+        },
+        {
+          "id": "s4",
+          "label": "Segment before you write anything"
+        },
+        {
+          "id": "s5",
+          "label": "Why response rates decay, and what to do"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "Establish your own baseline first"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a good candidate response rate?",
+          "a": "On well-paid roles with real prospects, roughly 40 out of 100 contacted respond to a phone call, about 25 on WhatsApp and 12 to 15 by email. Weaker roles perform materially worse on every channel, so treat these as a ceiling."
+        },
+        {
+          "q": "Which outreach channel works best for recruiters?",
+          "a": "The phone, by a clear margin, followed by WhatsApp and then email. It is also the worst-scaling channel, since 40 calls is a full recruiter day, which is why it should be spent on a shortlist rather than a list."
+        },
+        {
+          "q": "Has AI made recruitment outreach less effective?",
+          "a": "It removed the cost of producing personalised-looking messages, which removed the signal that personalisation carried. Relevance still works; superficial personalisation no longer does, because candidates recognise a template with a data source attached."
+        },
+        {
+          "q": "How should you sequence recruitment outreach?",
+          "a": "Cheapest effective channel first, escalating to the expensive one on a shortlist. WhatsApp, then email 24 hours later, then a call on day four to non-responders you actually want, then a final touch around day nine."
+        },
+        {
+          "q": "Why did my outreach response rate drop?",
+          "a": "Usually one of three causes: the segment has been contacted repeatedly, the roles have become less attractive, or contact data has decayed. Check delivery rate first, since a data problem and a copy problem look identical in most reporting."
+        },
+        {
+          "q": "Does personalisation still matter in candidate outreach?",
+          "a": "Relevance does. Referencing someone's history no longer proves anything, since it can be generated. What still earns a reply is contacting the right person about a role that genuinely fits their situation."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "Run a segmented campaign on your own pool",
+        "body": "Bring one role and we will run it across call, WhatsApp and email to show you where your replies actually come from."
+      }
+    },
+    {
+      "slug": "ai-made-inbound-applicants-worse",
+      "title": "AI Made the Inbound Applicant Problem Worse, Not Better",
+      "metaTitle": "AI Made the Inbound Applicant Problem Much Worse",
+      "description": "Candidates now use AI to apply at volume, so unqualified inbound has risen rather than fallen. What actually filters, and what quietly stops working.",
+      "section": "AI Impact by Segment",
+      "dek": "Every vendor sells AI as the answer to applicant volume. Candidates got the same tools first, and they used them harder.",
+      "date": "2026-07-13",
+      "dateLabel": "13 July 2026",
+      "dateShort": "13 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What actually changed on the candidate side"
+        },
+        {
+          "id": "s2",
+          "label": "Why keyword screening stopped discriminating"
+        },
+        {
+          "id": "s3",
+          "label": "What still filters reliably"
+        },
+        {
+          "id": "s4",
+          "label": "Why outbound became more valuable"
+        },
+        {
+          "id": "s5",
+          "label": "What to do about inbound now"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The number that tells you the trut"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Has AI reduced unqualified job applications?",
+          "a": "No, it has increased them. Candidates adopted generative tools faster than employers, and tailoring a CV to a job description now costs seconds rather than twenty minutes. Volume rose while relevance fell."
+        },
+        {
+          "q": "Why does keyword screening no longer work well?",
+          "a": "Because it relied on the effort required to write convincingly about a skill. When both sides use the same tools, the filter measures access to technology rather than capability, so every application matches and the ranking becomes arbitrary."
+        },
+        {
+          "q": "What actually filters applicants reliably now?",
+          "a": "A conversation. A claim can be generated in advance; an answer to an unanticipated second question cannot. Specific verifiable history and situational facts such as notice period and compensation expectation also remain hard to misrepresent."
+        },
+        {
+          "q": "Is outbound recruiting more effective than inbound now?",
+          "a": "Increasingly, yes. Someone contacted directly did not optimise anything for your filter, so the conversation starts from a truer position. A maintained database of people who already know your firm is the warmest outbound list available."
+        },
+        {
+          "q": "Should you measure application volume?",
+          "a": "Not as a health metric. A role attracting 400 applications is not outperforming one attracting 60; it is attracting more people for whom applying was cheap. Submission to interview ratio is the more useful number."
+        },
+        {
+          "q": "What should you do with rejected applicants?",
+          "a": "Keep them with a logged reason. Most are unsuitable for one specific role rather than unsuitable generally, and they become a warm pool for the next similar requirement if the record is maintained."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what a structured screen catches",
+        "body": "Bring a role with heavy inbound and we will show you what a conversation surfaces that the documents did not."
+      }
+    },
+    {
+      "slug": "how-ai-changed-recruitment-sourcing",
+      "title": "How AI Changed Sourcing: From Three Qualified Candidates a Day to Thirty",
+      "metaTitle": "How AI Changed Recruitment Sourcing: The 2026 View",
+      "description": "A recruiter sourcing manually finds three or four placeable people a day. What changes when filtering happens before dialling, and where it still fails.",
+      "section": "AI Impact by Segment",
+      "dek": "Sourcing was never limited by how fast recruiters could work. It was limited by how much unqualified work they had to do first.",
+      "date": "2026-07-11",
+      "dateLabel": "11 July 2026",
+      "dateShort": "11 Jul 2026",
+      "tag": "AI Impact",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What manual sourcing actually spends its time on"
+        },
+        {
+          "id": "s2",
+          "label": "What changes when filtering happens first"
+        },
+        {
+          "id": "s3",
+          "label": "Why the database matters more than the reach"
+        },
+        {
+          "id": "s4",
+          "label": "What the recruiter does instead"
+        },
+        {
+          "id": "s5",
+          "label": "Where AI sourcing still fails"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The test worth running on your own"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many candidates can a recruiter source in a day?",
+          "a": "Manually, around 40 calls producing three or four people worth submitting on a good day. The ceiling is qualification rather than dialling speed, because most of those conversations end within ninety seconds once eligibility is checked."
+        },
+        {
+          "q": "How does AI sourcing actually work?",
+          "a": "By filtering before contacting rather than during. A search across the firm's own database surfaces the profiles that plausibly match, ranks them against the role's criteria, and contacts a shortlist across multiple channels in parallel rather than sequentially."
+        },
+        {
+          "q": "Does AI sourcing replace recruiters?",
+          "a": "It replaces the part of the day spent discovering that someone is ineligible. The recruiter moves to triage and to the conversations that require selling rather than qualifying, which is where their judgement changes the outcome."
+        },
+        {
+          "q": "Is a bigger candidate database better?",
+          "a": "Only if it is searchable. An audit of one firm's 3 million records found roughly 80 percent were real people with out-of-date records. Making them findable took job portal spend from around $100 a role to $60."
+        },
+        {
+          "q": "What should you measure on a sourcing desk?",
+          "a": "Evidenced submissions produced, not calls made or profiles sourced. A day generating 300 conversations and four usable candidates is a bad day with impressive activity metrics."
+        },
+        {
+          "q": "When does AI sourcing not work?",
+          "a": "When the database is too shallow to return a meaningful result set, when the brief is poorly defined so the criteria are wrong, and on senior or confidential roles where the first conversation is a sell rather than a qualification."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what your own pool returns",
+        "body": "Bring one live role and a sample of your database. We will run the search and show you the depth you already have."
+      }
+    },
+    {
+      "slug": "staffing-agency-valuation-ma-2026",
+      "title": "Staffing Agency Valuation in 2026: What Firms Actually Sell For",
+      "metaTitle": "Staffing Agency Valuation: What Firms Sell For",
+      "description": "What buyers actually pay for a staffing firm, which metrics move the multiple, and the four things that reduce a valuation more than revenue improves it.",
+      "section": "Market Updates & Data",
+      "dek": "Every staffing founder wants to know their multiple. Almost nobody publishes what actually moves it, and revenue is not the main lever.",
+      "date": "2026-07-10",
+      "dateLabel": "10 July 2026",
+      "dateShort": "10 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What a buyer is actually buying"
+        },
+        {
+          "id": "s2",
+          "label": "The four things that reduce a valuation"
+        },
+        {
+          "id": "s3",
+          "label": "What raises it"
+        },
+        {
+          "id": "s4",
+          "label": "Why your database is an asset only if it is usable"
+        },
+        {
+          "id": "s5",
+          "label": "What to do three years before you sell"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The number to calculate this week"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How are staffing agencies valued?",
+          "a": "On a multiple of adjusted EBITDA rather than revenue. The multiple varies considerably based on client concentration, key-person dependency, revenue predictability, margin quality and how documented the delivery process is."
+        },
+        {
+          "q": "What reduces the value of a staffing firm?",
+          "a": "Client concentration, key-person dependency where relationships sit with individual billers, poor or inconsistent data, and compliance exposure around contract labour, candidate data or worker classification."
+        },
+        {
+          "q": "Is contract revenue worth more than permanent revenue?",
+          "a": "Generally yes. Assignments that renew are more predictable than placements that do not, and buyers pay a premium for predictability for the same reason recurring software revenue is valued above project services."
+        },
+        {
+          "q": "Does the size of a candidate database affect valuation?",
+          "a": "Only if it is usable. Buyers discount raw record counts heavily and they are right to. A database that is deduplicated, current and demonstrably producing placements is a genuine asset; an unaudited one is a cleanup project of unknown size."
+        },
+        {
+          "q": "How far ahead should you prepare to sell a staffing firm?",
+          "a": "Around three years. Reducing client concentration, moving relationships from individuals to the firm, and producing consistent financial and pipeline data all take multiple years to show in the numbers a buyer examines."
+        },
+        {
+          "q": "What is the single biggest valuation discount?",
+          "a": "Client concentration. A firm with a large share of revenue in one or two accounts is asking a buyer to acquire the risk that a relationship ends, and that risk is priced into the offer."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See margin by desk and by client",
+        "body": "Bring your placement data and we will show you concentration and margin the way a buyer would look at it."
+      }
+    },
+    {
+      "slug": "vms-msp-consolidation-agency-margins",
+      "title": "VMS and MSP Consolidation: What It Is Doing to Agency Margins",
+      "metaTitle": "VMS and MSP Consolidation: What It Does to Margin",
+      "description": "Aggregate temp gross margin sits near 21 percent. How vendor management programmes compress agency margin, and what suppliers can actually do about it.",
+      "section": "Market Updates & Data",
+      "dek": "Vendor management programmes were sold to clients as efficiency. For suppliers they are a structural margin compression that most firms never model.",
+      "date": "2026-07-09",
+      "dateLabel": "9 July 2026",
+      "dateShort": "9 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What a VMS actually does to a supplier"
+        },
+        {
+          "id": "s2",
+          "label": "How tiering decides your outcome before you start"
+        },
+        {
+          "id": "s3",
+          "label": "Where the margin actually goes"
+        },
+        {
+          "id": "s4",
+          "label": "What actually works inside a programme"
+        },
+        {
+          "id": "s5",
+          "label": "When to walk away from a programme"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The analysis worth running before"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a VMS in staffing?",
+          "a": "A vendor management system is software the client uses to manage its contingent workforce and its supplier base. Requisitions are released to suppliers through it, candidates are submitted back through it, and rate cards are enforced automatically."
+        },
+        {
+          "q": "What is the difference between a VMS and an MSP?",
+          "a": "A VMS is the software. An MSP is a managed service provider that runs the programme on the client's behalf, sitting between the client and the suppliers. Many programmes involve both."
+        },
+        {
+          "q": "How do vendor management programmes affect agency margins?",
+          "a": "They make suppliers comparable on rate while making candidate quality invisible at the point of comparison, enforce published rate cards, and frequently pass a programme fee to the supplier. Aggregate temp staffing gross margin sits near 21 percent."
+        },
+        {
+          "q": "What is supplier tiering?",
+          "a": "Programmes release requisitions to tier one suppliers first for a defined window, then to lower tiers. A tier-two supplier therefore works roles tier one could not fill, at the same rate card, which is a worse requisition mix at the same price."
+        },
+        {
+          "q": "Can you negotiate rates inside a VMS programme?",
+          "a": "Rarely, since programmes exist specifically to prevent per-supplier negotiation. Tier movement, earned by reliably filling the requisitions the programme struggles with, is the route that actually responds."
+        },
+        {
+          "q": "When should a staffing firm leave a VMS programme?",
+          "a": "When fill rate inside the programme is materially below fill rate outside it, which indicates adverse selection, or when programme work becomes a majority of revenue and the client effectively sets your margin and risk profile."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See fill rate by requisition type",
+        "body": "Bring your programme data and we will show you which categories are actually earning and which are consuming capacity."
+      }
+    },
+    {
+      "slug": "tier-2-city-hiring-india",
+      "title": "Tier-2 City Hiring in India: Where Capacity Is Actually Moving",
+      "metaTitle": "Tier-2 Hiring in India: Where Capacity Is Moving",
+      "description": "Bengaluru holds the largest share of GCC units and the growth is moving outward. What tier-2 expansion changes about sourcing, salary bands and delivery.",
+      "section": "Market Updates & Data",
+      "dek": "Bengaluru is the most contested talent market in the country. The new capacity is opening where almost no agency has a presence.",
+      "date": "2026-07-08",
+      "dateLabel": "8 July 2026",
+      "dateShort": "8 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why capacity is moving outward"
+        },
+        {
+          "id": "s2",
+          "label": "What changes about sourcing"
+        },
+        {
+          "id": "s3",
+          "label": "The salary question, and how firms get it wrong"
+        },
+        {
+          "id": "s4",
+          "label": "Why your database will disappoint you"
+        },
+        {
+          "id": "s5",
+          "label": "When tier-2 expansion is the wrong bet"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "Where to start if you are metro-on"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which Indian cities are growing fastest for GCC hiring?",
+          "a": "Bengaluru holds the largest share of units, which makes it the most contested market. New capacity is opening beyond the primary hubs, where fewer agencies have an established presence and competition for candidates is lower."
+        },
+        {
+          "q": "Why are companies moving hiring to tier-2 cities in India?",
+          "a": "Attrition in the primary hubs is expensive when the competing employer is nearby, salary and real estate costs sit lower, and the engineering talent already exists in these cities even where the employers previously did not."
+        },
+        {
+          "q": "How do salaries compare between metro and tier-2 cities?",
+          "a": "Tier-2 bands sit below metro bands and the gap has been narrowing as credible employers arrive. The only reliable input is what has actually been offered and accepted in that city recently, which is data your own placements hold."
+        },
+        {
+          "q": "Why does my database return nothing for tier-2 searches?",
+          "a": "Most Indian staffing databases are heavily weighted towards the metros because that is where the work has been. The market is usually fine; the database is thin. Searching by origin rather than current location surfaces the relocation pool."
+        },
+        {
+          "q": "Is referral hiring more important in tier-2 cities?",
+          "a": "Considerably. In a smaller professional community an introduction from a former colleague carries weight a cold approach does not, and strong candidates are frequently not visible on any platform."
+        },
+        {
+          "q": "Should a staffing firm expand into a tier-2 city?",
+          "a": "Only as a commitment rather than a campaign. Working one mandate and leaving incurs all the setup cost and none of the relationship benefit. The economics need two or three mandates before they turn positive."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "Search by origin, not just location",
+        "body": "Bring a tier-2 requirement and we will show you the relocation pool sitting inside your own database."
+      }
+    },
+    {
+      "slug": "ai-talent-market-india-skills-gap",
+      "title": "India's AI Talent Market: Sharp Demand Growth Against a Large Skills Deficit",
+      "metaTitle": "India's AI Talent Gap: 300% Demand, 53% Shortfall",
+      "description": "AI role demand in India has grown sharply against a large skills deficit, and a majority of GCC tech roles report a gap. What it means for how you recruit.",
+      "section": "Market Updates & Data",
+      "dek": "Demand for AI roles in India has grown faster than the supply of people who can do them, and the gap is widest exactly where the budgets are.",
+      "date": "2026-07-07",
+      "dateLabel": "7 July 2026",
+      "dateShort": "7 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why title-based sourcing fails in AI hiring"
+        },
+        {
+          "id": "s2",
+          "label": "The claims that fail verification most often"
+        },
+        {
+          "id": "s3",
+          "label": "What a shortage market does to fees and timelines"
+        },
+        {
+          "id": "s4",
+          "label": "Where the supply actually is"
+        },
+        {
+          "id": "s5",
+          "label": "What a client is actually buying"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The search worth running today"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why is there an AI skills gap in India?",
+          "a": "Demand for AI and machine learning roles has grown several times over in a short period while the pool of people who have genuinely built and shipped these systems has grown far more slowly. NASSCOM reporting shows a majority of technology roles at global capability centres report a skills gap."
+        },
+        {
+          "q": "How do you screen AI engineers effectively?",
+          "a": "By testing the claims rather than the keywords. The claims that fail most often are quantified impact figures. Asking what the baseline was, over what period, and what the candidate personally owned separates people who did the work from people who were nearby when it happened."
+        },
+        {
+          "q": "Why does title-based sourcing fail for AI roles?",
+          "a": "Because the same title covers entirely different work. One machine learning engineer builds models, another maintains a pipeline calling someone else's model. The distinguishing information is not in the title, so filtering on title and years returns a largely unqualified set."
+        },
+        {
+          "q": "Where can you find AI talent that is less contested?",
+          "a": "Strong engineers who have moved adjacent, such as data engineers or backend engineers working on inference infrastructure. Also your own database from two years ago, where records show an old title for people who have since moved into AI roles."
+        },
+        {
+          "q": "Do AI recruitment fees hold up?",
+          "a": "In a shortage market, yes. A role few agencies can fill supports a fee that a commodity role does not, and discounting in this segment tends to signal that a firm cannot actually deliver."
+        },
+        {
+          "q": "What do clients want from an AI staffing partner?",
+          "a": "Verification rather than reach. Finding profiles with the right keywords is cheap. Establishing which of them can actually do the work is what a client cannot do easily, and that is where the fee is defensible."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "Find the people your records mislabel",
+        "body": "Bring one AI requirement. We will search your own database by what people built rather than what their record says they were called."
+      }
+    },
+    {
+      "slug": "us-staffing-market-2026-india-firms",
+      "title": "The US Staffing Market in 2026: What Indian Firms Serving US Clients Need to Know",
+      "metaTitle": "The US Staffing Market in 2026: An India View",
+      "description": "US staffing was roughly $189B in 2024 and unemployment sat near 4.3% in 2026. What Indian firms serving US clients need to understand about the cycle.",
+      "section": "Market Updates & Data",
+      "dek": "Most Indian staffing firms selling into the US are reading American headlines and drawing the wrong conclusion about their own pipeline.",
+      "date": "2026-07-06",
+      "dateLabel": "6 July 2026",
+      "dateShort": "6 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What the market size actually includes"
+        },
+        {
+          "id": "s2",
+          "label": "Why low unemployment makes outbound the whole game"
+        },
+        {
+          "id": "s3",
+          "label": "Where contract demand is going"
+        },
+        {
+          "id": "s4",
+          "label": "Who you are actually competing against"
+        },
+        {
+          "id": "s5",
+          "label": "What travels well offshore and what does not"
+        },
+        {
+          "id": "deskcheck",
+          "label": "Five checks for your own desk"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The number to check before you pla"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How big is the US staffing market?",
+          "a": "Roughly $189 billion in 2024 according to Staffing Industry Analysts, covering light industrial, healthcare, clerical, IT, professional and executive search. The portion addressable from an offshore delivery base is considerably narrower."
+        },
+        {
+          "q": "Is now a good time to sell staffing services into the US?",
+          "a": "Client caution on permanent headcount pushes demand towards contingent labour, which is the segment offshore delivery serves best. The constraint is that contract work frequently runs through vendor management systems where margins are lower."
+        },
+        {
+          "q": "What does low US unemployment mean for recruiters?",
+          "a": "That the people worth hiring already have jobs. Inbound applicant quality falls, outbound response rates become the constraint on throughput, and an existing database of people who already know you becomes more valuable than reach into strangers."
+        },
+        {
+          "q": "Who do Indian staffing firms compete with in the US?",
+          "a": "Primarily the client's internal talent team and US agencies with local relationships, rather than other offshore suppliers. Competing on rate against those two misreads what they are actually being chosen for."
+        },
+        {
+          "q": "What recruitment work can be delivered from India?",
+          "a": "Sourcing, database work, screening against defined criteria, scheduling, submission preparation and reporting. Selling a role to a reluctant senior candidate and reading a hiring manager's unstated concerns travel considerably less well."
+        },
+        {
+          "q": "Is US contract staffing worth entering through a VMS?",
+          "a": "It is the most accessible route and also the lowest-margin part of the market. Entering there first means competing on rate before you have built any relationship that would let you compete on anything else."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See what your US database actually holds",
+        "body": "Bring your US records and one live role. We will show you what is reachable and what is placeable today."
+      }
+    },
+    {
+      "slug": "mid-tier-it-services-growth-staffing",
+      "title": "Why Mid-Tier IT Services Firms Are Outgrowing the Top Tier",
+      "metaTitle": "Why Mid-Tier IT Firms Are Outgrowing the Giants",
+      "description": "Mid-tier IT services firms are outpacing the top tier on niche positioning. What that shift means for which clients staffing firms should be chasing.",
+      "section": "Market Updates & Data",
+      "dek": "The growth in Indian IT services is not where most staffing firms are selling. Mid-tier firms are outpacing the giants, and they buy differently.",
+      "date": "2026-07-03",
+      "dateLabel": "3 July 2026",
+      "dateShort": "3 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "What changed in how clients buy IT services"
+        },
+        {
+          "id": "s2",
+          "label": "How mid-tier firms buy talent differently"
+        },
+        {
+          "id": "s3",
+          "label": "Why most staffing firms are pointed at the wrong accounts"
+        },
+        {
+          "id": "s4",
+          "label": "What to change in your business development"
+        },
+        {
+          "id": "s4b",
+          "label": "What a specialist positioning actually requires"
+        },
+        {
+          "id": "s4c",
+          "label": "Finding mid-tier clients before they run a process"
+        },
+        {
+          "id": "s4d",
+          "label": "What this does to your fee"
+        },
+        {
+          "id": "s5",
+          "label": "Where the top tier still matters"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "A list worth building this month"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why are mid-tier IT services firms growing faster?",
+          "a": "Clients increasingly buy a specific outcome in a specific domain rather than broad capacity. That advantages firms with genuine depth in one area over firms with adequate coverage across many, which is why specialisation has become a growth strategy."
+        },
+        {
+          "q": "How do mid-tier IT firms buy staffing services differently?",
+          "a": "Smaller volumes with tighter specifications, faster decisions with fewer approval layers, much less procurement friction, and a higher tolerance for a specialist supplier who understands their domain."
+        },
+        {
+          "q": "Is it worth chasing mid-tier IT clients as a staffing firm?",
+          "a": "For margin, usually yes. A large-account panel with dozens of vendors is a rate negotiation. A direct relationship with a growing mid-tier client is a margin business, though it comes with more variance."
+        },
+        {
+          "q": "What does a mid-tier client want from a staffing partner?",
+          "a": "Domain depth rather than breadth of coverage, speed that matches their decision cycle, and a direct relationship with the person who owns the delivery outcome rather than an account management layer."
+        },
+        {
+          "q": "Should staffing firms drop large enterprise accounts?",
+          "a": "No. Large accounts provide volume, predictability and credibility that opens doors elsewhere. The problem is having every account manager pointed at the biggest names while the growth happens outside them."
+        },
+        {
+          "q": "How fast do you need to be for a mid-tier client?",
+          "a": "Fast enough to match their decision cycle, which is frequently days rather than weeks. If a client can decide in three days and you take eight to submit, speed is not something you are actually selling."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "Compress your time to shortlist",
+        "body": "Bring a live niche requirement and we will run it against your own database to show you what four days looks like."
+      }
+    },
+    {
+      "slug": "is-bpo-dying-ai-outsourcing",
+      "title": "Is BPO Dying? What AI Actually Does to Process Outsourcing",
+      "metaTitle": "Is BPO Dying? What AI Really Does to Outsourcing",
+      "description": "Transactional BPO is compressing while GCC-based process work grows. What is actually happening to outsourcing, and what it means for staffing firms.",
+      "section": "Market Updates & Data",
+      "dek": "The obituary is premature and the complacency is worse. Transactional BPO is compressing hard while process work inside GCCs grows.",
+      "date": "2026-07-02",
+      "dateLabel": "2 July 2026",
+      "dateShort": "2 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The two markets inside BPO"
+        },
+        {
+          "id": "s2",
+          "label": "Where the work actually goes"
+        },
+        {
+          "id": "s3",
+          "label": "What this means for staffing firms serving BPO"
+        },
+        {
+          "id": "s3b",
+          "label": "The roles that survive, and what they need"
+        },
+        {
+          "id": "s4",
+          "label": "What does not change"
+        },
+        {
+          "id": "s4b",
+          "label": "What the numbers look like when a process is automated"
+        },
+        {
+          "id": "s4c",
+          "label": "What clients actually buy from a BPO staffing partner now"
+        },
+        {
+          "id": "s5",
+          "label": "How to reposition without overreacting"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "The question worth answering inter"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is BPO dying because of AI?",
+          "a": "Not as a whole. Transactional, rules-based BPO is compressing because that work is defined precisely enough for software to perform. Judgement-heavy process work involving exceptions, escalation and context is not compressing in the same way."
+        },
+        {
+          "q": "What happens to BPO work that gets automated?",
+          "a": "The routine portion disappears and the complex remainder often moves in-house, frequently into a global capability centre. The work does not vanish; the commercial relationship changes from a vendor contract to direct headcount."
+        },
+        {
+          "q": "How does BPO decline affect staffing firms?",
+          "a": "Vendor accounts shrink on routine roles first, the remaining roles are harder to fill because they require judgement, and the growth reappears as GCC demand bought by a different function at often the same parent company."
+        },
+        {
+          "q": "Should staffing firms move away from BPO clients?",
+          "a": "Not away, but towards the parts that are growing. Audit what share of your BPO revenue comes from transactional roles, and build a relationship with the talent function rather than only with procurement."
+        },
+        {
+          "q": "Is volume hiring going away?",
+          "a": "No. Centres still need staffing, ramps still happen and attrition still needs replacing. What changes is the role mix, which skews towards judgement and raises the screening bar rather than removing the need for volume delivery."
+        },
+        {
+          "q": "What is the difference between BPO and GCC?",
+          "a": "BPO is work bought as a service from a vendor. A GCC is the same work performed by employees of the parent company in an offshore unit it operates directly. The distinction determines who your buyer is and how the fee works."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See how volume delivery changes",
+        "body": "Bring a volume mandate you are working now and we will show you what filtered screening produces against it."
+      }
+    },
+    {
+      "slug": "india-gcc-landscape-2026-staffing",
+      "title": "India's 2,117 GCCs: What the 2026 Landscape Means for Staffing Firms",
+      "metaTitle": "India's GCC Boom: What 2,117 Centres Mean for You",
+      "description": "India hosts 2,117 GCCs employing 2.36 million people. What the numbers mean for staffing firms, and why GCC hiring is not IT staffing with a new logo.",
+      "section": "Market Updates & Data",
+      "dek": "India now hosts more global capability centres than any other country, employing 2.36 million people. Almost nobody is translating that into what it means for the firms doing the hiring.",
+      "date": "2026-07-01",
+      "dateLabel": "1 July 2026",
+      "dateShort": "1 Jul 2026",
+      "tag": "Market",
+      "read": "10 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why GCCs became the largest hiring engine in India"
+        },
+        {
+          "id": "s2",
+          "label": "What makes GCC hiring different from IT staffing"
+        },
+        {
+          "id": "s3",
+          "label": "Where the capacity is actually moving"
+        },
+        {
+          "id": "s4",
+          "label": "What a staffing firm has to change to win GCC mandates"
+        },
+        {
+          "id": "s3b",
+          "label": "The three GCC hiring waves, and where the agency money is"
+        },
+        {
+          "id": "s4b",
+          "label": "How GCC clients evaluate a staffing partner"
+        },
+        {
+          "id": "s5",
+          "label": "Where the GCC opportunity is oversold"
+        },
+        {
+          "id": "use",
+          "label": "Turning this into a client conversation"
+        },
+        {
+          "id": "miss",
+          "label": "Three mistakes reading market data"
+        },
+        {
+          "id": "ops",
+          "label": "What this changes on a desk"
+        },
+        {
+          "id": "faq",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "close",
+          "label": "What to do about it this quarter"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many GCCs are there in India?",
+          "a": "Roughly 2,117 global capability centres operating across about 3,728 units, employing around 2.36 million people and generating close to $98 billion in annual revenue, according to NASSCOM and Zinnov reporting."
+        },
+        {
+          "q": "What is a global capability centre?",
+          "a": "An offshore unit that a multinational operates directly rather than outsourcing to a vendor. The work is performed in-house by employees of the parent company rather than by a services provider, which removes the vendor margin and creates a permanent headcount plan."
+        },
+        {
+          "q": "How is GCC hiring different from IT staffing?",
+          "a": "Higher volume with narrower skill requirements, more stakeholders across local and parent-company functions, a reporting standard set outside India, and skill definitions that shift faster than a static scorecard survives."
+        },
+        {
+          "q": "Which cities are growing fastest for GCC hiring?",
+          "a": "Bengaluru holds the largest share of units and is therefore the most contested market. Newer capacity is opening beyond it, which is where fewer agencies have an established presence and fee pressure is lower."
+        },
+        {
+          "q": "Is GCC hiring worth pursuing for a mid-sized staffing firm?",
+          "a": "The addressable share is ramp-up phases, niche roles and volume spikes rather than the full headcount, since mature centres build internal talent functions. Firms winning here compete on speed and specificity rather than rate."
+        },
+        {
+          "q": "What do GCC clients ask staffing partners about technology?",
+          "a": "Where candidate data is hosted, who can access it, how long it is retained, and whether SLA reporting comes out of the system rather than a spreadsheet. These questions usually come before any discussion of delivery capability."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "high-volume-recruiting-screening-day",
+        "candidate-response-rates-by-channel"
+      ],
+      "cta": {
+        "title": "See a GCC mandate run end to end",
+        "body": "Bring a live GCC role and a sample of your database. We will run the search, generate the criteria and build the shortlist."
+      }
     }
   ]
 }
