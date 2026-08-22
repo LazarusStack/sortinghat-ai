@@ -42,3 +42,6 @@ next-env.d.ts
 
 # business material, not website code - kept out of the public repo
 Sortinghat-client-deck.pptx
+
+# python bytecode from scripts/
+__pycache__/

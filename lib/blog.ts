@@ -104,3 +104,173 @@ export const AUTHOR = {
   linkedin: "https://www.linkedin.com/in/apoorvtamrkar/",
   bio: "Founder of Sortinghat, an AI-native ATS and CRM for staffing, search and RPO firms. Writes about recruiter capacity, sourcing economics and what actually changes when AI reaches a delivery desk.",
 };
+
+/* -------------------------------------------------------------- related ---
+
+   The `related` field comes from the export, and for 50 of the 64 posts it is
+   the same three slugs. Rendered as-is, the module at the foot of a post says
+   the same thing almost everywhere and carries no signal about what the post
+   is actually next to.
+
+   So it is computed here instead, corpus-wide, rather than trusted per post.
+   Three properties are worth having and only the third needs explaining:
+
+   1. Relevance. Same section, then overlap on the words in the title and
+      description, which is what a reader is choosing between.
+   2. Determinism. Ties break on slug, nothing reads the clock, so an unchanged
+      corpus produces byte-identical output on every build.
+   3. Every post is somebody's related post. Scoring alone leaves a tail of
+      posts that are eligible everywhere and best nowhere, so ties break toward
+      the least-linked candidate and a repair pass afterwards guarantees the
+      property outright. That is why the assignment is computed for the whole
+      corpus at once and cached, not derived per post on demand.
+*/
+
+const RELATED_COUNT = 4;
+
+/** Words too common across a staffing blog to mean two posts are related. */
+const STOP = new Set(
+  ("a an and are as at be by for from how in is it its of on or that the to"
+   + " what when where which who why with your you not now does do")
+    .split(" "),
+);
+
+function terms(s: string): Set<string> {
+  return new Set(
+    s
+      .toLowerCase()
+      .replace(/[^a-z0-9\s-]/g, " ")
+      .split(/[\s-]+/)
+      .filter((w) => w.length > 2 && !STOP.has(w)),
+  );
+}
+
+/**
+ * Shared words are not worth the same. Every comparison title reads "Sortinghat
+ * vs X: The 2026 Comparison for ... Firms", so counting matches evenly made the
+ * boilerplate outweigh the subject: "Sortinghat vs Loxo" scored higher against
+ * "Sortinghat vs Crelate" (five shared filler words) than against "Loxo
+ * Alternatives" (the one word that actually names what both are about). Rarity
+ * across the corpus is the correction — a word in two titles counts for far
+ * more than a word in thirty.
+ */
+function rarity(): Map<string, number> {
+  const df = new Map<string, number>();
+  for (const p of POSTS) {
+    for (const w of terms(`${p.title} ${p.description}`)) {
+      df.set(w, (df.get(w) ?? 0) + 1);
+    }
+  }
+  const idf = new Map<string, number>();
+  for (const [w, n] of df) idf.set(w, Math.log(POSTS.length / n));
+  return idf;
+}
+
+const IDF = rarity();
+
+function overlap(a: Set<string>, b: Set<string>): number {
+  let n = 0;
+  for (const w of a) if (b.has(w)) n += IDF.get(w) ?? 0;
+  return n;
+}
+
+/**
+ * A related set shared by more than a handful of posts is export boilerplate,
+ * not an editorial choice, so it is dropped rather than seeded from.
+ */
+function editorialSeeds(): Map<string, string[]> {
+  const shared = new Map<string, number>();
+  for (const p of POSTS) {
+    const key = [...p.related].sort().join("|");
+    if (key) shared.set(key, (shared.get(key) ?? 0) + 1);
+  }
+  const seeds = new Map<string, string[]>();
+  for (const p of POSTS) {
+    const key = [...p.related].sort().join("|");
+    seeds.set(
+      p.slug,
+      key && (shared.get(key) ?? 0) <= 5
+        ? p.related.filter((s) => POSTS.some((q) => q.slug === s))
+        : [],
+    );
+  }
+  return seeds;
+}
+
+function buildRelated(): Map<string, string[]> {
+  const seeds = editorialSeeds();
+  const words = new Map(
+    POSTS.map((p) => [p.slug, terms(`${p.title} ${p.description}`)] as const),
+  );
+  const titles = new Map(POSTS.map((p) => [p.slug, terms(p.title)] as const));
+  const inbound = new Map(POSTS.map((p) => [p.slug, 0]));
+
+  const assigned = new Map<string, string[]>();
+  for (const post of POSTS) {
+    const picked = seeds.get(post.slug) ?? [];
+    for (const s of picked) inbound.set(s, (inbound.get(s) ?? 0) + 1);
+
+    const scored = POSTS.filter(
+      (q) => q.slug !== post.slug && !picked.includes(q.slug),
+    ).map((q) => ({
+      slug: q.slug,
+      // the title carries the subject; the description only supports it
+      score:
+        (q.section === post.section ? 3 : 0) +
+        overlap(titles.get(post.slug)!, titles.get(q.slug)!) * 2 +
+        overlap(words.get(post.slug)!, words.get(q.slug)!),
+    }));
+
+    scored.sort(
+      (a, b) =>
+        b.score - a.score ||
+        (inbound.get(a.slug) ?? 0) - (inbound.get(b.slug) ?? 0) ||
+        a.slug.localeCompare(b.slug),
+    );
+
+    for (const c of scored) {
+      if (picked.length >= RELATED_COUNT) break;
+      picked.push(c.slug);
+      inbound.set(c.slug, (inbound.get(c.slug) ?? 0) + 1);
+    }
+    assigned.set(post.slug, picked);
+  }
+
+  // Repair: any post nobody links to displaces the weakest pick on the post it
+  // scores best against, chosen among the sources that can spare a link.
+  for (const orphan of POSTS.filter((p) => (inbound.get(p.slug) ?? 0) === 0)) {
+    const hosts = POSTS.filter((p) => p.slug !== orphan.slug)
+      .map((p) => ({
+        slug: p.slug,
+        fit:
+          (p.section === orphan.section ? 3 : 0) +
+          overlap(titles.get(p.slug)!, titles.get(orphan.slug)!) * 2 +
+          overlap(words.get(p.slug)!, words.get(orphan.slug)!),
+      }))
+      .sort((a, b) => b.fit - a.fit || a.slug.localeCompare(b.slug));
+
+    for (const host of hosts) {
+      const list = assigned.get(host.slug)!;
+      // only take a link from a target that has one to spare
+      const idx = [...list]
+        .reverse()
+        .findIndex((s) => (inbound.get(s) ?? 0) > 1);
+      if (idx === -1) continue;
+      const at = list.length - 1 - idx;
+      inbound.set(list[at], (inbound.get(list[at]) ?? 0) - 1);
+      list[at] = orphan.slug;
+      inbound.set(orphan.slug, 1);
+      break;
+    }
+  }
+
+  return assigned;
+}
+
+const RELATED = buildRelated();
+
+export function relatedPosts(post: Post): Post[] {
+  return (RELATED.get(post.slug) ?? [])
+    .map((s) => POSTS.find((p) => p.slug === s))
+    .filter((p): p is Post => Boolean(p));
+}

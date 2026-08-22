@@ -1,20 +1,16 @@
 <p class="lede">Natural language candidate search means describing the person you want in a sentence and getting a ranked result, with no operators and no filter builder. It works. It also fails in one specific and predictable way, and the failure is entirely the fault of the person typing.</p>
-
 <p>Below are five real queries our customers run, the results two of them returned, and the query that disappoints people most often, shown alongside the version that works.</p>
-
 <div class="takeaways"><p class="lbl">Key takeaways</p><ul>
 <li><strong>Compound constraints are where it earns its keep.</strong> Skill, seniority, location, institution and domain in one sentence is trivial to say and painful to write as a Boolean string.</li>
 <li><strong>Vague queries return vague results, in any system.</strong> "Backend engineer in Bangalore with four years" is not a specification. It is a category.</li>
 <li><strong>The search runs on your own database, not the open web.</strong> That is a deliberate limit, and it changes what the tool is for.</li>
 <li><strong>The sourcer skill shifts from syntax to specification.</strong> Describing a good profile precisely is now the scarce skill, and it is far easier to teach than Boolean.</li>
 </ul></div>
-
 <div class="stats">
 <div class="stat"><div class="n">71</div><div class="l">Candidates returned for "engineering with two to four years of experience in Bangalore"</div><div class="s">Live search</div></div>
 <div class="stat"><div class="n">75</div><div class="l">Candidates returned for "software engineer with 2 to 4 years of experience in Bangalore"</div><div class="s">Live search</div></div>
 <div class="stat"><div class="n sm">Own DB</div><div class="l">Search scope. Your records only, not external sources</div><div class="s">By design</div></div>
 </div>
-
 <h2 id="s1">Five natural language candidate search queries recruiters run</h2>
 <p>These are typed as sentences. No operators, no nesting, no field selection.</p>
 <div class="query">engineer in Bangalore with three to five years of experience and from a tier one college</div>
@@ -68,7 +64,7 @@
 <h2 id="s5">Searching your own database, not the open web</h2>
 <p>Worth being explicit, because it sets expectations correctly.</p>
 <p>This search runs across <strong>your own records</strong>. Candidates you have sourced, screened, submitted, placed or rejected over the years. It does not search the open web and it is not a substitute for a sourcing licence when you genuinely need someone your firm has never encountered.</p>
-<p>That constraint is a feature more often than it is a limitation. Searching your own database costs nothing per search, the people in it have usually dealt with you before, and every search makes the pool more current. External sourcing carries a per-seat licence cost and starts cold every time.</p>
+<p>That constraint is a feature more often than it is a limitation. Searching your own database costs nothing per search, the people in it have usually dealt with you before, and every search makes the pool more current. External sourcing carries a <a href="/blog/ats-pricing-2026">per-seat</a> licence cost and starts cold every time.</p>
 <p>The right sequence is to exhaust the first before paying for the second. In one firm's data, that shift took job portal spend from roughly $100 per role to $60, which we cover in the <a href="/blog/talent-pool-software-database-first-sourcing">talent pool audit</a>.</p>
 <h2 id="s6">What changes for the sourcer</h2>
 <p>The scarce skill moves.</p>
@@ -102,9 +98,7 @@
 <h3>Forgetting availability entirely</h3>
 <p>A perfect profile on a six-month notice is not a candidate for a role closing in four weeks. Availability belongs in the query, not in the disappointment afterwards.</p>
 <h2 id="s7">Frequently asked questions</h2>
-
 <div class="faq"><div class="qa"><h3>What is natural language candidate search?</h3><p>Search that takes a plain-language description of the person you want and returns ranked matches, without Boolean operators or manually built filters. It interprets meaning rather than matching keywords, which lets it handle conditions like company stage or institution tier that never appear as literal terms on a CV.</p></div><div class="qa"><h3>Is natural language search better than Boolean search for recruiting?</h3><p>For compound queries and conditions that are judgements rather than keywords, yes. For exact-match requirements such as a specific certification number or a named employer, a filter remains more precise. Most real recruiting searches are the first kind.</p></div><div class="qa"><h3>Why is my natural language candidate search returning poor results?</h3><p>Almost always because the query describes a category rather than a person. A query like 'backend engineer in Bangalore with four years of experience' has three conditions and thousands of matches. Add the specific stack, the institution tier and the domain context, and the result set changes completely.</p></div><div class="qa"><h3>Does natural language search cover LinkedIn and job boards?</h3><p>In our case it searches your own database only. External sourcing is a separate motion with a separate licence cost, and the sensible order is to exhaust what you already own before paying to search elsewhere.</p></div><div class="qa"><h3>Do recruiters still need to learn Boolean search?</h3><p>It remains useful on platforms that only support it, so it has not disappeared. It is no longer a sensible criterion for hiring a sourcer, because describing a profile precisely is now the scarce skill and it is far quicker to teach.</p></div><div class="qa"><h3>How do you write a good candidate search query?</h3><p>Include four elements every time: the capability in detail, the level as a range, the hard constraints such as location and institution, and the context you would actually reject someone over, such as industry or company stage. Queries missing two of these are the ones that disappoint.</p></div></div>
-
 <h2 id="s8">How to test this on your own data</h2>
 <p>Take your last ten filled roles. For each, write one sentence describing the person you actually placed, using all four elements. Run it.</p>
 <p>Then check whether the person you placed appears near the top. It is the only benchmark worth anything, because you already know the right answer, and it takes an afternoon rather than a pilot.</p>

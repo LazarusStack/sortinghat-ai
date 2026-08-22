@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import { Footer } from "@/components/sections";
 import { AuthorBox, BlogCta, RelatedCard } from "@/components/blog";
 import BlogToc from "@/components/BlogToc";
-import { AUTHOR, POSTS, getPost, postBody } from "@/lib/blog";
+import { AUTHOR, POSTS, getPost, postBody, relatedPosts } from "@/lib/blog";
 import "../article.css";
 
 const SITE = "https://sortinghat.ai";
@@ -130,9 +130,7 @@ export default async function PostPage({
   if (!post) notFound();
 
   const body = postBody(post.slug);
-  const related = post.related
-    .map((s) => getPost(s))
-    .filter((p): p is NonNullable<typeof p> => Boolean(p));
+  const related = relatedPosts(post);
 
   return (
     <>
