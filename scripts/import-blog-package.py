@@ -10,7 +10,10 @@ author box, related grid, page footer, and the "show structure" annotations —
 are dropped here so there is exactly one implementation of each.
 
 Every run rebuilds the whole set from the folder it is given, so re-exported
-posts overwrite cleanly. Card thumbnails are the exception: the first import
+posts overwrite cleanly. That makes a partial package destructive:
+the exports for the first fourteen posts are not kept anywhere, so running this
+against a folder that lacks them deletes those posts and their images. Merge a
+new batch into a scratch copy and copy the results across instead. Card thumbnails are the exception: the first import
 took distinct crops from the package's index.html, and those are kept if they
 are already on disk rather than replaced with the post's lead figure.
 
@@ -51,6 +54,32 @@ ORDER = [
     "duplicate-candidate-records-database-hygiene",
     "candidate-ownership-rules-multi-desk",
     "ats-integrations-one-way-two-way",
+    # Product Comparison 101, newest first
+    "best-ats-crm-rpo-firms",
+    "best-recruitment-software-gcc-partners",
+    "best-ats-staffing-firms-india",
+    "ats-migration-guide",
+    "sortinghat-vs-targetrecruit",
+    "sortinghat-vs-tracker-rms",
+    "sortinghat-vs-pcrecruiter",
+    "sortinghat-vs-avionte",
+    "sortinghat-vs-jobadder",
+    "sortinghat-vs-manatal",
+    "sortinghat-vs-crelate",
+    "sortinghat-vs-jobdiva",
+    "sortinghat-vs-recruit-crm",
+    "sortinghat-vs-zoho-recruit",
+    "vincere-alternatives",
+    "sortinghat-vs-vincere",
+    "loxo-alternatives",
+    "sortinghat-vs-loxo",
+    "recruiterflow-alternatives",
+    "sortinghat-vs-recruiterflow",
+    "ceipal-alternatives",
+    "sortinghat-vs-ceipal",
+    "bullhorn-alternatives",
+    "sortinghat-vs-bullhorn",
+    "ats-pricing-2026",
 ]
 
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()

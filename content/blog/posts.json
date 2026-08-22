@@ -1327,6 +1327,2381 @@
         "title": "See the integrations that matter to your desks",
         "body": "Tell us the five tools your team lives in. We will show you exactly what moves, which way, and how often."
       }
+    },
+    {
+      "slug": "best-ats-crm-rpo-firms",
+      "title": "Best ATS and CRM for RPO Firms in 2026",
+      "metaTitle": "Best ATS and CRM for RPO Firms: The 2026 Guide",
+      "description": "RPO delivery needs multi-client separation, client-branded workflow and SLA reporting. Seven platforms compared on what embedded delivery actually requires.",
+      "section": "Product Comparison 101",
+      "dek": "RPO delivery is not agency delivery with a different contract. The tooling requirements are genuinely different and almost no vendor writes for them.",
+      "date": "2026-06-30",
+      "dateLabel": "30 June 2026",
+      "dateShort": "30 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What does an RPO need from an ATS that an agency does not?",
+          "a": "Strict multi-client separation, per-account workflow configuration, and client-facing SLA reporting on a schedule. On top of that, RPO margin depends on delivering more per recruiter, which makes automated sourcing and screening a commercial requirement."
+        },
+        {
+          "q": "Can Sortinghat separate data by client?",
+          "a": "Yes. Permissions, desks and ownership are configured at organisation level by your own management team rather than inherited from a vendor default, so separation reflects your contracts."
+        },
+        {
+          "q": "Which ATS is best for RPO delivery?",
+          "a": "One that combines per-account configuration with throughput. Enterprise platforms carry the scale and quote AI separately. Sortinghat includes AI voice and video screening and configures per account, with full front and back office."
+        },
+        {
+          "q": "How do you report SLA performance to an RPO client?",
+          "a": "From the same system that holds the activity. If a coordinator assembles it weekly in a spreadsheet, that is a permanent cost against your margin and a source of error in front of the client."
+        },
+        {
+          "q": "Does RPO need back office?",
+          "a": "Often, where contractors are involved. Sortinghat carries full pay-and-bill, timesheets and invoicing alongside the ATS and CRM rather than requiring a second system."
+        },
+        {
+          "q": "How long does implementation take for an RPO?",
+          "a": "Two weeks with Sortinghat, including migration, training and any per-account configuration your contracts require, rather than quoted as professional services."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "best-recruitment-software-gcc-partners",
+      "title": "Best Recruitment Software for GCC Hiring Partners in 2026",
+      "metaTitle": "Best Recruitment Software for GCC Hiring Partners",
+      "description": "India has 2,117 GCCs employing 2.36 million people. Seven platforms compared on volume, niche skills and the reporting GCC clients actually demand.",
+      "section": "Product Comparison 101",
+      "dek": "India now hosts 2,117 global capability centres employing 2.36 million people, and almost no recruitment platform is built for the firms staffing them.",
+      "date": "2026-06-29",
+      "dateLabel": "29 June 2026",
+      "dateShort": "29 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a GCC and why does it matter to staffing firms?",
+          "a": "A global capability centre is an offshore unit a multinational operates directly rather than outsourcing. India hosts 2,117 of them across 3,728 units, employing roughly 2.36 million people, which makes them one of the largest and fastest-growing sources of hiring demand in the country."
+        },
+        {
+          "q": "How is GCC hiring different from IT staffing?",
+          "a": "Volumes are higher, skill requirements are more specific, the stakeholder count is larger and reporting expectations come from a multinational parent. Most platforms handle volume or specificity, not both at once."
+        },
+        {
+          "q": "Which recruitment software suits GCC hiring partners?",
+          "a": "One that generates evaluation criteria per role rather than using a static scorecard, screens at volume without a recruiter dialling, and hosts data where the client's parent expects it."
+        },
+        {
+          "q": "Where should GCC candidate data be hosted?",
+          "a": "In the client's own country, which is what Sortinghat does. A multinational parent typically asks this before it asks what the platform does, so confirm it with any vendor you shortlist."
+        },
+        {
+          "q": "Can one platform handle both volume and niche GCC roles?",
+          "a": "It requires criteria that adapt per role. Sortinghat generates weighted evaluation criteria from each job description, so the same candidate scores differently for the same title at two different clients."
+        },
+        {
+          "q": "How fast can a GCC mandate be staffed?",
+          "a": "On a volume requirement, a pool search surfaces around 1,200 relevant profiles, narrows to a ranked 300 contacted in parallel, and produces roughly 10 submission-ready profiles in hours. On a high-volume QA requirement we submitted 120 profiles in a single day."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "best-ats-staffing-firms-india",
+      "title": "Best ATS for Staffing Firms in India in 2026",
+      "metaTitle": "Best ATS for Staffing Firms in India: 2026 Guide",
+      "description": "Most ATS platforms are built for Western markets and treat WhatsApp as an afterthought. Seven compared on Naukri depth, channels and what they cost in India.",
+      "section": "Product Comparison 101",
+      "dek": "Most recruitment platforms are designed around email as the primary candidate channel. On an India desk that assumption is wrong on day one.",
+      "date": "2026-06-26",
+      "dateLabel": "26 June 2026",
+      "dateShort": "26 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which ATS is best for staffing firms in India?",
+          "a": "The one that threads WhatsApp and Naukri natively and removes manual screening. Channel coverage decides an India desk more than feature depth, because around 40 out of 100 candidates respond to a call, 25 on WhatsApp and only 12 to 15 by email."
+        },
+        {
+          "q": "Does Sortinghat integrate with Naukri?",
+          "a": "Yes, natively, alongside WhatsApp threading onto the candidate record. Duplicates are handled at the point of entry rather than through periodic cleanup."
+        },
+        {
+          "q": "How much does an ATS cost in India?",
+          "a": "It varies from a free Zoho plan to enterprise platforms at Western per-seat rates with modules quoted on top. Compare a three-year total including implementation, migration and every module you would license rather than the headline."
+        },
+        {
+          "q": "Where is candidate data hosted?",
+          "a": "Sortinghat hosts data in the client's own country. Enterprise and GCC clients typically ask this before they ask about features, so confirm it with any vendor you shortlist."
+        },
+        {
+          "q": "Which ATS handles high-volume Indian hiring?",
+          "a": "One that screens without a recruiter dialling. A pool search on a volume role surfaces around 1,200 relevant profiles, narrows to a ranked 300 contacted in parallel, and produces roughly 10 submission-ready profiles in hours."
+        },
+        {
+          "q": "Is a global ATS worth it for an Indian staffing firm?",
+          "a": "Only if it threads the channels your candidates actually use. A platform designed around email will hold an incomplete conversation history on every candidate you work."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "ats-migration-guide",
+      "title": "ATS Migration: How to Switch Without Losing Ten Years of Notes",
+      "metaTitle": "ATS Migration Guide 2026: How to Switch Safely",
+      "description": "Migration is why firms stay on a platform they have outgrown. What breaks, what a vendor should handle, and how a two-week switch actually works.",
+      "section": "Product Comparison 101",
+      "dek": "Migration is the single reason most staffing firms stay on a platform they outgrew years ago. It is a two-week project when somebody handles it properly.",
+      "date": "2026-06-25",
+      "dateLabel": "25 June 2026",
+      "dateShort": "25 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does an ATS migration take?",
+          "a": "Two weeks with Sortinghat, including validation before go-live. Complex long-tenured instances with heavy customisation take longer to map, and we scope that before committing rather than after."
+        },
+        {
+          "q": "Will I lose my notes when I switch ATS?",
+          "a": "You should not, and most firms do because the vendor sent an export file rather than running a migration. Notes, call history, attachments and submission history all carry across when someone handles the mapping and validation properly."
+        },
+        {
+          "q": "What does an ATS migration cost?",
+          "a": "It varies widely and is frequently quoted separately from the licence. With Sortinghat, implementation, migration and training are included rather than billed as professional services."
+        },
+        {
+          "q": "What is the hardest ATS to migrate from?",
+          "a": "Bullhorn and Ceipal, for different reasons. Bullhorn's object model does not map one to one and long instances carry heavy customisation. Ceipal's standard export omits activity history and some attachment types."
+        },
+        {
+          "q": "Should you clean your data before migrating?",
+          "a": "Partially. Clean the active segment, archive the historical one, and delete records with no reachable contact and no placement history. Trying to clean everything first is the most common reason migrations slip by months."
+        },
+        {
+          "q": "Can you run two ATS systems in parallel?",
+          "a": "You can, and it usually fails. Split data, split habits and no forcing function mean neither system becomes the source of truth. A clean cutover with proper validation beforehand is the safer route."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-targetrecruit",
+      "title": "Sortinghat vs TargetRecruit: The 2026 Comparison for Salesforce-Based Staffing Firms",
+      "metaTitle": "Sortinghat vs TargetRecruit: 2026 Comparison Guide",
+      "description": "TargetRecruit was acquired by Bullhorn in 2025 and needs a Salesforce licence underneath it. Sortinghat needs neither. Full comparison and migration.",
+      "section": "Product Comparison 101",
+      "dek": "TargetRecruit runs on Salesforce and was acquired by Bullhorn in 2025. That means two licences, two vendors and one roadmap you do not control.",
+      "date": "2026-06-24",
+      "dateLabel": "24 June 2026",
+      "dateShort": "24 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is TargetRecruit owned by Bullhorn?",
+          "a": "Yes. TargetRecruit was acquired by Bullhorn in 2025, which means its product direction and roadmap now sit with Bullhorn rather than with an independent vendor."
+        },
+        {
+          "q": "Do you need Salesforce to use TargetRecruit?",
+          "a": "Yes. It is an application built on the Salesforce platform, so a Salesforce licence sits underneath it. That is two licences, two vendors and two renewal negotiations."
+        },
+        {
+          "q": "What is the best TargetRecruit alternative?",
+          "a": "For firms who want one platform rather than a layer on another, Sortinghat covers full ATS, CRM and back office with AI voice and video screening and plain-language search, on a single licence."
+        },
+        {
+          "q": "How much does TargetRecruit cost?",
+          "a": "It is quoted per seat on top of the Salesforce licence you also need. Ask for a three-year total covering both platforms plus implementation, and confirm how the Bullhorn acquisition affects renewal terms."
+        },
+        {
+          "q": "Is migrating off a Salesforce-based ATS difficult?",
+          "a": "Technically it is clean. Commercially it is more involved, because there are two contracts with two notice periods to unwind. We handle the data side in two weeks with nothing left behind."
+        },
+        {
+          "q": "Does Sortinghat require any other platform licence?",
+          "a": "No. It is a single platform with a single licence, including full front and back office and 400+ pre-built integrations."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-tracker-rms",
+      "title": "Sortinghat vs Tracker RMS: The 2026 Comparison for UK and Global Agencies",
+      "metaTitle": "Sortinghat vs Tracker RMS: 2026 Comparison Guide",
+      "description": "Tracker RMS bundles timesheets at a low price. Sortinghat does that and automates sourcing and screening. Full comparison, capabilities and migration.",
+      "section": "Product Comparison 101",
+      "dek": "Tracker RMS competes on price and bundled timesheets. Neither of those changes how many roles a recruiter can carry.",
+      "date": "2026-06-23",
+      "dateLabel": "23 June 2026",
+      "dateShort": "23 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Tracker RMS alternative?",
+          "a": "For firms whose constraint is recruiter capacity rather than licence cost, Sortinghat adds AI voice and video screening, plain-language search and generated evaluation criteria on top of full front and back office."
+        },
+        {
+          "q": "How much does Tracker RMS cost?",
+          "a": "It positions below the incumbents and quotes by tier and seat count. Compare the tier you would actually use, and add the recruiter hours the platform does not remove."
+        },
+        {
+          "q": "Does Sortinghat include timesheets?",
+          "a": "Yes, alongside full pay-and-bill and invoicing as part of the platform rather than as a bundled extra."
+        },
+        {
+          "q": "Is Sortinghat built for UK agencies?",
+          "a": "Yes. Data is hosted in the client's own country, and the platform serves staffing, search, RPO and GCC firms including customers of 400+ employees."
+        },
+        {
+          "q": "How long does a Tracker RMS migration take?",
+          "a": "Two weeks, with implementation, migration and training included in the licence."
+        },
+        {
+          "q": "Will timesheet history transfer?",
+          "a": "Yes. Because Sortinghat carries back office, timesheet and assignment history moves with the front office rather than being left behind."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-pcrecruiter",
+      "title": "Sortinghat vs PCRecruiter: The 2026 Comparison for Established Recruiting Firms",
+      "metaTitle": "Sortinghat vs PCRecruiter: 2026 Comparison Guide",
+      "description": "PCRecruiter is flexible and dated. Sortinghat delivers the same coverage with AI screening and plain-language search. Full comparison and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "PCRecruiter has been configurable for a long time. Configurable is not the same as capable, and it is not the same as fast.",
+      "date": "2026-06-22",
+      "dateLabel": "22 June 2026",
+      "dateShort": "22 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best PCRecruiter alternative?",
+          "a": "For firms who want staffing workflow native rather than configured, Sortinghat covers submissions, client CRM, desk margin and full back office, with AI voice and video screening and plain-language search."
+        },
+        {
+          "q": "How much does PCRecruiter cost?",
+          "a": "It quotes by tier and seat count. Compare the tier you would use, and add the configuration and ongoing maintenance time that flexibility requires."
+        },
+        {
+          "q": "Is Sortinghat configurable?",
+          "a": "Where it matters. Permissions, desks, ownership and workflow are configured at organisation level by your own management team, and anything genuinely missing gets built during the migration window."
+        },
+        {
+          "q": "Will years of PCRecruiter history transfer?",
+          "a": "Yes. Notes, calls, attachments and submission history all carry across. Long instances take longer to validate than to extract, which is why we handle it rather than sending an export."
+        },
+        {
+          "q": "Does Sortinghat have back office?",
+          "a": "Yes. Full pay-and-bill, timesheets and invoicing alongside the ATS and CRM, with 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "How long does a PCRecruiter migration take?",
+          "a": "Two weeks, with implementation, migration and training included in the licence."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-avionte",
+      "title": "Sortinghat vs Avionte: The 2026 Comparison for Temp and Light Industrial Staffing",
+      "metaTitle": "Sortinghat vs Avionte: Full 2026 Comparison Guide",
+      "description": "Avionte is a payroll engine with an ATS attached. Sortinghat runs pay-and-bill and automates the recruiting. Full comparison and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "Avionte is strongest at paying people. What happens before the placement, the sourcing and the screening, is still entirely manual.",
+      "date": "2026-06-20",
+      "dateLabel": "20 June 2026",
+      "dateShort": "20 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Sortinghat handle pay-and-bill?",
+          "a": "Yes. Full front and back office including pay-and-bill, timesheets and invoicing, with client-specific formats built during the migration window if your clients require them."
+        },
+        {
+          "q": "What is the best Avionte alternative?",
+          "a": "For firms who want the back office plus automated sourcing and screening, Sortinghat carries both. Migration takes two weeks and moves front and back office together rather than splitting them."
+        },
+        {
+          "q": "How much does Avionte cost?",
+          "a": "Avionte quotes by module and seat count without a full public rate card. Ask for a three-year total including implementation and every module you would license."
+        },
+        {
+          "q": "Is Sortinghat suitable for high-volume temp staffing?",
+          "a": "Yes. A pool search on a volume role surfaces around 1,200 relevant profiles, narrows to a ranked 300 contacted in parallel, and produces roughly 10 submission-ready profiles in hours."
+        },
+        {
+          "q": "Will payroll history transfer in a migration?",
+          "a": "Assignment and timesheet history carry across and are validated explicitly. Because Sortinghat carries back office, this moves with the front office rather than being left behind."
+        },
+        {
+          "q": "How long does an Avionte migration take?",
+          "a": "Two weeks, with implementation, migration and training included in the licence rather than quoted as professional services."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-jobadder",
+      "title": "Sortinghat vs JobAdder: The 2026 Comparison for ANZ, UK and Global Agencies",
+      "metaTitle": "Sortinghat vs JobAdder: Full 2026 Comparison Guide",
+      "description": "JobAdder gives you good building blocks and expects you to assemble them. Sortinghat arrives built, with AI screening and search included. Full comparison.",
+      "section": "Product Comparison 101",
+      "dek": "JobAdder gives you an API and expects you to build the rest. The question is whether you have a developer spare, and whether that is what you want them doing.",
+      "date": "2026-06-19",
+      "dateLabel": "19 June 2026",
+      "dateShort": "19 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does JobAdder have AI screening calls?",
+          "a": "Not native voice screening of the kind Sortinghat runs. JobAdder offers automation primitives and a clean API that can connect to third-party screening tools, which means the capability depends on what you build or integrate."
+        },
+        {
+          "q": "How much does JobAdder cost?",
+          "a": "It prices by tier and seat count without a full public rate card. Ask whether the client portal and any AI capability are included at your tier, and factor in the internal build time your automations will need."
+        },
+        {
+          "q": "What is the best JobAdder alternative?",
+          "a": "For firms who want the workflow to arrive built rather than assembled, Sortinghat includes AI voice and video screening, plain-language search, generated evaluation criteria and full back office, with 400+ pre-built integrations."
+        },
+        {
+          "q": "Is Sortinghat suitable for agencies outside India?",
+          "a": "Yes. Data is hosted in the client's own country, and the platform serves staffing, search, RPO and GCC firms including customers of 400+ employees."
+        },
+        {
+          "q": "Can you migrate from JobAdder to Sortinghat?",
+          "a": "Yes, and JobAdder's API quality makes extraction cleaner than most. Notes, calls, attachments and submission history all carry across. Two weeks, included in the licence."
+        },
+        {
+          "q": "JobAdder or Recruiterflow?",
+          "a": "Both serve the mid-market. JobAdder is stronger on API and client collaboration, Recruiterflow on outbound sequencing. Neither includes native AI screening, which is the capability most firms are comparing on in 2026."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-manatal",
+      "title": "Sortinghat vs Manatal: The 2026 Comparison for Growing Recruitment Teams",
+      "metaTitle": "Sortinghat vs Manatal: Full 2026 Comparison Guide",
+      "description": "Manatal scores the applications you already have. Sortinghat finds, contacts and qualifies the candidates you do not. Full comparison and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "Manatal ranks the applications that arrive. Sortinghat generates the pipeline in the first place, then screens it.",
+      "date": "2026-06-18",
+      "dateLabel": "18 June 2026",
+      "dateShort": "18 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much does Manatal cost?",
+          "a": "It is reported at around $15 per user per month at entry, among the lowest in the category. Verify current tiers directly and check what sits behind higher tiers before comparing to anything else."
+        },
+        {
+          "q": "What is the difference between Manatal and Sortinghat?",
+          "a": "Scope. Manatal scores the applications you already have. Sortinghat sources from your own database in plain language, runs multichannel outbound campaigns, screens with AI voice and video calls and evaluates against generated criteria."
+        },
+        {
+          "q": "Is a low-cost ATS good enough for a staffing agency?",
+          "a": "It depends on the bottleneck. If you are organising inbound applications, yes. If your recruiters cannot carry enough roles because sourcing and screening are manual, the licence saving is smaller than the placements it costs."
+        },
+        {
+          "q": "Does Sortinghat have back office?",
+          "a": "Yes. Full front and back office including pay-and-bill, timesheets and invoicing, with 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "Can you migrate from Manatal?",
+          "a": "Yes, and it is quick. Volumes are usually modest and the data model is simple. Notes, calls, attachments and submission history all carry across, validated before sign-off."
+        },
+        {
+          "q": "Does Manatal work for Indian staffing firms?",
+          "a": "It is usable and affordable. The constraint is channel coverage, since WhatsApp is where Indian candidates reply and Naukri is where most enter."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-crelate",
+      "title": "Sortinghat vs Crelate: The 2026 Comparison for Search and Recruiting Firms",
+      "metaTitle": "Sortinghat vs Crelate: Full 2026 Comparison Guide",
+      "description": "Crelate rewards Boolean expertise. Sortinghat removes the need for it entirely and screens at volume. Full comparison, capabilities and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "Crelate rewards recruiters who can build a Boolean string. Sortinghat removes the requirement and then screens the results.",
+      "date": "2026-06-17",
+      "dateLabel": "17 June 2026",
+      "dateShort": "17 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Boolean search still necessary in 2026?",
+          "a": "On platforms that only support it, yes. As a hiring criterion for a sourcer it no longer makes sense, because describing a profile precisely is now the scarce skill and it takes a session to teach rather than a quarter."
+        },
+        {
+          "q": "How much does Crelate cost?",
+          "a": "Crelate prices in the mid-market range by tier and seat count, typically quote based. Ask whether analytics and any AI capability are included at your tier."
+        },
+        {
+          "q": "What is the best Crelate alternative?",
+          "a": "For firms who want search that does not require Boolean expertise, plus AI voice and video screening and generated evaluation criteria, that is the case this page makes for Sortinghat."
+        },
+        {
+          "q": "Does Sortinghat work for executive search?",
+          "a": "Yes, and it also handles volume. Plain-language search, AI screening and weighted evaluation work on a retained search desk as well as a contingency one, with full back office underneath."
+        },
+        {
+          "q": "Can you migrate saved searches from Crelate?",
+          "a": "Saved Boolean strings do not transfer between any platforms. On a plain-language search platform you will not need to rebuild them, since the query is a description rather than a construction."
+        },
+        {
+          "q": "Is Sortinghat built for larger firms?",
+          "a": "Yes. Our customers include firms of 400+ employees, with 400+ pre-built integrations and full front and back office."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-jobdiva",
+      "title": "Sortinghat vs JobDiva: The 2026 Comparison for Large US Staffing Operations",
+      "metaTitle": "Sortinghat vs JobDiva: Full 2026 Comparison Guide",
+      "description": "JobDiva runs large US contract desks on a platform built two decades ago. Sortinghat runs the same volume with AI screening and search. Full comparison.",
+      "section": "Product Comparison 101",
+      "dek": "JobDiva was built for large US contract staffing before AI existed. The scale is real. So is the amount of manual work it still requires.",
+      "date": "2026-06-16",
+      "dateLabel": "16 June 2026",
+      "dateShort": "16 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best JobDiva alternative for large staffing firms?",
+          "a": "For firms who want the same contract volume without adding headcount, Sortinghat adds AI voice and video screening, plain-language search and generated evaluation criteria on top of full front and back office, with 400+ pre-built integrations."
+        },
+        {
+          "q": "How much does JobDiva cost?",
+          "a": "JobDiva does not publish transparent pricing and quotes vary by module and seat count. Ask for a three-year total covering implementation, every module you would license and the renewal escalation."
+        },
+        {
+          "q": "Does Sortinghat handle large contract staffing?",
+          "a": "Yes. Our customers include firms of 400+ employees, with full front and back office including pay-and-bill, timesheets and invoicing, plus 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "How long does a JobDiva migration take?",
+          "a": "Two weeks. Export, mapping and validation in week one while your team keeps billing, then your own environment and full validation in week two, followed by cutover with no downtime."
+        },
+        {
+          "q": "Will contract and timesheet history transfer?",
+          "a": "Yes. Because Sortinghat carries back office, contract, assignment and timesheet history moves alongside the front office rather than being split across two vendors."
+        },
+        {
+          "q": "Is Sortinghat suitable for US contract desks?",
+          "a": "Yes, including compliance documentation and client-specific invoicing formats, which we build during the migration window if your clients require them."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-recruit-crm",
+      "title": "Sortinghat vs Recruit CRM: The 2026 Comparison for Growing Recruitment Agencies",
+      "metaTitle": "Sortinghat vs Recruit CRM: Full 2026 Comparison",
+      "description": "Recruit CRM keeps records. Sortinghat screens candidates, generates evaluation criteria and runs the back office. Full comparison and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "Recruit CRM records what your recruiters did. Sortinghat does the work instead, then records it.",
+      "date": "2026-06-15",
+      "dateLabel": "15 June 2026",
+      "dateShort": "15 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Recruit CRM alternative?",
+          "a": "For firms whose constraint is recruiter capacity rather than record keeping, Sortinghat adds AI voice and video screening, plain-language search, generated evaluation criteria and full back office. We have migrated firms across and it takes two weeks."
+        },
+        {
+          "q": "How much does Recruit CRM cost?",
+          "a": "It publishes per-seat tiers aimed at small and mid-sized agencies. Compare the tier you would actually use rather than the entry headline, since capability varies significantly between tiers."
+        },
+        {
+          "q": "When should you move off Recruit CRM?",
+          "a": "When recruiters are at capacity, your database has grown past the point anyone searches it usefully, and new roles start on a job portal by default because the internal search is not worth running."
+        },
+        {
+          "q": "Can you migrate from Recruit CRM easily?",
+          "a": "Yes, and it is among the most straightforward migrations we run. The data model is simple and volumes are usually modest. Notes, calls, attachments and submission history all carry across."
+        },
+        {
+          "q": "Does Sortinghat have back office?",
+          "a": "Yes. Full front and back office including pay-and-bill, timesheets and invoicing, alongside the ATS and CRM, with 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "Is Sortinghat only for large firms?",
+          "a": "No, though it is built to run at scale. Our customers include firms of 400+ employees, and the same platform serves growing agencies without a different edition or a different price for the AI."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-zoho-recruit",
+      "title": "Sortinghat vs Zoho Recruit: The 2026 Comparison for Growing Recruitment Agencies",
+      "metaTitle": "Sortinghat vs Zoho Recruit: Full 2026 Comparison",
+      "description": "Zoho Recruit is a general recruitment tool you configure into a staffing one. Sortinghat arrives built for staffing. Full comparison and migration detail.",
+      "section": "Product Comparison 101",
+      "dek": "Zoho Recruit is a general recruitment product that staffing firms configure into an agency system. Sortinghat arrives built for agency work.",
+      "date": "2026-06-13",
+      "dateLabel": "13 June 2026",
+      "dateShort": "13 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Zoho Recruit good for staffing agencies?",
+          "a": "It is usable and affordable. It is a general recruitment platform rather than a staffing-specific one, so submissions, client CRM and desk economics are configuration rather than native design, and that configuration has an ongoing cost."
+        },
+        {
+          "q": "How much does Zoho Recruit cost?",
+          "a": "There is a free plan and paid tiers among the lowest in the category. The capability difference between tiers is substantial, so compare the tier you would actually use and add the configuration time."
+        },
+        {
+          "q": "What is the best Zoho Recruit alternative for staffing firms?",
+          "a": "For agencies who want staffing workflow native rather than configured, Sortinghat covers submissions, client CRM, desk margin and full back office, with AI voice and video screening and plain-language search."
+        },
+        {
+          "q": "Does Zoho Recruit integrate with Naukri?",
+          "a": "Verify the current depth directly with Zoho, since coverage changes. For India desks, ask whether full profiles and CVs transfer or only applications, and how duplicates are handled at the point of entry."
+        },
+        {
+          "q": "Does Sortinghat have back office?",
+          "a": "Yes. Full front and back office including pay-and-bill, timesheets and invoicing, alongside the ATS and CRM, with 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "Is Sortinghat built for large agencies?",
+          "a": "Yes. Our customers include firms of 400+ employees, and the platform is designed for enterprise staffing volume rather than scaled down from a small-team product."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "vincere-alternatives",
+      "title": "Vincere Alternatives: 7 Platforms Compared for Staffing Firms in 2026",
+      "metaTitle": "Vincere Alternatives: 7 Platforms Compared for 2026",
+      "description": "Vincere unified front and back office then stopped. Seven alternatives compared on AI screening, search and what actually raises recruiter capacity.",
+      "section": "Product Comparison 101",
+      "dek": "Vincere solved the reconciliation problem. Firms look elsewhere when they realise integration alone does not raise recruiter capacity.",
+      "date": "2026-06-12",
+      "dateLabel": "12 June 2026",
+      "dateShort": "12 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Vincere alternative?",
+          "a": "For firms who want the same front-to-back integration plus AI screening and plain-language search, Sortinghat carries both. For enterprise scale with back office depth, Bullhorn and JobDiva."
+        },
+        {
+          "q": "How much does Vincere cost?",
+          "a": "Vincere does not publish transparent pricing and quotes vary by module and seat count. Ask for a three-year total including implementation, and ask how the Access Group acquisition has changed the roadmap and support model."
+        },
+        {
+          "q": "Which alternatives include back office?",
+          "a": "Bullhorn, JobDiva and Sortinghat all carry pay-and-bill, timesheets and invoicing. Most mid-market platforms are front office only, which means a second system and monthly reconciliation."
+        },
+        {
+          "q": "Do any Vincere alternatives have AI screening?",
+          "a": "Very few natively. Recruiterflow offers AI agents on its AIRA plan focused on sequencing rather than screening. Sortinghat includes AI voice and video screening in the platform."
+        },
+        {
+          "q": "Is migrating from Vincere complicated?",
+          "a": "More involved than a front-office-only move, because contract and timesheet data sits alongside the front office. Because Sortinghat carries back office, both move together rather than splitting across two vendors."
+        },
+        {
+          "q": "Vincere or Bullhorn?",
+          "a": "Both are established. The more useful question in 2026 is which platform reduces recruiter hours rather than which records them better, since that is what caps revenue on a staffing desk."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-vincere",
+      "title": "Sortinghat vs Vincere: The 2026 Comparison for International Staffing Firms",
+      "metaTitle": "Sortinghat vs Vincere: Full 2026 Comparison Guide",
+      "description": "Vincere unified front and back office. Sortinghat does that and adds AI voice screening, video interviews and plain-language search. Full comparison.",
+      "section": "Product Comparison 101",
+      "dek": "Vincere brought the front and back office together. Sortinghat does the same and adds the AI layer that actually removes work from the desk.",
+      "date": "2026-06-11",
+      "dateLabel": "11 June 2026",
+      "dateShort": "11 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Sortinghat have timesheets and invoicing?",
+          "a": "Yes. Full front and back office including pay-and-bill, timesheets and invoicing alongside the ATS and CRM, with client-specific formats built during the migration window if your clients require them."
+        },
+        {
+          "q": "How much does Vincere cost?",
+          "a": "Vincere does not publish transparent pricing and quotes vary by module and seat count. Ask for a three-year total including implementation, and ask how the Access Group acquisition has changed the roadmap and support model."
+        },
+        {
+          "q": "What is the best Vincere alternative?",
+          "a": "For firms who want the same front-to-back integration plus AI screening, plain-language search and generated evaluation criteria, that is the case this page makes for Sortinghat. Migration takes two weeks and is included in the licence."
+        },
+        {
+          "q": "Is Sortinghat built for large international firms?",
+          "a": "Yes. Our customers include firms of 400+ employees, with 400+ pre-built integrations, an open read-write API and data hosted in the client's own country."
+        },
+        {
+          "q": "How long does a Vincere migration take?",
+          "a": "Two weeks. Export, mapping and validation in week one while your team keeps billing, then your own environment and full validation in week two, followed by cutover with no downtime."
+        },
+        {
+          "q": "Vincere or Bullhorn for contract staffing?",
+          "a": "Both are established. The more useful question in 2026 is which platform reduces recruiter hours rather than which records them better, since that is what caps revenue on a contract desk."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "loxo-alternatives",
+      "title": "Loxo Alternatives: 7 Platforms Compared for Recruiting Firms in 2026",
+      "metaTitle": "Loxo Alternatives: 7 Platforms Compared for 2026",
+      "description": "Loxo rents you a candidate database that does not transfer when you leave. Seven alternatives compared on sourcing, screening and what you actually own.",
+      "section": "Product Comparison 101",
+      "dek": "Loxo's database is rented. Everything you surface through it stays with Loxo the day you stop paying.",
+      "date": "2026-06-10",
+      "dateLabel": "10 June 2026",
+      "dateShort": "10 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Loxo alternative?",
+          "a": "For firms whose own database already holds most of the people they place, Sortinghat makes those records searchable and adds AI voice and video screening, generated evaluation criteria and full back office."
+        },
+        {
+          "q": "Does the Loxo database transfer if you leave?",
+          "a": "No. Profiles surfaced through Loxo's own database belong to Loxo. Records you created and worked transfer, but the underlying pool does not."
+        },
+        {
+          "q": "How much does Loxo cost?",
+          "a": "Loxo offers a free tier, with Basic reported around $169 per user per month and Professional quoted custom. Published figures vary across sources, so get a current written quote at your seat count."
+        },
+        {
+          "q": "Is a rented candidate database worth it?",
+          "a": "On cold-market executive search, often yes. On roles where your firm has existing history, you are paying to reach strangers while your own records go unsearched."
+        },
+        {
+          "q": "Which alternatives include AI screening?",
+          "a": "Very few natively. Recruiterflow offers AI agents on its AIRA plan for sequencing. Sortinghat includes AI voice and video screening in the platform."
+        },
+        {
+          "q": "Can you migrate from Loxo?",
+          "a": "Yes, and the ATS side is straightforward. Notes, calls, attachments and submission history carry across in two weeks. The pool surfaced through Loxo's database stays with Loxo."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-loxo",
+      "title": "Sortinghat vs Loxo: The 2026 Comparison for Search and Staffing Firms",
+      "metaTitle": "Sortinghat vs Loxo: Full 2026 Comparison Guide",
+      "description": "Loxo rents you reach into an external database. Sortinghat makes your own database work and screens at volume. Full comparison, pricing and migration.",
+      "section": "Product Comparison 101",
+      "dek": "Loxo sells reach into a database you do not own. Sortinghat makes the database you already paid to build actually work, then screens at volume.",
+      "date": "2026-06-09",
+      "dateLabel": "9 June 2026",
+      "dateShort": "9 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is a talent intelligence platform?",
+          "a": "A platform combining an external candidate database, sourcing tools and contact data with an ATS and CRM, so sourcing and pipeline are one subscription. The trade-off is that the external pool is rented rather than owned, and it does not transfer if you leave."
+        },
+        {
+          "q": "How much does Loxo cost?",
+          "a": "Loxo offers a free tier, with Basic reported around $169 per user per month and Professional quoted custom. Published figures vary across sources, so get a current written quote at your seat count."
+        },
+        {
+          "q": "Does Sortinghat have an external candidate database?",
+          "a": "Sortinghat searches your own records and sources through a LinkedIn extension that adds profiles you visit into your database as candidates or leads. What you collect belongs to you rather than to us."
+        },
+        {
+          "q": "What is the best Loxo alternative?",
+          "a": "For firms whose own database already holds most of the people they place, Sortinghat makes those records searchable and adds AI voice and video screening, weighted evaluation and full back office. Migration takes two weeks."
+        },
+        {
+          "q": "Is Sortinghat built for large firms?",
+          "a": "Yes. Our customers include firms of 400+ employees, with full front and back office and 400+ pre-built integrations."
+        },
+        {
+          "q": "Can you migrate from Loxo?",
+          "a": "Yes, and the ATS side is straightforward. The item to understand is that profiles surfaced through Loxo's own database stay with Loxo. Records you created and worked transfer in full, with notes, calls, attachments and submission history intact."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "recruiterflow-alternatives",
+      "title": "Recruiterflow Alternatives: 7 Platforms Compared for 2026",
+      "metaTitle": "Recruiterflow Alternatives: 7 Platforms for 2026",
+      "description": "Recruiterflow gates full AI behind its AIRA plan and does not qualify anyone who replies. Seven alternatives compared on screening, search and total cost.",
+      "section": "Product Comparison 101",
+      "dek": "Recruiterflow sends messages well. Firms leave when they realise sequencing does not qualify anybody who replies to them.",
+      "date": "2026-06-08",
+      "dateLabel": "8 June 2026",
+      "dateShort": "8 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Recruiterflow alternative?",
+          "a": "For firms whose constraint is qualifying candidates rather than contacting them, Sortinghat adds native AI voice and video screening, plain-language search and generated evaluation criteria, with full front and back office."
+        },
+        {
+          "q": "Does Recruiterflow include AI in every plan?",
+          "a": "Full AI functionality sits on its AIRA plan. Compare the tier you would actually buy, since that is where total cost against alternatives diverges."
+        },
+        {
+          "q": "Does Recruiterflow have back office?",
+          "a": "It is front office focused. Firms running contract books need pay-and-bill, timesheets and invoicing elsewhere, which means a second system and monthly reconciliation."
+        },
+        {
+          "q": "Which alternative suits Indian staffing firms?",
+          "a": "Channel coverage decides this. WhatsApp is where Indian candidates reply and Naukri is where most enter, so a platform threading both natively changes the daily experience more than any AI feature."
+        },
+        {
+          "q": "Is migrating from Recruiterflow difficult?",
+          "a": "No. The data model is modern and extraction is clean. Notes, calls, attachments and submission history all carry across, and automation rules are documented and rebuilt rather than transferred."
+        },
+        {
+          "q": "Recruiterflow or Bullhorn?",
+          "a": "Different problems. Bullhorn has enterprise back office and VMS depth at enterprise prices with AI quoted separately. Recruiterflow has sequencing at mid-market prices with AI on a higher tier. Neither screens candidates natively."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-recruiterflow",
+      "title": "Sortinghat vs Recruiterflow: The 2026 Comparison for Growing Recruitment Agencies",
+      "metaTitle": "Sortinghat vs Recruiterflow: 2026 Comparison Guide",
+      "description": "Recruiterflow gates full AI behind its AIRA plan. Sortinghat includes voice screening, video interviews and evaluation in the platform. Full comparison.",
+      "section": "Product Comparison 101",
+      "dek": "Recruiterflow is strong at getting people contacted. Sortinghat is built for everything that happens after they reply, and it does not put the AI behind a separate plan.",
+      "date": "2026-06-06",
+      "dateLabel": "6 June 2026",
+      "dateShort": "6 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Recruiterflow have AI screening calls?",
+          "a": "Not native voice screening of the kind Sortinghat runs. Recruiterflow offers AI agents with full functionality on its AIRA plan, focused on sequencing and workflow automation rather than making and evaluating screening calls."
+        },
+        {
+          "q": "How much does Recruiterflow cost?",
+          "a": "It publishes tiered pricing with full AI functionality on the AIRA plan. Compare the tier you would actually buy rather than the entry headline, since that is where the total cost difference against alternatives appears."
+        },
+        {
+          "q": "What is the best Recruiterflow alternative?",
+          "a": "For firms whose constraint is qualifying candidates rather than contacting them, Sortinghat adds native AI voice and video screening, generated evaluation criteria and natural language search, with full back office and 400+ integrations."
+        },
+        {
+          "q": "Can you migrate from Recruiterflow easily?",
+          "a": "Yes. The data model is modern and extraction is clean. We handle mapping and validation, and notes, calls, attachments and submission history all carry across. Two weeks, included in the licence."
+        },
+        {
+          "q": "Is Sortinghat built for larger agencies?",
+          "a": "Yes. Our customers include firms of 400+ employees, with full front and back office including pay-and-bill, timesheets and invoicing."
+        },
+        {
+          "q": "Does Recruiterflow work well for Indian staffing firms?",
+          "a": "It is usable, and the constraint is channel coverage. WhatsApp is where Indian candidates actually reply, and a platform that does not thread it into the record holds an incomplete history on every candidate."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "ceipal-alternatives",
+      "title": "Ceipal Alternatives: 7 Platforms Compared for Staffing Firms in 2026",
+      "metaTitle": "Ceipal Alternatives: 7 Platforms Compared for 2026",
+      "description": "Firms leave Ceipal over the click count, the search and a painful migration. Seven alternatives compared on what each does about recruiter throughput.",
+      "section": "Product Comparison 101",
+      "dek": "Ceipal holds the data and the recruiter does everything else. These are the seven platforms firms move to, and what each one actually changes.",
+      "date": "2026-06-05",
+      "dateLabel": "5 June 2026",
+      "dateShort": "5 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Ceipal alternative in 2026?",
+          "a": "For firms whose constraint is recruiter throughput, Sortinghat adds AI voice and video screening, plain-language search and generated evaluation criteria on top of full front and back office. For enterprise VMS depth, Bullhorn or JobDiva."
+        },
+        {
+          "q": "Why do staffing firms leave Ceipal?",
+          "a": "Three reasons recur: the number of clicks each action takes, search results that depend on precisely built queries, and the volume of manual data entry. The system records the work and does none of it, which caps how many roles a recruiter can carry."
+        },
+        {
+          "q": "Is migrating from Ceipal difficult?",
+          "a": "It has a reputation for being difficult and the reputation is earned. The standard export omits activity history and some attachment types, and submission history often arrives incomplete. We have run these migrations and handle extraction, mapping and validation ourselves in two weeks."
+        },
+        {
+          "q": "How much does Ceipal cost?",
+          "a": "Ceipal does not publish transparent pricing across its tiers and quotes vary by module and seat count. Ask for a three-year total covering implementation, every module you would license and the renewal escalation."
+        },
+        {
+          "q": "Which Ceipal alternative handles US contract compliance?",
+          "a": "Sortinghat carries contract and compliance documentation alongside full pay-and-bill, timesheets and invoicing, with client-specific formats built during migration. Bullhorn and JobDiva are the established enterprise options."
+        },
+        {
+          "q": "Do any Ceipal alternatives include AI screening?",
+          "a": "Most do not natively. Recruiterflow offers AI agents on its AIRA plan focused on sequencing. Sortinghat includes AI voice and video screening in the platform rather than on a tier."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-ceipal",
+      "title": "Sortinghat vs Ceipal: The 2026 Comparison for IT and Contract Staffing Firms",
+      "metaTitle": "Sortinghat vs Ceipal: Full 2026 Comparison Guide",
+      "description": "Ceipal takes 15 clicks where Sortinghat takes one. 16 capabilities compared, why Ceipal search frustrates recruiters, and how we handle the migration.",
+      "section": "Product Comparison 101",
+      "dek": "Ceipal is a complete ATS and CRM built the old way: every action manual, every field typed, every screening call made by a person. This is what changes when the platform does the work instead.",
+      "date": "2026-06-04",
+      "dateLabel": "4 June 2026",
+      "dateShort": "4 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Ceipal alternative in 2026?",
+          "a": "For firms who want everything Ceipal does without doing it manually, Sortinghat covers the full ATS, CRM and back office and adds AI voice and video screening, natural language search, generated evaluation criteria and an AI notetaker. Migration takes two weeks with nothing left behind."
+        },
+        {
+          "q": "Why do staffing firms leave Ceipal?",
+          "a": "The most common reasons are the number of clicks each action takes, search results that depend on precisely built queries, and the volume of manual data entry. The system records the work faithfully and does none of it, which caps how many roles a recruiter can carry."
+        },
+        {
+          "q": "Is migrating from Ceipal difficult?",
+          "a": "It has a reputation for being difficult, and the reputation is earned. The standard export omits activity history and some attachment types, and submission history often arrives incomplete. We have done these migrations and handle extraction, mapping and validation ourselves. Two weeks, no downtime, included in the licence."
+        },
+        {
+          "q": "Does Sortinghat have everything Ceipal has?",
+          "a": "Yes. Full ATS, full CRM, front and back office including pay-and-bill, timesheets and invoicing, compliance documentation, and 400+ pre-built integrations with an open read-write API. There is no Ceipal capability missing here."
+        },
+        {
+          "q": "How much does Ceipal cost?",
+          "a": "Ceipal does not publish transparent pricing across its tiers and quotes vary by module and seat count. Ask for a three-year total covering implementation, every module you would license and the renewal escalation, rather than accepting a per-seat headline."
+        },
+        {
+          "q": "Is Sortinghat suitable for Indian staffing firms and US contract desks?",
+          "a": "Both. Naukri and WhatsApp are native for India delivery teams, and the platform carries the contract, compliance and back-office workflow US desks require, including pay-and-bill and timesheets."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "bullhorn-alternatives",
+      "title": "Bullhorn Alternatives: 7 Platforms Compared for Staffing Firms in 2026",
+      "metaTitle": "Bullhorn Alternatives: 7 Platforms Compared for 2026",
+      "description": "Bullhorn publishes $99 to $165 then quotes the AI, automation and analytics on top. Seven alternatives compared on what a working setup actually costs.",
+      "section": "Product Comparison 101",
+      "dek": "Bullhorn's published price covers tracking and email. Everything firms are actually comparing platforms on in 2026 sits behind a separate quote.",
+      "date": "2026-06-03",
+      "dateLabel": "3 June 2026",
+      "dateShort": "3 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the best Bullhorn alternative in 2026?",
+          "a": "It depends on your constraint. For recruiter capacity, Sortinghat includes AI screening, search and evaluation in the platform with full back office. For outbound volume, Recruiterflow. For cold-market sourcing, Loxo. For front-to-back integration, Vincere."
+        },
+        {
+          "q": "How much does Bullhorn actually cost?",
+          "a": "Starter is $99 per user per month and Core is $165 as published. The sales CRM is quote-only on the Pro tier, and automation, analytics, AI search, SMS and onboarding are separately quoted add-ons. Ask for a three-year total including renewal escalation."
+        },
+        {
+          "q": "Is there a cheaper alternative to Bullhorn?",
+          "a": "Several, though licence price is the wrong comparison. A platform that costs less per seat and removes no recruiter hours is more expensive in the only currency that matters on a staffing desk."
+        },
+        {
+          "q": "How hard is it to migrate off Bullhorn?",
+          "a": "Harder than most, because long-tenured instances carry heavy customisation and Bullhorn's object model does not map one to one. We handle extraction, mapping and validation in two weeks with notes, calls, attachments and submission history carried across."
+        },
+        {
+          "q": "Which Bullhorn alternative is best for large firms?",
+          "a": "Sortinghat serves customers of 400+ employees with full front and back office, pay-and-bill, timesheets, invoicing and 400+ pre-built integrations. Vincere and JobDiva are also built for scale."
+        },
+        {
+          "q": "Do Bullhorn alternatives include AI?",
+          "a": "Most gate it. Recruiterflow puts full AI functionality on its AIRA plan and Loxo tiers database access. Compare the tier you would actually buy rather than the entry headline."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "sortinghat-vs-bullhorn",
+      "title": "Sortinghat vs Bullhorn: The 2026 Comparison for Enterprise Staffing Firms",
+      "metaTitle": "Sortinghat vs Bullhorn: Full 2026 Comparison Guide",
+      "description": "Bullhorn publishes $99 to $165 per user, then quotes AI, automation and analytics on top. What a working setup actually costs, and what arrives built instead.",
+      "section": "Product Comparison 101",
+      "dek": "Bullhorn publishes two prices and quotes the rest. The capabilities agencies compare platforms on in 2026 all sit behind a separate conversation with a sales rep.",
+      "date": "2026-06-02",
+      "dateLabel": "2 June 2026",
+      "dateShort": "2 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "The core difference"
+        },
+        {
+          "id": "s2",
+          "label": "At a glance"
+        },
+        {
+          "id": "s3",
+          "label": "Where they differ"
+        },
+        {
+          "id": "s4",
+          "label": "Pricing"
+        },
+        {
+          "id": "s5",
+          "label": "What we do that they do not"
+        },
+        {
+          "id": "s6",
+          "label": "Switching across"
+        },
+        {
+          "id": "s7",
+          "label": "Where they still fit"
+        },
+        {
+          "id": "s7b",
+          "label": "The three deciding questions"
+        },
+        {
+          "id": "s8",
+          "label": "What to test"
+        },
+        {
+          "id": "s9",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s10",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much does Bullhorn cost in 2026?",
+          "a": "Bullhorn publishes Starter at $99 per user per month and Core at $165 on its pricing page. The sales CRM is on the quote-only Pro tier, and automation, analytics, AI search, SMS and onboarding are separately quoted add-ons. The all-in figure depends entirely on which modules you license, so ask for a three-year total including renewal escalation."
+        },
+        {
+          "q": "Does Bullhorn have AI search?",
+          "a": "Yes, as a paid add-on. Semantic and natural-language search are delivered through Amplify Search &amp; Match, built on Textkernel and SourceBreaker technology acquired in 2024. The base ATS search remains keyword and Boolean, so the everyday-language search Bullhorn markets is a premium upgrade arranged with an account manager."
+        },
+        {
+          "q": "What is the best Bullhorn alternative for staffing firms?",
+          "a": "For firms who want AI screening, evaluation and search included rather than assembled from separately quoted modules, that is the case this page makes for Sortinghat. Migration takes two weeks with notes, calls, attachments and submission history carried across."
+        },
+        {
+          "q": "Is Sortinghat built for large staffing firms?",
+          "a": "Yes. Our customers include firms of 400+ employees, with full front and back office including pay-and-bill, timesheets and invoicing, 400+ pre-built integrations and an open read-write API."
+        },
+        {
+          "q": "How long does it take to migrate from Bullhorn?",
+          "a": "Two weeks. Week one is export, mapping and validation while your team keeps billing. Week two is your own environment and full validation before sign-off. Cutover happens with no downtime, and implementation, migration and training are included in the licence."
+        },
+        {
+          "q": "Will we lose data migrating off Bullhorn?",
+          "a": "No. Notes, call history, attachments, submission and placement history all carry across, and we validate everything with your team before go-live rather than after. If your desk depends on something the platform does not yet have, we build it during the migration window."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
+    },
+    {
+      "slug": "ats-pricing-2026",
+      "title": "ATS Pricing in 2026: What Staffing Firms Actually Pay",
+      "metaTitle": "ATS Pricing in 2026: What Staffing Firms Really Pay",
+      "description": "Bullhorn publishes $99 to $165 then quotes the AI. Loxo Basic is around $169. What each platform costs, and the six lines that decide the real number.",
+      "section": "Product Comparison 101",
+      "dek": "Published pricing tells you where a platform starts. It rarely tells you what a working setup costs, and the gap between the two is where budgets break.",
+      "date": "2026-06-01",
+      "dateLabel": "1 June 2026",
+      "dateShort": "1 Jun 2026",
+      "tag": "Product Comparison 101",
+      "read": "11 min read",
+      "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
+      "toc": [
+        {
+          "id": "s1",
+          "label": "Why firms are looking"
+        },
+        {
+          "id": "s2",
+          "label": "The shortlist"
+        },
+        {
+          "id": "s3",
+          "label": "Every option in detail"
+        },
+        {
+          "id": "s4",
+          "label": "How to choose"
+        },
+        {
+          "id": "s5",
+          "label": "Comparing cost properly"
+        },
+        {
+          "id": "s6",
+          "label": "What to test"
+        },
+        {
+          "id": "s6b",
+          "label": "Three deciding questions"
+        },
+        {
+          "id": "s6c",
+          "label": "What migration should include"
+        },
+        {
+          "id": "s6d",
+          "label": "Mistakes that cost most"
+        },
+        {
+          "id": "s7",
+          "label": "Frequently asked questions"
+        },
+        {
+          "id": "s8",
+          "label": "Bottom line"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How much does an ATS cost in 2026?",
+          "a": "Published entry pricing ranges from free plans to around $165 per user per month, with enterprise platforms quoting above that. The capabilities most firms compare on, AI search, automation and analytics, are usually separately quoted, so the published figure is a floor rather than a price."
+        },
+        {
+          "q": "How much does Bullhorn cost?",
+          "a": "Bullhorn publishes Starter at $99 per user per month and Core at $165. The sales CRM sits on the quote-only Pro tier, and AI search, automation, analytics, SMS and onboarding are separately quoted add-ons."
+        },
+        {
+          "q": "What is the cheapest ATS for a staffing agency?",
+          "a": "Zoho Recruit has a free plan and Manatal is reported around $15 per user per month at entry. Both require you to do the configuration and all of the screening, which is a cost measured in recruiter hours rather than licence fees."
+        },
+        {
+          "q": "What hidden costs should you ask about?",
+          "a": "Implementation, migration, every module needed for a working setup, renewal escalation, training time, and whether the platform reduces job portal spend. The last two never appear on a quote and are usually the largest."
+        },
+        {
+          "q": "Is a more expensive ATS worth it?",
+          "a": "Only if it removes work. A platform that costs more per seat and saves each recruiter an hour a day pays for itself quickly. One that costs more and changes nothing is simply more expensive."
+        },
+        {
+          "q": "Does Sortinghat charge for implementation and migration?",
+          "a": "No. Implementation, migration, training and any gap-filling customisation your desk needs are included in the licence rather than quoted as professional services."
+        }
+      ],
+      "related": [
+        "talent-pool-software-database-first-sourcing",
+        "candidate-scorecard-from-client-brief",
+        "high-volume-recruiting-screening-day"
+      ],
+      "cta": {
+        "title": "See it running on your own data",
+        "body": "Bring a live role and a sample of your database. We will run the search, build the scorecard and show you the shortlist against your own criteria."
+      }
     }
   ]
 }

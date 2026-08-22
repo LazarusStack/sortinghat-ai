@@ -6,9 +6,10 @@ import { SITE } from "@/lib/seo";
  * sitemap.xml was returning 404: sixteen pages existed and nothing told a
  * crawler any of them were there.
  *
- * Every post currently carries the same date, so lastModified is honest but
- * uninformative until the posts get real dates — a crawler reading sixteen
- * identical timestamps learns only that they were imported together.
+ * The 25 Product Comparison 101 posts carry real, distinct publication dates
+ * across June 2026. The 14 founder posts still share 2026-08-15 from their
+ * import, so lastModified is honest but uninformative for those until they get
+ * dates of their own.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
   const newest = POSTS.reduce(
