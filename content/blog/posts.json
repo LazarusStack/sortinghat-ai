@@ -7,11 +7,11 @@
       "description": "We audited 3 million candidate records at one staffing firm: 10% duplicates, 10% junk, 80% still relevant. Portal spend fell from $100 a role to $60.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "We audited 3 million candidate records sitting in one firm's Google Drive folders. A tenth were duplicates, a tenth were junk, and 80% were unique profiles nobody had touched in years.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-01",
+      "dateLabel": "1 May 2026",
+      "dateShort": "1 May 2026",
       "tag": "Talent Pool",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Sortinghat evaluation panel: a candidate scored 96, split into weighted criteria with a percentage and written justification for each",
       "toc": [
         {
@@ -88,11 +88,11 @@
       "description": "A real hiring scorecard built from one job description, with the eight criteria and their actual weights, and why one candidate scores differently at two firms.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "A job description tells candidates about the role. A hiring scorecard tells your team who to reject, and why. Here is one built from a real job description, with the actual weights.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-04",
+      "dateLabel": "4 May 2026",
+      "dateShort": "4 May 2026",
       "tag": "Workflow",
-      "read": "12 min read",
+      "read": "9 min read",
       "cardImageAlt": "Sortinghat job description review: a parsed Director of Engineering role beside structured fields for client, salary and location",
       "toc": [
         {
@@ -169,11 +169,11 @@
       "description": "70% of candidates complete an AI screening call in 3 to 7 minutes. What it verifies, which CV claims collapse under it, and what reaches the record.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Roughly 70% of candidates complete an AI screening call, and it takes three to seven minutes. Here is what the call is for, which CV claims collapse under it, and what lands on the record afterwards.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-05",
+      "dateLabel": "5 May 2026",
+      "dateShort": "5 May 2026",
       "tag": "Workflow",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Sortinghat activity timeline: an automatically logged call written to the candidate record with the stage move attached",
       "toc": [
         {
@@ -258,11 +258,11 @@
       "description": "Five real natural language searches run on a live staffing database, what they returned, and the one reason most candidate search queries disappoint.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Real searches run against a live staffing database, the results they returned, and the single reason most natural language queries disappoint the person typing them.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-06",
+      "dateLabel": "6 May 2026",
+      "dateShort": "6 May 2026",
       "tag": "Talent Pool",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Sortinghat search: a natural language query for engineers in Bangalore returning 71 ranked candidates",
       "toc": [
         {
@@ -347,11 +347,11 @@
       "description": "How our LinkedIn sourcing extension works, what it collects, where the data goes, how long it is kept, and five questions to ask any sourcing vendor.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "A plain account of how the extension works, what it collects, where that data goes, how long it is kept, and the questions your client's legal team will ask you about it.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-07",
+      "dateLabel": "7 May 2026",
+      "dateShort": "7 May 2026",
       "tag": "Talent Pool",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Sortinghat profile from a LinkedIn-sourced record: experience, career timeline, education and summary",
       "toc": [
         {
@@ -436,11 +436,11 @@
       "description": "Fill rate and time-to-fill are lagging indicators. The 4 staffing KPIs that move first, how to read each one when it falls, and the 10-minute daily routine.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Fill rate and time-to-fill are outcomes. By the time they move, the decision that caused them is six weeks old. Four numbers move earlier, and together they predict next month's revenue closely enough to act on.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-08",
+      "dateLabel": "8 May 2026",
+      "dateShort": "8 May 2026",
       "tag": "Analytics",
-      "read": "9 min read",
+      "read": "10 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -523,11 +523,11 @@
       "description": "A candidate's history lives across 5 channels and the record holds one. What recruiter admin costs, and what automatic capture must produce to remove it.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "A candidate's history lives across five channels. The record holds whichever one the recruiter remembered to log. Here is what that costs and what automatic capture has to produce to fix it.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-11",
+      "dateLabel": "11 May 2026",
+      "dateShort": "11 May 2026",
       "tag": "Workflow",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Candidate record showing experience, location, full career timeline and channel actions for call, WhatsApp, LinkedIn and email",
       "toc": [
         {
@@ -618,11 +618,11 @@
       "description": "Out of 100 candidates contacted for a strong role, about 40 respond to a call, 25 on WhatsApp and 12 to 15 by email. What that means for your sequence.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Out of 100 candidates contacted for a strong role: about 40 respond to a call, 25 on WhatsApp, and 12 to 15 by email. Here is what that means for how you sequence outreach.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-12",
+      "dateLabel": "12 May 2026",
+      "dateShort": "12 May 2026",
       "tag": "Benchmarks",
-      "read": "9 min read",
+      "read": "10 min read",
       "cardImageAlt": "Candidate record header showing direct call, WhatsApp, LinkedIn and email actions alongside experience and location",
       "toc": [
         {
@@ -721,9 +721,9 @@
       "description": "A recruiter makes 40 calls a day and submits 3 or 4. What changes when 1,200 profiles are filtered to 300 contacts, and where the approach stops working.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "A recruiter makes about 40 calls a day and finds 3 or 4 people worth submitting. Here is what changes when the pool is filtered first, and where the approach stops working.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-13",
+      "dateLabel": "13 May 2026",
+      "dateShort": "13 May 2026",
       "tag": "Workflow",
       "read": "10 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
@@ -820,9 +820,9 @@
       "description": "A staffing CRM has 3 jobs: win the client, deliver the role, collect the money. Most do one. What the other two require, from LinkedIn capture to the brief.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "A staffing CRM has three jobs: win the client, deliver the role, collect the money. Most tools do the middle one and treat the other two as somebody else's problem.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-14",
+      "dateLabel": "14 May 2026",
+      "dateShort": "14 May 2026",
       "tag": "Revenue & Growth",
       "read": "10 min read",
       "cardImageAlt": "Contact record showing experience and company, with direct call, WhatsApp, LinkedIn and email actions",
@@ -923,11 +923,11 @@
       "description": "AI interview questions built from 3 inputs: the job description, the weighted criteria and the company. What gets scored, and where the human must sit.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "An AI interview is only as good as its questions, and most are drawn from a generic bank. Here is what changes when they come from the role's own criteria instead.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-15",
+      "dateLabel": "15 May 2026",
+      "dateShort": "15 May 2026",
       "tag": "Workflow",
-      "read": "11 min read",
+      "read": "10 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights, plus a field for adding custom criteria",
       "toc": [
         {
@@ -1030,11 +1030,11 @@
       "description": "In a 3 million record audit, about 10% were duplicates. How they enter, what email-based matching catches and misses, and what a merge has to preserve.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "In a 3 million record audit at one firm, about 10% were duplicates. Here is how they enter, what identifier-based matching catches and misses, and what a merge has to preserve.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-18",
+      "dateLabel": "18 May 2026",
+      "dateShort": "18 May 2026",
       "tag": "Talent Pool",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Candidate record showing experience, current company, location, full career timeline and education on a single consolidated profile",
       "toc": [
         {
@@ -1129,11 +1129,11 @@
       "description": "Candidate ownership is a commission policy pretending to be a software setting. The 3 permission models, what triggers ownership, and why it should expire.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Candidate ownership is a commission policy pretending to be a software setting. Here are the three permission models, what should trigger ownership, and why it needs to expire.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-19",
+      "dateLabel": "19 May 2026",
+      "dateShort": "19 May 2026",
       "tag": "Workflow",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Staffing pipeline for one role with candidates distributed across stage columns, each showing a match score and ownership context",
       "toc": [
         {
@@ -1232,11 +1232,11 @@
       "description": "Job portals, assessments and calendars sync one way. Email and messaging sync both. The full map, why direction matters, and 6 questions to ask any vendor.",
       "section": "From Apoorv (Founder, Sortinghat)",
       "dek": "Integration pages are usually a wall of logos with no information behind them. A buyer needs three things per connection: what data moves, which direction, and how often.",
-      "date": "2026-08-15",
-      "dateLabel": "15 August 2026",
-      "dateShort": "15 Aug 2026",
+      "date": "2026-05-20",
+      "dateLabel": "20 May 2026",
+      "dateShort": "20 May 2026",
       "tag": "Integrations",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Panel listing six live roles with client names and requisition IDs, used when moving candidates between jobs and workspaces",
       "toc": [
         {
@@ -1339,7 +1339,7 @@
       "dateLabel": "30 June 2026",
       "dateShort": "30 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -1369,14 +1369,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -1434,7 +1426,7 @@
       "dateLabel": "29 June 2026",
       "dateShort": "29 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -1464,14 +1456,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -1529,7 +1513,7 @@
       "dateLabel": "26 June 2026",
       "dateShort": "26 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -1559,14 +1543,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -1624,7 +1600,7 @@
       "dateLabel": "25 June 2026",
       "dateShort": "25 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -1654,14 +1630,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -1719,7 +1687,7 @@
       "dateLabel": "24 June 2026",
       "dateShort": "24 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -1749,14 +1717,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -1814,7 +1774,7 @@
       "dateLabel": "23 June 2026",
       "dateShort": "23 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "7 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -1844,14 +1804,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -1909,7 +1861,7 @@
       "dateLabel": "22 June 2026",
       "dateShort": "22 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "7 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -1939,14 +1891,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2004,7 +1948,7 @@
       "dateLabel": "20 June 2026",
       "dateShort": "20 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "7 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -2034,14 +1978,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2099,7 +2035,7 @@
       "dateLabel": "19 June 2026",
       "dateShort": "19 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2129,14 +2065,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2194,7 +2122,7 @@
       "dateLabel": "18 June 2026",
       "dateShort": "18 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -2224,14 +2152,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2289,7 +2209,7 @@
       "dateLabel": "17 June 2026",
       "dateShort": "17 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2319,14 +2239,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2384,7 +2296,7 @@
       "dateLabel": "16 June 2026",
       "dateShort": "16 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2414,14 +2326,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2479,7 +2383,7 @@
       "dateLabel": "15 June 2026",
       "dateShort": "15 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -2509,14 +2413,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2574,7 +2470,7 @@
       "dateLabel": "13 June 2026",
       "dateShort": "13 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2604,14 +2500,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2669,7 +2557,7 @@
       "dateLabel": "12 June 2026",
       "dateShort": "12 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -2699,14 +2587,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -2764,7 +2644,7 @@
       "dateLabel": "11 June 2026",
       "dateShort": "11 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -2794,14 +2674,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -2859,7 +2731,7 @@
       "dateLabel": "10 June 2026",
       "dateShort": "10 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2889,14 +2761,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -2954,7 +2818,7 @@
       "dateLabel": "9 June 2026",
       "dateShort": "9 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -2984,14 +2848,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -3049,7 +2905,7 @@
       "dateLabel": "8 June 2026",
       "dateShort": "8 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "8 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3079,14 +2935,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -3144,7 +2992,7 @@
       "dateLabel": "6 June 2026",
       "dateShort": "6 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3178,10 +3026,6 @@
         {
           "id": "s7b",
           "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -3239,7 +3083,7 @@
       "dateLabel": "5 June 2026",
       "dateShort": "5 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -3269,14 +3113,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -3334,7 +3170,7 @@
       "dateLabel": "4 June 2026",
       "dateShort": "4 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "10 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3364,14 +3200,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -3429,7 +3257,7 @@
       "dateLabel": "3 June 2026",
       "dateShort": "3 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3459,14 +3287,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -3524,7 +3344,7 @@
       "dateLabel": "2 June 2026",
       "dateShort": "2 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "10 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3554,14 +3374,6 @@
         {
           "id": "s7",
           "label": "Where they still fit"
-        },
-        {
-          "id": "s7b",
-          "label": "The three deciding questions"
-        },
-        {
-          "id": "s8",
-          "label": "What to test"
         },
         {
           "id": "s9",
@@ -3619,7 +3431,7 @@
       "dateLabel": "1 June 2026",
       "dateShort": "1 Jun 2026",
       "tag": "Product Comparison 101",
-      "read": "11 min read",
+      "read": "9 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -3649,14 +3461,6 @@
         {
           "id": "s6b",
           "label": "Three deciding questions"
-        },
-        {
-          "id": "s6c",
-          "label": "What migration should include"
-        },
-        {
-          "id": "s6d",
-          "label": "Mistakes that cost most"
         },
         {
           "id": "s7",
@@ -3714,7 +3518,7 @@
       "dateLabel": "31 July 2026",
       "dateShort": "31 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -3736,22 +3540,6 @@
         {
           "id": "s5",
           "label": "Where the contingency model genuinely breaks"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -3809,7 +3597,7 @@
       "dateLabel": "30 July 2026",
       "dateShort": "30 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -3831,22 +3619,6 @@
         {
           "id": "s5",
           "label": "What to do when somebody opts out"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -3904,7 +3676,7 @@
       "dateLabel": "29 July 2026",
       "dateShort": "29 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -3926,18 +3698,6 @@
         {
           "id": "s5",
           "label": "Which of these will change"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -3999,7 +3759,7 @@
       "dateLabel": "28 July 2026",
       "dateShort": "28 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -4021,22 +3781,6 @@
         {
           "id": "s5",
           "label": "What to measure instead of completion alone"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4094,7 +3838,7 @@
       "dateLabel": "27 July 2026",
       "dateShort": "27 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -4116,22 +3860,6 @@
         {
           "id": "s5",
           "label": "How to evaluate what you are actually being sold"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4189,7 +3917,7 @@
       "dateLabel": "24 July 2026",
       "dateShort": "24 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -4211,22 +3939,6 @@
         {
           "id": "s5",
           "label": "What automation will not fix"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4284,7 +3996,7 @@
       "dateLabel": "23 July 2026",
       "dateShort": "23 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -4306,22 +4018,6 @@
         {
           "id": "s5",
           "label": "Where automation does not help on a temp desk"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4379,7 +4075,7 @@
       "dateLabel": "22 July 2026",
       "dateShort": "22 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -4401,18 +4097,6 @@
         {
           "id": "s5",
           "label": "What this means for how you price"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -4474,7 +4158,7 @@
       "dateLabel": "21 July 2026",
       "dateShort": "21 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "4 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -4496,22 +4180,6 @@
         {
           "id": "s5",
           "label": "What will not change"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4569,7 +4237,7 @@
       "dateLabel": "20 July 2026",
       "dateShort": "20 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -4593,20 +4261,8 @@
           "label": "Where this does not apply"
         },
         {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
           "id": "miss",
           "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4664,7 +4320,7 @@
       "dateLabel": "18 July 2026",
       "dateShort": "18 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -4686,22 +4342,6 @@
         {
           "id": "s5",
           "label": "Where automation does not help"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4759,7 +4399,7 @@
       "dateLabel": "17 July 2026",
       "dateShort": "17 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -4781,18 +4421,6 @@
         {
           "id": "s5",
           "label": "What automation does not fix in RPO"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -4854,7 +4482,7 @@
       "dateLabel": "16 July 2026",
       "dateShort": "16 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -4876,22 +4504,6 @@
         {
           "id": "s5",
           "label": "What does not change"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -4949,7 +4561,7 @@
       "dateLabel": "15 July 2026",
       "dateShort": "15 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -4971,22 +4583,6 @@
         {
           "id": "s5",
           "label": "What automation will not fix"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5044,7 +4640,7 @@
       "dateLabel": "14 July 2026",
       "dateShort": "14 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5066,22 +4662,6 @@
         {
           "id": "s5",
           "label": "Why response rates decay, and what to do"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5139,7 +4719,7 @@
       "dateLabel": "13 July 2026",
       "dateShort": "13 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -5161,22 +4741,6 @@
         {
           "id": "s5",
           "label": "What to do about inbound now"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5234,7 +4798,7 @@
       "dateLabel": "11 July 2026",
       "dateShort": "11 Jul 2026",
       "tag": "AI Impact",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5256,18 +4820,6 @@
         {
           "id": "s5",
           "label": "Where AI sourcing still fails"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -5329,7 +4881,7 @@
       "dateLabel": "10 July 2026",
       "dateShort": "10 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -5351,18 +4903,6 @@
         {
           "id": "s5",
           "label": "What to do three years before you sell"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -5424,7 +4964,7 @@
       "dateLabel": "9 July 2026",
       "dateShort": "9 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -5450,18 +4990,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5519,7 +5047,7 @@
       "dateLabel": "8 July 2026",
       "dateShort": "8 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5541,22 +5069,6 @@
         {
           "id": "s5",
           "label": "When tier-2 expansion is the wrong bet"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5614,7 +5126,7 @@
       "dateLabel": "7 July 2026",
       "dateShort": "7 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5636,22 +5148,6 @@
         {
           "id": "s5",
           "label": "What a client is actually buying"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5709,7 +5205,7 @@
       "dateLabel": "6 July 2026",
       "dateShort": "6 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5731,18 +5227,6 @@
         {
           "id": "s5",
           "label": "What travels well offshore and what does not"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
         },
         {
           "id": "ops",
@@ -5804,7 +5288,7 @@
       "dateLabel": "3 July 2026",
       "dateShort": "3 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "7 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -5838,18 +5322,6 @@
         {
           "id": "s5",
           "label": "Where the top tier still matters"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -5907,7 +5379,7 @@
       "dateLabel": "2 July 2026",
       "dateShort": "2 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "8 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -5943,16 +5415,8 @@
           "label": "How to reposition without overreacting"
         },
         {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
           "id": "miss",
           "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6010,7 +5474,7 @@
       "dateLabel": "1 July 2026",
       "dateShort": "1 Jul 2026",
       "tag": "Market",
-      "read": "10 min read",
+      "read": "9 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -6042,16 +5506,8 @@
           "label": "Where the GCC opportunity is oversold"
         },
         {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
           "id": "miss",
           "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6109,7 +5565,7 @@
       "dateLabel": "22 August 2026",
       "dateShort": "22 Aug 2026",
       "tag": "Benchmarks",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -6135,22 +5591,6 @@
         {
           "id": "s6",
           "label": "Why we are not publishing a number"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6208,7 +5648,7 @@
       "dateLabel": "21 August 2026",
       "dateShort": "21 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -6230,22 +5670,6 @@
         {
           "id": "s5",
           "label": "The one that genuinely is delivery"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6303,7 +5727,7 @@
       "dateLabel": "20 August 2026",
       "dateShort": "20 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -6325,22 +5749,6 @@
         {
           "id": "s5",
           "label": "The part firms avoid discussing"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6398,7 +5806,7 @@
       "dateLabel": "19 August 2026",
       "dateShort": "19 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -6428,18 +5836,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6497,7 +5893,7 @@
       "dateLabel": "19 August 2026",
       "dateShort": "19 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -6519,22 +5915,6 @@
         {
           "id": "s5",
           "label": "What we would rather firms bought"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6592,7 +5972,7 @@
       "dateLabel": "18 August 2026",
       "dateShort": "18 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -6614,22 +5994,6 @@
         {
           "id": "s5",
           "label": "Why this prediction might be wrong"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6687,7 +6051,7 @@
       "dateLabel": "17 August 2026",
       "dateShort": "17 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -6713,18 +6077,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6782,7 +6134,7 @@
       "dateLabel": "16 August 2026",
       "dateShort": "16 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -6804,22 +6156,6 @@
         {
           "id": "s5",
           "label": "Applying this to us"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6877,7 +6213,7 @@
       "dateLabel": "15 August 2026",
       "dateShort": "15 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -6899,22 +6235,6 @@
         {
           "id": "s5",
           "label": "What to do after the demo"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -6972,7 +6292,7 @@
       "dateLabel": "14 August 2026",
       "dateShort": "14 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -6994,22 +6314,6 @@
         {
           "id": "s5",
           "label": "What this means when you are buying"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7067,7 +6371,7 @@
       "dateLabel": "13 August 2026",
       "dateShort": "13 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -7089,22 +6393,6 @@
         {
           "id": "s5",
           "label": "The argument against everything above"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7162,7 +6450,7 @@
       "dateLabel": "12 August 2026",
       "dateShort": "12 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -7184,22 +6472,6 @@
         {
           "id": "s5",
           "label": "The uncomfortable part"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7257,7 +6529,7 @@
       "dateLabel": "12 August 2026",
       "dateShort": "12 Aug 2026",
       "tag": "Opinion",
-      "read": "10 min read",
+      "read": "4 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -7279,22 +6551,6 @@
         {
           "id": "s5",
           "label": "What to do about it if you work in HR"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7352,7 +6608,7 @@
       "dateLabel": "11 August 2026",
       "dateShort": "11 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -7374,22 +6630,6 @@
         {
           "id": "s5",
           "label": "What an agency can genuinely offer a client"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7447,7 +6687,7 @@
       "dateLabel": "10 August 2026",
       "dateShort": "10 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -7469,22 +6709,6 @@
         {
           "id": "s5",
           "label": "How to run both without one starving"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7542,7 +6766,7 @@
       "dateLabel": "9 August 2026",
       "dateShort": "9 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -7564,22 +6788,6 @@
         {
           "id": "s5",
           "label": "What to agree before you accept the mandate"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7637,7 +6845,7 @@
       "dateLabel": "8 August 2026",
       "dateShort": "8 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -7659,22 +6867,6 @@
         {
           "id": "s5",
           "label": "Adjacent skills, the answer that usually works"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7732,7 +6924,7 @@
       "dateLabel": "7 August 2026",
       "dateShort": "7 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -7758,22 +6950,6 @@
         {
           "id": "s5",
           "label": "What this means practically"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7831,7 +7007,7 @@
       "dateLabel": "6 August 2026",
       "dateShort": "6 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -7861,18 +7037,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -7930,7 +7094,7 @@
       "dateLabel": "5 August 2026",
       "dateShort": "5 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -7952,22 +7116,6 @@
         {
           "id": "s5",
           "label": "What did not change"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8025,7 +7173,7 @@
       "dateLabel": "5 August 2026",
       "dateShort": "5 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -8047,22 +7195,6 @@
         {
           "id": "s5",
           "label": "Finance and operations roles"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8120,7 +7252,7 @@
       "dateLabel": "4 August 2026",
       "dateShort": "4 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -8142,22 +7274,6 @@
         {
           "id": "s5",
           "label": "Where this argument overreaches"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8215,7 +7331,7 @@
       "dateLabel": "3 August 2026",
       "dateShort": "3 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -8241,22 +7357,6 @@
         {
           "id": "s6",
           "label": "What automation does and does not help with"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8314,7 +7414,7 @@
       "dateLabel": "2 August 2026",
       "dateShort": "2 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -8340,22 +7440,6 @@
         {
           "id": "s5",
           "label": "What to measure on this desk"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8413,7 +7497,7 @@
       "dateLabel": "1 August 2026",
       "dateShort": "1 Aug 2026",
       "tag": "Segments",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -8439,22 +7523,6 @@
         {
           "id": "s6",
           "label": "Where blue collar and white collar genuinely converge"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8512,7 +7580,7 @@
       "dateLabel": "22 August 2026",
       "dateShort": "22 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "7 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -8542,18 +7610,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8611,7 +7667,7 @@
       "dateLabel": "21 August 2026",
       "dateShort": "21 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -8637,22 +7693,6 @@
         {
           "id": "s6",
           "label": "How to sequence and how to price"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8710,7 +7750,7 @@
       "dateLabel": "20 August 2026",
       "dateShort": "20 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -8736,22 +7776,6 @@
         {
           "id": "s6",
           "label": "When not to cross-sell"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8809,7 +7833,7 @@
       "dateLabel": "19 August 2026",
       "dateShort": "19 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -8835,22 +7859,6 @@
         {
           "id": "s6",
           "label": "A simple operating rhythm"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -8908,7 +7916,7 @@
       "dateLabel": "18 August 2026",
       "dateShort": "18 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -8934,22 +7942,6 @@
         {
           "id": "s6",
           "label": "Where the relationship argument is overstated"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9007,7 +7999,7 @@
       "dateLabel": "17 August 2026",
       "dateShort": "17 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -9033,22 +8025,6 @@
         {
           "id": "s6",
           "label": "A design sequence"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9106,7 +8082,7 @@
       "dateLabel": "16 August 2026",
       "dateShort": "16 Aug 2026",
       "tag": "Workplace",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -9128,22 +8104,6 @@
         {
           "id": "s5",
           "label": "How to have the conversation with a client"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9201,7 +8161,7 @@
       "dateLabel": "15 August 2026",
       "dateShort": "15 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -9227,22 +8187,6 @@
         {
           "id": "s6",
           "label": "Where the risk is overstated"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9300,7 +8244,7 @@
       "dateLabel": "14 August 2026",
       "dateShort": "14 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -9322,22 +8266,6 @@
         {
           "id": "s5",
           "label": "How to adapt operationally"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9395,7 +8323,7 @@
       "dateLabel": "13 August 2026",
       "dateShort": "13 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "4 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -9417,22 +8345,6 @@
         {
           "id": "s5",
           "label": "What to ask your vendor"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9490,7 +8402,7 @@
       "dateLabel": "12 August 2026",
       "dateShort": "12 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -9512,22 +8424,6 @@
         {
           "id": "s5",
           "label": "What to do this quarter"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9585,7 +8481,7 @@
       "dateLabel": "11 August 2026",
       "dateShort": "11 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -9611,22 +8507,6 @@
         {
           "id": "s6",
           "label": "A practical sequence"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9684,7 +8564,7 @@
       "dateLabel": "10 August 2026",
       "dateShort": "10 Aug 2026",
       "tag": "Policy",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -9706,22 +8586,6 @@
         {
           "id": "s5",
           "label": "What to have ready before a client asks"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9779,7 +8643,7 @@
       "dateLabel": "22 August 2026",
       "dateShort": "22 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -9805,22 +8669,6 @@
         {
           "id": "s6",
           "label": "How automation changes the model"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9878,7 +8726,7 @@
       "dateLabel": "22 August 2026",
       "dateShort": "22 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -9904,22 +8752,6 @@
         {
           "id": "s6",
           "label": "The caveat that matters most"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -9977,7 +8809,7 @@
       "dateLabel": "21 August 2026",
       "dateShort": "21 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -10003,22 +8835,6 @@
         {
           "id": "s6",
           "label": "What to have before you contract"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10076,7 +8892,7 @@
       "dateLabel": "20 August 2026",
       "dateShort": "20 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -10106,18 +8922,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10175,7 +8979,7 @@
       "dateLabel": "19 August 2026",
       "dateShort": "19 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -10201,22 +9005,6 @@
         {
           "id": "s6",
           "label": "What to model before quoting"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10274,7 +9062,7 @@
       "dateLabel": "18 August 2026",
       "dateShort": "18 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -10300,22 +9088,6 @@
         {
           "id": "s6",
           "label": "Why margin varies within a market as much as between"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10373,7 +9145,7 @@
       "dateLabel": "17 August 2026",
       "dateShort": "17 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -10399,22 +9171,6 @@
         {
           "id": "s6",
           "label": "Why the numbers are deliberately absent here"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10472,7 +9228,7 @@
       "dateLabel": "16 August 2026",
       "dateShort": "16 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -10498,22 +9254,6 @@
         {
           "id": "s6",
           "label": "Verify before you quote"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10571,7 +9311,7 @@
       "dateLabel": "15 August 2026",
       "dateShort": "15 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -10597,22 +9337,6 @@
         {
           "id": "s6",
           "label": "Turning one client into a market"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10670,7 +9394,7 @@
       "dateLabel": "14 August 2026",
       "dateShort": "14 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Evaluation criteria screen showing generated criteria with descriptions and editable priority weights",
       "toc": [
         {
@@ -10696,22 +9420,6 @@
         {
           "id": "s6",
           "label": "How to enter"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10769,7 +9477,7 @@
       "dateLabel": "13 August 2026",
       "dateShort": "13 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -10795,22 +9503,6 @@
         {
           "id": "s6",
           "label": "How to sequence entry"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10868,7 +9560,7 @@
       "dateLabel": "12 August 2026",
       "dateShort": "12 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -10894,22 +9586,6 @@
         {
           "id": "s6",
           "label": "How to enter"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -10967,7 +9643,7 @@
       "dateLabel": "11 August 2026",
       "dateShort": "11 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -10993,22 +9669,6 @@
         {
           "id": "s6",
           "label": "How to position on the first conversation"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11066,7 +9726,7 @@
       "dateLabel": "10 August 2026",
       "dateShort": "10 Aug 2026",
       "tag": "Global",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -11092,22 +9752,6 @@
         {
           "id": "s6",
           "label": "What to have before you start"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11165,7 +9809,7 @@
       "dateLabel": "9 August 2026",
       "dateShort": "9 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11191,22 +9835,6 @@
         {
           "id": "s6",
           "label": "What to build first"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11264,7 +9892,7 @@
       "dateLabel": "8 August 2026",
       "dateShort": "8 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11294,18 +9922,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11363,7 +9979,7 @@
       "dateLabel": "7 August 2026",
       "dateShort": "7 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11393,18 +10009,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11462,7 +10066,7 @@
       "dateLabel": "6 August 2026",
       "dateShort": "6 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Advanced people search returning ranked candidates for a plain-English query, with career timelines and fit badges",
       "toc": [
         {
@@ -11492,18 +10096,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11561,7 +10153,7 @@
       "dateLabel": "5 August 2026",
       "dateShort": "5 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate evaluation panel showing an overall score broken into criteria with written justification for each",
       "toc": [
         {
@@ -11587,22 +10179,6 @@
         {
           "id": "s6",
           "label": "What to do when a client leaves"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11660,7 +10236,7 @@
       "dateLabel": "4 August 2026",
       "dateShort": "4 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "6 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11690,18 +10266,6 @@
         {
           "id": "deskcheck",
           "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11759,7 +10323,7 @@
       "dateLabel": "3 August 2026",
       "dateShort": "3 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11785,22 +10349,6 @@
         {
           "id": "s6",
           "label": "How to make the transition without breaking things"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11858,7 +10406,7 @@
       "dateLabel": "2 August 2026",
       "dateShort": "2 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Staffing pipeline with candidates across stage columns, each showing a match score of 96, 93 or 92",
       "toc": [
         {
@@ -11884,22 +10432,6 @@
         {
           "id": "s6",
           "label": "When not to partner"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",
@@ -11957,7 +10489,7 @@
       "dateLabel": "1 August 2026",
       "dateShort": "1 Aug 2026",
       "tag": "Growth",
-      "read": "10 min read",
+      "read": "5 min read",
       "cardImageAlt": "Candidate activity timeline showing an automatically logged call written to the record with the stage move attached",
       "toc": [
         {
@@ -11983,22 +10515,6 @@
         {
           "id": "s6",
           "label": "What to measure"
-        },
-        {
-          "id": "deskcheck",
-          "label": "Five checks for your own desk"
-        },
-        {
-          "id": "use",
-          "label": "Turning this into a client conversation"
-        },
-        {
-          "id": "miss",
-          "label": "Three mistakes reading market data"
-        },
-        {
-          "id": "ops",
-          "label": "What this changes on a desk"
         },
         {
           "id": "faq",

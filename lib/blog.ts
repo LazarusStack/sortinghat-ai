@@ -314,3 +314,54 @@ export function relatedPosts(post: Post): Post[] {
     .map((s) => POSTS.find((p) => p.slug === s))
     .filter((p): p is Post => Boolean(p));
 }
+
+/* -------------------------------------------------------------- figures ---
+
+   252 figures ship as raster screenshots with descriptive alt text and a
+   caption, and until now the Article schema referenced one of them as a bare
+   URL string. A URL is not an entity: nothing said what the image shows, who
+   owns it, or what it belongs to, so the figures were ineligible for image
+   search and unattributable by anything reading the page.
+
+   The alt and the caption are already written and already good — 95 to 145
+   characters, naming the values on screen. This reads them back out of the body
+   so they can be declared rather than duplicated into another file. */
+
+export type Figure = {
+  src: string;
+  alt: string;
+  caption: string;
+  width: number;
+  height: number;
+};
+
+const FIGURE_RE =
+  /<figure>\s*<img\b([^>]*)>\s*(?:<figcaption>([\s\S]*?)<\/figcaption>)?/g;
+
+function attr(tag: string, name: string): string {
+  const m = tag.match(new RegExp(`${name}="([^"]*)"`));
+  return m ? m[1] : "";
+}
+
+export function figuresOf(slug: string): Figure[] {
+  const html = postBody(slug);
+  const out: Figure[] = [];
+  for (const m of html.matchAll(FIGURE_RE)) {
+    const src = attr(m[1], "src");
+    if (!src) continue;
+    out.push({
+      src,
+      alt: attr(m[1], "alt"),
+      // the caption reads "<b>Fig 1</b>the sentence". The label is furniture and
+      // is dropped; stripping tags without it left "Fig 1" glued to the text.
+      caption: (m[2] ?? "")
+        .replace(/<b>[\s\S]*?<\/b>/, "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim(),
+      width: Number(attr(m[1], "width")) || 0,
+      height: Number(attr(m[1], "height")) || 0,
+    });
+  }
+  return out;
+}

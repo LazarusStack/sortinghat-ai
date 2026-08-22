@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { POSTS } from "@/lib/blog";
+import { POSTS, figuresOf } from "@/lib/blog";
 import { PAGES } from "@/lib/pages";
 import { AUTHOR_PATH } from "@/lib/seo";
 import { SITE } from "@/lib/seo";
@@ -54,11 +54,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    // Each post carries its two figures. Google discovers images from the page
+    // anyway, but an image sitemap is the only place to state that they belong
+    // to this URL, and 252 screenshots were previously announced nowhere.
     ...POSTS.map((post) => ({
       url: `${SITE}/blog/${post.slug}`,
       lastModified: new Date(post.date),
       changeFrequency: "monthly" as const,
       priority: 0.7,
+      images: figuresOf(post.slug).map((f) => `${SITE}${f.src}`),
     })),
   ];
 }

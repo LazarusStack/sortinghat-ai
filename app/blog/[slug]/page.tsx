@@ -5,7 +5,7 @@ import Nav from "@/components/Nav";
 import { Footer } from "@/components/sections";
 import { AuthorBox, BlogCta, RelatedCard } from "@/components/blog";
 import BlogToc from "@/components/BlogToc";
-import { AUTHOR, POSTS, getPost, postBody, relatedPosts } from "@/lib/blog";
+import { AUTHOR, POSTS, figuresOf, getPost, postBody, relatedPosts } from "@/lib/blog";
 import { personNode } from "@/lib/schema";
 import { AUTHOR_ID } from "@/lib/seo";
 import "../article.css";
@@ -81,7 +81,20 @@ function schema(post: NonNullable<ReturnType<typeof getPost>>) {
         inLanguage: "en",
         author: { "@id": AUTHOR_ID },
         publisher: { "@id": `${SITE}/#org` },
-        image: [`${SITE}/blog/${post.slug}/fig-1.jpg`],
+        image: figuresOf(post.slug).map((f) => ({
+          "@type": "ImageObject",
+          "@id": `${SITE}${f.src}`,
+          url: `${SITE}${f.src}`,
+          contentUrl: `${SITE}${f.src}`,
+          caption: f.caption,
+          description: f.alt,
+          width: f.width,
+          height: f.height,
+          representativeOfPage: f.src.endsWith("fig-1.jpg"),
+          creditText: "Sortinghat",
+          creator: { "@id": `${SITE}/#org` },
+          copyrightNotice: "Sortinghat",
+        })),
         articleSection: post.section,
         isAccessibleForFree: true,
       },
