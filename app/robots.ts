@@ -15,6 +15,12 @@ import { SITE } from "@/lib/seo";
  * and ignores `*` entirely, so each group repeats what the wildcard grants.
  */
 const AI_CRAWLERS = [
+  /* bingbot is named explicitly even though `*` already grants it everything.
+     Bing's index feeds ChatGPT Search, so it is the crawler with the most
+     leverage here, and when a property sits at "discovered but not crawled"
+     the first thing anyone checks is whether robots.txt says something it does
+     not. An explicit group removes the question. */
+  "bingbot",
   "OAI-SearchBot",
   "Claude-SearchBot",
   "PerplexityBot",
@@ -35,6 +41,6 @@ export default function robots(): MetadataRoute.Robots {
       ...AI_CRAWLERS.map((userAgent) => ({ userAgent, allow: "/" })),
     ],
     sitemap: `${SITE}/sitemap.xml`,
-    host: SITE,
+    host: SITE.replace(/^https?:\/\//, ""),
   };
 }
