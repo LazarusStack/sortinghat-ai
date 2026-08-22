@@ -135,3 +135,77 @@ export function pageSchema(page: Page) {
     ],
   };
 }
+
+/**
+ * The blog hub emitted no structured data at all — Bing's URL inspection found
+ * OpenGraph and nothing else on the page that indexes 125 articles. Every post
+ * declared itself; the page listing them declared nothing, so the corpus had no
+ * machine-readable table of contents.
+ *
+ * Every post is listed rather than a recent handful. The point of this graph is
+ * that one fetch of /blog tells a retrieval system what exists here, which a
+ * truncated list does not do. Each entry stays minimal — id, url, headline,
+ * date, section — because the full Article node already lives on the post.
+ */
+export function blogSchema(
+  posts: { slug: string; title: string; description: string; date: string; section: string }[],
+  sections: { id: string; title: string; dek: string }[],
+  author: { name: string; role: string; bio: string },
+) {
+  const url = `${SITE}/blog`;
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Blog",
+        "@id": `${url}#blog`,
+        url,
+        name: "The Sortinghat blog",
+        description:
+          "Operating notes on recruiter capacity, sourcing economics, ATS pricing, staffing market data and what actually changes when AI reaches a delivery desk.",
+        inLanguage: "en",
+        publisher: { "@id": ORG_ID },
+        author: { "@id": AUTHOR_ID },
+        isPartOf: { "@id": WEBSITE_ID },
+        blogPost: posts.map((p) => ({
+          "@type": "BlogPosting",
+          "@id": `${SITE}/blog/${p.slug}#article`,
+          url: `${SITE}/blog/${p.slug}`,
+          headline: p.title,
+          datePublished: p.date,
+          articleSection: p.section,
+          author: { "@id": AUTHOR_ID },
+        })),
+      },
+      {
+        "@type": "CollectionPage",
+        "@id": url,
+        url,
+        name: "Blog | Sortinghat",
+        description:
+          "Operating notes on recruiter capacity, sourcing economics, hiring scorecards and what actually changes when AI reaches a delivery desk.",
+        inLanguage: "en",
+        isPartOf: { "@id": WEBSITE_ID },
+        about: { "@id": PRODUCT_ID },
+        mainEntity: { "@id": `${url}#blog` },
+        breadcrumb: { "@id": `${url}#breadcrumb` },
+        hasPart: sections.map((s) => ({
+          "@type": "WebPageElement",
+          "@id": `${url}#${s.id}`,
+          name: s.title,
+          description: s.dek,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": `${url}#breadcrumb`,
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Sortinghat", item: SITE },
+          { "@type": "ListItem", position: 2, name: "Blog", item: url },
+        ],
+      },
+      { "@type": "Organization", "@id": ORG_ID, name: ORG_NAME, url: SITE },
+      personNode(author.name, author.role, author.bio),
+    ],
+  };
+}

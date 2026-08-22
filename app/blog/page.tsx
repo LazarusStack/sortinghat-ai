@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import { Footer } from "@/components/sections";
 import { PostCard } from "@/components/blog";
-import { SECTIONS, postsInSection } from "@/lib/blog";
+import { AUTHOR, POSTS, SECTIONS, postsInSection } from "@/lib/blog";
+import { blogSchema } from "@/lib/schema";
 
 const TITLE = "Blog | Sortinghat";
 const DESCRIPTION =
@@ -24,6 +25,12 @@ export const metadata: Metadata = {
 export default function BlogIndex() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(blogSchema(POSTS, SECTIONS, AUTHOR)),
+        }}
+      />
       <Nav />
       <main>
         {/* One headline, one line under it, then straight into the articles:
